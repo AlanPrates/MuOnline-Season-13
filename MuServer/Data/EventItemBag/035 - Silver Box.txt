@@ -1,0 +1,25 @@
+3
+//Index   DropRate
+0         10000
+1         10000
+end
+
+4
+//Index   Section   SectionRate  MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF   GL
+0         11        10000        100000        1             1    1    1    1    1    1    1    1
+1         5         10000        100000        1             1    1    1    1    1    1    1    1
+end
+
+5
+//Index   Level   Grade   RuudMin   RuudMax   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7453      0       0       100       300       *         *         *         *         *         0          // Ruud
+end
+
+11
+//Index   Level   Element   Dur     Socket1   Socket2   Socket3   Socket4   Socket5    Comment
+7253	  0	  *	    2       *         *         *         *         *          //Cherry Blossom Wine
+7254	  0	  *	    1       *         *         *         *         *          //Cherry Blossom Rice Cake
+7255	  0	  *	    3       *         *         *         *         *          //Cherry Blossom Flower Petal
+7181	  0	  *	    1       *         *         *         *         *          //Jewel of Bless
+7182	  0	  *	    1       *         *         *         *         *          //Jewel of Soul
+end

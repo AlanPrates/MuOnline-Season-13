@@ -1,0 +1,4 @@
+//MinLevel	MaxLevel	MinMasterLvl	MaxMasterLvl	MinReset	MaxReset	MinMasterRst	MaxMasterRst	ExpRate n/100
+*		*		*		*		*		*		*		0		300
+*		*		*		*		*		*		*		*		150
+end

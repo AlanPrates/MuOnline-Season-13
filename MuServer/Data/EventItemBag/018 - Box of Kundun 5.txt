@@ -1,0 +1,87 @@
+// DropZen = Quantidade do zen que irá cair no chão de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, será 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 até 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que serão dropados)
+// SetItemDropRate =   0 até 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleatórios)
+// Fireworks =         0 ou 1 (0 = Não vai soltar fogos quando dropar)
+
+0
+//EventName        DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Box of Kundun 5"	 1000	   100		  		1		  		0		    	1		   		1
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Exc
+7           21     0          1          1       1      1        1	//Great Dragon SET
+8           21     0          1          1       1      1        1
+9           21     0          1          1       1      1        1
+10          21     0          1          1       1      1        1
+11          21     0          1          1       1      1        1
+
+7           24     0          1          1       1      1        1	//Red Spirit SET
+8           24     0          1          1       1      1        1
+9           24     0          1          1       1      1        1
+10          24     0          1          1       1      1        1
+11          24     0          1          1       1      1        1
+
+7           22     0          1          1       1      1        1	//Dark Soul SET
+8           22     0          1          1       1      1        1
+9           22     0          1          1       1      1        1
+10          22     0          1          1       1      1        1
+11          22     0          1          1       1      1        1
+
+7           43     0          1          1       1      1        1	//Storm Blitz SET
+8           43     0          1          1       1      1        1
+9           43     0          1          1       1      1        1
+10          43     0          1          1       1      1        1
+11          43     0          1          1       1      1        1
+
+8           23     0          1          1       1      1        1	//Hurricane SET
+9           23     0          1          1       1      1        1
+10          23     0          1          1       1      1        1
+11          23     0          1          1       1      1        1
+
+7           28     0          1          1       1      1        1	//Dark Master SET
+8           28     0          1          1       1      1        1
+9           28     0          1          1       1      1        1
+10          28     0          1          1       1      1        1
+11          28     0          1          1       1      1        1
+
+7           60     0          1          1       1      1        1	//Storm Jahad SET
+8           60     0          1          1       1      1        1
+9           60     0          1          1       1      1        1
+11          60     0          1          1       1      1        1
+
+7           94     0          0          1       1      1        1	//Hirat SET
+8           94     0          0          1       1      1        1
+9           94     0          0          1       1      1        1
+10          94     0          0          1       1      1        1
+11          94     0          0          1       1      1        1
+
+0           20     0          1          1       1      1        1	//Knight Blade Sword
+4           19     0          1          1       1      1        1	//Great Reign Crossbow
+4           20     0          1          1       1      1        1	//Arrow Viper Bow
+0           21     0          1          1       1      1        1	//Dark Reign Blade
+0           33     0          1          1       1      1        1	//Holy Storm Claws
+2           18     0          1          1       1      1        1	//Striker Scepter
+3           16     0          0          1       1      1        1	//Vis Lance
+
+5           11     0          1          0       1      1        1	//Kundun Staff
+5           18     0          1          0       1      1        1	//Demonic Stick
+5           23     0          1          1       1      1        1	//Book of Lagle
+
+6           13     0          1          1       1      1        1	//Dragon Shield(não mexi)
+6           16     0          1          1       1      1        1	//Elemental Shield(não mexi)
+6           15     0          1          1       1      1        1	//Grand Soul Shield(não mexi)
+6           32     0          0          1       1      1        1	//Vis Shield
+
+
+12          15     0          0          0       0      0        0	//Jewel of Chaos
+14          13     0          0          0       0      0        0	//Jewel of Bless
+14          14     0          0          0       0      0        0	//Jewel of Soul
+14          16     0          0          0       0      0        0	//Jewel of Life
+14          42     0          0          0       0      0        0	//Jewel of Harmony
+14          22     0          0          0       0      0        0	//Jewel of Creation
+end

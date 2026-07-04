@@ -1,0 +1,34 @@
+//============
+//= SCHEDULE =
+//============
+0
+//Index	Y	M	D	W	H	M	S
+//0	*	11	*	*	0	0	0
+end
+
+//=========================
+//= MESSAGES AND DURATION =
+//=========================
+1
+//Index	StartMsg	FinalMsg	BonusTime
+//	0	500			501			86400
+end
+
+//==============
+//= BONUS DATA =
+//==============
+//- Bonus Indexes
+	//EXPERIENCE_RATE = 0,
+	//MASTER_EXPERIENCE_RATE = 1,
+	//ITEM_DROP_RATE = 2,
+	//CMN_ITEM_DROP_RATE = 3,
+	//EXC_ITEM_DROP_RATE = 4,
+	//SET_ITEM_DROP_RATE = 5,
+	//GLOBIN_POINT = 6,
+	//RESET_AMOUNT = 7,
+	//MASTER_RESET_AMOUNT = 8,
+	
+2
+//Index	Bonus	BonusV_AL0	BonusV_AL1	BonusV_AL2	BonusV_AL3	ItemTyp	ItemId	ItemLvl	Map	Monster	MLvlMin	MLvlMax
+//0		3		5000		1000		1000		1000		14		11		12		*	466		*		*
+end

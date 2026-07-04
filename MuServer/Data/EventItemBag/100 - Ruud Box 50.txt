@@ -1,0 +1,14 @@
+3
+//Index   DropRate
+0         10000
+end
+
+4
+//Index   Section   SectionRate  MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF   GL
+0         9         10000        0             1             1    1    1    1    1    1    1    1
+end
+
+9
+//Index   Level   Grade   RuudMin   RuudMax   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7453      0       0       50        51        *         *         *         *         *         0          // Ruud
+end

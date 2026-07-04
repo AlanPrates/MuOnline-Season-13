@@ -1,0 +1,11 @@
+//Account	Character		Level
+"ferrarezi"	"Leandro"		9
+"live1"		"Live1"			9
+"live2"		"Live2"			9
+"live3"		"Coroa"			9
+"live1"		"CameraMUFC"	9
+"ayacos321"	"Leon"			9
+//"iconecast"	"DrRafaDias"	1
+//"whilljeff"	"HALL"			1
+//"leonan"	"TriploxXx"		1
+end

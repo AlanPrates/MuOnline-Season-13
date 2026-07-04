@@ -1,0 +1,47 @@
+3
+//Index   DropRate
+0         10000
+1         10000
+2         10000
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         5         10000         0             0             1    1    1    1    1    1    1	1
+1         5         10000         0             0             1    1    1    1    1    1    1	1
+2         6         10000         0             0             1    1    1    1    1    1    1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6352	0		0		40		*		*		*		*		*		26		0			//"Kundun's Madness Blade 300lv"
+6353	0		0		40		*		*		*		*		*		26		0			//"Kundun's Magic Spell Scroll 300lv"
+6354	0		0		40		*		*		*		*		*		26		0			//"Empire Guardians' Stronghold 300lv"
+6355	0		0		40		*		*		*		*		*		26		0			//"Ancient Icarus Scroll 300lv"
+6356	0		0		40		*		*		*		*		*		26		0			//"Arca's Prophecy 300lv"
+6357	0		0		40		*		*		*		*		*		26		0			//"Antonia's Sword 300lv"
+6358	0		0		40		*		*		*		*		*		26		0			//"Kundun's Seal Scroll 300lv"
+6450	0		0		40		*		*		*		*		*		26		0			//"Runedil's Goldentune Harp 300lv"
+6451	0		0		40		*		*		*		*		*		26		0			//"Lemuria's Orb 300lv"
+6452	0		0		40		*		*		*		*		*		26		0			//"Norrwen's Bloodstring Lyra 300lv"
+
+7184	0	0	*	*	*	*	*	*	*	10	//Jewel of Life
+7190	0	0	*	*	*	*	*	*	*	5	//Jewel of Creation
+7210	0	0	*	*	*	*	*	*	*	5	//Jewel of Harmony
+7199	0	0	*	*	*	*	*	*	*	5	//Jewel of Guardian
+6159	0	0	*	*	*	*	*	*	*	10	//Jewel of Chaos
+7181	0	0	*	*	*	*	*	*	*	10	//Jewel of Bless
+7182	0	0	*	*	*	*	*	*	*	10	//Jewel of Soul
+
+6708	0		0		*		*		*		*		*		*		*		0			//Condor Flame
+6709	0		0		*		*		*		*		*		*		*		0			//Condor Feather
+7122	0		0		*		*		*		*		*		*		*		0			//Garuda Flame
+7504	0		0		*		*		*		*		*		*		*		0			//Ruud box 10000
+7457	0		0		*		*		*		*		*		*		*		0			//Ruud box 50000
+7389	0		0		*		*		*		*		*		*		*		0			//Kundun's Greed
+end
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment
+6405	0		0		*		*		*		*		*		*		*		0			//Errtel of Radiance
+end

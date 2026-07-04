@@ -1,0 +1,25 @@
+3
+//Index   DropRate
+0         10000    //Pentagram
+1         10000    //Errtel
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         10        10000         0             0             1    1    1    1    1    1    1	1
+1         11	    10000         0             0             1    1    1    1    1    1    1	1
+end
+
+10
+//Index   Level   Element   Dur     Socket1   Socket2   Socket3   Socket4   Socket5    Comment
+6359	  1	  1	    1       254       *         *         *         *          //Pentagram for Beginners
+6359	  1	  2	    1       254       *         *         *         *          //Pentagram for Beginners
+6359	  1	  3	    1       254       *         *         *         *          //Pentagram for Beginners
+6359	  1	  4	    1       254       *         *         *         *          //Pentagram for Beginners
+6359	  1	  5	    1       254       *         *         *         *          //Pentagram for Beginners
+end
+
+11
+//Index   Level   Element   Dur     Socket1   Socket2   Socket3   Socket4   Socket5    Comment
+6366	  0	  *	    1       *         *         *         *         *          //Errtel of Anger for Beginners
+end

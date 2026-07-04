@@ -1,0 +1,191 @@
+3
+//Index   DropRate
+0         9000
+1         7500
+2         5000
+3         10000
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         5         10000         0             1             1    1    1    1    1    1    1	1
+1         5         10000         0             8             1    1    1    1    1    1    1	1
+2         6         10000         0             8             1    1    1    1    1    1    1	1
+3         20        10000         0             1             1    1    1    1    1    1    1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duratio	Comment
+
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7457	0	0	*	*	*	*	*	*	*	0	//Ruud box 50000
+7457	0	0	*	*	*	*	*	*	*	0	//Ruud box 50000
+7457	0	0	*	*	*	*	*	*	*	0	//Ruud box 50000
+7456	0	0	*	*	*	*	*	*	*	0	//Ruud box 100000
+7456	0	0	*	*	*	*	*	*	*	0	//Ruud box 100000
+7455	0	0	*	*	*	*	*	*	*	0	//Ruud box 200000
+7524	0	0	*	*	*	*	*	*	*	0	//Ruud box 500000
+
+7513	0	0	*	*	*	*	*	*	*	0	//Mysterious Stone
+
+41		0	0	*	*	*	*	*	*	*	0	//Picareta
+
+7668	0	0	*	*	*	*	*	*	*	5	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	5	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	5	//Jewel of Level
+7673	0	0	*	*	*	*	*	*	*	5	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	5	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	5	//Jewel of Luck
+7668	0	0	*	*	*	*	*	*	*	10	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	10	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	10	//Jewel of Level
+7673	0	0	*	*	*	*	*	*	*	10	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	10	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	10	//Jewel of Luck
+end
+
+
+6
+//ERRTEL
+//Index	Level	Exc	Anc	Sock1	Sock2	Sock3	Sock4	Sock5	SockBonus	Duration
+6365	0		0	0	1		1		2		2		1		1			0		//Errtel of Anger
+6365	0		0	0	1		2		2		2		1		1			0		//Errtel of Anger
+6365	0		0	0	1		3		2		2		1		1			0		//Errtel of Anger
+6365	0		0	0	1		4		2		2		1		1			0		//Errtel of Anger
+6365	0		0	0	1		5		2		2		1		1			0		//Errtel of Anger
+
+6365	0		0	0	1		1		2		2		1		2			0		//Errtel of Anger
+6365	0		0	0	1		2		2		2		1		2			0		//Errtel of Anger
+6365	0		0	0	1		3		2		2		1		2			0		//Errtel of Anger
+6365	0		0	0	1		4		2		2		1		2			0		//Errtel of Anger
+6365	0		0	0	1		5		2		2		1		2			0		//Errtel of Anger
+
+6365	0		0	0	1		1		2		2		1		3			0		//Errtel of Anger
+6365	0		0	0	1		2		2		2		1		3			0		//Errtel of Anger
+6365	0		0	0	1		3		2		2		1		3			0		//Errtel of Anger
+6365	0		0	0	1		4		2		2		1		3			0		//Errtel of Anger
+6365	0		0	0	1		5		2		2		1		3			0		//Errtel of Anger
+
+6365	0		0	0	1		1		2		2		1		4			0		//Errtel of Anger
+6365	0		0	0	1		2		2		2		1		4			0		//Errtel of Anger
+6365	0		0	0	1		3		2		2		1		4			0		//Errtel of Anger
+6365	0		0	0	1		4		2		2		1		4			0		//Errtel of Anger
+6365	0		0	0	1		5		2		2		1		4			0		//Errtel of Anger
+
+6365	0		0	0	1		1		2		2		1		5			0		//Errtel of Anger
+6365	0		0	0	1		2		2		2		1		5			0		//Errtel of Anger
+6365	0		0	0	1		3		2		2		1		5			0		//Errtel of Anger
+6365	0		0	0	1		4		2		2		1		5			0		//Errtel of Anger
+6365	0		0	0	1		5		2		2		1		5			0		//Errtel of Anger
+
+6375	0		0	0	1		1		2		2		1		1			0		//Errtel of Blessing
+6375	0		0	0	1		2		2		2		1		1			0		//Errtel of Blessing
+6375	0		0	0	1		3		2		2		1		1			0		//Errtel of Blessing
+6375	0		0	0	1		4		2		2		1		1			0		//Errtel of Blessing
+6375	0		0	0	1		5		2		2		1		1			0		//Errtel of Blessing
+
+6375	0		0	0	1		1		2		2		1		2			0		//Errtel of Blessing
+6375	0		0	0	1		2		2		2		1		2			0		//Errtel of Blessing
+6375	0		0	0	1		3		2		2		1		2			0		//Errtel of Blessing
+6375	0		0	0	1		4		2		2		1		2			0		//Errtel of Blessing
+6375	0		0	0	1		5		2		2		1		2			0		//Errtel of Blessing
+
+6375	0		0	0	1		1		2		2		1		3			0		//Errtel of Blessing
+6375	0		0	0	1		2		2		2		1		3			0		//Errtel of Blessing
+6375	0		0	0	1		3		2		2		1		3			0		//Errtel of Blessing
+6375	0		0	0	1		4		2		2		1		3			0		//Errtel of Blessing
+6375	0		0	0	1		5		2		2		1		3			0		//Errtel of Blessing
+
+6375	0		0	0	1		1		2		2		1		4			0		//Errtel of Blessing
+6375	0		0	0	1		2		2		2		1		4			0		//Errtel of Blessing
+6375	0		0	0	1		3		2		2		1		4			0		//Errtel of Blessing
+6375	0		0	0	1		4		2		2		1		4			0		//Errtel of Blessing
+6375	0		0	0	1		5		2		2		1		4			0		//Errtel of Blessing
+
+6375	0		0	0	1		1		2		2		1		5			0		//Errtel of Blessing
+6375	0		0	0	1		2		2		2		1		5			0		//Errtel of Blessing
+6375	0		0	0	1		3		2		2		1		5			0		//Errtel of Blessing
+6375	0		0	0	1		4		2		2		1		5			0		//Errtel of Blessing
+6375	0		0	0	1		5		2		2		1		5			0		//Errtel of Blessing
+
+6385	0		0	0	1		1		2		2		1		1			0		//Errtel of Integrity
+6385	0		0	0	1		2		2		2		1		1			0		//Errtel of Integrity
+6385	0		0	0	1		3		2		2		1		1			0		//Errtel of Integrity
+6385	0		0	0	1		4		2		2		1		1			0		//Errtel of Integrity
+6385	0		0	0	1		5		2		2		1		1			0		//Errtel of Integrity
+
+6385	0		0	0	1		1		2		2		1		2			0		//Errtel of Integrity
+6385	0		0	0	1		2		2		2		1		2			0		//Errtel of Integrity
+6385	0		0	0	1		3		2		2		1		2			0		//Errtel of Integrity
+6385	0		0	0	1		4		2		2		1		2			0		//Errtel of Integrity
+6385	0		0	0	1		5		2		2		1		2			0		//Errtel of Integrity
+
+6385	0		0	0	1		1		2		2		1		3			0		//Errtel of Integrity
+6385	0		0	0	1		2		2		2		1		3			0		//Errtel of Integrity
+6385	0		0	0	1		3		2		2		1		3			0		//Errtel of Integrity
+6385	0		0	0	1		4		2		2		1		3			0		//Errtel of Integrity
+6385	0		0	0	1		5		2		2		1		3			0		//Errtel of Integrity
+
+6385	0		0	0	1		1		2		2		1		4			0		//Errtel of Integrity
+6385	0		0	0	1		2		2		2		1		4			0		//Errtel of Integrity
+6385	0		0	0	1		3		2		2		1		4			0		//Errtel of Integrity
+6385	0		0	0	1		4		2		2		1		4			0		//Errtel of Integrity
+6385	0		0	0	1		5		2		2		1		4			0		//Errtel of Integrity
+
+6385	0		0	0	1		1		2		2		1		5			0		//Errtel of Integrity
+6385	0		0	0	1		2		2		2		1		5			0		//Errtel of Integrity
+6385	0		0	0	1		3		2		2		1		5			0		//Errtel of Integrity
+6385	0		0	0	1		4		2		2		1		5			0		//Errtel of Integrity
+6385	0		0	0	1		5		2		2		1		5			0		//Errtel of Integrity
+
+6395	0		0	0	1		1		2		2		1		1			0		//Errtel of Divinity
+6395	0		0	0	1		2		2		2		1		1			0		//Errtel of Divinity
+6395	0		0	0	1		3		2		2		1		1			0		//Errtel of Divinity
+6395	0		0	0	1		4		2		2		1		1			0		//Errtel of Divinity
+6395	0		0	0	1		5		2		2		1		1			0		//Errtel of Divinity
+
+6395	0		0	0	1		1		2		2		1		2			0		//Errtel of Divinity
+6395	0		0	0	1		2		2		2		1		2			0		//Errtel of Divinity
+6395	0		0	0	1		3		2		2		1		2			0		//Errtel of Divinity
+6395	0		0	0	1		4		2		2		1		2			0		//Errtel of Divinity
+6395	0		0	0	1		5		2		2		1		2			0		//Errtel of Divinity
+
+6395	0		0	0	1		1		2		2		1		3			0		//Errtel of Divinity
+6395	0		0	0	1		2		2		2		1		3			0		//Errtel of Divinity
+6395	0		0	0	1		3		2		2		1		3			0		//Errtel of Divinity
+6395	0		0	0	1		4		2		2		1		3			0		//Errtel of Divinity
+6395	0		0	0	1		5		2		2		1		3			0		//Errtel of Divinity
+
+6395	0		0	0	1		1		2		2		1		4			0		//Errtel of Divinity
+6395	0		0	0	1		2		2		2		1		4			0		//Errtel of Divinity
+6395	0		0	0	1		3		2		2		1		4			0		//Errtel of Divinity
+6395	0		0	0	1		4		2		2		1		4			0		//Errtel of Divinity
+6395	0		0	0	1		5		2		2		1		4			0		//Errtel of Divinity
+
+6395	0		0	0	1		1		2		2		1		5			0		//Errtel of Divinity
+6395	0		0	0	1		2		2		2		1		5			0		//Errtel of Divinity
+6395	0		0	0	1		3		2		2		1		5			0		//Errtel of Divinity
+6395	0		0	0	1		4		2		2		1		5			0		//Errtel of Divinity
+6395	0		0	0	1		5		2		2		1		5			0		//Errtel of Divinity
+end
+
+20
+//EFFECT	DURATION
+44			7200
+45			7200
+46			7200
+196			7200
+197			7200
+198			7200
+200			7200
+201			7200
+end

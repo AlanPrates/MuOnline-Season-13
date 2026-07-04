@@ -1,0 +1,15 @@
+/////////////////////////////////////////////////////////////////////////
+// Maximum 100 items
+// Number: Corresponds to EventItemBag
+// Probability: n / 1000000
+// Swisscoin: reward
+
+// Number 	Probab		SwissCoin
+	216		1000000   	30
+	217		1000000   	70
+	218		1000000   	130
+	219		1000000   	170
+	220		1000000   	250
+	221		1000000   	350
+	222		1000000   	400
+end

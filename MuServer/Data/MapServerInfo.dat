@@ -1,0 +1,10 @@
+0
+//ServerCode	MapServerGroup	InitSetVal	IpAddress		Port
+40				0				1			S192.168.1.3	55901
+19				0				1			S192.168.1.3	55919
+end
+
+1
+//ServerCode	NotMoveOption	NextMap	NextServerCode
+
+end

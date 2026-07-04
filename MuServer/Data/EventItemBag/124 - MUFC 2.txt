@@ -1,0 +1,28 @@
+3
+//Index   DropRate
+0         10000    //Item simbolico
+1         10000    //Ruud
+2         10000    //VIP
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         5         10000         0             0             1    1    1    1    1    1    1	1
+1         9         10000         0             0             1    1    1    1    1    1    1	1
+2         16        10000         0             0             1    1    1    1    1    1    1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duratio	Comment
+7181	0	0	*	*	*	*	*	*	*	0	//Jewel of Bless
+end
+
+9
+//Index   Level   Grade   RuudMin   RuudMax   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7453      0       0       100000    100001    *         *         *         *         *         0          // Ruud
+end
+
+16
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duratio	Comment
+6780	0	0	1	432000	*	*	*	*	*	*	//VIP 1 5 days
+end

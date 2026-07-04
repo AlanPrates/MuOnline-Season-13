@@ -1,0 +1,836 @@
+[GameServerInfo]
+;==================================================
+; Character Damage Rate Settings
+;==================================================
+CriticalDamageRate = 90
+ExcellentDamageRate = 90
+DamageReflect = 100
+DamageReduction = 80
+ShieldDamageReduction = 1800
+DuelDamageRate = 100
+GensDamageRate = 100
+CustomArenaDamageRate = 100
+ChaosCastleDamageRate = 100
+IllusionTempleDamageRate = 50
+
+CastleSiegeDamageRate = 38
+
+MUFCDamageRate = 100
+
+//TESTES: 250
+//PRODUÇÃO: 440
+GeneralDamageRatePvP = 440	;x/1000
+
+GeneralDamageRatePvM = 100
+
+//TESTES: 1
+//PRODUÇÃO: 30
+//Castle Siege: 45
+CastleSiegeReflectRate = 45
+ReflectDamageRatePvP = 30
+
+DamageRateByDistance0  = 100
+DamageRateByDistance1  = 100
+DamageRateByDistance2  = 100
+DamageRateByDistance3  = 30
+DamageRateByDistance4  = 20
+DamageRateByDistance5  = 10
+DamageRateByDistance6  = 1
+DamageRateByDistance7  = 1
+DamageRateByDistance8  = 1
+DamageRateByDistance9  = 1
+DamageRateByDistance10 = 1
+DamageRateByDistance11 = 1
+DamageRateByDistance12 = 1
+
+;==================================================
+; Character Class Damage Rate Settings
+;==================================================
+
+DWDamageRatePvP = 109	;OK
+DKDamageRatePvP = 76	;OK
+FEDamageRatePvP = 126	;OK
+MGDamageRatePvP = 80	;OK
+DLDamageRatePvP = 147	;OK (novo dl)
+SUDamageRatePvP = 140	;OK
+RFDamageRatePvP = 42	;OK
+GLDamageRatePvP = 55	;OK
+
+;==================================================
+; Character Class x Class Damage Rate Settings
+; CONFIG TO SPECIAL MAP (itens 380)
+;==================================================
+
+X_DWDamageRateToDW = 85		;30447
+X_DWDamageRateToDK = 80		;30395
+X_DWDamageRateToFE = 102	;34421
+X_DWDamageRateToMG = 71		;29359
+X_DWDamageRateToDL = 125	;30391
+X_DWDamageRateToSU = 73		;29469
+X_DWDamageRateToRF = 68		;28375
+X_DWDamageRateToGL = 88		;30517
+
+X_DKDamageRateToDW = 100	;30279
+X_DKDamageRateToDK = 93		;30310
+X_DKDamageRateToFE = 124	;34250
+X_DKDamageRateToMG = 82		;29597
+X_DKDamageRateToDL = 143	;30366
+X_DKDamageRateToSU = 84		;29399
+X_DKDamageRateToRF = 78		;28314
+X_DKDamageRateToGL = 105	;30329
+
+X_FEDamageRateToDW = 110	;29948
+X_FEDamageRateToDK = 105	;30298
+X_FEDamageRateToFE = 135	;34239
+X_FEDamageRateToMG = 89		;29405
+X_FEDamageRateToDL = 155	;30319
+X_FEDamageRateToSU = 90		;29415
+X_FEDamageRateToRF = 85		;28359
+X_FEDamageRateToGL = 112	;30405
+
+X_MGDamageRateToDW = 112	;38326
+X_MGDamageRateToDK = 104	;38120
+X_MGDamageRateToFE = 136	;42986
+X_MGDamageRateToMG = 91		;36879
+X_MGDamageRateToDL = 160	;38145
+X_MGDamageRateToSU = 93		;36627
+X_MGDamageRateToRF = 87		;35498
+X_MGDamageRateToGL = 116	;38139
+
+X_DLDamageRateToDW = 65		;30768
+X_DLDamageRateToDK = 61		;30320
+X_DLDamageRateToFE = 76		;34291
+X_DLDamageRateToMG = 55		;29590
+X_DLDamageRateToDL = 97		;30675
+X_DLDamageRateToSU = 56		;29499
+X_DLDamageRateToRF = 52		;28275
+X_DLDamageRateToGL = 66		;30380
+
+X_SUDamageRateToDW = 85		;37949
+X_SUDamageRateToDK = 82		;38355
+X_SUDamageRateToFE = 100	;42705
+X_SUDamageRateToMG = 73		;36872
+X_SUDamageRateToDL = 129	;38289
+X_SUDamageRateToSU = 74		;36636
+X_SUDamageRateToRF = 70		;35755
+X_SUDamageRateToGL = 88		;38263
+
+X_RFDamageRateToDW = 112	;38202
+X_RFDamageRateToDK = 108	;38217
+X_RFDamageRateToFE = 130	;43043
+X_RFDamageRateToMG = 98		;37032
+X_RFDamageRateToDL = 172	;38189
+X_RFDamageRateToSU = 99		;36821
+X_RFDamageRateToRF = 93		;35623
+X_RFDamageRateToGL = 114	;38088
+
+X_GLDamageRateToDW = 84		;30443
+X_GLDamageRateToDK = 79		;30526
+X_GLDamageRateToFE = 102	;34402
+X_GLDamageRateToMG = 69		;29341
+X_GLDamageRateToDL = 122	;30512
+X_GLDamageRateToSU = 71		;29385
+X_GLDamageRateToRF = 66		;28277
+X_GLDamageRateToGL = 87		;30382
+
+;==================================================
+; Character Class x Class Damage Rate Settings
+;==================================================
+
+;80ms
+DWDamageRateToDW = 100	;38183
+DWDamageRateToDK = 95	;38049
+DWDamageRateToFE = 92  	;36870
+DWDamageRateToMG = 85  	;36626
+DWDamageRateToDL = 150 	;38283 (ok novo DL)
+DWDamageRateToSU = 93  	;38180
+DWDamageRateToRF = 74  	;35168
+DWDamageRateToGL = 102 	;38068
+
+;80ms
+DKDamageRateToDW = 106	;38352
+DKDamageRateToDK = 100	;38266
+DKDamageRateToFE = 98	;36833
+DKDamageRateToMG = 89	;36944
+DKDamageRateToDL = 158	;38264 (ok novo DL)
+DKDamageRateToSU = 97	;38203
+DKDamageRateToRF = 78	;35210
+DKDamageRateToGL = 109	;38390
+
+;80ms
+FEDamageRateToDW = 108	;38210
+FEDamageRateToDK = 103	;38285
+FEDamageRateToFE = 100	;37054
+FEDamageRateToMG = 92	;36862
+FEDamageRateToDL = 159 	;38039 (ok novo dl)
+FEDamageRateToSU = 100 	;38135
+FEDamageRateToRF = 80  	;35342
+FEDamageRateToGL = 111	;38349
+
+;100ms
+MGDamageRateToDW = 118 	;47798
+MGDamageRateToDK = 112 	;47813
+MGDamageRateToFE = 109 	;46045
+MGDamageRateToMG = 100 	;46169
+MGDamageRateToDL = 176 	;47678 (ok novo dl)
+MGDamageRateToSU = 108 	;47377
+MGDamageRateToRF = 87  	;44262
+MGDamageRateToGL = 121 	;47784
+
+;80ms
+DLDamageRateToDW = 67  	;38143 (ok novo dl)
+DLDamageRateToDK = 64  	;38387 (ok novo dl)
+DLDamageRateToFE = 62  	;37098 (ok novo dl)
+DLDamageRateToMG = 57  	;36839 (ok novo dl)
+DLDamageRateToDL = 100 	;38177 (ok novo dl)
+DLDamageRateToSU = 62  	;38145 (ok novo dl)
+DLDamageRateToRF = 50  	;35634 (ok novo dl)
+DLDamageRateToGL = 68  	;37934 (ok novo dl)
+
+;100ms
+SUDamageRateToDW = 106	;47485
+SUDamageRateToDK = 102	;47567
+SUDamageRateToFE = 78	;37018
+SUDamageRateToMG = 93 	;46322
+SUDamageRateToDL = 160	;47838 (ok novo dl)
+SUDamageRateToSU = 100 	;47626
+SUDamageRateToRF = 81  	;44543
+SUDamageRateToGL = 108 	;47459
+
+;100ms
+RFDamageRateToDW = 130	;47726
+RFDamageRateToDK = 126	;47762
+RFDamageRateToFE = 118	;46365
+RFDamageRateToMG = 115	;46158
+RFDamageRateToDL = 194 	;47479 (ok novo dl)
+RFDamageRateToSU = 123 	;47417
+RFDamageRateToRF = 100 	;44370
+RFDamageRateToGL = 132 	;47728
+
+;80ms
+GLDamageRateToDW = 98	;38280
+GLDamageRateToDK = 93	;38328
+GLDamageRateToFE = 91	;37016
+GLDamageRateToMG = 83	;37033
+GLDamageRateToDL = 146	;38148 (ok novo dl)
+GLDamageRateToSU = 90	;38135
+GLDamageRateToRF = 72	;35395
+GLDamageRateToGL = 100	;38061
+
+
+
+
+;==================================================
+; Character Damage Settings
+; PhysiMinRight | PhysiMinLeft = Str/PhysiMinA      PhysiMaxRight = Str/PhysiMaxA
+; MagicMinRight | MagicMinLeft = Enrg/MagicMinA     MagicMaxRight = Enrg/MagicMaxA
+;==================================================
+
+DWPhysiDamageMinConstA = 7
+DWPhysiDamageMaxConstA = 4
+DWMagicDamageMinConstA = 7
+DWMagicDamageMaxConstA = 4
+
+DKPhysiDamageMinConstA = 7
+DKPhysiDamageMaxConstA = 4
+DKMagicDamageMinConstA = 7
+DKMagicDamageMaxConstA = 4
+
+FEPhysiDamageMinConstA = 7
+FEPhysiDamageMaxConstA = 5
+FEPhysiDamageMinBowConstA = 7
+FEPhysiDamageMaxBowConstA = 5
+FEPhysiDamageMinBowConstB = 14
+FEPhysiDamageMaxBowConstB = 10
+FEMagicDamageMinConstA = 7
+FEMagicDamageMaxConstA = 5
+
+MGPhysiDamageMinConstA = 7
+MGPhysiDamageMaxConstA = 4
+MGPhysiDamageMinConstB = 7
+MGPhysiDamageMaxConstB = 4
+MGMagicDamageMinConstA = 7
+MGMagicDamageMaxConstA = 4
+
+DLPhysiDamageMinConstA = 7
+DLPhysiDamageMaxConstA = 4
+DLPhysiDamageMinConstB = 10
+DLPhysiDamageMaxConstB = 8
+DLMagicDamageMinConstA = 7
+DLMagicDamageMaxConstA = 4
+
+SUPhysiDamageMinConstA = 7
+SUPhysiDamageMaxConstA = 4
+SUMagicDamageMinConstA = 7
+SUMagicDamageMaxConstA = 4
+
+RFPhysiDamageMinConstA = 7
+RFPhysiDamageMaxConstA = 4
+RFPhysiDamageMinConstB = 10
+RFPhysiDamageMaxConstB = 8
+RFMagicDamageMinConstA = 7
+RFMagicDamageMaxConstA = 4
+
+GLPhysiDamageMinConstA = 7
+GLPhysiDamageMaxConstA = 4
+GLPhysiDamageMinConstB = 10
+GLPhysiDamageMaxConstB = 8
+GLMagicDamageMinConstA = 7
+GLMagicDamageMaxConstA = 4
+
+;==================================================
+; Character Defense Settings
+; Agility/A
+;==================================================
+DWDefenseConstA = 12
+DKDefenseConstA = 12
+FEDefenseConstA = 12
+MGDefenseConstA = 12
+DLDefenseConstA = 12
+SUDefenseConstA = 12
+RFDefenseConstA = 12
+GLDefenseConstA = 12
+
+;==================================================
+; Character Damage Multiplier Settings
+;==================================================
+////////////////////////
+// DK \ DL \ (200 + ene / A)
+// RF melee attack 50+ (vit / B)
+// RF Divine Beast Attack 50+ (ene / C)
+// RF range attack 100+ (Agility / A) + (Energy / C)
+// GL punishes 97 + Strength / A
+// GL angers 97+ Agility / B
+///////////////////////
+
+DKDamageMultiplierConstA = 10
+DLDamageMultiplierConstA = 20
+
+RFDamageMultiplierConstA = 8
+RFDamageMultiplierConstB = 10
+RFDamageMultiplierConstC = 10
+
+GLDamageMultiplierConstA = 10
+GLDamageMultiplierConstB = 10
+
+DKDamageMultiplierMaxRate = 1400
+DLDamageMultiplierMaxRate = 1000
+RFDamageMultiplierMaxRate = 1400
+GLDamageMultiplierMaxRate = 1000
+
+
+;==================================================
+; Character Dark Spirit Settings
+;==================================================
+DarkSpiritRangeAttackRate = 30
+DarkSpiritCriticalDamageRate = 30
+DarkSpiritExcellentDamageRate = 0
+DarkSpiritAttackDamageMinConstA = 180
+DarkSpiritAttackDamageMinConstB = 15
+DarkSpiritAttackDamageMinConstC = 8
+DarkSpiritAttackDamageMaxConstA = 200
+DarkSpiritAttackDamageMaxConstB = 15
+DarkSpiritAttackDamageMaxConstC = 4
+DarkSpiritAttackSpeedConstA = 20
+DarkSpiritAttackSpeedConstB = 4
+DarkSpiritAttackSpeedConstC = 5
+DarkSpiritAttackSpeedConstD = 50
+DarkSpiritAttackSuccessRateConstA = 1000
+DarkSpiritAttackSuccessRateConstB = 16
+DarkSpiritAttackSuccessRateConstC = 1
+
+;==================================================
+; Character Guardian Inc Damage Settings
+;==================================================
+SatanIncDamageConstA = 5
+DinorantIncDamageConstA = 5
+BlackFenrirIncDamageConstA = 1
+DemonIncDamageConstA = 10
+SkeletonIncDamageConstA = 1
+
+;==================================================
+; Character Guardian Dec Damage Settings
+;==================================================
+AngelDecDamageConstA = 5
+DinorantDecDamageConstA = 5
+DinorantDecDamageConstB = 2
+DarkHorseDecDamageConstA = 30
+DarkHorseDecDamageConstB = 2
+BlueFenrirDecDamageConstA = 1
+MariaDecDamageConstA = 10
+
+;==================================================
+; Character Combo Skill Damage Settings
+;==================================================
+ComboDamageConstA = 500
+ComboDamageConstB = 1
+
+;==================================================
+; Character Earthquake Skill Damage Settings
+;==================================================
+EarthquakeDamageConstA = 10
+EarthquakeDamageConstB = 5
+EarthquakeDamageConstC = 10
+
+;==================================================
+; Character Electric Spark Skill Damage Settings
+;==================================================
+ElectricSparkDamageConstA = 10
+ElectricSparkDamageConstB = 250
+
+;==================================================
+; Character Dark Lord Skill Damage Settings
+;==================================================
+DLSkillDamageConstA = 25
+DLSkillDamageConstB = 50
+
+;==================================================
+; Character Nova Skill Damage Settings
+;==================================================
+NovaDamageConstA = 20
+NovaDamageConstB = 5
+NovaDamageConstC = 2
+
+;==================================================
+; Character HP Recovery Settings
+;==================================================
+DWHPRecoveryRate = 0
+DKHPRecoveryRate = 0
+FEHPRecoveryRate = 0
+MGHPRecoveryRate = 0
+DLHPRecoveryRate = 0
+SUHPRecoveryRate = 0
+RFHPRecoveryRate = 0
+GLHPRecoveryRate = 0
+
+;==================================================
+; Character MP Recovery Settings
+;==================================================
+DWMPRecoveryRate = 4
+DKMPRecoveryRate = 4
+FEMPRecoveryRate = 4
+MGMPRecoveryRate = 4
+DLMPRecoveryRate = 4
+SUMPRecoveryRate = 4
+RFMPRecoveryRate = 4
+GLMPRecoveryRate = 4
+
+;==================================================
+; Character BP Recovery Settings
+;==================================================
+DWBPRecoveryRate = 3
+DKBPRecoveryRate = 5
+FEBPRecoveryRate = 3
+MGBPRecoveryRate = 3
+DLBPRecoveryRate = 3
+SUBPRecoveryRate = 3
+RFBPRecoveryRate = 3
+GLBPRecoveryRate = 3
+
+;==================================================
+; Character SD Recovery Settings
+;==================================================
+DWSDRecoveryRate = 4
+DKSDRecoveryRate = 4
+FESDRecoveryRate = 4
+MGSDRecoveryRate = 4
+DLSDRecoveryRate = 4
+SUSDRecoveryRate = 4
+RFSDRecoveryRate = 4
+GLSDRecoveryRate = 4
+
+;==================================================
+; Character Plasma Storm Skill Damage Settings
+; (Strength / A) + (Agility / B) + (Strength / C) + (Energy / D)
+;==================================================
+
+DWPlasmaStormDamageConstA = 50000
+DWPlasmaStormDamageConstB = 50000
+DWPlasmaStormDamageConstC = 70000
+DWPlasmaStormDamageConstD = 30000
+
+DKPlasmaStormDamageConstA = 30000
+DKPlasmaStormDamageConstB = 50000
+DKPlasmaStormDamageConstC = 50000
+DKPlasmaStormDamageConstD = 70000
+
+FEPlasmaStormDamageConstA = 50000
+FEPlasmaStormDamageConstB = 30000
+FEPlasmaStormDamageConstC = 70000
+FEPlasmaStormDamageConstD = 50000
+
+MGPlasmaStormDamageConstA = 30000
+MGPlasmaStormDamageConstB = 50000
+MGPlasmaStormDamageConstC = 50000
+MGPlasmaStormDamageConstD = 70000
+
+DLPlasmaStormDamageConstA = 50000
+DLPlasmaStormDamageConstB = 50000
+DLPlasmaStormDamageConstC = 70000
+DLPlasmaStormDamageConstD = 30000
+DLPlasmaStormDamageConstE = 30000
+
+SUPlasmaStormDamageConstA = 50000
+SUPlasmaStormDamageConstB = 50000
+SUPlasmaStormDamageConstC = 70000
+SUPlasmaStormDamageConstD = 30000
+
+RFPlasmaStormDamageConstA = 50000
+RFPlasmaStormDamageConstB = 50000
+RFPlasmaStormDamageConstC = 30000
+RFPlasmaStormDamageConstD = 70000
+
+GLPlasmaStormDamageConstA = 30000
+GLPlasmaStormDamageConstB = 50000
+GLPlasmaStormDamageConstC = 50000
+GLPlasmaStormDamageConstD = 70000
+
+
+
+;==================================================
+; Character Attack Success Rate Settings
+; (Level * A) + ((Agility * B) / C) + (Strength * D)
+; DL: (Level + Master Level * A) + ((Agile * B) / C) + (Strength * D) + (Leadership * E)
+;==================================================
+
+DWAttackSuccessRateConstA = 500
+DWAttackSuccessRateConstB = 30
+DWAttackSuccessRateConstC = 1		
+DWAttackSuccessRateConstD = 40		
+
+DKAttackSuccessRateConstA = 500
+DKAttackSuccessRateConstB = 30
+DKAttackSuccessRateConstC = 1
+DKAttackSuccessRateConstD = 40
+
+FEAttackSuccessRateConstA = 500
+FEAttackSuccessRateConstB = 30
+FEAttackSuccessRateConstC = 1
+FEAttackSuccessRateConstD = 40
+
+MGAttackSuccessRateConstA = 500
+MGAttackSuccessRateConstB = 30
+MGAttackSuccessRateConstC = 1
+MGAttackSuccessRateConstD = 40
+
+DLAttackSuccessRateConstA = 500
+DLAttackSuccessRateConstB = 60
+DLAttackSuccessRateConstC = 1
+DLAttackSuccessRateConstD = 40
+DLAttackSuccessRateConstE = 100
+
+SUAttackSuccessRateConstA = 500
+SUAttackSuccessRateConstB = 30
+SUAttackSuccessRateConstC = 1
+SUAttackSuccessRateConstD = 40
+
+RFAttackSuccessRateConstA = 300
+RFAttackSuccessRateConstB = 50
+RFAttackSuccessRateConstC = 1
+RFAttackSuccessRateConstD = 60
+
+GLAttackSuccessRateConstA = 500
+GLAttackSuccessRateConstB = 40
+GLAttackSuccessRateConstC = 1
+GLAttackSuccessRateConstD = 10
+
+;==================================================
+; Character Attack Success Rate PvP Settings
+; (((Level)*A)/B)+((Agility*C)/D)
+;==================================================
+
+DWAttackSuccessRatePvPConstA = 300
+DWAttackSuccessRatePvPConstB = 1
+DWAttackSuccessRatePvPConstC = 40
+DWAttackSuccessRatePvPConstD = 1
+
+DKAttackSuccessRatePvPConstA = 300
+DKAttackSuccessRatePvPConstB = 1
+DKAttackSuccessRatePvPConstC = 450
+DKAttackSuccessRatePvPConstD = 1
+
+FEAttackSuccessRatePvPConstA = 300
+FEAttackSuccessRatePvPConstB = 1
+FEAttackSuccessRatePvPConstC = 60
+FEAttackSuccessRatePvPConstD = 1
+
+MGAttackSuccessRatePvPConstA = 300
+MGAttackSuccessRatePvPConstB = 1
+MGAttackSuccessRatePvPConstC = 350
+MGAttackSuccessRatePvPConstD = 1
+
+DLAttackSuccessRatePvPConstA = 300
+DLAttackSuccessRatePvPConstB = 1
+DLAttackSuccessRatePvPConstC = 10
+DLAttackSuccessRatePvPConstD = 1
+
+SUAttackSuccessRatePvPConstA = 300
+SUAttackSuccessRatePvPConstB = 1
+SUAttackSuccessRatePvPConstC = 350
+SUAttackSuccessRatePvPConstD = 1
+
+RFAttackSuccessRatePvPConstA = 260
+RFAttackSuccessRatePvPConstB = 1
+RFAttackSuccessRatePvPConstC = 360
+RFAttackSuccessRatePvPConstD = 1
+
+GLAttackSuccessRatePvPConstA = 300
+GLAttackSuccessRatePvPConstB = 1
+GLAttackSuccessRatePvPConstC = 200
+GLAttackSuccessRatePvPConstD = 1
+
+;==================================================
+; Character Speed Settings
+; Agility/A
+;==================================================
+
+DWPhysiSpeedConstA = 20
+DWMagicSpeedConstA = 10
+
+DKPhysiSpeedConstA = 15
+DKMagicSpeedConstA = 20
+
+FEPhysiSpeedConstA = 50
+FEMagicSpeedConstA = 50
+
+MGPhysiSpeedConstA = 15
+MGMagicSpeedConstA = 20
+
+DLPhysiSpeedConstA = 15
+DLMagicSpeedConstA = 15
+
+SUPhysiSpeedConstA = 20
+SUMagicSpeedConstA = 20
+
+RFPhysiSpeedConstA = 9
+RFMagicSpeedConstA = 9
+
+GLPhysiSpeedConstA = 15
+GLMagicSpeedConstA = 15
+
+;==================================================
+; Character Defense Success Rate Settings
+; Agility/A
+;==================================================
+DWDefenseSuccessRateConstA = 1000
+DKDefenseSuccessRateConstA = 1000
+FEDefenseSuccessRateConstA = 1000
+MGDefenseSuccessRateConstA = 1000
+DLDefenseSuccessRateConstA = 1000
+SUDefenseSuccessRateConstA = 1000
+RFDefenseSuccessRateConstA = 1000
+GLDefenseSuccessRateConstA = 1000
+
+;==================================================
+; Character Defense Success Rate PvP Settings
+; ((Level)*A)/B+(Agility/C)
+;==================================================
+DWDefenseSuccessRatePvPConstA = 0
+DWDefenseSuccessRatePvPConstB = 1000
+DWDefenseSuccessRatePvPConstC = 1000
+
+DKDefenseSuccessRatePvPConstA = 0
+DKDefenseSuccessRatePvPConstB = 1000
+DKDefenseSuccessRatePvPConstC = 1000
+
+FEDefenseSuccessRatePvPConstA = 0
+FEDefenseSuccessRatePvPConstB = 1000
+FEDefenseSuccessRatePvPConstC = 1000
+
+MGDefenseSuccessRatePvPConstA = 0
+MGDefenseSuccessRatePvPConstB = 1000
+MGDefenseSuccessRatePvPConstC = 1000
+
+DLDefenseSuccessRatePvPConstA = 0
+DLDefenseSuccessRatePvPConstB = 1000
+DLDefenseSuccessRatePvPConstC = 1000
+
+SUDefenseSuccessRatePvPConstA = 0
+SUDefenseSuccessRatePvPConstB = 1000
+SUDefenseSuccessRatePvPConstC = 1000
+
+RFDefenseSuccessRatePvPConstA = 0
+RFDefenseSuccessRatePvPConstB = 1000
+RFDefenseSuccessRatePvPConstC = 1000
+
+GLDefenseSuccessRatePvPConstA = 0
+GLDefenseSuccessRatePvPConstB = 1000
+GLDefenseSuccessRatePvPConstC = 1000
+
+
+
+;==================================================
+; Mastery Options
+;==================================================
+
+;Set Normal
+MASTERY_OPTION_DAMAGE_AGAINST_DW	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_DK	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_ELF	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_MG	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_DL	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_SUM	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_RF	= 8
+MASTERY_OPTION_DAMAGE_AGAINST_GL	= 8
+MASTERY_OPTION_INCREASE_BOSS_DAMAGE	= 15
+MASTERY_OPTION_ELEMENTAL_DAMAGE_INCREASE	= 15
+
+;Set Blue Eye
+MASTERY_OPTION_DAMAGE_AGAINST_DW2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_DK2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_ELF2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_MG2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_DL2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_SUM2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_RF2	= 10
+MASTERY_OPTION_DAMAGE_AGAINST_GL2	= 10
+MASTERY_OPTION_INCREASE_BOSS_DAMAGE2	= 20
+MASTERY_OPTION_ELEMENTAL_DAMAGE_INCREASE2	= 20
+
+;Set Silver Heart
+MASTERY_OPTION_DAMAGE_AGAINST_DW3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_DK3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_ELF3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_MG3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_DL3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_SUM3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_RF3	= 12
+MASTERY_OPTION_DAMAGE_AGAINST_GL3	= 12
+MASTERY_OPTION_INCREASE_BOSS_DAMAGE3	= 25
+MASTERY_OPTION_ELEMENTAL_DAMAGE_INCREASE3	= 25
+
+;MAXIMO DE DANO CONTRA CLASSES
+MASTERY_OPTION_DAMAGE_AGAINST_MAX = 24
+
+;Set Bonus
+MASTERY_BONUS_TRIPLE_DAMAGE_RATE	= 2
+MASTERY_BONUS_FINAL_DAMAGE		= 10
+MASTERY_BONUS_ULTRAHIT_50		= 1
+MASTERY_BONUS_DOUBLE_DAMAGE_BOSS	= 5
+
+;Set Blue Eye Bonus
+MASTERY_BONUS_TRIPLE_DAMAGE_RATE2	= 3
+MASTERY_BONUS_FINAL_DAMAGE2		= 12
+MASTERY_BONUS_ULTRAHIT_502		= 2
+MASTERY_BONUS_DOUBLE_DAMAGE_BOSS2	= 7
+
+;Shield Normal
+MASTERY_OPTION_PVP_DAMAGE_REDUCTION = 25
+MASTERY_OPTION_ELEMENTAL_DAMAGE_REDUCTION = 30
+MASTERY_OPTION_DOUBLE_DAMAGE_PROTECTION = 10
+MASTERY_OPTION_TRIPLE_DAMAGE_PROTECTION = 3
+MASTERY_OPTION_TRUE_DAMAGE_PROTECTION = 1
+MASTERY_OPTION_ULTRAHIT_PROTECTION	= 1
+
+;Shield Blue Eye
+MASTERY_OPTION_PVP_DAMAGE_REDUCTION_2 = 30
+MASTERY_OPTION_ELEMENTAL_DAMAGE_REDUCTION_2 = 35
+MASTERY_OPTION_DOUBLE_DAMAGE_PROTECTION_2 = 13
+MASTERY_OPTION_TRIPLE_DAMAGE_PROTECTION_2 = 4
+MASTERY_OPTION_TRUE_DAMAGE_PROTECTION_2 = 2
+MASTERY_OPTION_ULTRAHIT_PROTECTION_2	= 2
+
+;Shield Silver Heart
+MASTERY_OPTION_PVP_DAMAGE_REDUCTION_3 = 35
+MASTERY_OPTION_ELEMENTAL_DAMAGE_REDUCTION_3 = 40
+MASTERY_OPTION_DOUBLE_DAMAGE_PROTECTION_3 = 15
+MASTERY_OPTION_TRIPLE_DAMAGE_PROTECTION_3 = 5
+MASTERY_OPTION_TRUE_DAMAGE_PROTECTION_3 = 3
+MASTERY_OPTION_ULTRAHIT_PROTECTION_3	= 3
+
+;Shield Bonus
+MASTERY_BONUS_HP_DAMAGE_PROTECTION = 2
+MASTERY_BONUS_REFLECT_INCREASE = 40
+MASTERY_BONUS_BOSS_POWER_PROTECTION = 15
+
+;Shield Blue Eye Bonus
+MASTERY_BONUS_HP_DAMAGE_PROTECTION_2 = 3
+MASTERY_BONUS_REFLECT_INCREASE_2 = 50
+MASTERY_BONUS_BOSS_POWER_PROTECTION_2 = 30
+
+;Shield Silver Heart Bonus
+MASTERY_BONUS_HP_DAMAGE_PROTECTION_3 = 4
+MASTERY_BONUS_REFLECT_INCREASE_3 = 60
+MASTERY_BONUS_BOSS_POWER_PROTECTION_3 = 40
+
+;Weapon Normal
+MASTERY_OPTION_BOSS_DECREASE_DELAY = 25
+MASTERY_OPTION_ELEMENTAL_DAMAGE_INCREASE_WEAPON = 30
+MASTERY_OPTION_BOSS_DAMAGE_INCREASE = 30
+MASTERY_OPTION_PVP_DAMAGE_INCREASE = 25
+MASTERY_OPTION_DOUBLE_DAMAGE_RATE = 10
+MASTERY_OPTION_TRIPLE_DAMAGE_RATE = 3
+MASTERY_OPTION_TRUE_DAMAGE_RATE = 2
+MASTERY_OPTION_30P_HP_ULTRAHIT = 1
+
+;Weapon Blue Eye Normal
+MASTERY_OPTION_BOSS_DECREASE_DELAY_2 = 30
+MASTERY_OPTION_ELEMENTAL_DAMAGE_INCREASE_WEAPON_2 = 35
+MASTERY_OPTION_BOSS_DAMAGE_INCREASE_2 = 35
+MASTERY_OPTION_PVP_DAMAGE_INCREASE_2 = 30
+MASTERY_OPTION_DOUBLE_DAMAGE_RATE_2 = 13
+MASTERY_OPTION_TRIPLE_DAMAGE_RATE_2 = 4
+MASTERY_OPTION_TRUE_DAMAGE_RATE_2 = 3
+MASTERY_OPTION_30P_HP_ULTRAHIT_2 = 2
+
+;Weapon Silver Normal
+MASTERY_OPTION_BOSS_DECREASE_DELAY_3 = 35
+MASTERY_OPTION_ELEMENTAL_DAMAGE_INCREASE_WEAPON_3 = 40
+MASTERY_OPTION_BOSS_DAMAGE_INCREASE_3 = 40
+MASTERY_OPTION_PVP_DAMAGE_INCREASE_3 = 35
+MASTERY_OPTION_DOUBLE_DAMAGE_RATE_3 = 15
+MASTERY_OPTION_TRIPLE_DAMAGE_RATE_3 = 5
+MASTERY_OPTION_TRUE_DAMAGE_RATE_3 = 4
+MASTERY_OPTION_30P_HP_ULTRAHIT_3 = 3
+
+;Weapon Bonus
+MASTERY_BONUS_ULTRAHIT_50_WEAPON = 1
+MASTERY_BONUS_REFLECT_DECREASE = 40
+MASTERY_BONUS_CURE_HARM = 1
+MASTERY_BONUS_CURE_HARM_FACTOR = 18
+MASTERY_BONUS_STERN_RATE = 1
+MASTERY_BONUS_BLEEDING = 1
+MASTERY_BONUS_DOUBLE_DAMAGE_BOSS_WEAPON = 5
+
+;Weapon Blue Eye Bonus
+MASTERY_BONUS_ULTRAHIT_50_WEAPON_2 = 2
+MASTERY_BONUS_REFLECT_DECREASE_2 = 50
+MASTERY_BONUS_CURE_HARM_2 = 2
+MASTERY_BONUS_STERN_RATE_2 = 2
+MASTERY_BONUS_BLEEDING_2 = 2
+MASTERY_BONUS_DOUBLE_DAMAGE_BOSS_WEAPON_2 = 8
+MASTERY_BONUS_FREEZING_DAMAGE = 3
+
+;Weapon Silver Heart Bonus
+MASTERY_BONUS_ULTRAHIT_50_WEAPON_3 = 2
+MASTERY_BONUS_REFLECT_DECREASE_3 = 50
+MASTERY_BONUS_CURE_HARM_3 = 2
+MASTERY_BONUS_STERN_RATE_3 = 2
+MASTERY_BONUS_BLEEDING_3 = 2
+MASTERY_BONUS_DOUBLE_DAMAGE_BOSS_WEAPON_3 = 8
+MASTERY_BONUS_FREEZING_DAMAGE_2 = 3
+MASTERY_BONUS_FIREING_DAMAGE = 2
+
+;Ring Bonus
+MASTERY_BONUS_RING_CURE_IMPROVE		= 8
+MASTERY_BONUS_RING_FULL_REFLECT_INC	= 2
+MASTERY_BONUS_RING_MASTERY_REVERT	= 20
+
+MASTERY_BONUS_RING_STERN_RESIST		  = 100
+MASTERY_BONUS_RING_BLEEDING_RESIST	  = 100
+MASTERY_BONUS_RING_CURE_HARM_RESIST	  = 100
+MASTERY_BONUS_RING_FREEZING_DAMAGE_RESIST = 100
+MASTERY_BONUS_RING_FIREING_DAMAGE_RESIST  = 100
+
+;Rings Normais
+MASTERY_OPTION_RING_ULTRAHIT_PROTECTION		= 2
+MASTERY_OPTION_RING_BACKSPRING_PROTECTION	= 15
+MASTERY_OPTION_RING_DROP_BOSS_INC		= 10
+MASTERY_OPTION_RING_MAX_HP_INC			= 5
+MASTERY_OPTION_RING_BLOCK_CHANCE_INC		= 2
+MASTERY_OPTION_RING_BOSS_SKILL_PROTECTION	= 10
+MASTERY_OPTION_RING_ELEMENTAL_DMG_REDUCE	= 10
+MASTERY_OPTION_RING_PVP_DAMAGE_REDUCE		= 5
+MASTERY_OPTION_RING_BOSS_DAMAGE_REDUCE		= 5
+MASTERY_OPTION_RING_TRIPLE_DMG_PROTECTION	= 1
+MASTERY_OPTION_RING_TRUE_DMG_PROTECTION		= 1

@@ -1,0 +1,201 @@
+3
+//Index   DropRate
+0         10000
+1         10000
+2         10000
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         5         10000         0             0             1    1    1    1    1    1    1	1
+1         6         10000         0             0             1    1    1    1    1    1    1	1
+2         6         10000         0             0             1    1    1    1    1    1    1	1
+end
+
+5
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+//Pentagramas Lv180
+6347	0	0	28	*	*	*	*	*	25	0	//Iron Shield of the Magic
+6349	0	0	28	*	*	*	*	*	25	0	//Brave Hero Elixir
+6351	0	0	28	*	*	*	*	*	25	0	//Merciless Gladiator's Dagger
+6361	0	0	28	*	*	*	*	*	25	0	//Thoughtful Sage's Jewel
+
+end
+
+
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Escudos Sockets	
+3089	0	0	28	13	13	3	0	*	25	0	//Crimson Glory	
+3090	0	0	28	13	13	3	0	*	25	0	//Salamander Shield	
+3091	0	0	28	13	13	3	0	*	25	0	//Frost Barrier	
+3092	0	0	28	13	13	3	0	*	25	0	//Guardian Shield
+3094	0	0	28	13	13	3	0	*	25	0	//Lazy Wind Shield
+3095	0	0	28	13	13	3	0	*	25	0	//Light Lord Shield
+3096	0	0	28	13	13	3	0	*	25	0	//Dark Devil Shield
+3097	0	0	28	13	13	3	0	*	25	0	//Magic Knight Shield
+3098	0	0	28	13	13	3	0	*	25	0	//Ambition Shield
+3112	0	0	28	13	13	3	0	*	25	0	//Grace Shield
+3113	0	0	28	13	13	3	0	*	25	0	//Constant Shield
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Armas Sockets	
+27	0	0	28	13	13	3	0	*	25	0	//Sword Breaker
+26	0	0	28	13	13	3	0	*	25	0	//Flameberge
+1040	0	0	28	13	13	3	0	*	25	0	//Frost Mace
+2071	0	0	28	13	13	3	0	*	25	0	//Dark Stinger
+2081	0	0	28	13	13	3	0	*	25	0	//Devilwood Quiver
+28	0	0	28	13	13	3	0	*	25	0	//Rune Bastard Sword
+1041	0	0	28	13	13	3	0	*	25	0	//Absolute Scepter
+2590	0	0	28	13	13	3	0	*	25	0	//Deadly Staff
+2591	0	0	28	13	13	3	0	*	25	0	//Inberial Staff
+2580	0	0	28	13	13	3	0	*	25	0	//Eternal Wing Stick
+53	0	0	28	13	13	3	0	*	25	0	//Devast Claws
+1558	0	0	28	13	13	3	0	*	25	0	//Rectuus
+1559	0	0	28	13	13	3	0	*	25	0	//Russell Light Lance
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets BK
+3629	0	0	28	10	13	3	0	*	25	0	//Titan Helm |25%+0+1+2+3| |SemSkill| |50%Luck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|														
+3629	0	0	28	10	13	3	0	*	25	0	//Titan Helm	
+4141	0	0	28	10	13	3	0	*	25	0	//Titan Armor	
+4653	0	0	28	10	13	3	0	*	25	0	//Titan Pants	
+5165	0	0	28	10	13	3	0	*	25	0	//Titan Gloves	
+5677	0	0	28	10	13	3	0	*	25	0	//Titan Boots			
+	
+3630	0	0	28	10	13	3	0	*	25	0	//Brave Helm	 		
+4142	0	0	28	10	13	3	0	*	25	0	//Brave Armor	
+4654	0	0	28	10	13	3	0	*	25	0	//Brave Pants	
+5166	0	0	28	10	13	3	0	*	25	0	//Brave Gloves	
+5678	0	0	28	10	13	3	0	*	25	0	//Brave Boots
+
+3638	0	0	28	10	13	3	0	*	25	0	//Lazy Wind Helm 		
+4150	0	0	28	10	13	3	0	*	25	0	//Lazy Wind Armor
+4662	0	0	28	10	13	3	0	*	25	0	//Lazy Wind Pants
+5174	0	0	28	10	13	3	0	*	25	0	//Lazy Wind Gloves
+5686	0	0	28	10	13	3	0	*	25	0	//Lazy Wind Boots
+
+3658	0	0	28	10	13	3	0	*	25	0	//Stormwing Helm
+4170	0	0	28	10	13	3	0	*	25	0	//Stormwing Armor
+4682	0	0	28	10	13	3	0	*	25	0	//Stormwing Pants
+5194	0	0	28	10	13	3	0	*	25	0	//Stormwing Gloves
+5706	0	0	28	10	13	3	0	*	25	0	//Stormwing Boots
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets MG	
+4144	0	0	28	10	13	3	0	*	25	0	//Destroy Armor  |25%+0+1+2+3| |SemSkill| |50%Luck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|		
+4656	0	0	28	10	13	3	0	*	25	0	//Destroy Pants	
+5168	0	0	28	10	13	3	0	*	25	0	//Destroy Gloves	
+5680	0	0	28	10	13	3	0	*	25	0	//Destroy Boots
+	
+4143	0	0	28	10	13	3	0	*	25	0	//Phantom Armor	
+4655	0	0	28	10	13	3	0	*	25	0	//Phantom Pants	
+5167	0	0	28	10	13	3	0	*	25	0	//Phantom Gloves	
+5679	0	0	28	10	13	3	0	*	25	0	//Phantom Boots
+
+4172	0	0	28	10	13	3	0	*	25	0	//Magic Knight Armor
+4684	0	0	28	10	13	3	0	*	25	0	//Magic Knight Pants
+5196	0	0	28	10	13	3	0	*	25	0	//Magic Knight Gloves
+5708	0	0	28	10	13	3	0	*	25	0	//Magic Knight Boots
+
+4153	0	0	28	10	13	3	0	*	25	0	//Hell Night Armor
+4665	0	0	28	10	13	3	0	*	25	0	//Hell Night Pants
+5177	0	0	28	10	13	3	0	*	25	0	//Hell Night Gloves
+5689	0	0	28	10	13	3	0	*	25	0	//Hell Night Boots
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets ELF	
+3633	0	0	28	10	13	3	0	*	25	0	//Seraphim Helm	|25%+0+1+2+3| |SemSkill| |50%Luck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|	
+4145	0	0	28	10	13	3	0	*	25	0	//Seraphim Armor	
+4657	0	0	28	10	13	3	0	*	25	0	//Seraphim Pants	
+5169	0	0	28	10	13	3	0	*	25	0	//Seraphim Gloves	
+5681	0	0	28	10	13	3	0	*	25	0	//Seraphim Boots
+	
+3634	0	0	28	10	13	3	0	*	25	0	//Divine Helm	
+4146	0	0	28	10	13	3	0	*	25	0	//Divine Armor	
+4658	0	0	28	10	13	3	0	*	25	0	//Divine Pants	
+5170	0	0	28	10	13	3	0	*	25	0	//Divine Gloves	
+5682	0	0	28	10	13	3	0	*	25	0	//Divine Boots
+
+3640	0	0	28	10	13	3	0	*	25	0	//Sticky Helm
+4152	0	0	28	10	13	3	0	*	25	0	//Sticky Armor
+4664	0	0	28	10	13	3	0	*	25	0	//Sticky Pants
+5176	0	0	28	10	13	3	0	*	25	0	//Sticky Gloves
+5688	0	0	28	10	13	3	0	*	25	0	//Sticky Boots
+
+3659	0	0	28	10	13	3	0	*	25	0	//Light Lord Helm
+4171	0	0	28	10	13	3	0	*	25	0	//Light Lord Armor
+4683	0	0	28	10	13	3	0	*	25	0	//Light Lord Pants
+5195	0	0	28	10	13	3	0	*	25	0	//Light Lord Gloves
+5707	0	0	28	10	13	3	0	*	25	0	//Light Lord Boots
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets DL
+3635	0	0	28	10	13	3	0	*	25	0	//Royal Helm |25%+0+1+2+3| |SemSkill| |50%Luck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|	
+4147	0	0	28	10	13	3	0	*	25	0	//Royal Armor	
+4659	0	0	28	10	13	3	0	*	25	0	//Royal Pants	
+5171	0	0	28	10	13	3	0	*	25	0	//Royal Gloves	
+5683	0	0	28	10	13	3	0	*	25	0	//Royal Boots
+
+4154	0	0	28	10	13	3	0	*	18	0	//Ambition Armor
+4666	0	0	28	10	13	3	0	*	18	0	//Ambition Pants
+5178	0	0	28	10	13	3	0	*	18	0	//Ambition Gloves
+5690	0	0	28	10	13	3	0	*	18	0	//Ambition Boots
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets SM
+3636	0	0	28	10	13	3	0	*	25	0	//Hades Helm |25%+0+1+2+3| |50%Skill| |SemLuck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|		
+4148	0	0	28	10	13	3	0	*	25	0	//Hades Armor	
+4660	0	0	28	10	13	3	0	*	25	0	//Hades Pants	
+5172	0	0	28	10	13	3	0	*	25	0	//Hades Gloves	
+5684	0	0	28	10	13	3	0	*	25	0	//Hades Boots
+
+3639	0	0	28	10	13	3	0	*	25	0	//Dark Devil Helm
+4151	0	0	28	10	13	3	0	*	25	0	//Dark Devil Armor
+4663	0	0	28	10	13	3	0	*	25	0	//Dark Devil Pants
+5175	0	0	28	10	13	3	0	*	25	0	//Dark Devil Gloves
+5687	0	0	28	10	13	3	0	*	25	0	//Dark Devil Boots
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets Summoner
+3637	0	0   	28	10	13	3	0	*	25	0	//Succubus Helm	|25%+0+1+2+3| |50%Skill| |SemLuck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|
+4149	0	0	28	10	13	3	0	*	25	0	//Succubus Armor
+4661	0	0	28	10	13	3	0	*	25	0	//Succubus Pants
+5173	0	0	28	10	13	3	0	*	25	0	//Succubus Gloves
+5685	0	0	28	10	13	3	0	*	25	0	//Succubus Boots
+
+3628	0	0	28	10	13	3	0	*	25	0	//Eternal Wing Helm	
+4140	0	0	28	10	13	3	0	*	25	0	//Eternal Wing Armor	
+4652	0	0	28	10	13	3	0	*	25	0	//Eternal Wing Pants	
+5164	0	0	28	10	13	3	0	*	25	0	//Eternal Wing Gloves	
+5676	0	0	28	10	13	3	0	*	25	0	//Eternal Wing Boots	
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets RF
+3730	0	0   28	10	13	3	0	*	25	0	//Tigris Helm |25%+0+1+2+3| |50%Skill| |SemLuck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|
+4242	0	0   28	10	13	3	0	*	25	0	//Tigris Armor
+4754	0	0   28	10	13	3	0	*	25	0	//Tigris Pants
+
+5778	0	0   28	10	13	3	0	*	25	0	//Tigris Boots
+
+3731	0	0   28	10	13	3	0	*	25	0	//Crimson Skull Helm
+4243	0	0   28	10	13	3	0	*	25	0	//Crimson Skull Armor
+4755	0	0   28	10	13	3	0	*	25	0	//Crimson Skull Pants
+
+5779	0	0   28	10	13	3	0	*	25	0	//Crimson Skull Boots
+
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration	Comment	
+//Sets GL
+3732	0	0   28	10	13	3	0	*	25	0	//Grace Helm |25%+0+1+2+3| |50%Skill| |SemLuck| |79%SemJoL| |SemExc| |SemAncient| |Socket(60%)(37,5%)(2,0%)(0,50%)| |Duração|
+4244	0	0   28	10	13	3	0	*	25	0	//Grace Armor
+4756	0	0   28	10	13	3	0	*	25	0	//Grace Pants
+5268	0	0   28	10	13	3	0	*	25	0	//Grace Gloves
+5780	0	0   28	10	13	3	0	*	25	0	//Grace Boots
+
+3733	0	0   28	10	13	3	0	*	25	0	//Constant Helm
+4245	0	0   28	10	13	3	0	*	25	0	//Constant Armor
+4757	0	0   28	10	13	3	0	*	25	0	//Constant Pants
+5269	0	0   28	10	13	3	0	*	25	0	//Constant Gloves
+5781	0	0   28	10	13	3	0	*	25	0	//Constant Boots
+end

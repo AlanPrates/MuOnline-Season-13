@@ -1,0 +1,32 @@
+//Section	Type	Level	Dur		Skill	Luck	Option	Exc	Coment
+
+07			4 		2 		0 		0 		1 		1		0	//Bronze SET +2 +4 DEF + LUCK
+07			6 		3 		0 		0 		1 		1		0	//Scale SET +3 +4 DEF + LUCK
+07			8 		3 		0 		0 		1 		1		0	//Brass SET +3 +4 DEF + LUCK
+07			5 		0 		0 		0 		1 		1		0	//Leather SET +0 +4 DEF + LUCK
+
+
+08			4 		2 		0 		0 		1 		1		0	//Bronze SET +2 +4 DEF + LUCK
+08			6 		3 		0 		0 		1 		1		0	//Scale SET +3 +4 DEF + LUCK
+08			8 		3 		0 		0 		1 		1		0	//Brass SET +3 +4 DEF + LUCK
+08			5 		0 		0 		0 		1 		1		0	//Leather SET +0 +4 DEF + LUCK
+
+
+09			4 		2 		0 		0 		1 		1		0	//Bronze SET +2 +4 DEF + LUCK
+09			6 		3 		0 		0 		1 		1		0	//Scale SET +3 +4 DEF + LUCK
+09			8 		3 		0 		0 		1 		1		0	//Brass SET +3 +4 DEF + LUCK
+09			5 		0 		0 		0 		1 		1		0	//Leather SET +0 +4 DEF + LUCK
+
+
+10			4 		2 		0 		0 		1 		1		0	//Bronze SET +2 +4 DEF + LUCK
+10			6 		3 		0 		0 		1 		1		0	//Scale SET +3 +4 DEF + LUCK
+10			8 		3 		0 		0 		1 		1		0	//Brass SET +3 +4 DEF + LUCK
+10			5 		0 		0 		0 		1 		1		0	//Leather SET +0 +4 DEF + LUCK
+
+
+11			4 		2 		0 		0 		1 		1		0	//Bronze SET +2 +4 DEF + LUCK
+11			6 		3 		0 		0 		1 		1		0	//Scale SET +3 +4 DEF + LUCK
+11			8 		3 		0 		0 		1 		1		0	//Brass SET +3 +4 DEF + LUCK
+11			5 		0 		0 		0 		1 		1		0	//Leather SET +0 +4 DEF + LUCK
+end
+

@@ -1,0 +1,137 @@
+3
+//Index   DropRate
+//0         10000
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF   GL
+//0         5         1000         0             0             1    1    1    1    1    1    1    1
+//0         6         9000         0             0             1    1    1    1    1    1    1    1
+end
+
+5
+//Index   Level   Grade   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+8403      0       0       *         *         *         *         *         *         *         0          // Evolution Stone
+end
+
+6
+//Index   Level   Grade   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+8192       1       0       *         *         *         *         *         *         *         0          // Pinocchio
+8194       1       0       *         *         *         *         *         *         *         0          // Geppetto  
+8196       1       0       *         *         *         *         *         *         *         0          // Blue Fairy 
+8198       1       0       *         *         *         *         *         *         *         0          // Papa Bear  
+8200       1       0       *         *         *         *         *         *         *         0          // Baby Bear  
+8202       1       0       *         *         *         *         *         *         *         0          // Mama Bear
+8204       1       0       *         *         *         *         *         *         *         0          // Woody 
+8206       1       0       *         *         *         *         *         *         *         0          // Treasure Chest 
+8208       1       0       *         *         *         *         *         *         *         0          // Treasure Hunter
+8210       1       0       *         *         *         *         *         *         *         0          // Tree Elf
+8212       1       0       *         *         *         *         *         *         *         0          // Grass Fairy
+8214       1       0       *         *         *         *         *         *         *         0          // Leaf Mage 
+8216       1       0       *         *         *         *         *         *         *         0          // Samba Girl
+8218       1       0       *         *         *         *         *         *         *         0          // Rio
+8220       1       0       *         *         *         *         *         *         *         0          // Bateria
+8222       1       0       *         *         *         *         *         *         *         0          // Tiger
+8224       1       0       *         *         *         *         *         *         *         0          // Libra
+8226       1       0       *         *         *         *         *         *         *         0          // Scorpio
+8228       1       0       *         *         *         *         *         *         *         0          // Meowstron
+8230       1       0       *         *         *         *         *         *         *         0          // Dotto  	   
+8231       1       0       *         *         *         *         *         *         *         0          // Chicken
+8233       1       0       *         *         *         *         *         *         *         0          // Chick
+8235       1       0       *         *         *         *         *         *         *         0          // Angry Rooster
+8237       1       0       *         *         *         *         *         *         *         0          // Lion Mask
+8404       1       0       *         *         *         *         *         *         *         0          // Luki
+8406       1       0       *         *         *         *         *         *         *         0          // Tony
+8408       1       0       *         *         *         *         *         *         *         0          // Nymph
+8410       1       0       *         *         *         *         *         *         *         0          // Safi
+8415       1       0       *         *         *         *         *         *         *         0          // William
+8417       1       0       *         *         *         *         *         *         *         0          // Paul
+8419       1       0       *         *         *         *         *         *         *         0          // Chiron
+8421       1       0       *         *         *         *         *         *         *         0          // Wooparoo
+8425       1       0       *         *         *         *         *         *         *         0          // Witch
+8427       1       0       *         *         *         *         *         *         *         0          // Skull
+8429       1       0       *         *         *         *         *         *         *         0          // Pumpkie
+8433       1       0       *         *         *         *         *         *         *         0          // Savath
+8435       1       0       *         *         *         *         *         *         *         0          // Lycan
+8437       1       0       *         *         *         *         *         *         *         0          // Torby
+8444       1       0       *         *         *         *         *         *         *         0          // Seiren
+8446       1       0       *         *         *         *         *         *         *         0          // Behemoth
+8448       1       0       *         *         *         *         *         *         *         0          // Loggle
+8450       1       0       *         *         *         *         *         *         *         0          // Mino
+8452       1       0       *         *         *         *         *         *         *         0          // Hound
+8454       1       0       *         *         *         *         *         *         *         0          // Trive
+8456       1       0       *         *         *         *         *         *         *         0          // Vogan
+8458       1       0       *         *         *         *         *         *         *         0          // Cyclop
+8462       1       0       *         *         *         *         *         *         *         0          // Bonf
+8464       1       0       *         *         *         *         *         *         *         0          // Hawk
+8466       1       0       *         *         *         *         *         *         *         0          // Muty
+8470       1       0       *         *         *         *         *         *         *         0          // Mantis
+8472       1       0       *         *         *         *         *         *         *         0          // Scolpy
+8474       1       0       *         *         *         *         *         *         *         0          // Chafer
+8482       1       0       *         *         *         *         *         *         *         0          // Cosplay Girl
+8484       1       0       *         *         *         *         *         *         *         0          // Cheer Girl
+8486       1       0       *         *         *         *         *         *         *         0          // Sporty Girl
+8488       1       0       *         *         *         *         *         *         *         0          // Baal
+8490       1       0       *         *         *         *         *         *         *         0          // Gaap
+8492       1       0       *         *         *         *         *         *         *         0          // Taaf
+8494       1       0       *         *         *         *         *         *         *         0          // Frozen
+8496       1       0       *         *         *         *         *         *         *         0          // Lure
+8498       1       0       *         *         *         *         *         *         *         0          // Fur Seal
+8500       1       0       *         *         *         *         *         *         *         0          // Lucky Rabbit
+8502       1       0       *         *         *         *         *         *         *         0          // Mooncake Rabbit
+8504       1       0       *         *         *         *         *         *         *         0          // Mortar Rabbit
+8506       1       0       *         *         *         *         *         *         *         0          // Tarius
+8508       1       0       *         *         *         *         *         *         *         0          // Rainer
+8510       1       0       *         *         *         *         *         *         *         0          // Alkamo
+8512       1       0       *         *         *         *         *         *         *         0          // Glacuse
+8514       1       0       *         *         *         *         *         *         *         0          // Kenturion
+8516       1       0       *         *         *         *         *         *         *         0          // Rocka
+8524       1       0       *         *         *         *         *         *         *         0          // Polar Bear
+8526       1       0       *         *         *         *         *         *         *         0          // Present
+8528       1       0       *         *         *         *         *         *         *         0          // Rocking Horse
+8530       1       0       *         *         *         *         *         *         *         0          // Aries
+8532       1       0       *         *         *         *         *         *         *         0          // Lester
+8534       1       0       *         *         *         *         *         *         *         0          // Merino
+8536       1       0       *         *         *         *         *         *         *         0          // Splinter
+8538       1       0       *         *         *         *         *         *         *         0          // Mutation
+8540       1       0       *         *         *         *         *         *         *         0          // Fighter
+8601       1       0       *         *         *         *         *         *         *         0          // Heywood
+8603       1       0       *         *         *         *         *         *         *         0          // Branch
+8605       1       0       *         *         *         *         *         *         *         0          // Hook
+8607       1       0       *         *         *         *         *         *         *         0          // Carnifle
+8609       1       0       *         *         *         *         *         *         *         0          // Mandora
+8611       1       0       *         *         *         *         *         *         *         0          // Treat
+8613       1       0       *         *         *         *         *         *         *         0          // Rose Spiri
+8615       1       0       *         *         *         *         *         *         *         0          // Freesia Spirit
+8617       1       0       *         *         *         *         *         *         *         0          // Cherry Blossom Spirit
+8619       1       0       *         *         *         *         *         *         *         0          // Gigantes
+8621       1       0       *         *         *         *         *         *         *         0          // Mammoth
+8623       1       0       *         *         *         *         *         *         *         0          // Walker 
+8625       1       0       *         *         *         *         *         *         *         0          // Surfing Girl
+8627       1       0       *         *         *         *         *         *         *         0          // Swim Tube Girl
+8629       1       0       *         *         *         *         *         *         *         0          // Snorkeling Girl
+8631       1       0       *         *         *         *         *         *         *         0          // Commander
+8633       1       0       *         *         *         *         *         *         *         0          // Lance Soldier
+8635       1       0       *         *         *         *         *         *         *         0          // Bow Soldier
+8637       1       0       *         *         *         *         *         *         *         0          // Hammer
+8639       1       0       *         *         *         *         *         *         *         0          // Refear
+8641       1       0       *         *         *         *         *         *         *         0          // Axer
+8643       1       0       *         *         *         *         *         *         *         0          // Pumpkin Girl
+8645       1       0       *         *         *         *         *         *         *         0          // Ghost
+8647       1       0       *         *         *         *         *         *         *         0          // Mummy Boy
+8649       1       0       *         *         *         *         *         *         *         0          // Chrysanthemum
+8651       1       0       *         *         *         *         *         *         *         0          // Maple
+8653       1       0       *         *         *         *         *         *         *         0          // Ginkgo
+8672       1       0       *         *         *         *         *         *         *         0          // Toy Soldier
+8674       1       0       *         *         *         *         *         *         *         0          // Christmas Tree
+8676       1       0       *         *         *         *         *         *         *         0          // Snowman
+8678       1       0       *         *         *         *         *         *         *         0          // Busker Monkey
+8680       1       0       *         *         *         *         *         *         *         0          // DJ Monkey
+8682       1       0       *         *         *         *         *         *         *         0          // Space Monkey
+8684       1       0       *         *         *         *         *         *         *         0          // Little Cupid
+8686       1       0       *         *         *         *         *         *         *         0          // Chocolate Cookie
+8688       1       0       *         *         *         *         *         *         *         0          // Heart Girl
+8690       1       0       *         *         *         *         *         *         *         0          // Candy Girl
+8692       1       0       *         *         *         *         *         *         *         0          // Lollipop Mama
+8694       1       0       *         *         *         *         *         *         *         0          // Sweet Muscle Man
+end

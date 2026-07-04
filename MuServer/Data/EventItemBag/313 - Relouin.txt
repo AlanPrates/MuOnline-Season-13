@@ -1,0 +1,25 @@
+//Index = Referencia a tabela de cima
+//Section = Referencia aos grupos de drop criados
+//MoneyAmount = Quantidade de drop de zen
+//OptionValue: 0 = Nada
+//1 = Fogos de artifício
+//2 = Verificação de classe leva em consideração a party.
+//16 = Adicionar o item ao Gremory Case da conta.
+//32 = Adicionar o item ao Gremory Case do personagem.
+//OBS: Para cumular opções, basta somar os valores.
+//DW, DK, FE, MG, DL, SU, RF e GL:
+//0 = Não pode.
+//1 = Pode.
+//2 = Pode, se tiver primeira evolução.
+//3 = Pode, se tiver segunda evolução. 
+
+3
+//Index	DropRate
+
+end
+
+4
+//Index	Section	Rate	Money	Option	DW	DK	FE	MG	DL	SU	RF	GL
+
+end
+

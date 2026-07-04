@@ -1,0 +1,397 @@
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+0         0             0             0000           2559           1             *             *             *               //General Weapon
+0         0             0             2580           2589           *             *             *             *               //General Book
+0         0             0             3072           3583           1             *             *             *               //General Shield
+
+//0         49            0             6659           6659           *             *             *             *               //Dinorant
+0         62            0             6660           6660           *             *             *             *               //Dark Horse
+0         76            0             6693           6693           *             *             *             *               //Fenrir
+
+1         84            5             0000           2559           *             1             *             *               //General Weapon
+1         84            5             2560           2579           *             1             *             *               //General Staff
+1         84            5             2580           2589           *             1             *             *               //General Book
+1         84            5             2590           3071           *             1             *             *               //General Staff
+1         84            5             3072           3583           *             1             *             *               //General Shield
+1         84            5             3584           6143           *             1             *             *               //General Armor
+
+1         84            5             6144           6150           *             1             *             *               //1st and 2nd Wings
+1         84            5             6180           6187           *             1             *             *               //3rd Wings (+ summoner)
+1         84            5             6558           6832           *             1             *             *               //4th Wings
+1         84            5             6193           6194           *             1             *             *               //RF Capes
+1         84            5             6566           6581           *             1             *             *               //Bound 2nd and 3rd Wings
+1         84            5             6686           6686           *             1             *             *               //Cape of Lord
+1         84            5             6406           6411           *             1             *             *               //2.5 Wings
+1         84            5             6414           6414           *             1             *             *               //Cloak of Transcendence
+
+2         84            1             6664           6665           *             1             *             *               //Rings 1
+2         84            1             6677           6680           *             1             *             *               //Rings 2
+2         94            1             6829           6832           *             1             *             *               //Rings 3
+2         84            1             6668           6669           *             1             *             *               //Pendants 1
+2         84            1             6681           6684           *             1             *             *               //Pendants 2
+2         84            1             6827           6828           *             1             *             *               //Pendants 3
+
+2         80            4             0000           2559           *             *             1             *               //General Weapon
+2         81            4             2560           2579           *             *             1             *               //General Staff
+2         113           4             2580           2589           *             *             1             *               //General Book
+2         81            4             2590           3071           *             *             1             *               //General Staff
+2         82            5             3072           3583           *             *             1             *               //General Shield
+2         83            4             3584           6143           *             *             1             *               //General Armor
+
+2         85            1             6144           6144           *             *             1             *               //Wings of Fairy
+2         81            4             6145           6145           *             *             1             *               //Wings of Angel
+2         80            4             6146           6146           *             *             1             *               //Wings of Satan
+2         81            4             6185           6185           *             *             1             *               //Wings of Misery
+2         80            4             6686           6686           *             *             1             *               //Cape of Lord
+
+2         80            4             6147           6147           *             *             1             *               //Wings of Spirit
+2         85            1             6147           6147           *             *             1             32              //Wings of Spirit
+2         80            4             6568           6568           *             *             1             *               //Bound Wings of Spirit
+2         85            1             6568           6568           *             *             1             32              //Bound Wings of Spirit
+
+2         85            1             6148           6148           *             *             1             *               //Wings of Soul
+2         81            4             6148           6148           *             *             1             32              //Wings of Soul
+2         85            1             6566           6566           *             *             1             *               //Bound Wings of Soul
+2         81            4             6566           6566           *             *             1             32              //Bound Wings of Soul
+
+2         85            1             6149           6149           *             *             1             *               //Wings of Devil
+2         80            4             6149           6149           *             *             1             32              //Wings of Devil
+2         85            1             6567           6567           *             *             1             *               //Bound Wings of Devil
+2         80            4             6567           6567           *             *             1             32              //Bound Wings of Devil
+
+2         81            4             6150           6150           *             *             1             *               //Wings of Darkness
+2         80            4             6150           6150           *             *             1             32              //Wings of Darkness
+2         81            4             6569           6569           *             *             1             *               //Bound Wings of Darkness
+2         80            4             6569           6569           *             *             1             32              //Bound Wings of Darkness
+
+2         85            1             6180           6180           *             *             1             *               //Wings of Storm
+2         80            4             6180           6180           *             *             1             16              //Wings of Storm
+2         83            4             6180           6180           *             *             1             32              //Wings of Storm
+2         85            1             6575           6575           *             *             1             *               //Bound Wings of Storm
+2         80            4             6575           6575           *             *             1             16              //Bound Wings of Storm
+2         83            4             6575           6575           *             *             1             32              //Bound Wings of Storm
+
+2         85            1             6181           6181           *             *             1             *               //Wings of Space Time
+2         81            4             6181           6181           *             *             1             16              //Wings of Space Time
+2         83            4             6181           6181           *             *             1             32              //Wings of Space Time
+2         85            1             6574           6574           *             *             1             *               //Bound Wings of Space Time
+2         81            4             6574           6574           *             *             1             16              //Bound Wings of Space Time
+2         83            4             6574           6574           *             *             1             32              //Bound Wings of Space Time
+
+2         85            1             6182           6182           *             *             1             *               //Wings of Illusion
+2         80            4             6182           6182           *             *             1             16              //Wings of Illusion
+2         83            4             6182           6182           *             *             1             32              //Wings of Illusion
+2         85            1             6576           6576           *             *             1             *               //Bound Wings of Illusion
+2         80            4             6576           6576           *             *             1             16              //Bound Wings of Illusion
+2         83            4             6576           6576           *             *             1             32              //Bound Wings of Illusion
+
+2         85            1             6183           6183           *             *             1             *               //Wings of Hurricane
+2         80            4             6183           6183           *             *             1             16              //Wings of Hurricane
+2         81            4             6183           6183           *             *             1             32              //Wings of Hurricane
+2         85            1             6577           6577           *             *             1             *               //Bound Wings of Hurricane
+2         80            4             6577           6577           *             *             1             16              //Bound Wings of Hurricane
+2         81            4             6577           6577           *             *             1             32              //Bound Wings of Hurricane
+
+2         85            1             6184           6184           *             *             1             *               //Mantle of Monarch
+2         80            4             6184           6184           *             *             1             16              //Mantle of Monarch
+2         83            4             6184           6184           *             *             1             32              //Mantle of Monarch
+2         85            1             6578           6578           *             *             1             *               //Bound Mantle of Monarch
+2         80            4             6578           6578           *             *             1             16              //Bound Mantle of Monarch
+2         83            4             6578           6578           *             *             1             32              //Bound Mantle of Monarch
+
+2         81            4             6186           6186           *             *             1             *               //Wings of Despair
+2         113           4             6186           6186           *             *             1             32              //Wings of Despair
+2         81            4             6571           6571           *             *             1             *               //Bound Wings of Despair
+2         113           4             6571           6571           *             *             1             32              //Bound Wings of Despair
+
+2         85            1             6187           6187           *             *             1             *               //Wings of Violent Wind
+2         81            4             6187           6187           *             *             1             16              //Wings of Violent Wind
+2         113           4             6187           6187           *             *             1             32              //Wings of Violent Wind
+2         85            1             6579           6579           *             *             1             *               //Bound Wings of Violent Wind
+2         81            4             6579           6579           *             *             1             16              //Bound Wings of Violent Wind
+2         113           4             6579           6579           *             *             1             32              //Bound Wings of Violent Wind
+
+2         85            1             6193           6193           *             *             1             *               //Cloak of Fighter
+2         80            4             6193           6193           *             *             1             32              //Cloak of Fighter
+2         85            1             6572           6572           *             *             1             *               //Bound Cloak of Fighter
+2         80            4             6572           6572           *             *             1             32              //Bound Cloak of Fighter
+
+2         85            1             6413           6413           *             *             1             *               //Cloak of Limit
+2         80            4             6413           6413           *             *             1             32              //Cloak of Limit
+2         85            1             6573           6573           *             *             1             *               //Bound Cloak of Limit
+2         80            4             6573           6573           *             *             1             32              //Bound Cloak of Limit
+
+2         85            1             6194           6194           *             *             1             *               //Mantle of Warrior
+2         80            4             6194           6194           *             *             1             16              //Mantle of Warrior
+2         83            4             6194           6194           *             *             1             32              //Mantle of Warrior
+2         85            1             6580           6580           *             *             1             *               //Bound Mantle of Warrior
+2         80            4             6580           6580           *             *             1             16              //Bound Mantle of Warrior
+2         83            4             6580           6580           *             *             1             32              //Bound Mantle of Warrior
+
+2         85            1             6414           6414           *             *             1             *               //Cloak of Transcendence
+2         80            4             6414           6414           *             *             1             16              //Cloak of Transcendence
+2         83            4             6414           6414           *             *             1             32              //Cloak of Transcendence
+2         85            1             6581           6581           *             *             1             *               //Bound Cloak of Transcendence
+2         80            4             6581           6581           *             *             1             16              //Bound Cloak of Transcendence
+2         83            4             6581           6581           *             *             1             32              //Bound Cloak of Transcendence
+
+2         85            1             6406           6406           *             *             1             *               //Cloak of Death
+2         80            4             6406           6406           *             *             1             16              //Cloak of Death
+2         85            1             6407           6407           *             *             1             *               //Wings of Chaos
+2         80            4             6407           6407           *             *             1             16              //Wings of Chaos
+2         113           4             6408           6408           *             *             1             *               //Wings of Magic
+2         81            4             6408           6408           *             *             1             16              //Wings of Magic
+2         85            1             6409           6409           *             *             1             *               //Wings of Life
+2         80            4             6409           6409           *             *             1             16              //Wings of Life
+2         85            1             6410           6410           *             *             1             *               //Wings of Conqueror
+
+2         85            1             6558           6832           *             *             1             *               //Wings 4th
+2         80            4             6558           6832           *             *             1             16              //Wings 4th
+2         83            4             6558           6832           *             *             1             32              //Wings 4th
+
+2         85            1             6664           6665           *             *             1             *               //Rings 1
+2         85            1             6677           6680           *             *             1             *               //Rings 2
+2         85            1             6829           6832           *             *             1             *               //Rings 3
+2         85            1             6668           6669           *             *             1             *               //Pendants 1
+2         85            1             6681           6684           *             *             1             *               //Pendants 2
+2         85            1             6827           6828           *             1             *             *               //Pendants 3
+2         104           1             6684           6684           *             *             1             *               //Pendant of Ability
+
+2         85            1             6765           6771           *             *             1             *               //Cash Shop Jewelry
+3         99            12            0000           2559           *             *             *             1               //General Weapon
+3         99            12            2560           2579           *             *             *             1               //General Staff
+3         99            12            2580           2589           *             *             *             1               //General Book
+3         99            12            2590           3071           *             *             *             1               //General Staff
+3         86            30            3072           3583           *             *             *             1               //General Shield
+3         86            30            3584           6143           *             *             *             1               //General Armor
+
+3         86            30            6664           6665           *             *             *             1               //Rings 1
+3         86            30            6677           6680           *             *             *             1               //Rings 2
+3         86            30            6825           6826           *             *             *             1               //Rings Decoration
+3         86            30            6829           6832           *             *             *             1               //Rings 3
+3         99            12            6668           6669           *             *             *             1               //Pendants 1
+3         99            12            6681           6684           *             *             *             1               //Pendants 2
+3         99            12            6827           6828           *             *             *             1               //Pendants 3
+
+3         100           5             6147           6150           *             *             *             1               //2nd Wings
+3         100           5             6186           6186           *             *             *             1               //Wings of Despair
+3         100           5             6193           6193           *             *             *             1               //Cloak of Fighter
+3         100           5             6686           6686           *             *             *             1               //Cape of Lord
+3         100           5             6566           6573           *             *             *             1               //Bound 2nd Wings
+
+3         102           5             6180           6184           *             *             *             1               //3rd Wings
+3         102           5             6187           6187           *             *             *             1               //Wings of Violent Wind
+3         102           5             6194           6194           *             *             *             1               //Mantle of Warrior
+3         102           3             6406           6406           *             *             *             1               //Cloak of Death
+3         102           5             6574           6581           *             *             *             1               //Bound 3rd Wings
+
+3         102           3             6407           6409           *             *             *             1               //2.5 Wings
+//3         102           5             6410           6410           *             *             *             1               //Wings of Conqueror
+3         116           4             6411           6411           *             *             *             1               //Wings of Angel and Devil
+
+//3         112           0             6659           6659           *             *             *             1               //Dinorant
+3         106           0             6693           6693           *             *             *             1               //Fenrir
+3         90            4             6765           6765           *             *             *             *               //Ring of Sapphire
+3         91            4             6766           6766           *             *             *             *               //Ring of Ruby
+3         86            30            6767           6767           *             *             *             *               //Ring of Topaz
+3         89            2             6768           6768           *             *             *             *               //Ring of Amethyst
+3         92            10            6769           6769           *             *             *             *               //Pendant of Ruby
+3         97            7             6770           6770           *             *             *             *               //Pendant of Emerald
+3         99            12            6771           6771           *             *             *             *               //Pendant of Sapphire
+4         99            12            0000           2559           *             *             *             2               //General Weapon
+4         98            12            2560           2579           *             *             *             2               //General Staff
+4         98            12            2580           2589           *             *             *             2               //General Book
+4         98            12            2590           3071           *             *             *             2               //General Staff
+4         87            10            3072           3583           *             *             *             2               //General Shield
+4         87            10            3584           6143           *             *             *             2               //General Armor
+
+4         87            10            6664           6665           *             *             *             2               //Rings 1
+4         87            10            6677           6680           *             *             *             2               //Rings 2
+4         87            10            6825           6826           *             *             *             2               //Decoration Ring
+4         87            10            6829           6832           *             *             *             2               //Rings 3
+4         98            12            6668           6669           *             *             *             2               //Pendants 1
+4         98            12            6681           6684           *             *             *             2               //Pendants 2
+4         98            12            6827           6828           *             *             *             2               //Pendants 3
+
+4         101           5             6147           6150           *             *             *             2               //2nd Wings
+4         101           5             6186           6186           *             *             *             2               //Wings of Despair
+4         101           5             6193           6193           *             *             *             2               //Cloak of Fighter
+4         101           5             6686           6686           *             *             *             2               //Cape of Lord
+4         101           5             6566           6573           *             *             *             2               //Bound 2nd Wings
+
+4         109           5             6180           6184           *             *             *             2               //3rd Wings
+4         109           5             6187           6187           *             *             *             2               //Wings of Violent Wind
+4         109           5             6194           6194           *             *             *             2               //Mantle of Warrior
+4         109           5             6574           6580           *             *             *             2               //Bound 3rd Wings
+4         110           5             6406           6406           *             *             *             2               //Cloak of Death
+4         110           5             6581           6581           *             *             *             2               //Bound Cloak of Death
+
+4         110           5             6407           6409           *             *             *             2               //2.5 Wings
+//4         109           5             6410           6410           *             *             *             2               //Wings of Conqueror
+4         102           4             6411           6411           *             *             *             2               //Wings of Angel and Devil
+
+//4         103           50            6659           6659           *             *             *             2               //Dinorant
+4         107           0             6693           6693           *             *             *             2               //Fenrir
+
+5         97            7             0000           2559           *             *             *             4               //General Weapon
+5         97            7             2560           2579           *             *             *             4               //General Staff
+5         97            7             2580           2589           *             *             *             4               //General Book
+5         97            7             2590           3071           *             *             *             4               //General Staff
+5         88            5             3072           3583           *             *             *             4               //General Shield
+5         88            5             3584           6143           *             *             *             4               //General Armor
+
+5         88            5             6664           6665           *             *             *             4               //Rings 1
+5         88            5             6677           6680           *             *             *             4               //Rings 2
+5         88            5             6825           6826           *             *             *             4               //Decoration Ring
+5         88            5             6829           6832           *             *             *             4               //Rings 3
+5         97            7             6668           6669           *             *             *             4               //Pendants 1
+5         97            7             6681           6684           *             *             *             4               //Pendants 2
+5         97            7             6827           6828           *             *             *             4               //Pendants 3
+
+5         102           3             6147           6150           *             *             *             4               //2nd Wings
+5         102           3             6186           6186           *             *             *             4               //Wings of Despair
+5         102           3             6193           6193           *             *             *             4               //Cloak of Fighter
+5         102           3             6686           6686           *             *             *             4               //Cape of Lord
+5         102           3             6566           6573           *             *             *             4               //Bound 2nd Wings
+
+5         110           5             6180           6184           *             *             *             4               //3rd Wings
+5         110           5             6187           6187           *             *             *             4               //Wings of Violent Wind
+5         110           5             6194           6194           *             *             *             4               //Mantle of Warrior
+5         110           5             6574           6580           *             *             *             4               //Bound 3rd Wings
+
+//5         110           5             6410           6410           *             *             *             4               //Wings of Conqueror
+5         110           4             6411           6411           *             *             *             4               //Wings of Angel and Devil
+
+//5         97            5             6659           6659           *             *             *             4               //Dinorant
+5         108           0             6693           6693           *             *             *             4               //Fenrir
+
+6         94            2             0000           2559           *             *             *             8               //General Weapon
+6         96            2             2560           2579           *             *             *             8               //General Staff
+6         115           2             2580           2589           *             *             *             8               //General Book
+6         96            2             2590           3071           *             *             *             8               //General Staff
+6         89            2             3072           3583           *             *             *             8               //General Shield
+6         89            2             3584           6143           *             *             *             8               //General Armor
+
+6         89            5             6664           6665           *             *             *             8               //Rings 1
+6         89            5             6677           6680           *             *             *             8               //Rings 2
+6         89            5             6825           6826           *             *             *             8               //Decoration Ring
+6         89            5             6829           6832           *             *             *             8               //Rings 3
+
+6         96            2             6668           6668           *             *             *             8               //Pendant of Lighting
+6         94            2             6669           6669           *             *             *             8               //Pendant of Fire
+6         96            2             6681           6681           *             *             *             8               //Pendant of Ice
+6         94            2             6682           6682           *             *             *             8               //Pendant of Wind
+6         96            2             6683           6683           *             *             *             8               //Pendant of Water
+6         94            2             6684           6684           *             *             *             8               //Pendant of Ability
+6         94            2             6827           6828           *             *             *             8               //Pendants 3
+
+6         103           50            6147           6150           *             *             *             8               //2nd Wings
+6         103           50            6186           6186           *             *             *             8               //Wings of Despair
+6         103           50            6193           6193           *             *             *             8               //Cloak of Fighter
+6         103           50            6566           6569           *             *             *             8               //Bound 2nd Wings
+6         103           50            6571           6573           *             *             *             8               //Bound 2nd Wings
+6         105           5             6686           6686           *             *             *             8               //Cape of Lord
+6         105           5             6570           6570           *             *             *             8               //Bound Cape of Lord
+
+6         111           5             6180           6184           *             *             *             8               //3rd Wings
+6         111           5             6187           6187           *             *             *             8               //Wings of Violent Wind
+6         111           5             6194           6194           *             *             *             8               //Mantle of Warrior
+6         111           5             6574           6580           *             *             *             8               //Bound 3rd Wings
+
+7         93            20            0000           2559           *             *             *             16              //General Weapon
+7         95            20            2560           2579           *             *             *             16              //General Staff
+7         114           20            2580           2589           *             *             *             16              //General Book
+7         95            20            2590           3071           *             *             *             16              //General Staff
+7         90            4             3072           3583           *             *             *             16              //General Shield
+7         90            4             3584           6143           *             *             *             16              //General Armor
+
+7         90            4             6664           6665           *             *             *             16              //Rings 1
+7         90            4             6677           6680           *             *             *             16              //Rings 2
+7         90            4             6825           6826           *             *             *             16              //Decoration Ring
+7         90            4             6829           6832           *             *             *             16              //Rings 3
+7         95            20            6668           6668           *             *             *             16              //Pendant of Lighting
+7         93            20            6669           6669           *             *             *             16              //Pendant of Fire
+7         95            20            6681           6681           *             *             *             16              //Pendant of Ice
+7         93            20            6682           6682           *             *             *             16              //Pendant of Wind
+7         95            20            6683           6683           *             *             *             16              //Pendant of Water
+7         93            20            6684           6684           *             *             *             16              //Pendant of Ability
+7         93            20            6827           6827           *             *             *             16              //Necklace of Agony
+7         93            20            6828           6828           *             *             *             16              //Solid Symbol
+
+7         97            5             6147           6150           *             *             *             16              //2nd Wings
+7         97            5             6186           6186           *             *             *             16              //Wings of Despair
+7         97            5             6193           6193           *             *             *             16              //Cloak of Fighter
+7         97            5             6566           6573           *             *             *             16              //Bound 2nd Wings
+
+8         92            10            0000           2559           *             *             *             32              //General Weapon
+8         92            10            2560           2579           *             *             *             32              //General Staff
+8         92            10            2580           2589           *             *             *             32              //General Book
+8         92            10            2590           3071           *             *             *             32              //General Staff
+8         91            4             3072           3583           *             *             *             32              //General Shield
+8         91            4             3584           6143           *             *             *             32              //General Armor
+
+8         91            4             6664           6665           *             *             *             32              //Rings 1
+8         91            4             6677           6680           *             *             *             32              //Rings 2
+8         91            4             6825           6826           *             *             *             32              //Decoration Ring
+8         91            4             6829           6832           *             *             *             32              //Rings 3
+
+8         92            10            6668           6669           *             *             *             32              //Pendants 1
+8         92            10            6681           6684           *             *             *             32              //Pendants 2
+8         92            10            6827           6828           *             *             *             32              //Pendants 3
+
+9         119           50            6656           6656           *             *             *             *               //Angel
+9         125           1             6676           6676           *             *             *             *               //Wizard Ring
+//9         93            12            6693           6693           *             *             *             4               //Fenrir
+9         127           10            6695           6695           *             *             *             *               //Elite Transformation Ring
+//9         123           20            6697           6697           *             *             *             *               //Christmas Ring
+9         97            10            6720           6720           *             *             *             *               //Demon
+9         119           50            6721           6721           *             *             *             *               //Spirit of Guardian
+9         123           30            6732           6732           *             *             *             *               //Panda Ring
+9         123           30            6733           6733           *             *             *             *               //Brown Panda Ring
+9         123           30            6734           6734           *             *             *             *               //Pink Panda Ring
+9         83            50            6736           6736           *             *             *             *               //Panda
+9         83            50            6762           6762           *             *             *             *               //Unicorn
+9         125           15            6763           6763           *             *             *             *               //Lethal Wizard Ring
+9         123           40            6778           6778           *             *             *             *               //Skeleton Ring
+9         97            10            6779           6779           *             *             *             *               //Skeleton
+9         123           30            6819           6819           *             *             *             *               //Robot Knight Ring
+9         123           30            6820           6820           *             *             *             *               //Mini Robot Ring
+9         123           40            6821           6821           *             *             *             *               //Great Heavenly Mage Ring
+9         94            10            6825           6825           *             *             *             *               //Decoration Ring
+9         94            15            6826           6826           *             *             *             *               //Blessed Decoration Ring
+10        97            10            6676           6676           *             *             *             *               //Wizard Ring
+//10        95            25            6693           6693           *             *             *             4               //Fenrir
+10        121           1             6695           6695           *             *             *             *               //Elite Transformation Ring
+10        86            50            6732           6732           *             *             *             *               //Panda Ring
+10        86            50            6733           6733           *             *             *             *               //Brown Panda Ring
+10        86            50            6734           6734           *             *             *             *               //Pink Panda Ring
+10        117           50            6736           6736           *             *             *             *               //Panda
+10        86            50            6762           6762           *             *             *             *               //Unicorn
+10        97            10            6763           6763           *             *             *             *               //Lethal Wizard Ring
+10        118           30            6778           6778           *             *             *             *               //Skeleton Ring
+10        117           30            6779           6779           *             *             *             *               //Skeleton
+10        118           30            6819           6819           *             *             *             *               //Robot Knight Ring
+10        97            7             6820           6820           *             *             *             *               //Mini Robot Ring
+10        118           30            6821           6821           *             *             *             *               //Great Heavenly Mage Ring
+10        96            15            6825           6825           *             *             *             *               //Decoration Ring
+10        96            15            6826           6826           *             *             *             *               //Blessed Decoration Ring
+
+//Index   OptionIndex   OptionValue   ItemMinIndex   ItemMaxIndex   ItemOption1   ItemOption2   ItemOption3   ItemNewOption   Comment
+7         136           1550          6410           6410           *             *             *             *               //Asa Conqueror 1550 stats
+8         137           10            6410           6410           *             *             *             *               //Asa Conqueror All Attributes Resistance 10
+
+//11        114           25            6693           6693           *             *             *             4               //Fenrir
+11        118           30            6732           6732           *             *             *             *               //Panda Ring
+11        117           30            6733           6733           *             *             *             *               //Brown Panda Ring
+11        117           50            6734           6734           *             *             *             *               //Pink Panda Ring
+11        83            10            6819           6819           *             *             *             *               //Robot Knight Ring
+11        118           30            6820           6820           *             *             *             *               //Mini Robot Ring
+11        115           15            6825           6825           *             *             *             *               //Decoration Ring
+11        115           15            6826           6826           *             *             *             *               //Blessed Decoration Ring
+//12        121           2             6693           6693           *             *             *             4               //Fenrir
+12        118           65            6733           6733           *             *             *             *               //Brown Panda Ring
+12        118           30            6734           6734           *             *             *             *               //Pink Panda Ring
+12        118           50            6924           6924           *             *             *             *               //Dark Transformation Ring
+12        97            10            6825           6825           *             *             *             *               //Decoration Ring
+12        97            10            6826           6826           *             *             *             *               //Blessed Decoration Ring
+//13        122           2             6693           6693           *             *             *             4               //Fenrir
+end

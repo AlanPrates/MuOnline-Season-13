@@ -1,0 +1,9 @@
+3
+//Index   DropRate
+
+end
+
+4
+//Index   Section   SectionRate  MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF   GL
+
+end

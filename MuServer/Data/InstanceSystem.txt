@@ -1,0 +1,7 @@
+// Content type: Content ID of the instance dungeon (depending on additional inbound content)
+// Map number: The map number defined in the form content. (Same as the map number added by the existing new map adding method)
+// Maximum number of users: The maximum number of users that can be used in a single instance dungeon map (or area) (usually one private monopoly and five party content)
+// Maximum number of monsters used: The maximum number of monsters available in the instance dungeon map (or area) (including all objects of NPCs, monsters, and other monster types-for example) should be specified to regenerate objects as much as possible in three areas In the area. )
+// Content type Content name Map number Maximum user Monsters Mapping start number
+1	"Maze of size"	115	1	10	500	
+end							

@@ -1,0 +1,147 @@
+//OptionValue
+// 1 = fireworks
+// 2 = verificar classe
+// 4 = dropar section toda
+// 8 = sockets
+
+3
+//Index	DropRate
+0		10000	//Set socket def DW
+1		10000	//Set socket def DK
+2		10000	//Set socket def FE
+3		10000	//Set socket def MG
+4		10000	//Set socket def DL
+5		10000	//Set socket def SU
+6		10000	//Set socket def RF
+7		10000	//Set socket def GL
+8		10000	//Shield
+9		10000	//Rings
+10		10000	//Buffs
+end
+
+4
+//Index	Section	SectionRate	MoneyAmount	OptionValue	DW	DK	FE	MG	DL	SU	RF	GL
+0		5		10000		0			14			1	0	0	0	0	0	0	0
+1		6		10000		0			14			0	1	0	0	0	0	0	0
+2		7		10000		0			14			0	0	1	0	0	0	0	0
+3		8		10000		0			14			0	0	0	1	0	0	0	0
+4		9		10000		0			14			0	0	0	0	1	0	0	0
+5		12		10000		0			14			0	0	0	0	0	1	0	0
+6		13		10000		0			14			0	0	0	0	0	0	1	0
+7		14		10000		0			14			0	0	0	0	0	0	0	1
+8		15		10000		0			14			1	1	0	1	1	1	0	1
+9		16		10000		0			12			1	1	1	1	1	1	1	1
+10		20		10000		0			4			1	1	1	1	1	1	1	1
+end
+
+//DW
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3639	15		80		85		232		217		209		222		218		29		604800
+4151	15		80		85		232		217		209		222		218		29		604800
+4663	15		80		85		232		217		209		222		218		29		604800
+5175	15		80		85		232		217		209		222		218		29		604800
+5687	15		80		85		232		217		209		222		218		29		604800
+6558	15		0		0		254		254		254		254		254		15		604800	//Asa DW
+end
+
+//DK
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3638	15		80		85		232		217		209		222		218		29		604800
+4150	15		80		85		232		217		209		222		218		29		604800
+4662	15		80		85		232		217		209		222		218		29		604800
+5174	15		80		85		232		217		209		222		218		29		604800
+5686	15		80		85		232		217		209		222		218		29		604800
+6559	15		0		0		254		254		254		254		254		15		604800	//Asa DK
+end
+
+//ELF
+7
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3659	15		80		85		232		217		209		222		218		29		604800
+4171	15		80		85		232		217		209		222		218		29		604800
+4683	15		80		85		232		217		209		222		218		29		604800
+5195	15		80		85		232		217		209		222		218		29		604800
+5707	15		80		85		232		217		209		222		218		29		604800
+6560	15		0		0		254		254		254		254		254		15		604800	//Asa Elf
+end
+
+//MG
+8
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+4153	15		80		85		232		217		209		222		218		29		604800
+4665	15		80		85		232		217		209		222		218		29		604800
+5177	15		80		85		232		217		209		222		218		29		604800
+5689	15		80		85		232		217		209		222		218		29		604800
+6561	15		0		0		254		254		254		254		254		15		604800	//Asa MG
+end
+
+//DL
+9
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3642	15		80		85		232		217		209		222		218		29		604800
+4154	15		80		85		232		217		209		222		218		29		604800
+4666	15		80		85		232		217		209		222		218		29		604800
+5178	15		80		85		232		217		209		222		218		29		604800
+5690	15		80		85		232		217		209		222		218		29		604800
+6562	15		0		0		254		254		254		254		254		15		604800	//Asa DL
+end
+
+//SU
+12
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3637	15		80		85		232		217		209		222		218		29		604800
+4149	15		80		85		232		217		209		222		218		29		604800
+4661	15		80		85		232		217		209		222		218		29		604800
+5173	15		80		85		232		217		209		222		218		29		604800
+5685	15		80		85		232		217		209		222		218		29		604800
+6563	15		0		0		254		254		254		254		254		15		604800	//Asa SU
+end
+
+//RF
+13
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3730	15		80		85		232		217		209		222		218		29		604800
+4242	15		80		85		232		217		209		222		218		29		604800
+4754	15		80		85		232		217		209		222		218		29		604800
+5778	15		80		85		232		217		209		222		218		29		604800
+6564	15		0		0		254		254		254		254		254		15		604800	//Asa RF
+end
+
+//GL
+14
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3733	15		80		85		232		217		209		222		218		29		604800
+4245	15		80		85		232		217		209		222		218		29		604800
+4757	15		80		85		232		217		209		222		218		29		604800
+5269	15		80		85		232		217		209		222		218		29		604800
+5781	15		80		85		232		217		209		222		218		29		604800
+6565	15		0		0		254		254		254		254		254		15		604800	//Asa GL
+end
+
+//Shield
+15
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3120	15		63		0		254		254		254		255		254		0		604800
+end
+
+//Rings
+16
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+6829	15		63		0		254		254		254		255		254		0		604800
+6831	15		63		0		254		254		254		255		254		0		604800
+6832	15		63		0		254		254		254		255		254		0		604800
+end
+
+20
+//EFFECT	DURATION
+44			604800
+45			604800
+46			604800
+196			604800
+197			604800
+198			604800
+200			604800
+201			604800
+end

@@ -1,0 +1,23 @@
+// DropZen = Quantidade do zen que irá cair no chão de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, será 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 até 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que serão dropados)
+// SetItemDropRate =   0 até 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleatórios)
+// Fireworks =         0 ou 1 (0 = Não vai soltar fogos quando dropar)
+
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Cherry Blossom Box"	  1000	      100		        1		        0		         0		     3
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+14          85     0          0          0       0      0        0		//Cherry Blossom Wine
+14          86     0          0          0       0      0        0		//Blossom Rice Cake
+14          87     0          0          0       0      0        0		//Cherry Blossom Flower Petal
+14          88     0          0          0       0      0        0		//White Cherry Blossom Branch
+14          89     0          0          0       0      0        0		//Red Cherry Blossom Branch
+14          90     0          0          0       0      0        0		//Golden Cherry Blossom Branch
+end

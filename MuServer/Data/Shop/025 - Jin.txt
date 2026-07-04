@@ -1,0 +1,48 @@
+//Section   Type   Level   Dur   Skill   Luck   Option   Excellent
+14	0 	0 	100	 0	 0	 0	0	 // Aplle
+14	0 	0 	255	 0	 0	 0	0	 // Aplle
+
+14	1 	0 	100	 0	 0	 0	0	 // Smal Healing
+14	1 	0 	255	 0	 0	 0	0	 // Smal Healing
+
+14	2 	0 	100	 0	 0	 0	0	 // Healing Potion
+14	2 	0 	255	 0	 0	 0	0	 // Healing Potion
+
+14	3 	0 	100	 0	 0	 0	0	 // Large Healing Potion
+14	3 	0 	255	 0	 0	 0	0	 // Large Healing Potion
+
+14	4 	0 	100	 0	 0	 0	0	 // Small mana
+14	4 	0 	255	 0	 0	 0	0	 // Small mana
+
+14	5 	0 	100	 0	 0	 0	0	 // Mana Potion
+14	5 	0 	255	 0	 0	 0	0	 // Mana Potion
+
+
+14	6 	0 	100	 0	 0	 0	0	 // Large Mana Potion
+14	6 	0 	255	 0	 0	 0	0	 // Large Mana Potion
+
+14	8 	0 	100	 0	 0	 0	0	 // Antidote
+14	8 	0 	255	 0	 0	 0	0	 // Antidote
+
+//14	63 	0 	0	 0	 0	 0	0	 // Firecracker
+
+//14	9 	0 	1	 0	 0	 0	0	 // Ale
+
+4           7      0       255   0       0      0        0
+4           7      1       255   0       0      0        0
+4           7      2       255   0       0      0        0
+4           7      3       255   0       0      0        0
+4           15     0       255   0       0      0        0
+4           15     1       255   0       0      0        0
+4           15     2       255   0       0      0        0
+4           15     3       255   0       0      0        0
+
+//13          7      0       1     0       0      0        0
+//13          7      1       1     0       0      0        0
+//14          10     0       1     0       0      0        0
+//13          29     0       1     0       0      0        0
+
+//13          0     0       255     0       0      0        0 // gardian
+//13          1     0       255     0       0      0        0 // imp
+//13          2     0       255     0       0      0        0 // uniria
+end

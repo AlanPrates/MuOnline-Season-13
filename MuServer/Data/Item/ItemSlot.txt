@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////////////
+//Slot
+// 0:Inventory
+// 1:EventInventory
+// 2:MuunInventory
+//////////////////////////////////////////////////////////////////
+
+//MinIndex	MaxIndex	Slot
+0
+ 6176		6178		1	// Boxes of Ribbon
+ 6722 		6722 		1 	// Invitation to Santa Village
+ //6866 		6866 		1 	// WereRabbit Egg 
+ 6876 		6876 		1 	// Lucky Bag Egg
+ 6877 		6877 		1 	// Fire Flame Ghost Egg
+ 6878 		6878 		1 	// Golden Goblin Egg 
+ 7006 		7006 		1	// Muun Egg
+ 7378	 	7381		1 	// Summon Scrolls
+ 7383	 	7384		1	// Card Piece and Deck
+ 7416		7421 		1 	// Evomon All Box
+ 7412 		7412 		1	// Evomon Summoning Scroll
+ 7446 		7446 		1 	// Piece of Summoning Scroll
+ 7542		7549		1	// Event Boxes
+ 7576		7579		1	// Jewel Bingo items
+ 8192 		8703 		2 	// All Muun stuff
+end

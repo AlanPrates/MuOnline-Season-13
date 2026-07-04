@@ -1,0 +1,44 @@
+//Primary elemental option
+1
+//Index	Lv0	Lv1	Lv2	Lv3	Lv4	Lv5	Lv6	Lv7	Lv8	Lv9	Lv10	Lv11	Lv12	Lv13	Lv14	Lv15
+0		1	3	5	7	9	11	13	15	17	19	21	23	25	27	29	31
+end																		
+
+//Secondary elemental option
+2																		
+//Index	Lv0	Lv1	Lv2	Lv3	Lv4	Lv5	Lv6	Lv7	Lv8	Lv9	Lv10	Lv11	Lv12	Lv13	Lv14	Lv15
+0		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//15 Dano Elemental PvP
+1		1	2	4	6	8	10	12	14	16	18	20	22	24	26	28	30	//31 Chance de Punish
+2		1	3	6	9	12	15	18	21	24	27	30	33	36	39	42	45	//47 Resistência a Punish
+3		1	2	3	4	5	6	8	9	10	11	12	13	14	16	18	20	//63 Dano Elemental PvP Elite
+4		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//79 Defesa Elemental PvP
+5		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//95 Dano Elemental Boss I
+6		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//111 Defesa Elemental Boss I
+7		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//127 Dano Adicional contra Fogo
+8		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//143 Dano Adicional contra Agua
+9		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//159 Dano Adicional contra Terra
+10		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//175 Dano Adicional Contra Vento
+11		1	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	//191 Dano Adicional Contra Escuridao
+12		1	2	3	4	5	6	8	9	10	11	12	13	14	16	18	20	//207 Dano Elemental Boss II
+13		1	2	3	4	5	6	8	9	10	11	12	13	14	16	18	20	//223 Defesa Elemental Boss II
+end
+
+//Graded options
+3
+//Index	Level1	Level2	Level3	Level4	Level5	Level6	Level7	Level8	Level9	Level10	Option
+0	1	2	3	4	5	6	7	8	9	10					//9   Reduçao de Dano Final
+1	1	1	2	2	3	3	4	4	5	5					//25  HP recovery 
+2	1	2	3	4	5	6	7	8	9	10					//41  Reflect
+3	1	2	3	4	5	6	7	8	9	10					//57  Ignore defense
+4	1	2	3	4	5	10	15	20	25	30					//73  Aumento de velocidade de dano em boss + Attack speed
+5	1	3	5	7	9	11	13	15	17	19					//89  Excellent dmg rate
+6	1	2	3	4	5	6	7	8	9	10					//105 Double dmg rate
+7	100	250	400	650	800	950	1100	1250	1400	1550	//121 Aditional Strength
+8	100	250	400	650	800	950	1100	1250	1400	1550	//137 Aditional Vitality
+9	100	250	400	650	800	950	1100	1250	1400	1550	//153 Aditional Energy
+10	100	250	400	650	800	950	1100	1250	1400	1550	//169 Aditional Agility
+11	1	2	3	4	5	6	7	8	9	10					//185 Aumento de Dano Final (1 a 10%)
+12	1	2	3	4	5	6	7	8	9	10					//201 Aumento de Dano em Boss (1 a 10%)
+13	1	2	3	4	5	10	20	30	35	40					//217 Redução de poderes de Boss (1 a 40%)
+14	1	2	3	4	5	6	7	8	9	10					//233 Aumento da probabilidade de pegar itens de Boss (1 a 10%)
+end

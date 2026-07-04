@@ -1,0 +1,299 @@
+//	Type	Id		Level	Monster	Special	Comment
+0	12		32		0		*		*		//Red Ribbon Box
+1	12		33		0		*		*		//Green Ribbon Box
+2	12		34		0		*		*		//Blue Ribbon Box
+3 	13		210	 	* 		* 		* 		//WereRabbit Egg
+4 	13		220		* 		* 		* 		//Lucky Bag Egg
+5 	13		221		* 		* 		* 		//Fire Flame Ghost Egg
+6 	13		222		* 		* 		* 		//Golden Goblin Egg
+7	14		11		0		*		*		//Box of Luck
+8	14		11		1		*		*		//Star of Christmas
+9	14		11		2		*		*		//Firecracker
+10	14		11		3		*		*		//Heart of Love
+11	14		11		5		*		*		//Silver Medal
+12	14		11		6		*		*		//Gold Medal
+13	14		11		7 		* 		* 		//Box of Heaven
+14	14		11		8		*		*		//Box of Kundun 1
+15	14		11		9		*		*		//Box of Kundun 2
+16	14		11		10		*		*		//Box of Kundun 3
+17	14		11		11		*		*		//Box of Kundun 4
+18	14		11		12		*		*		//Box of Kundun 5
+19	14		11		13 		* 		* 		//Blue Heart
+20	14		11		14		*		*		//Blue Luck Pouch
+21 	14		11		15		*		*		//Red Luck Pouch
+22	14		32		0		*		*		//Pink Chocolate Box
+23	14		33		0		*		*		//Red Chocolate Box
+24	14		34		0		*		*		//Blue Chocolate Box
+25	14		32		1		*		*		//Purple Candy Box
+26	14		33		1		*		*		//Red Candy Box
+27	14		34		1		*		*		//Blue Candy Box
+28	14		45		0		*		*		//Halloween Pumpkin
+29	14		52		*		*		*		//Game Master Box
+30	14		55		*		*		*		//Green Mistery Box
+31	14		56		*		*		*		//Pink Mistery Box
+32	14		57		*		*		*		//Purple Mistery Box
+33	14		84		*		*		*		//Cherry Blossom Box
+34	14		123		*		*		*		//Golden Box
+35	14		124		*		*		*		//Silver Box
+36	14		141		*		*		*		//Shining Jewelry Case
+37	14		142		*		*		*		//Elegant Jewelry Case
+38	14		143		*		*		*		//Steel Jewelry Case
+39	14		144		*		*		*		//Old Jewelry Case
+40	14		157		*		*		*		//Green Box
+41	14		158		*		*		*		//Red Box
+42	14		159		*		*		*		//Purple Box
+43	14		206		*		*		*		//Lackluster Box
+44	14		207		*		*		*		//Luxurious Box
+45	14		208		*		*		*		//Exciting Box
+46	14		222		*		*		*		//Unique Accessory Box
+47	14		233		*		*		*		//Unique Weapon Box
+48	14		236		* 		* 		* 		//Reward Pot 1
+49 	14		237		* 		* 		* 		//Reward Pot 2
+50 	14		238		* 		* 		* 		//Reward Pot 3
+51 	14		239		* 		* 		* 		//Reward Pot 4
+52	14		240		* 		* 		* 		//Reward Pot 5
+53 	14		241		* 		* 		* 		//Rare Reward Pot
+54 	14		248		* 		*		*	 	//Minor Evomon Box (money or armor)
+55	14		249		* 		*		*		//Standard Evomon Box
+56	14		250		* 		*		*		//Greater Evomon Box
+57	14		251		* 		*		*		//Luxurious Evomon Box
+58	14		252 	* 		*	 	*		//Magnificent Evomon Box
+59	14		253	 	* 		*		*		//Legendary Evomon Box
+60	14		254		*		*		*		//Gift of Henchmen (CC survival)
+61	14		256		*		*		*		//Gift of Knights (CC survival)
+62	14		257		*		*		*		//Gift of High Knights (CC survival)
+63	14		258		*		*		*		//Minor Devils Box
+64	14		259		*		*		*		//Devils Box
+65	14		260		*		*		*		//High Devils Box
+66	14		261		*		*		*		//Guardsmans Box
+67	14		262		*		*		*		//Guardman Captains Box
+68	14		265		*		*		*		//Goblin Treasure Box (Green)
+69	14		266		*		*		*		//KIT CS DEFESA BRINDE
+70	14		267		*		*		*		//KIT CS ATAQUE BRINDE
+71	14		268		*		*		*		//KIT UPGRADE BLUE -> SILVER
+72	14		282		*		*		*		//Mastery Box(Minor)
+73	14		283		*		*		*		//Mastery Box(Standard)
+74	14		284		*		*		*		//Mastery Box(Greater)
+75	14		286		*		*		*		//Pentagram Box
+76	14		293		* 		*	 	* 		//Capsule(Normal)
+77	14		296		* 		* 		* 		//Capsule(Fire)
+78	14		337		*		*		*		//Capsule(Earth)
+79	14		338		*		*		*		//Capsule(Water)
+80	14		339		*		*		*		//Capsule(Wind)
+81	14		340		*		*		*		//Capsule(Darkness)
+82	14		344		*		*		*		//[Speed] Archangel Weapon Box
+83	14		354		*		*		*		//[14th Anniversary] Gift Box
+84	14		355		*		*		*		//[14th Anniversary] Special Gift Box
+86	14		357		*		*		*		//[Speed] Helm Box
+87	14		358		*		*		*		//[Speed] Armor Box
+88	14		359		*		*		*		//[Speed] Pants Box
+89	14		360		*		*		*		//[Speed] Gloves Box
+90	14		361		*		*		*		//[Speed] Boots Box
+91	14		374		*		*		*		//[Event] Lower Box
+92	14		375		*		*		*		//[Event] Medium Box
+93	14		376		*		*		*		//[Event] Higher Box
+94	14		377		*		*		*		//[Event] Luxury Box
+95	14		391		*		*		*		//Event Gift Box
+96	14		392		*		*		*		//Card Box
+97	14		393		*		*		*		//Card Box (10)
+98	14		398		*		*		*		//Elemental Talisman Box
+99	14		400		*		*		*		//Ruud Box (10)
+100	14		401		*		*		*		//Ruud Box (50)
+101	14		402		*		*		*		//Ruud Box (100)
+//102	14		406		0		*		*		//MUFC BOX 0
+103	14		407		*		*		*		//Speed Server Limited Reward Box
+104	14		408		*		*		*		//[Jewel Bingo] Lower Box
+105	14		409		*		*		*		//[Jewel Bingo] Medium Box
+106	14		410		*		*		*		//[Jewel Bingo] Higher Box
+107	14		411		*		*		*		//[Jewel Bingo] Luxury Box
+108	14		412		*		*		*		//Timed Mastery Set Box
+109	14		418		*		*		*		//[PC Cafe]Timed Mastery Weapon Box
+110	14		419		*		*		*		//CS SOCKET BOX
+111	14		421		*		*		*		//2nd Bound Wings Chest
+112	14		422		*		*		*		//3rd Bound Wings Chest
+113	14		426		*		*		*		//60-Day Mastery Armor Box
+114	14		427		*		*		*		//30-Day Mastery Armor Box
+115	14		428		*		*		*		//3-Day Mastery Armor Box
+116	14		429		*		*		*		//+11 3rd Wings Chest (Bound)
+117	14		336		*		*		*		//Ruud Box (10000)
+118	14		289		*		*		*		//Ruud Box (50000)
+119	14		288		*		*		*		//Ruud Box (100000)
+120	14		287		*		*		*		//Ruud Box (200000)
+121	14		352		*		*		*		//Ruud Box (1000)
+122	14		384		*		*		*		//Sphere Upgrade Rune Capsule
+123	14		406		1		*		*		//MUFC BOX 1 (classes)
+124	14		406		2		*		*		//MUFC BOX 2 (classes)
+125	14		406		3		*		*		//MUFC BOX 3 (classes)
+126	14		356		*		*		*		//Ruud Box (500000)
+127	14		406		4		*		*		//MUFC BOX 1 (geral)
+128	14		406		5		*		*		//MUFC BOX 2 (geral)
+129	14		406		6		*		*		//MUFC BOX 3 (geral)
+130	14		131		*		*		*		//All Buff Box
+131	14		129		*		*		*		//VIP + All Buff Box
+132	14		403		*		*		*		//Ruud Box (1kk)
+134	14		134		*		*		*		//KIT CS ATAQUE
+135	14		135		*		*		*		//KIT RING E PENDANT
+136	14		139		*		*		*		//KIT PROMOCIONAL
+137	14		497		*		*		*		//Ordnael Big Egg
+
+//	Type	Id		Level	Monster	Special	Comment
+200	*		*		*		43		*		//Golden Budge Dragon
+201	* 		*		* 		53 		* 		//Golden Titan
+202	* 		*		* 		54 		* 		//Golden Soldier
+203	*		*		*		78 		* 		//Golden Goblin
+204	* 		* 		*		79 		* 		//Golden Dragon
+205	* 		* 		*		80 		* 		//Golden Lizard King
+206	* 		* 		*		81 		* 		//Golden Vepar
+207	* 		* 		*		82 		* 		//Golden Tantalos
+208	* 		* 		*		83 		* 		//Golden Iron Wheel
+209	* 		* 		*		493 	* 		//Golden Dark Knight
+210	* 		* 		*		494 	* 		//Golden Devil
+211	* 		* 		*		495 	* 		//Golden Stone Golem
+212	* 		* 		*		496 	* 		//Golden Crust
+213	* 		* 		*		497 	* 		//Golden Satyros
+214	* 		* 		*		498 	* 		//Golden Twin Tail
+215	* 		* 		*		499 	* 		//Golden Iron Knight
+216	* 		* 		*		500 	* 		//Golden Napin
+217	* 		* 		*		501 	* 		//Golden Great Dragon
+218	* 		* 		*		502 	* 		//Golden Rabbit
+219 * 		* 		*		652 	* 		//Golden Goblin
+220 * 		* 		*		653 	* 		//Golden Titan
+221 * 		* 		*		654 	* 		//Golden Tantalose
+222 * 		* 		*		655 	* 		//Golden Erohim
+223 * 		* 		*		656 	* 		//Golden Hell Maine
+224 * 		* 		*		657 	* 		//Golden Kundun
+225	*		*		*		56		*		//Death Bone
+226	*		*		*		136		*		//Orc 1
+227	*		*		*		136		*		//Orc 2
+228	*		*		*		790		*		//Monster of the Swamp
+250	*		*		*		42		*		//Red Dragon
+251	*		*		*		55		*		//Skeleton King
+252	*		*		*		135		*		//White Wizard
+253	*		*		*		275		*		//Kundun - Kalima 6
+254	*		* 		* 		295 	* 		//Erohim - Land of Trials
+255	*		*		*		340		*		//Dark Elf - Crywolf Event
+256	*		*		*		349		*		//Balgass - Crywolf Boss
+257	* 		*		*		361		*		//Nightmare - Kantru Event
+258	*		*		*		362		*		//Maya Hand Left - Kantru Event
+259	* 		*		*		363		*		//Maya Hand Right - Kantru Event
+260	*		*		*		365		*		//Fortune Pouch
+261	*		*		*		413		*		//Lunar Rabbit
+262	*		*		*		459		*		//Selupan - Raklion Boss
+263	*		*		*		463		*		//Fire Flame Ghost
+264	*		*		*		561		*		//Medusa
+265 * 		*		* 		627 	* 		//Cursed Fire Tower
+266 * 		* 		*		647 	* 		//Green Snake
+267 * 		* 		*		648 	* 		//Yellow Snake
+268 * 		* 		*		649 	* 		//Purple Snake
+269 * 		* 		*		650 	* 		//Red Snake
+270	*		*		*		673		*		//Lord Silvester
+271 * 		*		* 		674 	* 		//Moon Rabbit
+272 * 		*		* 		675 	* 		//Pouch of Blessing
+273 * 		*		* 		676 	* 		//Fire Flame Ghost
+274 * 		*		* 		677 	* 		//Golden Goblin
+275 *		* 		* 		691 	* 		//New Year Horse (Green)
+276 * 		*		* 		692 	* 		//New Year Horse (Yellow)
+277 * 		*		* 		693 	* 		//New Year Horse (Brown)
+278 * 		*		* 		694 	* 		//New Year Horse (Blue)
+279 * 		*		* 		726 	* 		//Sheep (Green)
+280 * 		*		* 		727 	* 		//Sheep (White)
+281 * 		*		* 		728 	* 		//Sheep (Purple)
+282 * 		*		* 		729 	* 		//Sheep (Red)
+283 * 		*		* 		716 	*	 	//Core Magriffy
+284 * 		*		* 		717 	* 		//Core Magriffy
+285 * 		*		* 		718 	* 		//Core Magriffy
+286	*		* 		* 		733 	*		//Ferea General
+287	*		* 		* 		734 	* 		//Lord of Ferea
+288	*		*		*		735 	* 		//Ferea Crystal Orb
+289	*		* 		* 		746 	* 		//Nix
+290	*		*		*		778		*		//Deep Dungeon Gorgon
+291	*		*		*		794		*		//God of Darkness
+292 *		* 		* 		795 	* 		//Cachorro (Green)
+293 * 		*		* 		796 	* 		//Cachorro (Yellow)
+294 * 		*		* 		797 	* 		//Cachorro (Brown)
+295 * 		*		* 		798 	* 		//Cachorro (Blue)
+296 * 		*		* 		739 	* 		//Macaco (Green)
+297 * 		*		* 		740 	* 		//Macaco (White)
+298 * 		*		* 		741 	* 		//Macaco (Purple)
+299 * 		*		* 		742 	* 		//Macaco (Red)
+300 * 		*		* 		759 	* 		//Galinha (Green)
+301 * 		*		* 		760 	* 		//Galinha (White)
+302 * 		*		* 		761 	* 		//Galinha (Purple)
+303 * 		*		* 		762 	* 		//Galinha (Red)
+304	*		*		*		476		*		//Cursed Santa
+305	*		*		*		690		*		//Special Evomon
+306	*		*		*		681		*		//Evomon normal
+307	*		*		*		77		*		//Phoenix
+308	*		*		*		18		*		//Gorgon
+309	*		*		*		785		*		//Dark Iron Knight
+310	*		*		*		466		*		//Cursed Goblin
+311	*		*		*		793		*		//Monster of the Water
+312	*		*		*		595		*		//Gnome
+313	*		*		*		516		*		//Relouin
+314	*		*		*		680		*		//Lord Elemental Knight
+315	*		*		*		309		*		//Hell maine Vermelho
+316	*		*		*		67		*		//Metal Balrog
+
+//	Type	Id		Level	Monster	Special	Comment
+400	*		*		*		*		0		//Blood Castle 1
+401	*		* 		*		*		1 		//Blood Castle 2
+402	*		* 		*		*		2 		//Blood Castle 3
+403	*		* 		*		*		3 		//Blood Castle 4
+404	*		* 		*		*		4 		//Blood Castle 5
+405	*		* 		*		*		5 		//Blood Castle 6
+406	*		* 		*		*		6 		//Blood Castle 7
+407	*		*		*		*		7		//Blood Castle 8
+408	*		* 		* 		*		8 		//Chaos Castle 1
+409	* 		* 		*		*		9 		//Chaos Castle 2
+410	* 		* 		* 		*		10 		//Chaos Castle 3
+411	* 		* 		* 		*		11 		//Chaos Castle 4
+412	* 		* 		* 		*		12 		//Chaos Castle 5
+413	* 		* 		* 		*		13 		//Chaos Castle 6
+414	* 		* 		* 		*		14 		//Chaos Castle 7
+415	*		* 		* 		* 		15 		//Starter Ring 40
+416 * 		* 		* 		*		16 		//Starter Ring 80
+417	*		*		*		*		17		//Senior Mix
+418	*		*		*		*		18		//Leo the Helper
+419	*		*		*		*		19		//Illusion Temple 1
+420	*		*		*		*		20		//Illusion Temple 2
+421	*		*		*		*		21		//Illusion Temple 3
+422	*		*		*		*		22		//Illusion Temple 4
+423	*		*		*		*		23		//Illusion Temple 5
+424	*		*		*		*		24		//Illusion Temple 6
+425	*		*		*		*		25		//Cherry Blossom Mix 1
+426	*		*		*		*		26		//Cherry Blossom Mix 2
+427	*		*		*		*		27		//Cherry Blossom Mix 3
+428	*		*		*		*		28		//Santa Claus
+429	*		*		*		*		29		//Lucky Coin 1
+430	*		*		*		*		30		//Lucky Coin 2
+431	*		*		*		*		31		//Lucky Coin 3
+432	*		*		*		*		32		//Chaos Card Mix 1 
+433	*		*		*		*		33		//Chaos Card Mix 2
+434	*		*		*		*		34		//Chaos Card Mix 3
+435	*		*		*		*		35		//Chaos Card Mix 4
+436	*		*		*		*		36		//Chaos Card Mix 5
+437	*		*		*		*		37		//Double Goer Silver Chest 1
+438	*		*		*		*		38		//Double Goer Silver Chest 2
+439	*		*		*		*		39		//Double Goer Silver Chest 3
+440	*		*		*		*		40		//Double Goer Silver Chest 4
+441	*		*		*		*		41		//Double Goer Silver Chest 5
+442	*		*		*		*		42		//Double Goer Golden Chest 1
+443	*		*		*		*		43		//Double Goer Golden Chest 2
+444	*		*		*		*		44		//Double Goer Golden Chest 3
+445	*		*		*		*		45		//Double Goer Golden Chest 4
+446	*		*		*		*		46		//Double Goer Golden Chest 5
+447	*		*		*		*		47		//Imperial Guardian Side Boss 1
+448	*		*		*		*		48		//Imperial Guardian Side Boss 2
+449	*		*		*		*		49		//Imperial Guardian Side Boss 3
+450	*		*		*		*		50		//Imperial Guardian Side Boss 4
+451	*		*		*		*		51		//Imperial Guardian Side Boss 5
+452	*		*		*		*		52		//Imperial Guardian Main Boss 1
+453	*		*		*		*		53		//Imperial Guardian Main Boss 2
+454	*		*		*		*		54		//Imperial Guardian Main Boss 3
+455	*		*		*		*		55		//Imperial Guardian Main Boss 4
+456	*		*		*		*		56		//Imperial Guardian Main Boss 5
+457	*		*		*		*		57		//Crywolf - Final reward
+458 * 		*		* 		* 		58 		//Mu Rummy 1
+459 * 		*		* 		* 		59 		//Mu Rummy 2
+
+end

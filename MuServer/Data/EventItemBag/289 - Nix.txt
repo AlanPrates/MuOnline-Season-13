@@ -1,0 +1,77 @@
+//Index = Referencia a tabela de cima
+//Section = Referencia aos grupos de drop criados
+//MoneyAmount = Quantidade de drop de zen
+//OptionValue: 0 = Nada
+//1 = Fogos de artifício
+//2 = Verificacao de classe leva em consideracao a party.
+//16 = Adicionar o item ao Gremory Case da conta.
+//32 = Adicionar o item ao Gremory Case do personagem.
+//OBS: Para cumular opcoes, basta somar os valores.
+//DW, DK, FE, MG, DL, SU, RF e GL:
+//0 = Nao pode.
+//1 = Pode.
+//2 = Pode, se tiver primeira evolucao.
+//3 = Pode, se tiver segunda evolucao. 
+
+3 //quantidade de drops
+//Index		DropRate
+0			10000
+1			9000
+2			8000
+3			7000
+4			6000
+5			5000
+6			5000  //Wing 4
+7			5000  //All Buffs
+end
+
+4 //caracterizacao dos drops
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         5         10000         0             0             1    1    1    1    1    1    1	1
+1         5         10000         0             0             1    1    1    1    1    1    1	1
+2         5         10000         0             0             1    1    1    1    1    1    1	1
+3         5         10000         0             0             1    1    1    1    1    1    1	1
+4         5         10000         0             0             1    1    1    1    1    1    1	1
+5         5         10000         0             0             1    1    1    1    1    1    1	1
+6         6         10000         0             0             1    1    1    1    1    1    1	1
+7        20         10000         0             5             1    1    1    1    1    1    1	1
+end
+
+5
+//Index	Lvl	Gr	Op0 Op1 Op2 Op3 Op4 Op5 Op6 Dur Comment
+
+7668	0	0	*	*	*	*	*	*	*	20	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	20	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	20	//Jewel of Level
+7674	0	0	*	*	*	*	*	*	*	20	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	20	//Jewel of Luck
+7679	0	0	*	*	*	*	*	*	*	5	//Jewel of Galaxies Cock
+
+7455	0	0	*	*	*	*	*	*	*	0	//Ruud box 200000
+7524	0	0	*	*	*	*	*	*	*	0	//Ruud box 500000
+
+7513	0	0	*	*	*	*	*	*	*	0	//Mysterious Stone
+41		0	0	*	*	*	*	*	*	*	0	//Picareta
+
+end
+
+6
+//Index	Lvl	Gr	Op0 Op1 Op2 Op3 Op4 Op5 Op6 Dur Comment
+6558	0	0	*	*	*	*	*	*	*	0	//Asa 4 DW
+6559	0	0	*	*	*	*	*	*	*	0	//Asa 4 DK
+6560	0	0	*	*	*	*	*	*	*	0	//Asa 4 FE
+6561	0	0	*	*	*	*	*	*	*	0	//Asa 4 MG
+6562	0	0	*	*	*	*	*	*	*	0	//Asa 4 DL
+6563	0	0	*	*	*	*	*	*	*	0	//Asa 4 SU
+6564	0	0	*	*	*	*	*	*	*	0	//Asa 4 RF
+6565	0	0	*	*	*	*	*	*	*	0	//Asa 4 GL
+end
+
+20
+//EFFECT	DURATION
+196			36000
+197			36000
+198			36000
+200			36000
+201			36000
+end

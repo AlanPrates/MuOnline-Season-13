@@ -1,0 +1,51 @@
+//Classe	Skill	Rate
+
+//SM
+0	726	200	//Soul Seeker
+0	38	200	//Decay
+0	39	200	//Ice Storm
+0	5	1	//Flame
+0	13	1	//Blast
+
+//BK
+1	723	200	//Fire Blow
+1	41	160	//Twisting Slash
+1	59	150	//Combo
+
+//Elf
+2	24	200	//Triple shot
+2	235	160	//Multi shot
+
+//MG
+3	55	200	//Fire Slash
+3	41	165	//Twisting Slash
+
+//DL
+4	737	200	//Wind soul
+4	238	140	//Birds (precisa de menos ponto pra mesma velocidade)
+4	62	300	//EarthShake
+4	78	1	//Fire Scream
+
+//Sum
+5	215	200	//Chain Lightning (target, mais rápida)
+5	230	210	//Lightning Storm (range, mais lenta)
+
+//RF
+6	282	200	//Spirit Hook (target, mais rápida)
+6	263	180	//Dark Side (range, mais lenta)
+6	260	1	//Killing Blow
+6	261	1	//Upper Beast
+6	262	1	//Chain Drive
+6	264	1	//Dragon Roar
+6	265	1	//Dargon Slasher
+6	269	1	//
+6	270	1	//Phoenix Shot
+6	739	1	//RF Ruud
+
+//GL
+7	277	200	//Shinning peak
+7	279	155	//Breche
+
+//All Classes
+//Fenrir
+-1	76	1	//Plasma Storm

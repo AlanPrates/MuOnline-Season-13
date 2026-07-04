@@ -1,0 +1,284 @@
+//Index	Group	ItemIndex	Name									Save	Type	Flag	Count	Value1	Value2	Value3	Value4
+1		1		*			"Increase Attack Power"					1		0		0		*		*		*		*		*		//Attack power increases.																										
+2		2		*			"Increase Defense"						1		0		0		*		*		*		*		*		//Defensibility increases.
+3		3		*			"Shadow Phantom effect"					1		0		0		*		*		*		*		*		//Attack power and Defensibility increases																										
+4		4		*			"Soul Barrier"							1		0		0		*		*		*		*		*		//Manna absorbs the damage.																										
+5		5		*			"Critical Damage increase"				1		0		0		*		*		*		*		*		//Critical damage increases.																										
+6		6		*			"Infinity Arrow"						1		0		0		*		*		*		*		*		//Arrows do not become consumed.																										
+7		7		*			"AG recovery speed increase"			0		0		0		*		*		*		*		*		//Arrows do not become consumed.																										
+8		8		*			"Swell Life"							1		0		0		*		*		*		*		*		//Health stat increases to maximum.																										
+9		9		*			"Swell Mana"							1		0		0		*		*		*		*		*		//Mana stat increases to maximum.																										
+10		10		*			"Potion of Blessing"					1		0		0		*		*		*		*		*		//Attack power +20%% increase																										
+11		11		*			"Potion of Soul"						1		0		0		*		*		*		*		*		//AG recovery speed increase +8/Lightning and Ice resistance increase/attack speed increase +20																										
+12		12		*			"Abolish Magic"							0		0		0		*		*		*		*		*		//																										
+13		13		*			"Gate Open/Close Status"				0		0		0		*		*		*		*		*		//																										
+14		14		*			"Watchtower"							0		0		0		*		*		*		*		*		//Watching over the castle.																										
+15		14		*			"Besiegement Guild1"					0		0		0		*		*		*		*		*		//In the process of attacking the castle																										
+16		14		*			"Besiegement Guild2"					0		0		0		*		*		*		*		*		//In the process of attacking the castle																										
+17		14		*			"Besiegement Guild3"					0		0		0		*		*		*		*		*		//In the process of attacking the castle																										
+18		15		*			"Invisibility"							0		0		0		*		*		*		*		*		//Transparency Status																										
+19		16		*			"Dark Rod Battle Skill"					0		0		0		*		*		*		*		*		//																										
+20		17		*			"Crown Registration Status"				0		0		0		*		*		*		*		*		//																										
+21		18		*			"Altar of Wolf contract enabled"		0		0		0		*		*		*		*		*		//																										
+22		18		*			"Altar of Wolf contract disabled"		0		0		0		*		*		*		*		*		//																										
+23		18		*			"Altar of Wolf contract Status"			0		0		0		*		*		*		*		*		//																										
+24		18		*			"Altar of Wolf contract attempt"		0		0		0		*		*		*		*		*		//																										
+25		18		*			"Altar of Wolf besiegement Status"		0		0		0		*		*		*		*		*		//																										
+26		18		*			"Altar of Wolf hero contract Status"	0		0		0		*		*		*		*		*		//																										
+27		19		*			"Cry Wolf NPC transparency"				0		0		0		*		*		*		*		*		//																										
+28		20		*			"GM"									0		1		0		*		*		*		*		*		//That stupid GM star over the fucking GM head
+29		60		6699		"Seal of Ascension"						1		2		0		1800	50		*		*		*		//EXP gain increase 150%%/item gain increase 150%%																										
+30		61		6700		"Seal of Wealth"						1		2		0		1800	100		50		*		*		//EXP gain increase 100%%/item gain increase 150%%																										
+31		62		6701		"Seal of Sustenance"					1		2		0		1800	*		*		*		*		//EXP gain disabled																										
+32		22		*			"Temple - Spell of Quickness"			0		0		0		*		*		*		*		*		//																										
+33		22		*			"Temple - Spell of Sublimation"			0		0		0		*		*		*		*		*		//																										
+34		22		*			"Spell of Protection"					0		0		0		*		*		*		*		*		//Damage absorbed at 100%%.																										
+
+35		127		7214		"Jack O'Lantern Blessings"				1		2		0		*	0		*		*		*		//Attack speed increase +10																										
+36		128		7215		"Wrath of Jack O' Lantern"				1		2		0		*	0		*		*		*		//Attack Power, Magical Damage Increased by  +25																										
+37		129		7216		"Jack O'Lantern Cry"					1		2		0		*	0		*		*		*		//Defensibility increase +100																										
+38		130		7217		"Jack O'Lantern Food"					1		2		0		*	0		*		*		*		//Maximum Life increase +500																										
+39		131		7218		"Jack O'Lantern Drink"					1		2		0		*	0		*		*		*		//Maximum Mana increase +500																										
+
+40		60		6699		"Seal of Ascension"						1		2		0		1800	50		*		*		*		//EXP gain increase 150%%/Item gain increase 150%%																										
+41		61		6700		"Seal of Wealth"						1		2		0		1800	100		50		*		*		//EXP gain increase 100%%/Item gain increase 150%%																										
+42		65		6701		"Seal of Sustenance"					1		2		0		1800	*		*		*		*		//EXP gain disabled																										
+43		57		6715		"Seal of Mobility"						1		2		0		1800	*		*		*		*		//Mobility enabled																										
+
+44		67		7240		"Scroll of Quickness"					1		2		0		1800	15		5		*		*		//Attack speed increase +15
+45		68		7241		"Scroll of Defense"						1		2		0		1800	60		10		5		*		//Defensibility increase +60
+46		69		7242		"Scroll of Wrath"						1		2		0		1800	30		10		5		*		//Attack power increase +30																										
+//47		70		7243		"Scroll of Magic Protection"			1		2		0		1800	5		*		*		*		//Resistencia a poderes de boss +5%
+//48		71		7244		"Scroll of Health"						1		2		0		1800	5000	*		*		*		//HP increase +5000
+//49		72		7245		"Scroll of Magnificence"				1		2		0		1800	3		*		*		*		//Chance de dano duplo em boss +5%
+//50		110		7246		"Elixir of Strength"					1		2		0		1800	500		*		*		*		//Strength Status +500																										
+//51		111		7247		"Elixir of Agility"						1		2		0		1800	500		*		*		*		//Agility Status +500																										
+//52		112		7248		"Elixir of Health"						1		2		0		1800	500		*		*		*		//Health Status +500																										
+//53		113		7249		"Elixir of Energy"						1		2		0		1800	500		*		*		*		//Energy Status +500																										
+//54		114		7250		"Elixir of Control"						1		2		0		1800	500		*		*		*		//Control Status +500																										
+55		27		*			"Poison"								0		0		1		*		*		*		*		*		//Poisoned status of condition																										
+56		28		*			"Ice"									0		0		1		*		*		*		*		*		//Mobility speed decreases.																										
+57		29		*			"Iced Arrow"							0		0		1		*		*		*		*		*		//Mobility disabled																										
+58		30		*			"Defensibility reduction"				1		0		1		*		*		*		*		*		//Random defensibility decreases at 10%%.																										
+59		31		*			"Attack power reduction"				0		0		0		*		*		*		*		*		//																										
+60		32		*			"Wizardry increase reduction"			0		0		0		*		*		*		*		*		//																										
+61		33		*			"Stun"									0		0		1		*		*		*		*		*		//Mobility disabled																										
+62		34		*			"Magic Defense"							0		0		0		*		*		*		*		*		//																										
+63		35		*			"Monster Magic Attack Resistance"		0		0		0		*		*		*		*		*		//																										
+64		36		*			"Monster Chemistry Attack Resistance"	0		0		0		*		*		*		*		*		//																										
+65		37		*			"Spell of Restriction"					0		0		1		*		*		*		*		*		//Mobility disabled																										
+66		38		*			"Cry Wolf Divine Protection Status"		0		0		0		*		*		*		*		*		//Cry Wolf Divine Protection Status																										
+67		38		*			"Cry Wolf Divine Protection Status"		0		0		0		*		*		*		*		*		//Cry Wolf Divine Protection Status																										
+68		38		*			"Cry Wolf Divine Protection Status"		0		0		0		*		*		*		*		*		//Cry Wolf Divine Protection Status																										
+69		38		*			"Cry Wolf Divine Protection Status"		0		0		0		*		*		*		*		*		//Cry Wolf Divine Protection Status																										
+70		38		*			"Cry Wolf Divine Protection Status"		0		0		0		*		*		*		*		*		//Cry Wolf Divine Protection Status																										
+71		39		*			"Damage Reflection"						1		0		0		*		*		*		*		*		//Partial damage reflected out.																										
+72		40		*			"Sleep"									0		0		1		*		*		*		*		*		//Short period of nap																										
+73		40		*			"Blind"									1		0		1		*		*		*		*		*		//Shortened view and the attack accuracy decreases.																										
+74		41		*			"Requiem"								0		0		1		*		*		*		*		*		//Summoner Neil attack																										
+75		42		*			"Explosion"								0		0		1		*		*		*		*		*		//Summoner Shamut attack																										
+76		43		*			"Weakness"								1		0		1		*		*		*		*		*		//Attack power reduction																										
+77		44		*			"Innovation"							1		0		1		*		*		*		*		*		//Defensibility reduction																										
+78		23		7253		"Cherry Blossom Wine"					1		1		0		1800	700		*		*		*		//Maximum Mana increase +700																										
+79		23		7254		"Cherry Blossom Rice Cake"				1		1		0		1800	700		*		*		*		//Maximum Life increase +700																										
+80		23		7255		"Cherry Blossom Flower Petal"			1		1		0		1800	40		*		*		*		//Attack power increase +40																										
+81		21		*			"Berserker"								1		0		0		*		*		*		*		*		//Curse spell, Wizardry, Attack power and Maximum Mana increases, Defense and Maximum Life decreases																										
+82		45		*			"Expansion of Wizardry"					1		0		0		*		*		*		*		*		//Minimum Wizardry increases.																										
+83		46		*			"Flame Strike"							0		0		1		*		*		*		*		*		//																										
+84		47		*			"Gigantic Storm"						0		0		1		*		*		*		*		*		//																										
+85		48		*			"Lightning Shock"						0		0		1		*		*		*		*		*		//																										
+86		49		*			"Cold"									0		0		1		*		*		*		*		*		//Detrimental cold reduces /the mobility speed.																										
+87		13		6718		"Seal of Healing"						1		2		0		1800	50		5		*		*		//EXP gain increase 50%%/Automatic Life recovery at 5%%																										
+88		13		6719		"Seal of Divinity"						1		2		0		1800	50		5		*		*		//Item gain increase at 150%%/Automatic Mana recovery at 5%%																										
+//89	73		7265		"Scroll of Battle"						1		2		0		1800	10		*		*		*		//Critical damage increase at 20%%																										
+//90	74		7266		"Scroll of Strength"					1		2		0		1800	1		*		*		*		//Excellent damage increase at 20%%																										
+
+91		23		*			"Chuck Norris Bangs"					1		2		0		86400	5		5		10		10		//PVP dmg - PVP def - Boss dmg - Boss def
+92		132		*			"Santa Healing"							1		2		0		10800	10000	*		*		*		//Maximum Life increase
+93		133		*			"Santa Protection"						1		2		0		10800	10		*		*		*		//Decrease boss damage
+94		134		*			"Santa Strengthener"					1		2		0		10800	10		*		*		*		//Increase damage in boss
+95		135		*			"Santa Defense"							1		2		0		10800	10		*		*		*		//Boss skill resistance
+96		136		*			"Santa Quickness"						1		2		0		10800	50		*		*		*		//Reduce boss hit delay 50%
+97		137		*			"Santa Fortune"							1		2		0		10800	10		*		*		*		//Boss drop increase
+
+98		50		*			"Watch"									0		0		0		*		*		*		*		*		//You may enter and watch a duel in Arena.																										
+99		52		6737		"Talisman of Protection"				1		2		0		1800	*		*		*		*		//You receive no penalties when dying../Cannot receive this effect when you are  in outlaw status.																										
+100		53		6738		"Talisman of Item Protection"			1		2		0		1800	*		*		*		*		//Keeps item durable																										
+101		60		6749		"Master Seal of Ascension"				1		2		0		1800	50		*		*		*		//EXP gain increase 50%%																										
+102		61		6750		"Master Seal of Wealth"					1		2		0		1800	100		50		*		*		//EXP gain increase 100%%/Item gain increase 150%%																										
+103		51		*			"Gladiator's Honor"						1		0		0		*		*		*		*		*		//Increases EXP by 20%% /Rare Item drop rate/can be used in Vulcanus only.																										
+104		21		6752		"Seal of Strength"						1		0		0		*		*		*		*		*		//Increases Attack Rate and Defense Rate																										
+105		54		*			"Ascension"								0		0		0		*		*		*		*		*		//																										
+106		55		*			"PK Penalty"							1		1		0		*		*		*		*		*		//Warp Command Window access restricted for five minutes.																										
+107		56		*			"You feel tired."						1		1		0		*		50		50		*		*		//50%% EXP Gain /50%% Item Drop Rate 																										
+108		56		*			"You feel exhausted."					1		1		0		*		50		100		*		*		//50%% EXP Gain /0%% Item Drop Rate 																										
+112		24		6759		"Party EXP Bonus Item"					1		2		0		1800	90		10		*		*		//Up to 30%% EXP gain, depending on the number of members in the party.																										
+113		58		6760		"Max AG Boost Aura"						1		2		0		1800	10		*		*		*		//Increases your max AG.																										
+114		58		6761		"Max SD Boost Aura"						1		2		0		1800	10		*		*		*		//Increases your max SD.																										
+115		56		6773		"Minimum Vitality"						1		0		0		*		*		*		*		*		//100%% EXP Gain/100%% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time.																										
+116		56		6774		"Low Vitality"							1		0		0		*		*		*		*		*		//100%% EXP Gain/100%% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time.																										
+117		56		6775		"Medium Vitality"						1		0		0		*		*		*		*		*		//100%% EXP Gain/100%% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time.																										
+118		56		6776		"High Vitality"							1		0		0		*		*		*		*		*		//100%% EXP Gain/100%% Item Drop Rate/Stops stamina from diminishing for a fixed duration of time.																										
+119		24		6772		"Seal of Wealth"						1		0		0		*		*		*		*		*		//Increases Item Drop Rate to 150%%.																										
+120		59		*			"Punishment for Illicit Software Use"	1		1		0		*		*		*		*		*		//50%% EXP Gain /0%% Item Drop Rate 																										
+121		75		7308		"Scroll of Healing"						1		2		0		1800	3		100		*		*		//+3%% HP Regen/+100 HP																										
+122		76		6784		"Hawk Figurine"							0		1		0		*		10		*		*		*		//Critical Damage +10%%																										
+123		76		6785		"Goat Figurine"							0		1		0		*		10		*		*		*		//Excellent Damage +10%%																										
+124		77		6786		"Oak Charm"								0		1		0		*		50		*		*		*		//Maximum Life +50																										
+125		77		6787		"Maple Charm"							0		1		0		*		50		*		*		*		//Maximum Mana +50																										
+126		77		6788		"Golden Oak Charm"						0		1		0		*		100		500		*		*		//Maximum Life +150 / Maximum SD +500																										
+127		77		6789		"Golden Maple Charm"					0		1		0		*		150		50		*		*		//Maximum Mana +150 / Maximum AG +50																										
+128		78		6790		"Worn Horseshoe"						0		1		0		*		20		*		*		*		//Item Drop Rate increase																										
+129		79		*			"Ignore Enemy's Defense"				1		0		0		*		*		*		*		*		//Increases chance to ignore enemy's defense and inflict damage.																										
+130		80		*			"Increase Health"						1		0		0		*		*		*		*		*		//Increases health stat.																										
+131		81		*			"Increase Defense Rate"					1		0		0		*		*		*		*		*		//Increases maximum defend rate.																										
+132		82		*			"Defense success rate decrease"			1		1		0		*		*		*		*		*		//Decreases defense success rate.																										
+133		83		*			"Invincibility"							1		2		0		*		*		*		*		*		//Invincible (MUFC)
+134		84		*			"Iron Defense"							1		0		0		*		*		*		*		*		//Significantly increases defense and HP.																										
+135		8		*			"Swell Life"							1		0		0		*		*		*		*		*		//Increases max life and Mana.																										
+136		8		*			"Swell Life"							1		0		0		*		*		*		*		*		//Increases max life, Mana, and AG.																										
+137		85		*			"Bleeding"								0		0		1		*		*		*		*		*		//HP is reduced continually.																										
+138		45		*			"Expansion of Wizardry"					1		0		0		*		*		*		*		*		//Increases min Wizardry and max Wizardry.																										
+139		45		*			"Expansion of Wizardry"					1		0		0		*		*		*		*		*		//Increases min Wizardry, max Wizardry,/ and critical damage rate.																										
+140		4		*			"Soul Barrier"							1		0		0		*		*		*		*		*		//Uses Mana to absorb damage,/ and increases max Mana.																										
+141		86		*			"Reduce attack speed"					0		0		1		*		*		*		*		*		//Reduces Attack speed.																										
+142		87		*			"Bless"									0		0		0		*		*		*		*		*		//Increases all stats																										
+143		6		*			"Infinity Arrow"						1		0		0		*		*		*		*		*		//Arrows are not consumed,/ and increases your damage.																										
+144		88		*			"Blind"									1		0		1		*		*		*		*		*		//You are blinded./Decreases attack success rate.																										
+145		89		*			"Vampiric"								0		0		1		*		*		*		*		*		//HP is drained every second and transferred to the target.																										
+146		90		*			"Freeze"								0		2		1		*		*		*		*		*		//Immobilized when you are frozen.																										
+147		91		*			"Earth Binds"							0		0		1		*		*		*		*		*		//Earth Binds																										
+148		5		*			"Critical Damage increase"				1		0		0		*		*		*		*		*		//Increases critical damage and critical damage rate.																										
+149		5		*			"Critical Damage increase"				1		0		0		*		*		*		*		*		//Increases critical damage and critical damage rate,/ and also increases excellent damage rate.																										
+150		21		*			"Berserker"								1		0		0		*		*		*		*		*		//Curse spell, Wizardry, Attack power and Maximum Mana increases, Defense and Maximum Life decreases																										
+151		21		*			"Berserker"								1		0		0		*		*		*		*		*		//Curse spell, Wizardry, Attack power and Maximum Mana increases, Defense and Maximum Life decreases																										
+152		21		*			"Berserker"								1		0		0		*		*		*		*		*		//Curse spell, Wizardry, Attack power and Maximum Mana increases, Defense and Maximum Life decreases																										
+153		81		*			"Increase Defense Success Rate"			1		0		0		*		*		*		*		*		//Increases defense success rate.																										
+154		81		*			"Increase Defense Success Rate"			1		0		0		*		*		*		*		*		//Increases maximum defense and defense success rate.																										
+155		80		*			"Increase HP"							1		0		0		*		*		*		*		*		//Increases HP.																										
+156		79		*			"Ignore Enemy's Defense"				1		0		0		*		*		*		*		*		//Increases defense ignore rate. If successful, a chance to ignore defense increase.																										
+157		92		*			"Fire"									0		0		1		*		*		*		*		*		//HP is reduced for every second of fire damage.																										
+158		93		*			"Frost"									0		0		1		*		*		*		*		*		//HP is reduced for every second of frost damage.																										
+159		94		*			"Poison"								0		0		1		*		*		*		*		*		//HP is reduced for every second of poison damage.																										
+160		94		*			"Poison"								0		0		1		*		*		*		*		*		//HP is reduced for every second of poison damage.																										
+161		87		*			"Bless"									0		0		0		*		*		*		*		*		//Increases all stats by %d.																										
+162		43		*			"Weaken"								1		0		1		*		*		*		*		*		//Decreases attack rate.																										
+163		44		*			"Innovate"								1		0		1		*		*		*		*		*		//Decreases defense rate.																										
+164		30		*			"Decrease Defense Rate"					1		0		1		*		*		*		*		*		//Decreases defense rate.																										
+165		84		*			"Iron Defense"							1		0		0		*		*		*		*		*		//Significantly increases defense rate and HP.																										
+166		95		*			"Blood Howl"							1		0		0		*		*		*		*		*		//HP is reduced every second.																										
+167		95		*			"Blood Howl"							1		0		0		*		*		*		*		*		//HP is reduced every second.																										
+168		79		*			"Ignore defense"						1		0		0		*		*		*		*		*																												
+169		96		*			"Penetrate Armor"						1		0		1		*		*		*		*		*		//Decreases defense and defense success rate.																										
+174		98		*			"Fire"									1		0		1		*		*		*		*		*		//Total amount of SD is reduced to half.																										
+175		99		*			"Frost"									1		0		1		*		*		*		*		*		//Total amount of MP is reduced to half.																										
+176		100		*			"Tornado"								1		0		1		*		*		*		*		*		//Attack speed is reduced to half.																										
+177		101		*			"Bind"									1		0		1		*		*		*		*		*		//Total amount of HP is reduced to half.																										
+178		102		*			"Darkness"								1		0		1		*		*		*		*		*		//You can't do anything while you're stunned. 																										
+179		103		*			"Fire Tower"							1		0		0		*		*		*		*		*		//ATK+25/EXP+20%%/when fire equipped ATK&DEF+5%%/set item drop chance(excludes Debenter)																										
+180		104		*			"Water Tower"							1		0		0		*		*		*		*		*		//DEF +50/EXP +20%%/when Water equipped, ATK & DEF +5%%/set item drop chance(excludes Debenter)																										
+181		105		*			"Earth Tower"							1		0		0		*		*		*		*		*		//CRIT+5%%/EXP+20%%/when Earth equipped ATK&DEF+5%%/set item drop chance(excludes Debenter)																										
+182		106		*			"Wind Tower"							1		0		0		*		*		*		*		*		//ATK+30/EXP+20%%/when Wind equipped, ATK&DEF+5%%/set item drop chance(excludes Debenter)																										
+183		107		*			"Darkness Tower"						1		0		0		*		*		*		*		*		//DMG Rec.-10%%/EXP+20%%/when Darkness equipped, ATK&DEF+5%%/set item drop chance(excludes Debenter)																										
+184		108		*			"Resurrection Penalty"					1		1		0		*		*		*		*		*		//Movement speed decreased for a certain period of time.																										
+186		109		*			"Confusion"								1		0		1		*		*		*		*		*		//Movement speed decreased when hit by this.																										
+190		115		6833		"Talisman of Ascension I"				1		1		0		1800	50		*		*		*		//Earning additional 50%% EXP																										
+191		115		6834		"Talisman of Ascension II"				1		1		0		1800	100		*		*		*		//Earning additional 100%% EXP																										
+192		115		6835		"Talisman of Ascension III"				1		1		0		1800	200		*		*		*		//Earning additional 200%% EXP																										
+193		60		6836		"Seal of Ascension II"					1		2		0		1800	100		*		*		*		//Earning additional 100%% EXP																										
+194		60		6837		"Seal of Ascension II"					1		2		0		1800	100		*		*		*		//Earning additional 100%% EXP (For Master Level)																										
+195		116		7392		"Bless of Light (Greater)"				1		1		0		1800	200		*		*		*		//Earning additional 200%% EXP after quick blessing																										
+
+196		139		7393		"Full Boss Defense"				1		2		0		1800	60		10		10		*		//Defesa +60 pontos / Reducao de Dano de Boss (Normal e Elemental) +10% / Resistencia a poderes de Boss +10%
+
+197		141		7394		"Full PvP Defense"		1		2		0		1800	5		5000		*		*		//Resistencia a poderes de boss +7%
+
+198		142		7395		"Full PvP Damage"				1		2		0		1800	5	30		1		*		//HP +5000
+
+//199		143		7396		"Scroll Master of Magnificence"			1		2		0		1800	5		*		*		*		//Chance de dano duplo em boss +5%
+
+200		140		7397		"Full Boss Damage"				1		2		0		1800	10		5		10		*		//Attack Power +60																										
+
+201		144		7398		"Scroll Master of Recovery"				1		2		0		1800	10		*		*		*		//Automatic HP Recovery +10%%
+
+//202		145		7399		"Scroll Master of Battle"				1		2		0		1800	20		*		*		*		//Critical Damage +25%%																										
+//203		146		7400		"Scroll Master of Strenghtener"			1		2		0		1800	1		*		*		*		//Excellent Damage +25%%																										
+//204		138		7403		"Scroll Master of Quickness"			1		2		0		1800	20		5		*		*		//Attack speed increase +20																										
+
+//Season 9
+205		117		6658		"Horn of Uniria"						0		1		0		*		*		*		*		*		//Summons Uniria to mount.																										
+206		117		6659		"Horn of Dinorant"						0		1		0		*		*		*		*		*		//Summons Dinorant to mount.																										
+207		117		6660		"Horn of Dark Horse"					0		1		0		*		*		*		*		*		//Summons Dark Horse to mount.																										
+208		117		6693		"Horn of Fenrir"						0		1		0		*		*		*		*		*		//Summons Fenrir to mount.																										
+
+209		118		*			"Paralyze"								0		0		1		*		*		*		*		*		//Reduces your Mvmt SP by 50%% by paralyzing your legs.																										
+210		118		*			"Calma Moreno"							1		2		0		1800	*		*		*		*		//Reduces your Mvmt SP by 50%% by paralyzing your legs, and gives continual DMG.																										
+
+211		119		*			"Internet Cafe"							1		0		1		*		*		*		*		*		//Extra XP/Chaos Castle in PC Cafe/Access to Kalima/Accum. Gob. Pts.																										
+212		116		7431		"Bless of Light (Low Grade)"			1		1		0		1800	50		*		*		*		//Receiving the blessing for a short period of time, you acquire 50%% of basic EXP additionally.																										
+213		116		7432		"Bless of Light (Middle Grade)"			1		1		0		1800	100		*		*		*		//Receiving the blessing for a short period of time, you acquire 100%% of basic EXP additionally.																										
+214		120		*			"Evasion"								0		0		0		*		*		*		*		*		//Increases your block chance and makes you immune to immobilizing effect																										
+//Season 10
+216		121		*			"Circle Shield"							1		0		0		*		*		*		*		*		//Chance to decrease opponent's AG by 10																										
+217		122		*			"Obsidian"								1		0		0		*		*		*		*		*		//Increases Skill Damage by %d																										
+218		123		*			"Wrath"									1		0		0		*		*		*		*		*		//Decreases Defense by 30%%, increases Damage by 50%%																										
+219		124		*			"Burst"									1		0		0		*		*		*		*		*		//Increases chance of True Damage																										
+220		220		*			"Obsidian PowUp"						1		0		0		*		*		*		*		*		//Increases Skill Damage by %d																										
+221		221		*			"Circle Shield PowUp"					1		0		0		*		*		*		*		*		//Chance to increase AG reduce effect by %d on hit.																										
+222		222		*			"Circle Shield Mastery"					1		0		0		*		*		*		*		*		//Chance to increase AG reduce effect by %d on hit.																										
+223		223		*			"Wrath PowUp"							1		0		0		*		*		*		*		*		//Decreases Defense by 30%%, increases Damage by 50%%																										
+224		224		*			"Wrath Proficiency"						1		0		0		*		*		*		*		*		//Decreases Defense by 30%%, increases Damage by 50%%																										
+225		225		*			"Wrath Mastery"							1		0		0		*		*		*		*		*		//Increases damage by 50%%																										
+226		226		*			"Burst PowUp"							1		0		0		*		*		*		*		*		//Increases chance of True Damage																										
+227		125		*			"Awakening Success Effect"				1		0		0		*		*		*		*		*		//This is Evomon Awakening Success Effect.																										
+228		126		*			"Awakening Failure Effect"				1		0		0		*		*		*		*		*		//This is Evomon Awakening Failure Effect																										
+229		227		*			"Berserker"								1		0		0		*		*		*		*		*		//Increases Damage.																										
+230		228		*			"Clone"									0		0		0		*		*		*		*		*		//Summons a clone.																										
+231		229		*			"Spin"									1		0		0		*		*		*		*		*		//Spins the target.																										
+232		230		6661		"Dark Raven"							1		0		1		*		*		*		*		*		//Summoning Dark Raven.																										
+
+//Index	Group	ItemIndex	Name									Save	Type	Flag	Count	Value1	Value2	Value3	Value4
+238		235		*			"Bastion"								1		2		0		*		*		*		*		*		//Elemental Damage minus 90%%.																										
+
+239		236		*			"Hemorrhage"							0		0		1		*		*		*		*		*		//Bleeding Damage for every second.																										
+240		237		*			"Paralysis"								0		0		1		*		*		*		*		*		//Movement speed and regeneration effect will be reduced. / (reduced effectiveness of Potions)																										
+241		238		*			"Bondage"								0		0		1		*		*		*		*		*		//Cannot move while Earth Power is holding the target's leg.																										
+242		239		*			"Blindness"								0		0		1		*		*		*		*		*		//Blinds the target and reduces its Attack Success Rate by %d%%.																										
+243		240		*			"Immune I"								0		0		1		*		*		*		*		*		//Becomes immune to Elemental Damage.																										
+244		240		*			"Immune II"								0		0		1		*		*		*		*		*		//Becomes immune to every Debuff Effect.																										
+245		241		*			"Widened I"								0		0		1		*		*		*		*		*		//Greatly increases the Elemental Damage and Elemental Attack Rate temporarily.																																								
+
+//Index	Group	ItemIndex	Name									Save	Type	Flag	Count	Value1	Value2	Value3	Value4
+246		242		*			"Archangel's will"						1		2		0		*		*		*		*		*		//Attack damage and skill damage is increased.																										
+
+247		243		*			"Ferea Party EXP buff"					0		0		1		*		*		*		*		*		//Up to 10%% EXP gain is added on basic EXP/5%% additional EXP per party member.																										
+//Season 12
+248		244		*			"Lunedil's Blessing"					0		0		1		*		*		*		*		*		//EXP Increase Level 1: 5%%																										
+249		244		*			"Lunedil's Blessing"					0		0		1		*		*		*		*		*		//EXP Increase Level 2: 10%%																										
+250		244		*			"Lunedil's Blessing"					0		0		1		*		*		*		*		*		//EXP Increase Level 3: 15%%																										
+251		244		*			"Lunedil's Blessing"					0		0		1		*		*		*		*		*		//EXP Increase Level 4: 25%%																										
+252		244		*			"Lunedil's Blessing"					0		0		1		*		*		*		*		*		//EXP Increase Level 5: 35%%																										
+253		116		7539		"Bless of Light (Greater)"				0		0		1		1800	200		*		*		*		//Earning additional 200%% EXP after quick blessing																										
+254		116		7540		"Bless of Light (Middle Grade)"			0		0		1		1800	100		*		*		*		//Receiving the blessing for a short period of time, you acquire 100%% of basic EXP additionally.																										
+255		116		7541		"Bless of Light (Low Grade)"			0		0		1		1800	50		*		*		*		//Receiving the blessing for a short period of time, you acquire 50%% of basic EXP additionally.																										
+//Season 13
+264		256		*			"Swell Life Enhancement"				0		0		1		*		*		*		*		*		//Increases Swell Life HP																										
+265		257		*			"Mana Shield Enhancement"				0		0		1		*		*		*		*		*		//Increases Mana Shield Damage Reduction																										
+266		258		*			"Berserker Enhancement"					0		0		1		*		*		*		*		*		//Increases Berserker Attack Power																										
+267		259		*			"Berserker Enhancement"					0		0		1		*		*		*		*		*		//Eliminated Berserker Defense Reduction																										
+268		260		*			"Stamina Enhancement"					0		0		1		*		*		*		*		*		//Increases Stamina Effect																										
+269		261		*			"Wrath Enhancement"						0		0		1		*		*		*		*		*		//Increases Wrath Attack Power																										
+270		262		*			"Wrath Enhancement"						0		0		1		*		*		*		*		*		//Wrath defense reduction effect reduced																										
+271		263		*			"Decrease SD Ratio"						0		0		1		*		*		*		*		*		//Decrease SD Ratio																										
+272		264		*			"SD Rise"								0		0		1		*		*		*		*		*		//SD Rise																										
+273		265		*			"Poison"								1		0		1		*		*		*		*		*		//Poison																										
+274		266		*			"Freezing"								1		0		1		*		*		*		*		*		//Freezing																										
+275		267		*			"Bleeding"								1		0		1		*		*		*		*		*		//Bleeding																										
+276		268		*			"Shock"									1		0		1		*		*		*		*		*		//Shock																										
+277		269		*			"Addicted"								1		0		1		*		*		*		*		*		//Addicted																										
+278		270		*			"Freezing"								1		0		1		*		*		*		*		*		//Freezing																										
+279		271		*			"Excessive Bleeding"					1		0		1		*		*		*		*		*		//Excessive Bleeding																										
+280		272		*			"Shock"									1		0		1		*		*		*		*		*		//Shock																										
+281		273		*			"Increased SD Reduction"				0		0		1		*		*		*		*		*		//Increased SD reduction													
+																									
+end

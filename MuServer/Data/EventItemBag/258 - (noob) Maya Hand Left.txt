@@ -1,0 +1,108 @@
+//Index = Referencia a tabela de cima
+//Section = Referencia aos grupos de drop criados
+//MoneyAmount = Quantidade de drop de zen
+//OptionValue: 0 = Nada
+//1 = Fogos de artifício
+//2 = Verificação de classe leva em consideração a party.
+//16 = Adicionar o item ao Gremory Case da conta.
+//32 = Adicionar o item ao Gremory Case do personagem.
+//OBS: Para cumular opções, basta somar os valores.
+//DW, DK, FE, MG, DL, SU, RF e GL:
+//0 = Não pode.
+//1 = Pode.
+//2 = Pode, se tiver primeira evolução.
+//3 = Pode, se tiver segunda evolução. 
+
+3
+//Index	DropRate
+0		10000
+1		5000
+2		5000
+3		2500
+end
+
+4
+//Index	Section	Rate	Money	Option	DW	DK	FE	MG	DL	SU	RF	GL
+0		5		10000	0		1		1	1	1	1	1	1	1	1
+1		20		10000	0		1		1	1	1	1	1	1	1	1
+2		5		10000	0		1		1	1	1	1	1	1	1	1
+3		5		10000	0		1		1	1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duratio	Comment
+
+7184	0	0	*	*	*	*	*	*	*	10	//Jewel of Life
+7190	0	0	*	*	*	*	*	*	*	5	//Jewel of Creation
+7210	0	0	*	*	*	*	*	*	*	5	//Jewel of Harmony
+7199	0	0	*	*	*	*	*	*	*	5	//Jewel of Guardian
+6159	0	0	*	*	*	*	*	*	*	10	//Jewel of Chaos
+7181	0	0	*	*	*	*	*	*	*	10	//Jewel of Bless
+7182	0	0	*	*	*	*	*	*	*	10	//Jewel of Soul
+
+7392	0	0	*	*	*	*	*	*	*	0	//Blessing of Light 200%
+
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+
+6365	0	0	*	*	*	*	*	*	*	0	//Errtel of Anger
+6375	0	0	*	*	*	*	*	*	*	0	//Errtel of Blessing
+6385	0	0	*	*	*	*	*	*	*	0	//Errtel of Integrity
+6395	0	0	*	*	*	*	*	*	*	0	//Errtel of Divinity
+6405	0	0	*	*	*	*	*	*	*	0	//Errtel of Radiance
+
+7667	0	0	*	*	*	*	*	*	*	0	//Jewel of Socket
+7668	0	0	*	*	*	*	*	*	*	0	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	0	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	0	//Jewel of Level
+7671	0	0	*	*	*	*	*	*	*	0	//Jewel of Elemental Slot
+7672	0	0	*	*	*	*	*	*	*	0	//Jewel of Errtel Rank
+7673	0	0	*	*	*	*	*	*	*	0	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	0	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	0	//Jewel of Luck
+7676	0	0	*	*	*	*	*	*	*	0	//Jewel of Errtel Level
+
+//SEED 1
+6244	*	0	55	*	*	*	*	*	*	0	//Seed Fire
+6245	*	0	56	*	*	*	*	*	*	0	//Seed Water
+6246	*	0	57	*	*	*	*	*	*	0	//Seed Ice
+6247	*	0	58	*	*	*	*	*	*	0	//Seed Wind
+6248	*	0	59	*	*	*	*	*	*	0	//Seed Lightning
+6249	*	0	60	*	*	*	*	*	*	0	//Seed Earth
+
+//SEED 2
+6250	*	0	55	*	*	*	*	*	*	0	//Seed Fire
+6251	*	0	56	*	*	*	*	*	*	0	//Seed Water
+6252	*	0	57	*	*	*	*	*	*	0	//Seed Ice
+6253	*	0	58	*	*	*	*	*	*	0	//Seed Wind
+6254	*	0	59	*	*	*	*	*	*	0	//Seed Lightning
+6255	*	0	60	*	*	*	*	*	*	0	//Seed Earth
+
+//SEED 3
+6256	*	0	55	*	*	*	*	*	*	0	//Seed Fire
+6257	*	0	56	*	*	*	*	*	*	0	//Seed Water
+6258	*	0	57	*	*	*	*	*	*	0	//Seed Ice
+6259	*	0	58	*	*	*	*	*	*	0	//Seed Wind
+6260	*	0	59	*	*	*	*	*	*	0	//Seed Lightning
+6261	*	0	60	*	*	*	*	*	*	0	//Seed Earth
+
+//SEED 4
+6262	*	0	55	*	*	*	*	*	*	0	//Seed Fire
+6263	*	0	56	*	*	*	*	*	*	0	//Seed Water
+6264	*	0	57	*	*	*	*	*	*	0	//Seed Ice
+6265	*	0	58	*	*	*	*	*	*	0	//Seed Wind
+6266	*	0	59	*	*	*	*	*	*	0	//Seed Lightning
+6267	*	0	60	*	*	*	*	*	*	0	//Seed Earth
+
+end
+
+20
+//EFFECT	DURATION
+44			3600
+45			3600
+46			3600
+196			3600
+197			3600
+198			3600
+200			3600
+201			3600
+end

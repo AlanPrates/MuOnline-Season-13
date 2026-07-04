@@ -1,0 +1,151 @@
+//OptionValue
+// 1  = fireworks
+// 2  = verificar classe
+// 4  = dropar section toda
+// 8  = sockets
+
+3
+//Index	DropRate
+0		10000	//Set ruud atk DW
+1		10000	//Set ruud atk DK
+2		10000	//Set ruud atk FE
+3		10000	//Set ruud atk MG
+4		10000	//Set ruud atk DL
+5		10000	//Set ruud atk SU
+6		10000	//Set ruud atk RF
+7		10000	//Set ruud atk GL
+8		10000	//Shield
+9		10000	//Rings + Pendant
+end
+
+4
+//Index	Section	SectionRate	MoneyAmount	OptionValue	DW	DK	FE	MG	DL	SU	RF	GL
+0		5		10000		0			14			1	0	0	0	0	0	0	0
+1		6		10000		0			14			0	1	0	0	0	0	0	0
+2		7		10000		0			14			0	0	1	0	0	0	0	0
+3		8		10000		0			14			0	0	0	1	0	0	0	0
+4		9		10000		0			14			0	0	0	0	1	0	0	0
+5		12		10000		0			14			0	0	0	0	0	1	0	0
+6		13		10000		0			14			0	0	0	0	0	0	1	0
+7		14		10000		0			14			0	0	0	0	0	0	0	1
+8		15		10000		0			14			1	1	0	1	1	1	0	1
+9		16		10000		0			14			1	1	1	1	1	1	1	1
+end
+
+//DW
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+2624	15		63		0		254		254		254		255		254		0		*	
+2626	15		63		0		254		254		254		255		254		0		*	
+3774	15		63		9		254		254		254		255		254		0		*
+4286	15		63		9		254		254		254		255		254		0		*
+4798	15		63		9		254		254		254		255		254		0		*
+5310	15		63		9		254		254		254		255		254		0		*
+5822	15		63		0		255		255		255		255		255		0		*
+6558	15		0		0		254		254		254		254		254		15		*	//Asa DW
+end
+
+//DK
+6
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+81		15		63		0		254		254		254		255		254		0		*
+81		15		63		0		254		254		254		255		254		0		*
+3773	15		63		9		254		254		254		255		254		0		*
+4285	15		63		9		254		254		254		255		254		0		*
+4797	15		63		9		254		254		254		255		254		0		*
+5309	15		63		0		255		255		255		255		255		0		*
+5821	15		63		9		254		254		254		255		254		0		*
+6559	15		63		0		254		254		254		254		254		15		*	//Asa DK
+end
+
+//ELF
+7
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+2104	15		63		0		254		254		254		255		254		0		*
+2105	15		63		0		254		254		254		255		254		0		*
+3775	15		63		9		254		254		254		255		254		0		*
+4287	15		63		9		254		254		254		255		254		0		*
+4799	15		63		9		254		254		254		255		254		0		*
+5311	15		63		9		254		254		254		255		254		0		*
+5823	15		63		0		255		255		255		255		255		0		*
+6560	15		0		0		254		254		254		254		254		15		*	//Asa Elf
+end
+
+//MG
+8
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+82		15		63		0		254		254		254		255		254		0		*
+82		15		63		0		254		254		254		255		254		0		*
+4289	15		63		9		254		254		254		255		254		0		*
+4801	15		63		9		254		254		254		255		254		0		*
+5313	15		63		9		254		254		254		255		254		0		*
+5825	15		63		9		254		254		254		255		254		0		*
+6561	15		0		0		254		254		254		254		254		15		*	//Asa MG
+end
+
+//DL
+9
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+1066	15		63		0		254		254		254		255		254		0		*
+1066	15		63		0		254		254		254		255		254		0		*
+3778	15		63		9		254		254		254		255		254		0		*
+4290	15		63		9		254		254		254		255		254		0		*
+4802	15		63		9		254		254		254		255		254		0		*
+5314	15		63		9		254		254		254		255		254		0		*
+5826	15		63		0		255		255		255		255		255		0		*
+6562	15		0		0		254		254		254		254		254		15		*	//Asa DL
+end
+
+//SU
+12
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+2625	15		63		0		254		254		254		255		254		0		*
+2626	15		63		0		254		254		254		255		254		0		*
+3776	15		63		9		254		254		254		255		254		0		*
+4288	15		63		9		254		254		254		255		254		0		*
+4800	15		63		9		254		254		254		255		254		0		*
+5312	15		63		9		254		254		254		255		254		0		*
+5824	15		63		0		255		255		255		255		255		0		*
+6563	15		0		0		254		254		254		254		254		15		*	//Asa SU
+end
+
+//RF
+13
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+83		15		63		0		254		254		254		255		254		0		*
+83		15		63		0		254		254		254		255		254		0		*
+3779	15		63		9		254		254		254		255		254		0		*
+4291	15		63		9		254		254		254		255		254		0		*
+4803	15		63		9		254		254		254		255		254		0		*
+5827	15		63		9		254		254		254		255		254		0		*
+6564	15		0		0		254		254		254		254		254		15		*	//Asa RF
+end
+
+//GL
+14
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+1566	15		63		0		254		254		254		255		254		0		*
+1566	15		63		0		254		254		254		255		254		0		*
+3780	15		63		9		254		254		254		255		254		0		*
+4292	15		63		9		254		254		254		255		254		0		*
+4804	15		63		9		254		254		254		255		254		0		*
+5316	15		63		9		254		254		254		255		254		0		*
+5828	15		63		0		255		255		255		255		255		0		*
+6565	15		0		0		254		254		254		254		254		15		*	//Asa GL
+end
+
+//Shield
+15
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+3121	15		63		0		254		254		254		255		254		0		*
+end
+
+//Rings + Pendants
+16
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+6827	15		63		0		254		254		254		255		254		0		*
+6828	15		63		0		254		254		254		255		254		0		*
+6829	15		63		0		254		254		254		255		254		0		*
+6831	15		63		0		254		254		254		255		254		0		*
+6832	15		63		0		254		254		254		255		254		0		*
+end

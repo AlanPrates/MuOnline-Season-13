@@ -1,0 +1,82 @@
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks
+"Heart of Love"	         1000	      100		       1		        0		         0		        0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+0           2      5          5          0       0      0        0		//Rapier +5
+0           4      5          5          0       0      0        0		//Sword of Assassin +5
+0           3      5          5          0       0      0        0		//katana +5
+0           10     5          5          0       0      0        0		//Light Saber +5
+0           11     5          5          0       0      0        0		//Legendary Sword +5
+0           13     5          5          0       0      0        0		//Double Blade +5
+
+1           1      5          5          0       0      0        0		//Hand Axe +5
+1           2      5          5          0       0      0        0		//Double Axe +5 
+1           5      5          5          0       0      0        0		//Battle Axe +5
+1           6      5          5          0       0      0        0		//Nikea Axe +5
+1           7      5          5          0       0      0        0		//Larkan Axe +5
+
+2           0      5          5          0       0      0        0 		//Mace +5
+2           1      5          5          0       0      0        0 		//Morning Star +5
+2           3      5          5          0       0      0        0 		//Great Hammer +5
+
+3           7      5          5          0       0      0        0		//Berdysh +5
+3           4      5          5          0       0      0        0 		//Serpent Spear +5
+
+4           8      5          5          0       0      0        0		//Crossbow +5
+4           9      5          5          0       0      0        0 		//Golden Crossbow +5
+4           11     5          5          0       0      0        0		//Light Crossbow +5
+4           4      5          5          0       0      0        0 		//Tiger Bow +5
+4           12     5          5          0       0      0        0		//Serpent Crossbow +5
+
+5           0      5          5          0       0      0        0		//Skull Staff +5
+5           3      5          5          0       0      0        0		//Thunder Staff +5 
+
+6           4      5          5          0       0      0        0 		//Buckler +5
+6           1      5          5          0       0      0        0		//Small Shield +5
+6           2      5          5          0       0      0        0 		//Kite Shield +5
+6           5      5          5          0       0      0        0		//Dragon Slayer Shield +5
+6           8      5          5          0       0      0        0		//Tower Shield +5
+
+7           5      5          5          0       0      0        0 		//Leather Helm +5
+7           2      5          5          0       0      0        0 		//Pad Helm +5
+7           0      5          5          0       0      0        0 		//Bronze Helm +5
+7           12     5          5          0       0      0        0 		//Wind Helm +5
+7           13     5          5          0       0      0        0 		//Spirit Helm +5
+7           7      5          5          0       0      0        0 		//Sphinx Mask +5
+
+8           5      5          5          0       0      0        0 		//Leather Armor +5
+8           2      5          5          0       0      0        0 		//Pad Armor +5
+8           0      5          5          0       0      0        0 		//Bronze Armor +5
+8           12     5          5          0       0      0        0 		//Wind Armor +5
+8           13     5          5          0       0      0        0 		//Spirit Armor +5
+8           7      5          5          0       0      0        0 		//Sphinx Armor +5
+
+9           5      5          5          0       0      0        0 		//Leather Pants +5
+9           2      5          5          0       0      0        0 		//Pad Pants +5
+9           0      5          5          0       0      0        0 		//Bronze Pants +5
+9           12     5          5          0       0      0        0 		//Wind Pants +5
+9           13     5          5          0       0      0        0 		//Spirit Pants +5
+9           7      5          5          0       0      0        0 		//Sphinx Pants +5
+
+10          5      5          5          0       0      0        0 		//Leather Gloves +5
+10          2      5          5          0       0      0        0 		//Pad Gloves +5
+10          0      5          5          0       0      0        0 		//Bronze Gloves +5
+10          12     5          5          0       0      0        0 		//Wind Gloves +5
+10          13     5          5          0       0      0        0 		//Spirit Gloves +5
+10          7      5          5          0       0      0        0 		//Sphinx Gloves +5
+
+11          5      5          5          0       0      0        0 		//Leather Boots +5
+11          2      5          5          0       0      0        0 		//Pad Boots +5
+11          0      5          5          0       0      0        0 		//Bronze Boots +5
+11          12     5          5          0       0      0        0 		//Wind Boots +5
+11          13     5          5          0       0      0        0 		//Spirit Boots +5
+11          7      5          5          0       0      0        0 		//Sphinx Boots +5
+
+12          15     0          0          0       0      0        0		//Jewel of Chaos
+
+14          13     0          0          0       0      0        0		//Jewel of Bless
+14          14     0          0          0       0      0        0		//Jewel of Soul
+end

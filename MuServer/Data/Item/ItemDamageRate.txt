@@ -1,0 +1,142 @@
+//Type	ID	%DeDano	NomeParaReferencia
+
+0	51	106	//MUFC Divine Arch Sword
+0	60	106	//MUFC Divine Claws
+2	25	106	//MUFC Divine Scepter Arch
+3	26	106	//MUFC Divine Lance
+4	30	106	//MUFC Divine Arch Crossbow
+5	49	106	//MUFC Divine Staff Arch
+5	50	106	//MUFC Divine Stick Arch
+
+0	42	101	//Bloodangel Sword
+0	44	101	//Bloodangel Magic Sword
+0	46	101	//Bloodangel Claws
+2	22	101	//Bloodangel Scepter
+3	19	101	//Bloodangel Lance
+4	28	101	//Bloodangel Bow
+5	41	101	//Bloodangel Staff
+5	43	101	//Bloodangel Stick
+
+0	54	102	//Darkangel Sword
+0	55	102	//Darkangel Magic Sword
+0	56	102	//Darkangel Claws
+2	26	102	//Darkangel Scepter
+3	19	102	//Darkangel Lance
+4	31	102	//Darkangel Bow
+5	51	102	//Darkangel Staff
+5	52	102	//Darkangel Stick
+
+0	57	103	//Holyangel Sword
+0	58	103	//Holyangel Magic Sword
+0	59	103 //Holyangel Claws
+2	27	103	//Holyangel Scepter
+3	19	103	//Holyangel Lance
+4	36	103	//Holyangel Bow
+5	53	103	//Holyangel Staff
+5	54	103	//Holyangel Stick
+
+0	62	104	//Soul Sword
+0	63	104	//Soul Magic Sword
+0	64	104	//Soul Claws
+2	36	104	//Soul Scepter
+3	28	104	//Soul Lance
+4	38	104	//Soul Bow
+4	39	104	//Soul Quiver
+5	55	104	//Soul Staff
+5	55	104	//Soul Stick
+5	60	104	//Soul Book
+
+0	78	105	//Blue Eye Sword
+0	79	105	//Blue Eye Magic Sword
+0	80	105	//Blue Eye Claws
+2	40	105	//Blue Eye Scepter
+3	29	105	//Blue Eye Lance
+4	40	105	//Blue Eye Bow
+4	41	105	//Blue Eye Quiver
+5	61	105	//Blue Eye Staff
+5	62	105	//Blue Eye Stick
+5	63	105	//Blue Eye Book
+
+0	81	106	//Silver Heart Sword
+0	82	106	//Silver Heart Magic Sword
+0	83	106	//Silver Heart Claws
+2	42	106	//Silver Heart Scepter
+3	30	106	//Silver Heart Lance
+4	56	106	//Silver Heart Bow
+4	57	106	//Silver Heart Quiver
+5	64	106	//Silver Heart Staff
+5	65	106	//Silver Heart Stick
+5	66	106	//Silver Heart Book
+
+6	44	98	//Bloodangel Shield
+6	45	96	//Darkangel Shield
+6	46	94	//Holyangel Shield
+6	47	92	//Soul Shield
+6	48	90	//Blue Eye Shield
+6	49	88	//Silver Heart Shield
+
+//Sets
+8	98	97	//Bloodangel Knight Armor
+8	99	97	//Bloodangel Wizard Armor
+8	100	97	//Bloodangel Elf Armor 1
+8	158	97	//Bloodangel Elf Armor 2
+8	101	97	//Bloodangel Summoner Armor
+8	102	97	//Bloodangel Magic Armor 1
+8	161	97	//Bloodangel Magic Armor 2
+8	103	97	//Bloodangel Lord Armor
+8	104	97	//Bloodangel Fighter Armor
+8	105	97	//Bloodangel Lancer Armor
+
+8	138	94	//Darkangel Knight Armor
+8	139	94	//Darkangel Wizard Armor
+8	140	94	//Darkangel Elf Armor 1
+8	159	94	//Darkangel Elf Armor 2
+8	141	94	//Darkangel Summoner Armor
+8	142	94	//Darkangel Magic Armor 1
+8	162	94	//Darkangel Magic Armor 2
+8	143	94	//Darkangel Lord Armor
+8	144	94	//Darkangel Fighter Armor
+8	145	94	//Darkangel Lancer Armor
+
+8	150	91	//Holyangel Knight Armor
+8	151	91	//Holyangel Wizard Armor
+8	152	91	//Holyangel Elf Armor 1
+8	153	91	//Holyangel Summoner Armor
+8	154	91	//Holyangel Magic Armor 1
+8	155	91	//Holyangel Lord Armor
+8	156	91	//Holyangel Fighter Armor
+8	157	91	//Holyangel Lancer Armor
+8	160	91	//Holyangel Elf Armor 2
+8	163	91	//Holyangel Magic Armor 2
+
+8	106	88	//Soul Knight Armor
+8	107	88	//Soul Wizard Armor
+8	108	88	//Soul Elf Armor
+8	109	88	//Soul Summoner Armor
+8	110	88	//Soul Magic Armor
+8	111	88	//Soul Lord Armor
+8	112	88	//Soul Fighter Armor
+8	113	88	//Soul Lancer Armor
+8	114	88	//Soul Elf Armor
+8	115	88	//Soul Magic Armor
+
+8	164	85	//Blue Eye Knight Armor
+8	165	85	//Blue Eye Wizard Armor
+8	166	85	//Blue Eye Elf Armor
+8	167	85	//Blue Eye Summoner Armor
+8	168	85	//Blue Eye Magic Armor
+8	169	85	//Blue Eye Lord Armor
+8	170	85	//Blue Eye Fighter Armor
+8	171	85	//Blue Eye Lancer Armor
+8	172	85	//Blue Eye Elf Armor
+8	173	85	//Blue Eye Magic Armor
+
+8	189	82	//Silver Heart Knight Armor
+8	190	82	//Silver Heart Wizard Armor
+8	191	82	//Silver Heart Elf Armor
+8	192	82	//Silver Heart Summoner Armor
+8	193	82	//Silver Heart Magic Armor
+8	194	82	//Silver Heart Lord Armor
+8	195	82	//Silver Heart Fighter Armor
+8	196	82	//Silver Heart Lancer Armor
+8	197	82	//Silver Heart Elf Armor

@@ -1,0 +1,56 @@
+0
+//WarningTime   NotifyTime   EventTime   CloseTime
+5               1            20          4         
+end
+
+1
+//Year   Month   Day   DoW   Hour   Minute   Second
+*        *       *     *     1      00       0
+*        *       *     *     3      00       0
+*        *       *     *     5      00       0
+*        *       *     *     7      00       0
+*        *       *     *     9      00       0
+*        *       *     *     11     00       0
+*        *       *     *     13     00       0
+*        *       *     *     15     00       0
+*        *       *     *     17     00       0
+*        *       *     *     19     00       0
+*        *       *     *     21     00       0
+*        *       *     *     23     00       0
+end
+
+//Reward Experience
+2
+//Level   RewardExperience1   RewardExperience2   RewardExperience3   RewardExperience4   RewardExperience5   RewardExperience6   RewardExperience7   RewardExperience8   RewardExperience9   RewardExperience10
+0         6000                4000                4000                2000                2000                2000                1000                1000                1000                1000
+1         8000                6000                6000                4000                4000                4000                2000                2000                2000                2000
+2         10000               8000                8000                6000                6000                6000                4000                4000                4000                4000
+3         20000               10000               10000               8000                8000                8000                6000                6000                6000                6000
+4         22000               20000               20000               10000               10000               10000               8000                8000                8000                8000
+5         24000               22000               22000               20000               20000               20000               10000               10000               10000               10000
+6         26000               24000               24000               22000               22000               22000               20000               20000               20000               20000
+end
+
+//Reward Zen
+3
+//Level   RewardMoney1   RewardMoney2   RewardMoney3   RewardMoney4   RewardMoney5   RewardMoney6   RewardMoney7   RewardMoney8   RewardMoney9   RewardMoney10
+0         30000          25000          25000          20000          20000          20000          15000          15000          15000          15000
+1         40000          35000          35000          30000          30000          30000          25000          25000          25000          25000
+2         50000          45000          45000          40000          40000          40000          35000          35000          35000          35000
+3         60000          55000          55000          50000          50000          50000          45000          45000          45000          45000
+4         70000          65000          65000          60000          60000          60000          55000          55000          55000          55000
+5         80000          75000          75000          70000          70000          70000          65000          65000          65000          65000
+6         150000         140000         140000         120000         120000         120000         90000          90000          90000          90000
+end
+
+//Reward Item
+4
+//Level   RewardItem1   RewardItem1Qnt   RewardItem2   RewardItem2Qnt   RewardItem3   RewardItem3Qnt   RewardItem4   RewardItem4Qnt   RewardItem5   RewardItem5Qnt   RewardItem6   RewardItem6Qnt   RewardItem7   RewardItem7Qnt   RewardItem8   RewardItem8Qnt   RewardItem9   RewardItem9Qnt   RewardItem10   RewardItem10Qnt   
+0         -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1
+1         -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1
+2         -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1               -1            -1
+3         7452          1                7451          1                7451          1                7451          1                7450          1                7450          1                7450          1                7450          1                7450          1                7450          1
+4         7452          1                7451          1                7451          1                7451          1                7450          1                7450          1                7450          1                7450          1                7450          1                7450          1
+5         7452          1                7451          1                7451          1                7451          1                7450          1                7450          1                7450          1                7450          1                7450          1                7450          1
+6         7452          1                7451          1                7451          1                7451          1                7450          1                7450          1                7450          1                7450          1                7450          1                7450          1
+end

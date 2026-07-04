@@ -1,0 +1,362 @@
+//////////////////////////////////////////////
+// Level1: Val+(Min < Ene > Max)/Level
+// Level2: Val+((Min < Ene > Max)-Min)/Level
+//////////////////////////////////////////////
+[CLASS_DW]
+///////////////////////////////
+// Level1
+/////////
+//PVP
+AtkAgilityMinPVP1 = 1
+AtkAgilityMaxPVP1 = 6000
+AtkAgilityLevelPVP1 = 150
+AtkAgilityValPVP1 = 0
+//PVM
+AtkAgilityMinPVM1 = 1
+AtkAgilityMaxPVM1 = 6000
+AtkAgilityLevelPVM1 = 150
+AtkAgilityValPVM1 = 0
+/////////
+// Level2
+/////////
+//PVP
+AtkAgilityMinPVP2 = 6000
+AtkAgilityMaxPVP2 = 8000
+AtkAgilityLevelPVP2 = 25
+AtkAgilityValPVP2 = 10
+//PVM
+AtkAgilityMinPVM2 = 6000
+AtkAgilityMaxPVM2 = 8000
+AtkAgilityLevelPVM2 = 25
+AtkAgilityValPVM2 = 10
+/////////
+// Level3
+/////////
+//PVP
+AtkAgilityMinPVP3 = 8000
+AtkAgilityMaxPVP3 = 65535
+AtkAgilityLevelPVP3 = 66
+AtkAgilityValPVP3 = 30
+//PVM
+AtkAgilityMinPVM3 = 8000
+AtkAgilityMaxPVM3 = 65535
+AtkAgilityLevelPVM3 = 66
+AtkAgilityValPVM3 = 30
+/////////
+// Level1
+/////////
+MagicEnergyMin1 = 1
+MagicEnergyMax1 = 6000
+MagicEnergyLevel1 = 150
+MagicEnergyVal1 = 0
+/////////
+// Level2
+/////////
+MagicEnergyMin2 = 6000
+MagicEnergyMax2 = 8000
+MagicEnergyLevel2 = 25
+MagicEnergyVal2 = 10
+/////////
+// Level3
+/////////
+MagicEnergyMin3 = 8000
+MagicEnergyMax3 = 65535
+MagicEnergyLevel3 = 66
+MagicEnergyVal3 = 30
+///////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+[CLASS_DK]
+/////////
+// Level1
+/////////
+AtkStrengthMin1 = 1
+AtkStrengthMax1 = 6000
+AtkStrengthLevel1 = 150
+AtkStrengthVal1 = 0
+/////////
+// Level2
+/////////
+AtkStrengthMin2 = 6000
+AtkStrengthMax2 = 8000
+AtkStrengthLevel2 = 25
+AtkStrengthVal2 = 10
+/////////
+// Level3
+/////////
+AtkStrengthMin3 = 8000
+AtkStrengthMax3 = 65535
+AtkStrengthLevel3 = 66
+AtkStrengthVal3 = 30
+
+/////////
+// Level1
+/////////
+DefAgilityMin1 = 1
+DefAgilityMax1 = 6000
+DefAgilityLevel1 = 150
+DefAgilityVal1 = 0
+/////////
+// Level2
+/////////
+DefAgilityMin2 = 6000
+DefAgilityMax2 = 8000
+DefAgilityLevel2 = 25
+DefAgilityVal2 = 10
+/////////
+// Level3
+/////////
+DefAgilityMin3 = 8000
+DefAgilityMax3 = 65535
+DefAgilityLevel3 = 66
+DefAgilityVal3 = 30
+
+[CLASS_FE]
+/////////
+// Level1
+/////////
+AtkAgilityMin1 = 1
+AtkAgilityMax1 = 7200
+AtkAgilityLevel1 = 180
+AtkAgilityVal1 = 0
+/////////
+// Level2
+/////////
+AtkAgilityMin2 = 7200
+AtkAgilityMax2 = 8400
+AtkAgilityLevel2 = 15
+AtkAgilityVal2 = 10
+/////////
+// Level3
+/////////
+AtkAgilityMin3 = 8400
+AtkAgilityMax3 = 65535
+AtkAgilityLevel3 = 45
+AtkAgilityVal3 = 30
+/////////
+// Level1
+/////////
+DefAgilityMinPVP1 = 1
+DefAgilityMaxPVP1 = 7200
+DefAgilityLevelPVP1 = 180
+DefAgilityValPVP1 = 0
+DefAgilityMinPVM1 = 1
+DefAgilityMaxPVM1 = 7200
+DefAgilityLevelPVM1 = 180
+DefAgilityValPVM1 = 0
+/////////
+// Level2
+/////////
+DefAgilityMinPVP2 = 7200
+DefAgilityMaxPVP2 = 8400
+DefAgilityLevelPVP2 = 15
+DefAgilityValPVP2 = 10
+DefAgilityMinPVM2 = 7200
+DefAgilityMaxPVM2 = 8400
+DefAgilityLevelPVM2 = 15
+DefAgilityValPVM2 = 10
+/////////
+// Level3
+/////////
+DefAgilityMinPVP3 = 8400
+DefAgilityMaxPVP3 = 65535
+DefAgilityLevelPVP3 = 45
+DefAgilityValPVP3 = 30
+DefAgilityMinPVM3 = 8400
+DefAgilityMaxPVM3 = 65535
+DefAgilityLevelPVM3 = 45
+DefAgilityValPVM3 = 30
+[CLASS_MG]
+/////////
+// Level1
+/////////
+AtkStrengthMin1 = 1
+AtkStrengthMax1 = 6000
+AtkStrengthLevel1 = 150
+AtkStrengthVal1 = 0
+/////////
+// Level2
+/////////
+AtkStrengthMin2 = 6000
+AtkStrengthMax2 = 8000
+AtkStrengthLevel2 = 25
+AtkStrengthVal2 = 10
+/////////
+// Level3
+/////////
+AtkStrengthMin3 = 8000
+AtkStrengthMax3 = 65535
+AtkStrengthLevel3 = 66
+AtkStrengthVal3 = 30
+/////////
+// Level1
+/////////
+MagicEnergyMin1 = 1
+MagicEnergyMax1 = 7200
+MagicEnergyLevel1 = 180
+MagicEnergyVal1 = 0
+/////////
+// Level2
+/////////
+MagicEnergyMin2 = 7200
+MagicEnergyMax2 = 8400
+MagicEnergyLevel2 = 15
+MagicEnergyVal2 = 10
+/////////
+// Level3
+/////////
+MagicEnergyMin3 = 8400
+MagicEnergyMax3 = 65535
+MagicEnergyLevel3 = 45
+MagicEnergyVal3 = 30
+[CLASS_DL]
+/////////
+// Level1
+/////////
+AtkStrengthMin1 = 1
+AtkStrengthMax1 = 6000
+AtkStrengthLevel1 = 150
+AtkStrengthVal1 = 0
+/////////
+// Level2
+/////////
+AtkStrengthMin2 = 6000
+AtkStrengthMax2 = 8000
+AtkStrengthLevel2 = 25
+AtkStrengthVal2 = 10
+/////////
+// Level3
+/////////
+AtkStrengthMin3 = 8000
+AtkStrengthMax3 = 65535
+AtkStrengthLevel3 = 66
+AtkStrengthVal3 = 30
+/////////
+// Level1
+/////////
+DefAgilityMin1 = 1
+DefAgilityMax1 = 6000
+DefAgilityLevel1 = 150
+DefAgilityVal1 = 0
+/////////
+// Level2
+/////////
+DefAgilityMin2 = 6000
+DefAgilityMax2 = 8000
+DefAgilityLevel2 = 25
+DefAgilityVal2 = 10
+/////////
+// Level3
+/////////
+DefAgilityMin3 = 8000
+DefAgilityMax3 = 65535
+DefAgilityLevel3 = 66
+DefAgilityVal3 = 30
+[CLASS_SU]
+/////////
+// Level1
+/////////
+MagicEnergyMin1 = 1
+MagicEnergyMax1 = 6000
+MagicEnergyLevel1 = 150
+MagicEnergyVal1 = 0
+/////////
+// Level2
+/////////
+MagicEnergyMin2 = 6000
+MagicEnergyMax2 = 8000
+MagicEnergyLevel2 = 25
+MagicEnergyVal2 = 10
+/////////
+// Level3
+/////////
+MagicEnergyMin3 = 8000
+MagicEnergyMax3 = 65535
+MagicEnergyLevel3 = 66
+MagicEnergyVal3 = 30
+/////////
+// Level1
+/////////
+CurseEnergyMin1 = 1
+CurseEnergyMax1 = 6000
+CurseEnergyLevel1 = 150
+CurseEnergyVal1 = 0
+/////////
+// Level2
+/////////
+CurseEnergyMin2 = 6000
+CurseEnergyMax2 = 8000
+CurseEnergyLevel2 = 25
+CurseEnergyVal2 = 10
+/////////
+// Level3
+/////////
+CurseEnergyMin3 = 8000
+CurseEnergyMax3 = 65535
+CurseEnergyLevel3 = 66
+CurseEnergyVal3 = 30
+[CLASS_RF]
+/////////
+// Level1
+/////////
+AtkStrengthMin1 = 1
+AtkStrengthMax1 = 6000
+AtkStrengthLevel1 = 150
+AtkStrengthVal1 = 0
+/////////
+// Level2
+/////////
+AtkStrengthMin2 = 6000
+AtkStrengthMax2 = 8000
+AtkStrengthLevel2 = 25
+AtkStrengthVal2 = 10
+/////////
+// Level3
+/////////
+AtkStrengthMin3 = 8000
+AtkStrengthMax3 = 65535
+AtkStrengthLevel3 = 66
+AtkStrengthVal3 = 30
+[CLASS_GL]
+/////////
+// Level1
+/////////
+AtkStrengthMin1 = 1
+AtkStrengthMax1 = 6000
+AtkStrengthLevel1 = 150
+AtkStrengthVal1 = 0
+/////////
+// Level2
+/////////
+AtkStrengthMin2 = 6000
+AtkStrengthMax2 = 8000
+AtkStrengthLevel2 = 25
+AtkStrengthVal2 = 10
+/////////
+// Level3
+/////////
+AtkStrengthMin3 = 8000
+AtkStrengthMax3 = 65535
+AtkStrengthLevel3 = 66
+AtkStrengthVal3 = 30
+
+/////////
+// Level1
+/////////
+DefAgilityMin1 = 1
+DefAgilityMax1 = 6000
+DefAgilityLevel1 = 150
+DefAgilityVal1 = 0
+/////////
+// Level2
+/////////
+DefAgilityMin2 = 6000
+DefAgilityMax2 = 8000
+DefAgilityLevel2 = 25
+DefAgilityVal2 = 10
+/////////
+// Level3
+/////////
+DefAgilityMin3 = 8000
+DefAgilityMax3 = 65535
+DefAgilityLevel3 = 66
+DefAgilityVal3 = 30

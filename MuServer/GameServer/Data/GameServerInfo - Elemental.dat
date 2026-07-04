@@ -1,0 +1,227 @@
+[GameServerInfo]
+;==================================================
+; Character Elemental Damage Rate Settings
+;==================================================
+DuelElementalDamageRate = 100
+GensElementalDamageRate = 100
+CustomArenaElementalDamageRate = 100
+ChaosCastleElementalDamageRate = 100
+IllusionTempleElementalDamageRate = 100
+
+CastleSiegeElementalDamageRate = 50
+
+GeneralElementalDamageRatePvP = 1
+GeneralElementalDamageRatePvM = 100
+
+DWElementalDamageRatePvM = 100
+DKElementalDamageRatePvM = 100
+FEElementalDamageRatePvM = 100
+MGElementalDamageRatePvM = 100
+DLElementalDamageRatePvM = 100
+SUElementalDamageRatePvM = 100
+RFElementalDamageRatePvM = 100
+GLElementalDamageRatePvM = 100
+
+;==================================================
+; Character Class Elemental Damage Rate Settings
+;==================================================
+DWElementalDamageRatePvP = 1	;OK
+DKElementalDamageRatePvP = 1	;OK
+FEElementalDamageRatePvP = 1	;OK
+MGElementalDamageRatePvP = 1	;OK
+DLElementalDamageRatePvP = 1	;OK
+SUElementalDamageRatePvP = 1	;OK
+RFElementalDamageRatePvP = 1	;OK
+GLElementalDamageRatePvP = 1	;OK
+
+
+;==================================================
+; Character Class x Class Elemental Damage Rate Settings
+;==================================================
+
+;100ms
+DWElementalDamageRateToDW = 100 ;OK 4106
+DWElementalDamageRateToDK = 93  ;OK 3921
+DWElementalDamageRateToFE = 118 ;OK 3923
+DWElementalDamageRateToMG = 109 ;OK 3868
+DWElementalDamageRateToDL = 96  ;OK 4149
+DWElementalDamageRateToSU = 126 ;OK 4023
+DWElementalDamageRateToRF = 93  ;OK 3879
+DWElementalDamageRateToGL = 96  ;OK 4074
+
+;100ms
+DKElementalDamageRateToDW = 108 ;OK 4155
+DKElementalDamageRateToDK = 101 ;OK 4014
+DKElementalDamageRateToFE = 137 ;OK 4049
+DKElementalDamageRateToMG = 123 ;OK 3949
+DKElementalDamageRateToDL = 101 ;OK 4135
+DKElementalDamageRateToSU = 145 ;OK 4064
+DKElementalDamageRateToRF = 99  ;OK 3883
+DKElementalDamageRateToGL = 91  ;OK 4143
+
+;80ms
+FEElementalDamageRateToDW = 86  ;OK 3309
+FEElementalDamageRateToDK = 80  ;OK 3159
+FEElementalDamageRateToFE = 102 ;OK 3195
+FEElementalDamageRateToMG = 92  ;OK 3070
+FEElementalDamageRateToDL = 81  ;OK 3276
+FEElementalDamageRateToSU = 106 ;OK 3192
+FEElementalDamageRateToRF = 78  ;OK 3047
+FEElementalDamageRateToGL = 81  ;OK 3218
+
+;100ms
+MGElementalDamageRateToDW = 98  ;OK 4147
+MGElementalDamageRateToDK = 90  ;OK 3978
+MGElementalDamageRateToFE = 137 ;OK 3983
+MGElementalDamageRateToMG = 118 ;OK 3879
+MGElementalDamageRateToDL = 90  ;OK 4138
+MGElementalDamageRateToSU = 149 ;OK 3999
+MGElementalDamageRateToRF = 89  ;OK 3864
+MGElementalDamageRateToGL = 92  ;OK 4108
+
+;80ms
+DLElementalDamageRateToDW = 108 ;OK 3360
+DLElementalDamageRateToDK = 96  ;OK 3113
+DLElementalDamageRateToFE = 145 ;OK 3169
+DLElementalDamageRateToMG = 126 ;OK 3088
+DLElementalDamageRateToDL = 99  ;OK 3334
+DLElementalDamageRateToSU = 156 ;OK 3163
+DLElementalDamageRateToRF = 97  ;OK 3093
+DLElementalDamageRateToGL = 100 ;OK 3276
+
+;100ms
+SUElementalDamageRateToDW = 76  ;OK 4173
+SUElementalDamageRateToDK = 70  ;OK 3966
+SUElementalDamageRateToFE = 94  ;OK 3998
+SUElementalDamageRateToMG = 84  ;OK 3871
+SUElementalDamageRateToDL = 71  ;OK 4142
+SUElementalDamageRateToSU = 98  ;OK 3963
+SUElementalDamageRateToRF = 69  ;OK 3860
+SUElementalDamageRateToGL = 72  ;OK 4111
+
+;100ms
+RFElementalDamageRateToDW = 101 ;OK 4193
+RFElementalDamageRateToDK = 94  ;OK 4035
+RFElementalDamageRateToFE = 127 ;OK 4013
+RFElementalDamageRateToMG = 114 ;OK 3926
+RFElementalDamageRateToDL = 93  ;OK 4116
+RFElementalDamageRateToSU = 135 ;OK 4037
+RFElementalDamageRateToRF = 91  ;OK 3852
+RFElementalDamageRateToGL = 97  ;OK 4197
+
+;80ms
+GLElementalDamageRateToDW = 99  ;OK 3330
+GLElementalDamageRateToDK = 90  ;OK 3154
+GLElementalDamageRateToFE = 133 ;OK 3156
+GLElementalDamageRateToMG = 115 ;OK 3054
+GLElementalDamageRateToDL = 89  ;OK 3238
+GLElementalDamageRateToSU = 144 ;OK 3172
+GLElementalDamageRateToRF = 89  ;OK 3067
+GLElementalDamageRateToGL = 93  ;OK 3292
+
+;==================================================
+; Character Elemental Defense Settings
+; Agility/A
+;==================================================
+
+DWElementalDefenseConstA = 4
+DKElementalDefenseConstA = 4
+FEElementalDefenseConstA = 10
+MGElementalDefenseConstA = 4
+DLElementalDefenseConstA = 7
+SUElementalDefenseConstA = 3
+RFElementalDefenseConstA = 8
+GLElementalDefenseConstA = 12
+
+;==================================================
+; Character Elemental Damage Settings
+;==================================================
+// DW Energy / A
+// DK Strength / A
+// FE Agility / A
+// MG Strength / A
+// DL Strength / A
+// SU Energy / A
+// RF Strength / A
+// GL Strength / A
+
+DWElementalDamageMinConstA = 7
+DWElementalDamageMaxConstA = 4
+
+DKElementalDamageMinConstA = 7
+DKElementalDamageMaxConstA = 4
+
+FEElementalDamageMinConstA = 7
+FEElementalDamageMaxConstA = 4
+
+MGElementalDamageMinConstA = 7
+MGElementalDamageMaxConstA = 4
+
+DLElementalDamageMinConstA = 7
+DLElementalDamageMaxConstA = 4
+
+SUElementalDamageMinConstA = 7
+SUElementalDamageMaxConstA = 4
+
+RFElementalDamageMinConstA = 7
+RFElementalDamageMaxConstA = 4
+
+GLElementalDamageMinConstA = 7
+GLElementalDamageMaxConstA = 4
+
+;==================================================
+; Character Elemental Attack Success Rate Settings
+; ((Level + Master) * A) + (Strength / B) + ((Agility * C) / D)
+;==================================================
+
+DWElementalAttackSuccessRateConstA = 500
+DWElementalAttackSuccessRateConstB = 4
+DWElementalAttackSuccessRateConstC = 3
+DWElementalAttackSuccessRateConstD = 2
+
+DKElementalAttackSuccessRateConstA = 500
+DKElementalAttackSuccessRateConstB = 4
+DKElementalAttackSuccessRateConstC = 3
+DKElementalAttackSuccessRateConstD = 2
+
+FEElementalAttackSuccessRateConstA = 500
+FEElementalAttackSuccessRateConstB = 4
+FEElementalAttackSuccessRateConstC = 3
+FEElementalAttackSuccessRateConstD = 2
+
+MGElementalAttackSuccessRateConstA = 500
+MGElementalAttackSuccessRateConstB = 4
+MGElementalAttackSuccessRateConstC = 3
+MGElementalAttackSuccessRateConstD = 2
+
+DLElementalAttackSuccessRateConstA = 500
+DLElementalAttackSuccessRateConstB = 4
+DLElementalAttackSuccessRateConstC = 3
+DLElementalAttackSuccessRateConstD = 2
+
+SUElementalAttackSuccessRateConstA = 500
+SUElementalAttackSuccessRateConstB = 4
+SUElementalAttackSuccessRateConstC = 3
+SUElementalAttackSuccessRateConstD = 2
+
+RFElementalAttackSuccessRateConstA = 500
+RFElementalAttackSuccessRateConstB = 4
+RFElementalAttackSuccessRateConstC = 3
+RFElementalAttackSuccessRateConstD = 2
+
+GLElementalAttackSuccessRateConstA = 500
+GLElementalAttackSuccessRateConstB = 4
+GLElementalAttackSuccessRateConstC = 3
+GLElementalAttackSuccessRateConstD = 2
+
+;==================================================
+; Character Elemental Defense Success Rate Settings - Agi/Dexterity
+;==================================================
+DWElementalDefenseSuccessRateConstA = 1000
+DKElementalDefenseSuccessRateConstA = 1000
+FEElementalDefenseSuccessRateConstA = 1000
+MGElementalDefenseSuccessRateConstA = 1000
+DLElementalDefenseSuccessRateConstA = 1000
+SUElementalDefenseSuccessRateConstA = 1000
+RFElementalDefenseSuccessRateConstA = 1000
+GLElementalDefenseSuccessRateConstA = 1000

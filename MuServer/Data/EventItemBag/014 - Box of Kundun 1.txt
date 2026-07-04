@@ -1,0 +1,93 @@
+// DropZen = Quantidade do zen que irá cair no chão de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, será 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 até 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que serão dropados)
+// SetItemDropRate =   0 até 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleatórios)
+// Fireworks =         0 ou 1 (0 = Não vai soltar fogos quando dropar)
+
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Box of Kundun 1"	 	  100000	   100		 	 1		 		 0		    		1		   	  0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+0           0      0          0          0       1      1        1      //Kris +0 +luck +1option(Aleatório) +1exc(Aleatório)
+0           3      0          0          1       1      1        1      //Katana +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+0           13     0          0          1       1      1        1      //Double Blade +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+0           9      0          0          1       1      1        1      //Sword of Salamander +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+0           12     0          0          1       1      1        1      //Heliacal Sword +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+1           3      0          0          1       1      1        1      //Tomahawk +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+2           8      0          0          1       1      1        1      //Battle Scepter +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+4           2      0          0          1       1      1        1      //Elven Bow +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+4           4      0          0          1       1      1        1      //Tiger Bow +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+4           10     0          0          1       1      1        1      //Arquebus +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+4           13     0          0          1       1      1        1      //Bluewing Crossbow +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+5           1      0          0          0       1      1        1      //Angelic Staff +0 +luck +1option(Aleatório) +1exc(Aleatório)
+5           4      0          0          0       1      1        1      //Gorgon Staff +0 +luck +1option(Aleatório) +1exc(Aleatório)
+5           14     0          0          0       1      1        1      //Mystery Stick +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+6           4      0          0          1       1      1        1      //Buckler +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+6           6      0          0          1       1      1        1      //Skull Shield +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+6           7      0          0          1       1      1        1      //Spiked Shield +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           5      0          0          0       1      1        1      //Leather Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           5      0          0          0       1      1        1      //Leather Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           5      0          0          0       1      1        1      //Leather Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          5      0          0          0       1      1        1      //Leather Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          5      0          0          0       1      1        1      //Leather Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           9      0          0          0       1      1        1      //Plate Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           9      0          0          0       1      1        1      //Plate Amor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           9      0          0          0       1      1        1      //Plate Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          9      0          0          0       1      1        1      //Plate Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          9      0          0          0       1      1        1      //Plate Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           2      0          0          0       1      1        1      //Pad Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           2      0          0          0       1      1        1      //Pad Amor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           2      0          0          0       1      1        1      //Pad Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          2      0          0          0       1      1        1      //Pad Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          2      0          0          0       1      1        1      //Pad Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           7      0          0          0       1      1        1      //Sphinx Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           7      0          0          0       1      1        1      //Sphinx Amor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           7      0          0          0       1      1        1      //Sphinx Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          7      0          0          0       1      1        1      //Sphinx Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          7      0          0          0       1      1        1      //Sphinx Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           10     0          0          0       1      1        1      //Vine Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           10     0          0          0       1      1        1      //Vine Amor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           10     0          0          0       1      1        1      //Vine Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          10     0          0          0       1      1        1      //Vine Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          10     0          0          0       1      1        1      //Vine Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           13     0          0          0       1      1        1      //Spirit Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           13     0          0          0       1      1        1      //Spirit Amor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           13     0          0          0       1      1        1      //Spirit Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          13     0          0          0       1      1        1      //Spirit Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          13     0          0          0       1      1        1      //Spirit Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           39     0          0          0       1      1        1      //Violent Wind Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           39     0          0          0       1      1        1      //Violent Amor Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           39     0          0          0       1      1        1      //Violent Pants Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          39     0          0          0       1      1        1      //Violent Gloves Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          39     0          0          0       1      1        1      //Violent Boots Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+14          19     1          1          0       0      0        0      //Devils Invitation
+13          18     1          1          0       0      0        0      //Invisibility Cloak
+14          28     1          1          0       0      0        0      //Lost Map
+
+12          15     0          0          0       0      0        0	//Jewel of Chaos
+14          13     0          0          0       0      0        0	//Jewel of Bless
+14          14     0          0          0       0      0        0	//Jewel of Soul
+14          16     0          0          0       0      0        0	//Jewel of Life
+14          42     0          0          0       0      0        0	//Jewel of Harmony
+14          22     0          0          0       0      0        0	//Jewel of Creation
+
+end

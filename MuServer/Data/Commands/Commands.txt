@@ -1,0 +1,85 @@
+//=====================================
+// GAMEMASTER COMMANDS
+//=====================================
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+//	Id	Command		Level	Sintax					Description
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	1	"/gmove"	0	// /gmove <Nome> <Mapa> <X> <Y>		Ex: /gmove Ferrarezi 0 125 125 -> Move para o bar de lorencia
+	2	"/seguir"	0	// /seguir <Nome>			Ex: /seguir Ferrarezi -> Move para onde o personagem Ferrarezi está
+	3	"/trazer"	0	// /trazer <Nome>			Ex: /trazer Ferrarezi -> Move o personagem Ferrarezi até você
+	4	"/dc"		0	// /dc <Nome>				Ex: /dc Ferrarezi -> Desconecta o persaongem Ferrarezi
+	5	"/gdc"		0	// /gdc <Guild>				Ex: /gdc FerGuild -> Desconecta todos os jogadores da Guild FerGuild
+	6	"/reload"	0	// /reload <config>			Ex: /reload all -> Recarrega todas as configurações (Opções: all | pvp | skill | item | bag | shop | monster)
+	7	"/skin"		0	// /skin <Nome> <id_npc | -1>		Ex: /skin Ferrarezi 309 -> Transforma temporariamente o personagem Ferrarezi no monstro Hell Maine (id 309). O id -1 volta ao normal.
+	8	"/moveguild"	0	// /moveguild <Guild> <Map> <X> <Y>	Ex: /moveguild FerGuild 0 125 125 -> Move todos os jogadores da guild para o bar de lorencia
+	9	"/invisivel"	0	// /invisivel <on|off>			Ex: /invisivel on -> GM fica invisível para os outros jogadores | /invisivel off -> GM volta a aparecer
+	10	"/coin"		0	// /coin <Name> <Type> <Amount>		Ex: /coin Ferrarezi zen 9999 -> Adiciona 9999 zen para o personagem Ferrarezi.
+	11	"/item"		0	// /item <Categ> <Id> <Level> <Skill>	Ex: /item 0 3 9 1 0 7 63 0 2 -> Cria no inventário do GM DUAS Rapier+9+skill sem luck, com Add +28 e FULL excellent
+					// <Luck> <Option> <Excell> <Set> <Quant>
+	12	"/watch"	0	// /monitorar <Nome>			Ex: /monitorar Ferrarezi -> mostra os danos de ataque que o personagem Ferrarezi proferir
+	13	"/siege"	0	// /siege <Option>			Ex: /siege start -> Start the castle siege event immediately
+	14	"/dt"		0	// /viewdt <Name>			Ex: /viewdt Ferrarezi  -> show potins of all character stats
+	15	"/fogos"	0	// /fireworks				Ex: /fireworks -> show fireworks effect on GM position
+	16	"/blockchat"	0	// /blockchat <Name> <time>		Ex: /blockchat Ferrarezi 60 -> block character Ferrarezi's account for chatting for 1 hour (60 minutes)
+	17	"/trazerpt"	0	// /trackparty <Name>			Ex: /trackparty Ferrarezi -> Teleport all the Ferrarezi's party players to your GM
+	18	"/setdt"	0	// /setdt <Name> <S> <A> <E> <V> <C>	Ex: /setdt Ferrarezi 20 30 40 50 60 -> Sets Ferrarezi's status points to 20 Str, 30 Agi, 40 Ene, 50 Vit, 60 Command.
+	19	"/setap"	0	// /setap <Name>			Ex: /setap Ferrarezi -> Starts auto potion for character Ferrarezi
+	20	"/alvo" 	0	// /alvo <Name> <TargetName>	Ex: /settarget Ferrarezi Leandro -> sets Leandro as target of Ferrarezi for PvP tests
+	21	"/go"	        0	// /testpvp				Ex: /testpvp -> Activate/Deactivate the PvP test mode
+	22	"/setbuf"	0	// /setbuf [0|1|2]			Ex: /setbuff Ferrarezi 0 (set defense buffs to Ferrarezi)  0 = defense | 1 = attack | 2 = clear all buffs
+	23	"/setpk"	0	// /setpk <Name>			Ex: /setpk Ferrarezi -> makes Ferrarezi PK
+	24	"/mufc"		0
+	25	"/popup"	0	// /popup <Name> message		Ex: /popup Ferrarezi Hey, noob, stop disturbing me!
+	26	"/setlevel"	0	// /setlevel <Name> <Level>		
+	27	"/setreset"	0	// /setreset <Name> <Resets>
+	28	"/setmlevel"	0	// /setmlevel <Name> <mLevel>
+	29	"/item2"	0
+	30	"/pvpt"		0
+
+//=====================================
+// PLAYER COMMANDS
+//=====================================
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+//	Id	Command		Level	Sintax				Description
+// --------------------------------------------------------------------------------------------------------------------------------------------------------
+
+	200	"/rr"		0	// /reset			Ex: /reset -> Executa a rotina de reset de personagem, da forma como configurado em ResetConfig.ini
+	201	"/f"		0	// /f <pontos>			Ex: /f 1000 -> Adiciona 1000 pontos em força
+	202	"/a"		0	// /a <pontos>			Ex: /a 1000 -> Adiciona 1000 pontos em agilidade
+	203	"/v"		0	// /v <pontos>			Ex: /v 1000 -> Adiciona 1000 pontos em vitalidade
+	204	"/e"		0	// /e <pontos>			Ex: /e 1000 -> Adiciona 1000 pontos em energia
+	205	"/c"		0	// /c <pontos>			Ex: /c 1000 -> Adiciona 1000 pontos em comando
+	206	"/p"		0	// /p <mensagem>		Ex: /p Ferrarezi MU Server -> Manda a mensagem "Ferrarezi MU Server" para todos os jogadores, segundo as configurações do arquivo PostConfig.ini
+	207	"/pk"		0	// /pk				Ex: /pk -> Reseta o nível de PK do personagem de acordo com o arquivo PkClearConfig.ini
+	208	"/ir"		0	// /move <nome_do_mapa>		Ex: /move devias -> move o personagem para Devias, de acordo com o arquivo Move.txt
+	209	"/re"		0	// /re <on|off>			Ex: /re off -> desativa todas as requisições no jogo, como trade, party, etc. /re on retorna ao normal.
+	210	"/soccer"	0	// /soccer <Guild>		Ex: /soccer FerGuild -> Inicia o Battle Soccer (futebol entre guilds)
+	211	"/war"		0	// /war <Guild>			Ex: /war FerGuild -> Desafia em Guild War a Guild FerGuild
+	212	"/evo"		0	// /evo				Ex: /evo -> Evolui o personagem para a próxima evolução de sua classe (quest)
+	213	"/limparinv"	0	// /limparinv			Ex: /limparinv -> Limpa o inventário do personagem
+	214	"/ware"		5	// /ware <number>		Ex: /ware 2 -> Select the extra vault number 2
+	215	"/mr"		0	// /mr				Ex: /masterreset -> Run the master reset procedure, as configured in MasterReset.ini file
+	216	"/rb"		0	// /rebuild s a v e c		Ex: /rebuild 1 2 3 4 5 -> Reset character points and add some points immediatelly
+	217	"/pot"		0	// /fullpotion			Ex: /fullpotion -> Fill all unused inventory slots with Large Healing Potions
+	218	"/collect"	5	// /collect <Name>		Ex: /collect Ferrarezi -> solicita dados do jogador: print, modulos e processos
+	219	"/atacar"	0	// /autoattack			Ex: /autoattack -> Liga ou desliga o ataque automático 
+	220	"/offup"	0	// /offup			Ex: /offup -> Disconnect the character and keep it attacking on game
+	221	"/offshop"	0	// /offshop			Ex: /offshop -> Disconnect the character and keep it on game with personal shop opened
+	222	"/spawn"	0	// /spawn <MonsterId><Count><X><Y><Map>	Ex: /offshop -> Disconnect the character and keep it on game with personal shop opened
+	223	"/ghost"	0	// /ghost			Ex: /ghost -> Disconnect the character and keep it on game doing nothing
+	224	"/autodt"	0	// /autodt <F><A><V><E><C>	Ex: /autodt 15 15 15 15 15 -> Auto add 15 points for each stats
+	225	"/autopost"	0	// /autopost <message>		Ex: /autopost SELL MY MOTHER -> will automatically post "SELL MY MOTHER" every X seconds (config at BotConfig.ini)
+	226	"/pin"		0	// /pin <PersonalCode>		Ex: /pin 1234567 -> will authenticate user to some double protected functions
+	227	"/ruud"		0	// /ruud <Amount>		Ex: /ruud 1000 -> get a box of 1000 ruud
+	228	"/antilag"	0	// /antilag			Ex: /antilag -> activate the antilag viewport system for player
+	229	"/removeoption"	0	// /removeoption <number>
+	230	"/autopvp"	0	// /autopvp QuemMeAtaca
+	231	"/savedt"	0	// /savedt build1
+	232	"/loaddt"	0	// /loaddt build1
+	233	"/sumiu"	0	// /sumiu <classe>
+	234	"/rbtree"	0	// /rbtree <1,2,3,0>
+	235	"/cupom"	0
+	236	"/poff"		0

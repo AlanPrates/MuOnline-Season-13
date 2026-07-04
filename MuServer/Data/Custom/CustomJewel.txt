@@ -1,0 +1,53 @@
+//Requirements
+0
+//id	Item	MinLvl	MaxLvl	Skill   Luck	MinAdd	MaxAdd	MinExc	MaxExc	SetOption	MinSckt	MaxSckt	EnabWeapon	EnabArmor	EnabWing	Ena4Wing	RingPendan	Errtel	Pentag	RateAL0	RateAL1	RateAL2	RateAL3
+1		7667	*		*		*		*		*		*		*		*		*			*		4		1			1			0			0			0			0		0		100		100		100		100		//Jewel of Socket
+2		7668	*		*		0		*		*		*		*		*		*			*		*		1			0			0			0			0			0		0		100		100		100		100		//Jewel of Skill
+3		7669	*		*		*		*		*		*		*		*		*			*		*		1			1			0			0			1			0		0		100		100		100		100		//Jewel of Ancient
+4		7670	*		14		*		*		*		*		*		*		*			*		*		1			1			1			1			1			0		1		100		100		100		100		//Jewel of Level
+5		7671	*		*		*		*		*		*		*		*		*			*		4		0			0			0			0			0			0		1		100		100		100		100		//Jewel of Elemental Slot
+6		7672	*		*		*		*		*		*		*		*		*			*		*		0			0			0			0			0			1		0		100		100		100		100		//Jewel of Errtel Rank
+7		7673	*		*		*		*		*		6		*		*		*			*		*		1			1			1			1			1			0		0		100		100		100		100		//Jewel of Overlife
+8		7674	*		*		*		*		*		*		*		5		*			*		*		1			1			1			0			1			0		0		100		100		100		100		//Jewel of Excellence
+9		7675	*		*		*		0		*		*		*		*		*			*		*		1			1			1			1			1			0		0		100		100		100		100		//Jewel of Luck
+10		7676	*		*		*		*		*		*		*		*		*			*		*		0			0			0			0			0			1		0		100		100		100		100		//Jewel of Errtel Level
+11		7677	*		*		*		*		*		*		*		*		*			*		*		0			0			0			1			0			0		0		100		100		100		100		//Jewel of 4th Wing Element
+12		7678	*		*		*		*		*		*		*		*		*			*		*		0			0			0			1			0			0		0		100		100		100		100		//Jewel of 4th Wing Option
+13		7679	*		*		*		*		*		*		*		*		*			*		*		1			1			1			1			1			1		1		100		100		100		100		//Jewel of Galaxies
+end
+
+//Success attributes
+1
+//Id	Level	Skill	Luck	Option	Excelle	Ancient	Socket	ErtlLvl	ErtlRnk	Wng4Ele	Wng4Opt	AllFull
+1		*		*		*		*		*		*		1		*		*		*		*		0		//Jewel of Socket
+2		*		1		*		*		*		*		*		*		*		*		*		0		//Jewel of Skill
+3		*		*		*		*		*		1		*		*		*		*		*		0		//Jewel of Ancient
+4		1		*		*		*		*		*		*		*		*		*		*		0		//Jewel of Level
+5		*		*		*		*		*		*		1		*		*		*		*		0		//Jewel of Elemental Slot
+6		*		*		*		*		*		*		*		*		1		*		*		0		//Jewel of Errtel Rank
+7		*		*		*		1		*		*		*		*		*		*		*		0		//Jewel of OverLife
+8		*		*		*		*		1		*		*		*		*		*		*		0		//Jewel of Excellence
+9		*		*		1		*		*		*		*		*		*		*		*		0		//Jewel of Luck
+10		*		*		*		*		*		*		*		1		*		*		*		0		//Jewel of Errtel Level
+11		*		*		*		*		*		*		*		*		*		1		*		0		//Jewel of 4th Wing Element
+12		*		*		*		*		*		*		*		*		*		*		1		0		//Jewel of 4th Wing Option
+13		*		*		*		*		*		*		*		*		*		*		*		1		//Jewel of Galaxies Cock
+end
+
+//Failure attributes
+2
+//Id	Level	Skill	Luck	Option	Excelle	Ancient	Socket	ErtlLvl	ErtlRnk	Wng4Ele	Wng4Opt
+1		*		*		*		*		*		*		*		*		*		*		*
+2		*		*		*		*		*		*		*		*		*		*		*
+3		*		*		*		*		*		*		*		*		*		*		*
+4		*		*		*		*		*		*		*		*		*		*		*
+5		*		*		*		*		*		*		*		*		*		*		*
+6		*		*		*		*		*		*		*		*		*		*		*
+7		*		*		*		*		*		*		*		*		*		*		*
+8		*		*		*		*		*		*		*		*		*		*		*
+9		*		*		*		*		*		*		*		*		*		*		*
+10		*		*		*		*		*		*		*		*		*		*		*
+11		*		*		*		*		*		*		*		*		*		*		*
+12		*		*		*		*		*		*		*		*		*		*		*
+13		*		*		*		*		*		*		*		*		*		*		*
+end

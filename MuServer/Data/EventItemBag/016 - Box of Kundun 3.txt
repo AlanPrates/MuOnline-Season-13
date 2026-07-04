@@ -1,0 +1,171 @@
+// DropZen = Quantidade do zen que irá cair no chão de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, será 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 até 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que serão dropados)
+// SetItemDropRate =   0 até 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleatórios)
+// Fireworks =         0 ou 1 (0 = Não vai soltar fogos quando dropar)
+
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Box of Kundun 3"	 	  1000	      100		  	    1		        0		         1		      0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+0           16     6          9          1       1      1        0		//Sword of Destruction +6~9 +skill +luck +1option(Aleatório)
+0           18     6          9          1       1      1        0		//Thunder Blade +6~9 +skill +luck +1option(Aleatório)
+0           24     6          9          1       1      1        0		//Daybreak +6~9 +skill +luck +1option(Aleatório)
+0           32     0          0          1       1      1        0      //Sacred Glove +6~9 +skill +luck +1option(Aleatório)
+
+2           12     6          9          0       1      1        0		//Great Lord Scepter +6~9 +skill +luck +1option(Aleatório)
+
+3			14	   6          9          1       1      1        0      //Conmocion Lance +6~9 +skill +luck +1option(Aleatório)
+
+4           17     6          9          1       1      1        0		//Celestial Bow +6~9 +skill +luck +1option(Aleatório)
+4           22     6          9          1       1      1        0		//Albatross Bow +6~9 +skill +luck +1option(Aleatório)
+4           19     6          9          1       1      1        0		//Great Reign Crossbow +6~9 +skill +luck +1option(Aleatório)
+
+5           13     6          9          0       1      1        0		//Platina Staff +6~9 +luck +1option(Aleatório)
+5           17     6          9          0       1      1        0		//Ancient Stick +6~9 +luck +1option(Aleatório)
+5           23     6          9          1       1      1        0		//Book of Lagle +6~9 +skill +luck +1option(Aleatório)
+
+7           21     6          9          0       1      1        0		//Great Dragon Helm +6~9 +luck +1option(Aleatório)
+8           21     6          9          0       1      1        0		//Great Dragon Armor +6~9 +luck +1option(Aleatório)
+9           21     6          9          0       1      1        0		//Great Dragon Pants +6~9 +luck +1option(Aleatório)
+10          21     6          9          0       1      1        0		//Great Dragon Gloves +6~9 +luck +1option(Aleatório)
+11          21     6          9          0       1      1        0		//Great Dragon Boots +6~9 +luck +1option(Aleatório)
+
+7           22     6          9          0       1      1        0		//Dark Soul Helm +6~9 +luck +1option(Aleatório)
+8           22     6          9          0       1      1        0		//Dark Soul Armor +6~9 +luck +1option(Aleatório)
+9           22     6          9          0       1      1        0		//Dark Soul Pants +6~9 +luck +1option(Aleatório)
+10          22     6          9          0       1      1        0		//Dark Soul Gloves +6~9 +luck +1option(Aleatório)
+11          22     6          9          0       1      1        0		//Dark Soul Boots +6~9 +luck +1option(Aleatório)
+
+7           24     6          9          0       1      1        0		//Red Spirit Helm +6~9 +luck +1option(Aleatório)
+8           24     6          9          0       1      1        0		//Red Spirit Armor +6~9 +luck +1option(Aleatório)
+9           24     6          9          0       1      1        0		//Red Spirit Pants +6~9 +luck +1option(Aleatório)
+10          24     6          9          0       1      1        0		//Red Spirit Gloves +6~9 +luck +1option(Aleatório)
+11          24     6          9          0       1      1        0		//Red Spirit Boots +6~9 +luck +1option(Aleatório)
+
+8           23     6          9          0       1      1        0		//Hurricane Armor +6~9 +luck +1option(Aleatório)
+9           23     6          9          0       1      1        0		//Hurricane Pants +6~9 +luck +1option(Aleatório)
+10          23     6          9          0       1      1        0		//Hurricane Gloves +6~9 +luck +1option(Aleatório)
+11          23     6          9          0       1      1        0		//Hurricane Boots +6~9 +luck +1option(Aleatório)
+
+7           38     6          9          0       1      1        0		//Glorious Helm +6~9 +luck +1option(Aleatório)
+8           38     6          9          0       1      1        0		//Glorious Armor +6~9 +luck +1option(Aleatório)
+9           38     6          9          0       1      1        0		//Glorious Pants +6~9 +luck +1option(Aleatório)
+10          38     6          9          0       1      1        0		//Glorious Gloves +6~9 +luck +1option(Aleatório)
+11          38     6          9          0       1      1        0		//Glorious Boots +6~9 +luck +1option(Aleatório)
+
+7           42     6          9          0       1      1        0		//Demonic Helm +6~9 +luck +1option(Aleatório)
+8           42     6          9          0       1      1        0		//Demonic Armor +6~9 +luck +1option(Aleatório)
+9           42     6          9          0       1      1        0		//Demonic Pants +6~9 +luck +1option(Aleatório)
+10          42     6          9          0       1      1        0		//Demonic Gloves +6~9 +luck +1option(Aleatório)
+11          42     6          9          0       1      1        0		//Demonic Boots +6~9 +luck +1option(Aleatório)
+
+7           95     6          9          0       1      1        0		//Sate Helm +6~9 +luck +1option(Aleatório)
+8           95     6          9          0       1      1        0		//Sate Armor +6~9 +luck +1option(Aleatório)
+9           95     6          9          0       1      1        0		//Sate Pants +6~9 +luck +1option(Aleatório)
+10          95     6          9          0       1      1        0		//Sate Gloves +6~9 +luck +1option(Aleatório)
+11          95     6          9          0       1      1        0		//Sate Boots +6~9 +luck +1option(Aleatório)
+
+7           59     6          9          0       1      1        0      //Sacred Helm +6~9 +luck +1option(Aleatório)
+8           59     6          9          0       1      1        0      //Sacred Amor +6~9 +luck +1option(Aleatório)
+9           59     6          9          0       1      1        0      //Sacred Pants +6~9 +luck +1option(Aleatório)
+11          59     6          9          0       1      1        0      //Sacred Boots +6~9 +luck +1option(Aleatório)
+
+//Itens Excellent abaixo
+
+0           16     0          0          1       1      1        1		//Sword of Destruction +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+0           17     0          0          1       1      1        1		//Dark Breaker +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+0           18     0          0          1       1      1        1		//Thunder Blade +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+0           32     0          0          1       1      1        1      //Sacred Glove +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+2           15     0          0          0       1      1        1		//Shining Scepter +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+3			14	   0          0          1       1      1        1      //Conmocion Lance +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+4           17     0          0          1       1      1        1		//Celestial Bow +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+5           9      0          0          0       1      1        1		//Dragon Soul Staff +0 +luck +1option(Aleatório) +1exc(Aleatório)
+5           17     0          0          0       1      1        1		//Ancient Stick +0 +luck +1option(Aleatório) +1exc(Aleatório)
+5           22     0          0          1       1      1        1		//Book of Neil +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+
+6           13     0          0          1       1      1        1		//Dragon Shield +0 +skill +luck +1option(Aleatório) +1exc(Aleatório)
+6           16     0          0          0       1      1        1		//Elemental Shield +0 +luck +1option(Aleatório) +1exc(Aleatório)
+6           15     0          0          0       1      1        1		//Grand Soul Shield +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           17     0          0          0       1      1        1		//Dark Phoenix Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           17     0          0          0       1      1        1		//Dark Phoenix Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           17     0          0          0       1      1        1		//Dark Phoenix Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          17     0          0          0       1      1        1		//Dark Phoenix Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          17     0          0          0       1      1        1		//Dark Phoenix Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           18     0          0          0       1      1        1		//Grand Soul Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           18     0          0          0       1      1        1		//Grand Soul Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           18     0          0          0       1      1        1		//Grand Soul Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          18     0          0          0       1      1        1		//Grand Soul Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          18     0          0          0       1      1        1		//Grand Soul Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           19     0          0          0       1      1        1		//Holy Spirit Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           19     0          0          0       1      1        1		//Holy Spirit Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           19     0          0          0       1      1        1		//Holy Spirit Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          19     0          0          0       1      1        1		//Holy Spirit Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          19     0          0          0       1      1        1		//Holy Spirit Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+8           20     0          0          0       1      1        1		//Thunder Hawk Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           20     0          0          0       1      1        1		//Thunder Hawk Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          20     0          0          0       1      1        1		//Thunder Hawk Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          20     0          0          0       1      1        1		//Thunder Hawk Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           27     0          0          0       1      1        1		//Dark Steel Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           27     0          0          0       1      1        1		//Dark Steel Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           27     0          0          0       1      1        1		//Dark Steel Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          27     0          0          0       1      1        1		//Dark Steel Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          27     0          0          0       1      1        1		//Dark Steel Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           41     0          0          0       1      1        1		//Ancient Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           41     0          0          0       1      1        1		//Ancient Armor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           41     0          0          0       1      1        1		//Ancient Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+10          41     0          0          0       1      1        1		//Ancient Gloves +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          41     0          0          0       1      1        1		//Ancient Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+7           95     0          0          0       1      1        1		//Sate Helm +0 +luck +1option(Aleatório)
+8           95     0          0          0       1      1        1		//Sate Armor +0 +luck +1option(Aleatório)
+9           95     0          0          0       1      1        1		//Sate Pants +0 +luck +1option(Aleatório)
+10          95     0          0          0       1      1        1		//Sate Gloves +0 +luck +1option(Aleatório)
+11          95     0          0          0       1      1        1		//Sate Boots +0 +luck +1option(Aleatório)
+
+7           59     0          0          0       1      1        1      //Sacred Helm +0 +luck +1option(Aleatório) +1exc(Aleatório)
+8           59     0          0          0       1      1        1      //Sacred Amor +0 +luck +1option(Aleatório) +1exc(Aleatório)
+9           59     0          0          0       1      1        1      //Sacred Pants +0 +luck +1option(Aleatório) +1exc(Aleatório)
+11          59     0          0          0       1      1        1      //Sacred Boots +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+13          8      0          0          0       1      1        1		//Ring of Ice +luck +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          9      0          0          0       1      1        1		//Ring of Poison +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          12     0          0          0       1      1        1		//Pendant of Lighting +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          13     0          0          0       1      1        1		//Pendant of Fire +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          21     0          0          0       1      1        1		//Ring of Fire +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          22     0          0          0       1      1        1		//Ring of Earth +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          23     0          0          0       1      1        1		//Ring of Wind +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          24     0          0          0       1      1        1		//Ring of Magic +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          25     0          0          0       1      1        1		//Pendant of Ice +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          26     0          0          0       1      1        1		//Pendant of Wind +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          27     0          0          0       1      1        1		//Pendant of Water +0 +luck +1option(Aleatório) +1exc(Aleatório)
+13          28     0          0          0       1      1        1		//Pendant of Ability +0 +luck +1option(Aleatório) +1exc(Aleatório)
+
+12          15     0          0          0       1      1        0		//Jewel of Chaos
+14          14     0          0          0       1      1        0		//Jewel of Soul
+14          13     0          0          0       1      1        0		//Jewel of Bless
+14          16     0          0          0       1      1        0		//Jewel of Life
+14          22     0          0          0       1      1        0		//Jewel of Creation
+14          42     0          0          0       1      1        0		//Jewel of Harmony
+
+14          19     3          5          0       0      0        0      //Devils Invitation
+13          18     4          6          0       0      0        0      //Invisibility Cloak
+14          28     3          5          0       0      0        0      //Lost Map
+//13          51     1          2          0       0      0        0      //Scroll of Blood
+end

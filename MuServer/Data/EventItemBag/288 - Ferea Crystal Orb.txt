@@ -1,0 +1,98 @@
+// DropZen = Quantidade do zen que ir¨¢ cair no ch?o de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, ser¨¢ 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 at¨¦ 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que ser?o dropados)
+// SetItemDropRate =   0 at¨¦ 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleat¨®rios)
+// Fireworks =         0 ou 1 (0 = N?o vai soltar fogos quando dropar)
+
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks
+"Ferea General"             1000         50               1               0                 0              0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+12			70		0			0			0		0		0			0		//Sphere
+14			245		0			0			0		0		0			0		//Tetra Crystal (Greater)
+14			246		0			0			0		0		0			0		//Tetra Crystal (Standard)
+14			247		0			0			0		0		0			0		//Tetra Crystal (Minor)
+end
+
+2
+
+//Google Tradutor
+//Index	   Type   MinLevel   MaxLevel   Skill   Luck  Option  Excellent	 SetOption	SocketOption  
+0           26     3          5          1       1      1        0           0           1		//Flameberge
+0           27     3          5          1       1      1        0           0           1		//Sword Breaker
+0           28     3          5          1       1      1        0           0           1		//Rune Bastard Sword
+
+2           16     3          5          1       1      1        0           0           1		//Frost Mace
+2           17     3          5          1       1      1        0           0           1		//Absolute Scepter
+
+4           23     3          5          1       1      1        0           0           1		//Dark Stinger
+
+5           30     3          5          0       1      1        0           0           1		//Deadly Staff
+5           31     3          5          0       1      1        0           0           1		//Inberial Staff
+5           32     3          5          0       1      1        0           0           1		//Summon Spirit Stick
+
+6           17     3          5          1       1      1        0           0           1		//Crimson Glory
+6           18     3          5          1       1      1        0           0           1		//Salamander Shield
+6           19     3          5          1       1      1        0           0           1		//Frost Barrier
+6           20     3          5          1       1      1        0           0           1		//Guardian Shield
+
+7           45     3          5          0       1      1        0           0           1		//Set Titan
+8           45     3          5          0       1      1        0           0           1
+9           45     3          5          0       1      1        0           0           1
+10          45     3          5          0       1      1        0           0           1
+11          45     3          5          0       1      1        0           0           1
+
+7           46     3          5          0       1      1        0           0           1		//Set Brave
+8           46     3          5          0       1      1        0           0           1	
+9           46     3          5          0       1      1        0           0           1
+10          46     3          5          0       1      1        0           0           1
+11          46     3          5          0       1      1        0           0           1
+
+8           47     3          5          0       1      1        0           0           1		//Set Phantom
+9           47     3          5          0       1      1        0           0           1
+10          47     3          5          0       1      1        0           0           1
+11          47     3          5          0       1      1        0           0           1
+
+8           48     3          5          0       1      1        0           0           1		//Set Destroy
+9           48     3          5          0       1      1        0           0           1
+10          48     3          5          0       1      1        0           0           1
+11          48     3          5          0       1      1        0           0           1
+
+7           49     3          5          0       1      1        0           0           1		//Set Seraphim
+8           49     3          5          0       1      1        0           0           1
+9           49     3          5          0       1      1        0           0           1
+10          49     3          5          0       1      1        0           0           1
+11          49     3          5          0       1      1        0           0           1
+
+
+7           50     3          5          0       1      1        0           0           1		//Set Divine
+8           50     3          5          0       1      1        0           0           1
+9           50     3          5          0       1      1        0           0           1
+10          50     3          5          0       1      1        0           0           1
+11          50     3          5          0       1      1        0           0           1
+
+7           51     3          5          0       1      1        0           0           1		//Set Royal
+8           51     3          5          0       1      1        0           0           1
+9           51     3          5          0       1      1        0           0           1
+10          51     3          5          0       1      1        0           0           1
+11          51     3          5          0       1      1        0           0           1
+
+7           52     3          5          0       1      1        0           0           1		//Set Hades
+8           52     3          5          0       1      1        0           0           1
+9           52     3          5          0       1      1        0           0           1
+10          52     3          5          0       1      1        0           0           1
+11          52     3          5          0       1      1        0           0           1
+
+7           53     3          5          0       1      1        0           0           1		//Set Succubus
+8           53     3          5          0       1      1        0           0           1
+9           53     3          5          0       1      1        0           0           1
+10          53     3          5          0       1      1        0           0           1
+11          53     3          5          0       1      1        0           0           1
+
+end

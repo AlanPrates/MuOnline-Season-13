@@ -1,0 +1,194 @@
+//Section	Type	MaxSocket
+0			26		5		//Flameberge
+0			27		5		//Sword Breaker
+0			28		5		//Rune Bastard Sword
+0			29		5		//Sonic Blade
+0			30		5		//Asura
+0			36		5		//Cyclone Sword
+0			37		5		//Blast Break
+
+0			52		5		//Pantera Claws
+0			53		5		//Devast Claws
+
+2			16		5		//Frost Mace
+2			17		5		//Absolute Scepter
+2			19		5		//Thunderbolt
+2			20		5		//Horn of Steal
+
+3			12		5		//Magmus Peer
+3			22		5		//Rectuus Lance
+3			23		5		//Russell Light Lance
+
+4			23		5		//Dark Stinger
+4			25		5		//Angelic Bow
+4			26		5		//Devil Crossbow
+4			33		5		//Devilwood Quiver
+
+5			20		5		//Eternal Wing Stick
+5			30		5		//Deadly Staff
+5			31		5		//Inberial Staff
+5			32		5		//Soulbringer
+5			35		5		//Miracle Staff
+5			37		5		//Spite Staff
+
+6			17		5		//Crimson Glory
+6			18		5		//Salamander Shield
+6			19		5		//Frost Barrier
+6			20		5		//Guardian Shield
+6			22		5		//Lazy Wind Shield
+6			23		5		//Light Lord Shield
+6			24		5		//Dark Devil Shield
+6			25		5		//Magic Knight Shield
+6			26		5		//Ambition Shield
+6			40		5		//Grace Shield
+6			41		5		//Constant Shield
+
+//Eternal Wing
+7			44		5
+8			44		5
+9			44		5
+10			44		5
+11			44		5
+
+//Titan
+7			45		5
+8			45		5
+9			45		5
+10			45		5
+11			45		5
+
+//Brave
+7			46		5
+8			46		5
+9			46		5
+10			46		5
+11			46		5
+
+//Phantom
+8			47		5
+9			47		5
+10			47		5
+11			47		5
+
+//Destroy
+8			48		5
+9			48		5
+10			48		5
+11			48		5
+
+//Seraphim
+7			49		5
+8			49		5
+9			49		5
+10			49		5
+11			49		5
+
+//Divine
+7			50		5
+8			50		5
+9			50		5
+10			50		5
+11			50		5
+
+//Royal
+7			51		5
+8			51		5
+9			51		5
+10			51		5
+11			51		5
+
+//Hades
+7			52		5
+8			52		5
+9			52		5
+10			52		5
+11			52		5
+
+//Succubus
+7			53		5
+8			53		5
+9			53		5
+10			53		5
+11			53		5
+
+//Lazy Wind
+7			54		5
+8			54		5
+9			54		5
+10			54		5
+11			54		5
+
+//Dark Devil
+7			55		5
+8			55		5
+9			55		5
+10			55		5
+11			55		5
+
+//Sticky
+7			56		5
+8			56		5
+9			56		5
+10			56		5
+11			56		5
+
+//Hell Night
+8			57		5
+9			57		5
+10			57		5
+11			57		5
+
+//Ambition
+7			58		5
+8			58		5
+9			58		5
+10			58		5
+11			58		5
+
+//Stormwing
+7			74		5
+8			74		5
+9			74		5
+10			74		5
+11			74		5
+
+//Light Lord
+7			75		5
+8			75		5
+9			75		5
+10			75		5
+11			75		5
+
+//Magic Knight
+8			76		5
+9			76		5
+10			76		5
+11			76		5
+
+//Tigris
+7			146		5
+8			146		5
+9			146		5
+11			146		5
+
+//Crimson Skull
+7			147		5
+8			147		5
+9			147		5
+11			147		5
+
+//Grace
+7			148		5
+8			148		5
+9			148		5
+10			148		5
+11			148		5
+
+//Constant
+7			149		5
+8			149		5
+9			149		5
+10			149		5
+11			149		5
+
+end

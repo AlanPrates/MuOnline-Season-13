@@ -1,0 +1,39 @@
+//Halloween Pumpkin
+
+3
+//Index   DropRate
+0         10000
+1         10000
+end
+
+4
+//Index   Section   SectionRate  MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF   GL
+0         5         10000        100000        1             1    1    1    1    1    1    1    1
+1         9         10000        100000        1             1    1    1    1    1    1    1    1
+end
+
+5
+//Index   Level   Grade   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7181      0       0       *         *         *         *         *         *         *         0          // Jewel of Bless
+7182      0       0       *         *         *         *         *         *         *         0          // Jewel of Soul
+7666	0	0	*	*	*	*	*	*	*	0	//Jewel of Sphere Upgrade
+7667	0	0	*	*	*	*	*	*	*	0	//Jewel of Socket
+7668	0	0	*	*	*	*	*	*	*	0	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	0	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	0	//Jewel of Level
+7671	0	0	*	*	*	*	*	*	*	0	//Jewel of Elemental Slot
+7672	0	0	*	*	*	*	*	*	*	0	//Jewel of Errtel Rank
+7673	0	0	*	*	*	*	*	*	*	0	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	0	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	0	//Jewel of Luck
+7676	0	0	*	*	*	*	*	*	*	0	//Jewel of Errtel Level
+7677	0	0	*	*	*	*	*	*	*	0	//Jewel of 4th Wing Element
+7678	0	0	*	*	*	*	*	*	*	0	//Jewel of 4th Wing Option
+7122	0	0	*	*	*	*	*	*	*	0	//Garuda Feather
+7123	0	0	*	*	*	*	*	*	*	0	//Garuda Flame
+end
+
+9
+//Index   Level   Grade   RuudMin   RuudMax   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7453      0       0       1      	 99999     *         *         *         *         *         0          // Ruud
+end

@@ -1,0 +1,45 @@
+//Section	Type	Level	Dur		Skill	Luck	Option	Exc	Coment
+15			3 		0 		0 		0 		0 		0		0	//Scroll of Fire Ball
+15			10 		0 		0 		0 		0 		0		0	//Scroll of Power Wave
+15			2 		0 		0 		0 		0 		0		0	//Scroll of Lighting
+15			1 		0 		0 		0 		0 		0		0	//Scroll of Meteorite
+15			5 		0 		0 		0 		0 		0		0	//Scroll of Teleport
+15			6 		0 		0 		0 		0 		0		0	//Scroll of Ice
+15			0 		0 		0 		0 		0 		0		0	//Scroll of Poison
+15			4 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			8 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			14 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			15 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			16 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			17 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			18 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			28 		0 		0 		0 		0 		0		0	//Scroll of Flame
+15			29 		0 		0 		0 		0 		0		0	//Scroll of Flame
+
+07			2 		0 		0 		0 		1 		1		0	//PAD SET +0 +4 DEF + LUCK
+07			4 		2 		000 	0 		1 		1		0	//Bone SET +2 +4 DEF + LUCK
+07			3 		3 		000 	0 		1 		1		0	//Legendary SET +3 +4 DEF + LUCK
+07			7 		3 		000 	0 		1 		1		0	//Sphinx SET +3 +4 DEF + LUCK
+
+08			2 		0 		000 	0 		1 		1		0	//PAD SET +0 +4 DEF + LUCK
+08			4 		2 		000 	0 		1 		1		0	//Bone SET +2 +4 DEF + LUCK
+08			3 		3 		000 	0 		1 		1		0	//Legendary SET +3 +4 DEF + LUCK
+08			7 		3 		000 	0 		1 		1		0	//Sphinx SET +3 +4 DEF + LUCK
+
+09			2 		0 		000 	0 		1 		1		0	//PAD SET +0 +4 DEF + LUCK
+09			4 		2 		000 	0 		1 		1		0	//Bone SET +2 +4 DEF + LUCK
+09			3 		3 		000 	0 		1 		1		0	//Legendary SET +3 +4 DEF + LUCK
+09			7 		3 		000 	0 		1 		1		0	//Sphinx SET +3 +4 DEF + LUCK
+
+10			2 		0 		000 	0 		1 		1		0	//PAD SET +0 +4 DEF + LUCK
+10			4 		2 		000 	0 		1 		1		0	//Bone SET +2 +4 DEF + LUCK
+10			3 		3 		000 	0 		1 		1		0	//Legendary SET +3 +4 DEF + LUCK
+10			7 		3 		000 	0 		1 		1		0	//Sphinx SET +3 +4 DEF + LUCK
+
+11			2 		0 		000 	0 		1 		1		0	//PAD SET +0 +4 DEF + LUCK
+11			4 		2 		000 	0 		1 		1		0	//Bone SET +2 +4 DEF + LUCK
+11			3 		3 		000 	0 		1 		1		0	//Legendary SET +3 +4 DEF + LUCK
+11			7 		3 		000 	0 		1 		1		0	//Sphinx SET +3 +4 DEF + LUCK
+
+
+end

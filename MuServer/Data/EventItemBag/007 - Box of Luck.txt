@@ -1,0 +1,76 @@
+//ItemDropType
+// 0 = exactly config of Skill, Luck and Option
+// 1 = Skill 1 will be random, Skill 0 will never happen. Same for Luck.
+//     Option will be random from 0 to MaxItemOption in configs
+//     If item is Excellent, Skill will be always added
+
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Box of Luck"	         100000	   		100		  		1		  		0		    	1		   0
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Exc	Name
+//Swords
+0           5      6          9          1       1      1        0	//Blade
+0           6      6          9          1       1      1        0	//Gladius
+0           7      6          9          1       1      1        0	//Falchion
+0           8      6          9          1       1      1        0	//Serpent Sword
+0           9      6          9          1       1      1        0 	//Sword of Salamander
+//Axes
+1           3      6          9          1       1      1        0	//Tomahawk
+1           4      6          9          1       1      1        0 	//Elven Axe
+1           5      6          9          1       1      1        0	//Battle Axe
+//Maces/scepters
+2           2      6          9          1       1      1        0	//Flail
+//Spears
+3           6      6          9          1       1      1        0 	//Halberd
+3           1      6          9          1       1      1        0	//Spear
+3           3      6          9          1       1      1        0	//Giant Trident
+//Bow/cross
+4           2      6          9          1       1      1        0	//Elven Bow
+4           3      6          9          1       1      1        0	//Battle Bow
+4           10     6          9          1       1      1        0	//Arquebus
+//Staffs
+5           1      6          9          0       1      1        0	//Angelic Staff
+5           2      6          9          0       1      1        0	//Serpent Staff
+//Shields
+6           6      6          9          1       1      1        0	//Skull Shield
+6           10     6          9          1       1      1        0	//Large Round Shield
+6           3      6          9          1       1      1        0	//Elven Shield
+6           9      6          9          1       1      1        0	//Plate Shield
+//Sets
+7           0      6          9          0       1      1        0	//Bronze
+8           0      6          9          0       1      1        0
+9           0      6          9          0       1      1        0
+10          0      6          9          0       1      1        0
+11          0      6          9          0       1      1        0
+
+7           6      6          9          0       1      1        0	//Scale
+8           6      6          9          0       1      1        0
+9           6      6          9          0       1      1        0
+10          6      6          9          0       1      1        0
+11          6      6          9          0       1      1        0
+
+7           4      6          9          0       1      1        0 	//Bone
+8           4      6          9          0       1      1        0
+9           4      6          9          0       1      1        0
+10          4      6          9          0       1      1        0 
+11          4      6          9          0       1      1        0
+
+7           11     6          9          0       1      1        0	//Silk
+8           11     6          9          0       1      1        0
+9           11     6          9          0       1      1        0
+10          11     6          9          0       1      1        0
+11          11     6          9          0       1      1        0
+//rings/pendants
+13          8      0          0          0       0      2        0	//Ring of Ice
+13          9      0          0          0       0      2        0	//Ring of Poison
+13          12     0          0          0       0      2        0	//Pendant of Lighting
+13          13     0          0          0       0      2        0	//Pendant of Fire
+
+14          13     0          0          0       0      0        0	//Jewel of Bless
+14          14     0          0          0       0      0        0	//Jewel of Soul
+12          15     0          0          0       0      0        0	//Jewel of Chaos
+
+end

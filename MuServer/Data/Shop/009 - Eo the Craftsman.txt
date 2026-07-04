@@ -1,0 +1,45 @@
+//Section	Type	Level	Dur		Skill	Luck	Option	Exc	Coment
+7           10     	0       0     	0       1      2        0	//vine +0 +8 + luck
+7           11     	2       0     	0       1      2        0	//Silk +2 +8 + luck
+7           13     	3       0     	0       1      2        0	//Spirit +3 +8 + luck
+7           14     	3       0     	0       1      2        0	//Guardian +3 +8 + luck
+
+8           10     	0       0     	0       1      2        0	//vine +0 +8 + luck
+8           11     	2       0     	0       1      2        0	//Silk +2 +8 + luck
+8           13     	3       0     	0       1      2        0	//Spirit +3 +8 + luck
+8           14     	3       0     	0       1      2        0	//Guardian +3 +8 + luck
+
+9           10     	0       0     	0       1      2        0	//vine +0 +8 + luck
+9           11     	2       0     	0       1      2        0	//Silk +2 +8 + luck
+9           13     	3       0     	0       1      2        0	//Spirit +3 +8 + luck
+9           14     	3       0     	0       1      2        0	//Guardian +3 +8 + luck
+
+10          10     	0       0     	0       1      2        0	//vine +0 +8 + luck
+10          11     	2       0     	0       1      2        0	//Silk +2 +8 + luck
+10          13     	3       0     	0       1      2        0	//Spirit +3 +8 + luck
+10          14     	3       0     	0       1      2        0	//Guardian +3 +8 + luck
+
+11          10     	0       0     	0       1      2        0	//vine +0 +8 + luck
+11          11     	2       0     	0       1      2        0	//Silk +2 +8 + luck
+11          13     	3       0     	0       1      2        0	//Spirit +3 +8 + luck
+11          14     	3       0     	0       1      2        0	//Guardian +3 +8 + luck
+
+
+
+
+
+
+4           0      0       0     1       1      1        0
+4           1      0       0     1       1      1        0
+4           8      1       0     1       1      1        0
+4           9      3       0     1       1      1        0
+6           3      3       0     1       1      1        0
+4           2      2       0     1       1      1        0
+4           3      3       0     1       1      1        0
+4           11     3       0     1       1      1        0
+4           4      3       0     1       1      1        0
+4           10     3       0     1       1      1        0
+
+
+end
+

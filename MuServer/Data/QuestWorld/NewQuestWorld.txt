@@ -1,0 +1,200 @@
+//===========================================================================================================================================================================================================================
+// Index Name Level Monster Number of Monsters Killed Reward Experience Reward Coins Reward 1 Reward 1-Level Reward 2 Reward 2-Level Reward 3 Reward 3-Level
+//===========================================================================================================================================================================================================================
+11	"Phantom Instructor"	1	257	*	85	100	*	*	*	*	*	*
+14	"Hunt Spider"	2	3	3	300	2000	7541	*	*	*	*	*
+17	"Hunting Bull Monster"	2	0	3	500	3000	*	*	*	*	*	*
+18	"Hunting Scorpion"	2	27	*	500	3000	*	*	*	*	*	*
+19	"Hunting the Polluted Butterfly"	2	421	*	500	3000	*	*	*	*	*	*
+20	"Hunt the Giant"	2	7	*	1200	7000	*	*	*	*	*	*
+21	"Hunting Ladybug"	2	28	*	1200	7000	*	*	*	*	*	*
+23	"Equipment Merchant"	5	*	*	100	200	*	*	*	*	*	*
+26	"Collecting apples"	5	*	*	1000	200	7541	*	*	*	*	*
+29	"Hunting Bulls"	5	4	*	1500	6000	*	*	*	*	*	*
+30	"Hunting poachers"	5	29	*	1500	6000	*	*	*	*	*	*
+31	"Hunting weird rabbits"	5	418	*	1500	6000	*	*	*	*	*	*
+32	"Hound Hunting Monster"	5	1	*	2000	8000	*	*	*	*	*	*
+33	"Hunting Big Brother Brin"	5	33	*	2000	8000	*	*	*	*	*	*
+34	"Hunt the Crazy Rabbit"	5	419	*	2000	8000	*	*	*	*	*	*
+35	"Hunting Skeletons"	5	14	*	2200	10000	*	*	*	*	*	*
+36	"Hunting the tree demon"	5	30	*	2200	10000	*	*	*	*	*	*
+37	"Hunt the Crazy Rabbit"	5	419	*	2500	15000	*	*	*	*	*	*
+38	"Hunting the Black Wizard"	5	6	*	2500	15000	7253	*	*	*	*	*
+39	"Hunting Yakun"	5	31	*	2500	15000	*	*	*	*	*	*
+40	"Hunt the Crazy Rabbit"	5	419	*	2200	10000	*	*	*	*	*	*
+41	"Go to the Skill Trainer"	7	*	*	*	*	*	*	*	*	*	*
+44	"Go To The Magic Land 2"	7	*	*	100	100	*	*	*	*	*	*
+45	"Hunting Werewolf"	10	420	*	3000	17000	*	*	*	*	*	*
+46	"Hunting the Cursed Wizard"	10	422	*	3500	17000	*	*	*	*	*	*
+47	"Hunt Totem Treants"	13	423	*	5500	17000	7253	*	*	*	*	*
+48	"Hunt the Grizzly Bears"	17	425	*	7500	17000	*	*	*	*	*	*
+49	"Rank 20"	17	20	*	10000	10000	*	*	*	*	*	*
+50	"Go to the Phantom Mentor in Icewind Dale"	20	*	*	100	100	*	*	*	*	*	*
+51	"Hunting Snow Bugs"	20	24	*	9500	20000	7541	*	*	*	*	*
+52	"Hunting Blue Demon Monsters (1)"	20	23	*	5500	5000	*	*	*	*	*	*
+53	"Hunt the Ice Demon"	20	22	*	5500	5000	*	*	*	*	*	*
+54	"Hunt Assassins"	20	21	*	10500	20000	7451	*	*	*	*	*
+55	"Hunting Yeti (1)"	20	19	*	11000	20000	*	*	*	*	*	*
+56	"Slaying the Yeti King"	25	20	*	11500	20000	*	*	*	*	*	*
+57	"Hunting Yeti (2)"	25	19	*	11500	20000	7253	*	*	*	*	*
+58	"Hunting Blue Demon Monsters (2)"	25	23	*	12200	20000	6657	*	*	*	*	*
+59	"Rank 30"	25	30	*	15000	12000	*	*	*	*	*	*
+60	"To the Dungeon"	30	*	*	100	100	*	*	*	*	*	*
+61	"Hunting Skull"	30	14	*	12000	20000	7451	*	*	*	*	*
+62	"Hunt Hunt"	30	12	*	13000	20000	*	*	*	*	*	*
+63	"Hunt Cyclops"	35	17	*	15000	20000	7253	*	*	*	*	*
+64	"Hunting Ghost"	35	11	*	17000	20000	7451	*	*	*	*	*
+65	"Rank 40"	35	40	*	25000	20000	*	*	*	*	*	*
+66	"Go To The Dungeon 2"	40	*	*	100	100	*	*	*	*	*	*
+67	"Hunting Hellhound"	40	5	*	20000	20000	7253	*	*	*	*	*
+68	"Hunting Skeleton Archer"	40	15	*	22000	20000	7254	*	*	*	*	*
+69	"Hunting Hell Spiders"	40	13	*	24000	22000	7451	*	*	*	*	*
+70	"Hunting Skeleton Warrior"	43	16	*	26000	24000	*	*	*	*	*	*
+71	"Hunt Kills the Sorcerer"	43	9	*	28000	26000	7451	*	*	*	*	*
+72	"Hunting Poisonous Monster"	45	8	*	30000	28000	*	*	*	*	*	*
+73	"Hunting the Dark Knight"	45	10	*	30000	28000	*	*	*	*	*	*
+74	"Rank 50"	45	50	*	40000	35000	*	*	*	*	*	*
+75	"Go to the Doprian Family"	50	*	*	100	100	*	*	*	*	*	*
+76	"Going To The Barnett Family"	50	*	*	100	100	*	*	*	*	*	*
+77	"To the Lost Tower"	50	*	*	100	100	*	*	*	*	*	*
+78	"Hunting Ghosts"	50	36	*	30000	28000	*	*	*	*	*	*
+79	"Hunting Venomous Ghost"	50	39	*	32000	30000	*	*	*	*	*	*
+80	"Hunting the Cursed Wizard"	53	34	*	34000	32000	*	*	*	*	*	*
+81	"Hunting Bull Demon King"	53	41	*	36000	34000	*	*	*	*	*	*
+82	"Hunt the Demon"	55	37	*	38000	36000	*	*	*	*	*	*
+83	"Hunt to kill the knights"	55	40	*	40000	38000	*	*	*	*	*	*
+84	"Rank to 60"	55	60	*	45000	40000	*	*	*	*	*	*
+85	"To Atlantis"	60	*	*	100	100	*	*	*	*	*	*
+86	"Hunting Bahamut"	60	45	*	42000	40000	*	*	*	*	*	*
+87	"Murder Hunting"	60	46	*	52000	50000	*	*	*	*	*	*
+88	"Hunting Blue Wing Sea Monster"	65	47	*	25000	30000	*	*	*	*	*	*
+89	"Rank to 70"	65	70	*	75000	70000	*	*	*	*	*	*
+90	"The Hunting Ground Death Mermaid (1)"	70	46	*	80000	75000	*	*	*	*	*	*
+91	"Rank to 80"	70	80	*	85000	80000	*	*	*	*	*	*
+92	"Going To Atlantis 2"	80	*	*	100	100	*	*	*	*	*	*
+93	"Hunting Grand Bahamut"	80	51	*	64000	62000	*	*	*	*	*	*
+94	"Hunting Silver Bow Sea Monster"	80	52	*	66000	64000	*	*	*	*	*	*
+95	"King the Wizard"	80	48	*	68000	66000	*	*	*	*	*	*
+96	"Hunt Kill Gordon"	85	35	*	70000	68000	*	*	*	*	*	*
+97	"Rank to 90"	85	90	*	95000	90000	*	*	*	*	*	*
+98	"Hunting Grounds Bahamut (2)"	90	51	*	100000	95000	*	*	*	*	*	*
+99	"Rank to 100"	90	100	*	110000	100000	*	*	*	*	*	*
+100	"Phantom Instructor To The Illusionist Garden"	100	257	*	100	100	*	*	*	*	*	*
+101	"The Hunting Ground Grand Bahamut (3)"	100	51	*	120000	110000	*	*	*	*	*	*
+102	"Rank to 110"	101	110	*	150000	100000	*	*	*	*	*	*
+103	"The Hunting Ground Grand Bahamut (4)"	110	51	*	180000	170000	*	*	*	*	*	*
+104	"Rank to 120"	110	120	*	200000	100000	*	*	*	*	*	*
+105	"Hunting Grounds Bahamut (5)"	120	51	*	230000	220000	*	*	*	*	*	*
+106	"Rank to 130"	120	130	*	250000	100000	*	*	*	*	*	*
+107	"Hunting Grounds Bahamut (6)"	130	51	*	280000	270000	*	*	*	*	*	*
+108	"Rank to 140"	130	140	*	300000	100000	*	*	*	*	*	*
+109	"Go To Death Desert 1"	140	*	*	100	100	*	*	*	*	*	*
+110	"Hunting Ironback"	140	62	*	100000	95000	*	*	*	*	*	*
+111	"Hunting Megalodon"	140	60	*	110000	100000	*	*	*	*	*	*
+112	"Hunting Iron Wheel Warriors"	143	57	*	120000	110000	*	*	*	*	*	*
+113	"Hunting Destroyed Knights"	143	58	*	130000	120000	*	*	*	*	*	*
+114	"Go To Death Desert 2"	100	*	*	100	100	*	*	*	*	*	*
+115	"Hunting Black Flames"	145	61	*	140000	130000	*	*	*	*	*	*
+116	"Hunting Blazing Demon"	145	63	*	70000	65000	*	*	*	*	*	*
+117	"Death Desert Hunting Ground"	145	62	*	290000	280000	*	*	*	*	*	*
+118	"Rank to 150"	145	150	*	350000	100000	*	*	*	*	*	*
+119	"Complete 1 turn"	150	1	*	400000	100000	*	*	*	*	*	*
+120	"Go To The Dark Forest"	150	*	*	100	100	*	*	*	*	*	*
+121	"Hunting Jungle Tree Elves"	150	308	*	160000	150000	*	*	*	*	*	*
+122	"Hunt the Jungle Brutes"	153	307	*	170000	160000	*	*	*	*	*	*
+123	"Hunting Jungle Assassins"	153	306	*	180000	170000	*	*	*	*	*	*
+124	"Hunting jungle lifeforms"	153	305	*	190000	180000	*	*	*	*	*	*
+125	"Dark Forest Hunting Record"	153	308	*	300000	290000	*	*	*	*	*	*
+126	"Rank to 160"	155	160	*	400000	100000	*	*	*	*	*	*
+127	"Going to Cantero 1"	160	*	*	100	100	*	*	*	*	*	*
+128	"Hunting the Split-Horn Wolf"	160	351	*	200000	190000	*	*	*	*	*	*
+129	"Hunting Golden Armor"	160	352	*	210000	200000	*	*	*	*	*	*
+130	"Hunting Orcs"	160	353	*	220000	210000	*	*	*	*	*	*
+131	"Going to Cantero 2"	165	*	*	100	100	*	*	*	*	*	*
+132	"Hunting Blade Hunter"	165	354	*	230000	220000	*	*	*	*	*	*
+133	"Hunting Madman"	165	350	*	240000	230000	*	*	*	*	*	*
+134	"Hunting Ice Assassin"	167	355	*	250000	240000	*	*	*	*	*	*
+135	"Hunt the Slaughter"	167	357	*	260000	250000	*	*	*	*	*	*
+136	"Hunting Giants"	167	356	*	270000	260000	*	*	*	*	*	*
+137	"Cantruru Hunting Record"	167	354	*	400000	390000	*	*	*	*	*	*
+138	"Rank to 170"	167	170	*	450000	100000	*	*	*	*	*	*
+139	"Going to Carente 1"	170	*	*	100	100	*	*	*	*	*	*
+140	"Hunting Venom Hooker"	170	569	*	280000	270000	*	*	*	*	*	*
+141	"Hunting Skeleton Poison Scorpion"	170	570	*	290000	280000	*	*	*	*	*	*
+142	"Hunting the Underworld"	173	571	*	300000	290000	*	*	*	*	*	*
+143	"Hunting Cripos"	173	574	*	310000	300000	*	*	*	*	*	*
+144	"Hunting Creta"	173	573	*	320000	310000	*	*	*	*	*	*
+145	"Go to Carente 2"	175	*	*	100	100	*	*	*	*	*	*
+146	"Hunting Candela"	175	575	*	330000	320000	*	*	*	*	*	*
+147	"Hunting Nalkandra"	175	576	*	340000	330000	*	*	*	*	*	*
+148	"Hunting Golo"	175	572	*	350000	340000	*	*	*	*	*	*
+149	"Hunting the Underworld"	175	571	*	360000	350000	*	*	*	*	*	*
+150	"Cantruru Hunting Record (2)"	175	354	*	500000	490000	*	*	*	*	*	*
+151	"Level to 180"	175	180	*	500000	100000	*	*	*	*	*	*
+152	"Cantruru Hunting Record (3)"	180	354	*	600000	590000	*	*	*	*	*	*
+153	"Rank to 190"	185	190	*	600000	100000	*	*	*	*	*	*
+154	"Cantruru Hunting Record (4)"	190	354	*	700000	690000	*	*	*	*	*	*
+155	"Level to 200"	195	200	*	700000	100000	*	*	*	*	*	*
+156	"Dark Forest 2"	200	*	*	100	100	*	*	*	*	*	*
+157	"Hunt the Scarlet Orc"	200	549	*	370000	360000	*	*	*	*	*	*
+158	"Hunting the Scarlet Undead"	200	550	*	38000	370000	*	*	*	*	*	*
+159	"Hunting the Scarlet Stone Man"	200	551	*	390000	380000	*	*	*	*	*	*
+160	"Hunting the Scarlet Queen"	205	304	*	400000	390000	*	*	*	*	*	*
+161	"Hunt the Jungle Summoner"	205	309	*	200000	180000	*	*	*	*	*	*
+162	"Hidden Forest Hunting Record (2)"	205	308	*	800000	790000	*	*	*	*	*	*
+163	"Rank to 210"	205	210	*	800000	100000	*	*	*	*	*	*
+164	"Going to Cantero 3"	210	*	*	100	100	*	*	*	*	*	*
+165	"Hunting Berserker"	210	553	*	420000	410000	*	*	*	*	*	*
+166	"Hunting Centaur Warrior"	210	555	*	430000	420000	*	*	*	*	*	*
+167	"Hunting Giant Warrior"	210	554	*	440000	430000	*	*	*	*	*	*
+168	"Hunting Executioner Warrior"	210	556	*	450000	440000	*	*	*	*	*	*
+169	"Cantruru Hunting Record (5)"	210	354	*	900000	890000	*	*	*	*	*	*
+170	"Rank to 220"	210	220	*	900000	100000	*	*	*	*	*	*
+171	"Find Moron in Icewind Dale for 2 Turns"	220	*	*	100	100	*	*	*	*	*	*
+172	"Find Moron on the Warrior Continent for a 2-turn mission"	220	*	*	100	100	*	*	*	*	*	*
+173	"Find Molen in the Fairy Forest and Do 2 Turns"	220	*	*	100	100	*	*	*	*	*	*
+174	"Find Moren for a 2-turn mission at Atlantis"	220	*	*	100	100	*	*	*	*	*	*
+175	"Complete 2 turns"	220	2	*	900000	100000	*	*	*	*	*	*
+176	"Cantruru Hunting Record (6)"	220	354	*	1000000	900000	*	*	*	*	*	*
+177	"Rank to 230"	220	230	*	1000000	100000	*	*	*	*	*	*
+178	"Going to the ruins of Kantruu"	230	*	*	100	100	*	*	*	*	*	*
+179	"Hunting Lone Demon"	230	359	*	460000	450000	*	*	*	*	*	*
+180	"Hunting Masked Witch"	230	358	*	470000	460000	*	*	*	*	*	*
+181	"Hunting Dread Angels"	230	360	*	480000	470000	*	*	*	*	*	*
+182	"Cantruru Hunting Record (7)"	230	354	*	1100000	100000	*	*	*	*	*	*
+183	"Rank to 240"	230	240	*	1100000	100000	*	*	*	*	*	*
+184	"Cantruru Hunting Record (8)"	240	354	*	1200000	110000	*	*	*	*	*	*
+185	"Rank to 250"	240	250	*	1200000	100000	*	*	*	*	*	*
+186	"Cantruru Hunting Record (9)"	250	354	*	1300000	120000	*	*	*	*	*	*
+187	"Rank to 260"	250	250	*	1300000	100000	*	*	*	*	*	*
+188	"Cantruru Hunting Record (10)"	260	354	*	1400000	130000	*	*	*	*	*	*
+189	"Rank to 270"	260	270	*	1400000	100000	*	*	*	*	*	*
+190	"Kantru Hunting Record (11)"	270	354	*	1500000	140000	*	*	*	*	*	*
+191	"Rank to 280"	270	280	*	1500000	100000	*	*	*	*	*	*
+192	"To Frost City"	280	*	*	100	100	*	*	*	*	*	*
+193	"Hunting Ice Demon"	280	454	*	490000	480000	*	*	*	*	*	*
+194	"Hunting Ice Golem"	280	455	*	500000	490000	*	*	*	*	*	*
+195	"Hunting Ice Trolls"	280	456	*	510000	500000	*	*	*	*	*	*
+196	"Hunting Ice Iron Soul"	280	458	*	520000	510000	*	*	*	*	*	*
+197	"Hunting Ice Spider"	280	457	*	530000	520000	*	*	*	*	*	*
+198	"Hunting Dark Demon Spider"	285	564	*	540000	530000	*	*	*	*	*	*
+199	"Hunting the Dark Mammoth"	285	562	*	550000	540000	*	*	*	*	*	*
+200	"Hunt the Dark Giant"	285	563	*	560000	550000	*	*	*	*	*	*
+201	"Hunting the Dark Iron Knight"	285	565	*	570000	560000	*	*	*	*	*	*
+202	"Cantruru Hunting Record (12)"	285	354	*	1600000	1500000	*	*	*	*	*	*
+203	"Rank to 290"	285	290	*	1600000	100000	*	*	*	*	*	*
+204	"Cantruru Hunting Records (13)"	290	354	*	1700000	160000	*	*	*	*	*	*
+205	"Level to 300"	290	300	*	1700000	100000	*	*	*	*	*	*
+206	"Going to Akron"	300	*	*	100	100	*	*	*	*	*	*
+207	"Akaron Hunting Records (1)"	300	589	*	1800000	170000	*	*	*	*	*	*
+208	"Rank to 320"	300	320	*	1800000	100000	*	*	*	*	*	*
+209	"Akaron Hunting Records (2)"	320	589	*	1900000	180000	*	*	*	*	*	*
+210	"Rank to 340"	320	340	*	1900000	100000	*	*	*	*	*	*
+211	"Akaron Hunting Records (3)"	340	589	*	2000000	190000	*	*	*	*	*	*
+212	"Rank to 360"	340	360	*	2000000	100000	*	*	*	*	*	*
+213	"Acron Hunting Records (4)"	360	714	*	2100000	2000000	*	*	*	*	*	*
+214	"Rank to 380"	360	380	*	2100000	100000	*	*	*	*	*	*
+215	"Akaron Hunting Records (5)"	380	714	*	2200000	2100000	*	*	*	*	*	*
+216	"Level to 400"	380	400	*	2200000	100000	*	*	*	*	*	*
+217	"Complete the 3 turn mission"	400	6	*	2200000	100000	*	*	*	*	*	*
+end

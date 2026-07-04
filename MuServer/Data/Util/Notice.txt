@@ -1,0 +1,49 @@
+//===============================================================================================================================================
+//Message													Type	Count	Opacity	Delay	Red	Green	Blue	Speed	RepeatTime
+//===============================================================================================================================================
+" "															0		0		0		0		0	0		0		0		130
+"Diga NAO a compras com transacao fora do jogo"				0		0		0		0		0	0		0		0		0
+"E proibido e voce pode perder itens e dinheiro."			0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Ja conhece os comandos disponiveis no IconeMU?"			0		0		0		0		0	0		0		0		0
+"Nao vacila nao, acesse [comandos.iconemu.com]"				0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Ja entrou no nosso grupo de Anuncios no WhatsApp?"			0		0		0		0		0	0		0		0		0
+"Se nao entrou, entre agora mesmo pra saber de tudo!"		0		0		0		0		0	0		0		0		0
+"Acesse [grupo.iconemu.com] em seu navegador"				0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Ja esta no nosso canal no Discord?"						0		0		0		0		0	0		0		0		0
+"Acesse [discord.iconemu.com] em seu navegador"				0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Acompanhe as ultimas transmissoes e tutoriais"				0		0		0		0		0	0		0		0		0
+"[twitch.iconemu.com] e [youtube.iconemu.com]"				0		0		0		0		0	0		0		0		0
+
+//" "															0		0		0		0		0	0		0		0		130
+//"A melhor maneira de evoluir no jogo eh juntar-se"			0		0		0		0		0	0		0		0		0
+//"a uma guild. Acesse [recruta.iconemu.com] no navegador"	0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Alguma duvida, problema, sugestao, reclamacao?"			0		0		0		0		0	0		0		0		0
+"Chama no zap! Acesse [zap.iconemu.com] em seu navegador"	0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"O PC ta sofrendo com lag ai? De vitaminas a ele!"			0		0		0		0		0	0		0		0		0
+"Acesse [lag.iconemu.com] em seu navegador."				0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Vamos aprender um pouquinho sobre PvP?"					0		0		0		0		0	0		0		0		0
+"Sem preguica, da uma olhada em [pvp.iconemu.com]"			0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Vindo de outro jogo ou outro servidor de MU?"				0		0		0		0		0	0		0		0		0
+"Traga sua galera! Chama no [zap.iconemu.com]"				0		0		0		0		0	0		0		0		0
+
+" "															0		0		0		0		0	0		0		0		130
+"Passando aperto nos Boss? Talvez falte um detalhe..."		0		0		0		0		0	0		0		0		0
+"Acesse e confira tudo em [boss.iconemu.com]"				0		0		0		0		0	0		0		0		0
+
+end

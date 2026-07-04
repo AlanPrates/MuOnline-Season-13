@@ -1,0 +1,25 @@
+//OptionValue
+// 1 = fireworks
+// 2 = verificar classe
+// 4 = dropar section toda
+// 8 = sockets
+
+3
+//Index	DropRate
+0		10000	//Rings
+end
+
+4
+//Index	Section	SectionRate	MoneyAmount	OptionValue	DW	DK	FE	MG	DL	SU	RF	GL
+0		5		10000		0			12			1	1	1	1	1	1	1	1
+end
+
+//Rings
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duration
+6827	15		63		0		254		254		254		255		254		0		259200
+6828	15		63		0		254		254		254		255		254		0		259200
+6829	15		63		0		254		254		254		255		254		0		259200
+6831	15		63		0		254		254		254		255		254		0		259200
+6832	15		63		0		254		254		254		255		254		0		259200
+end

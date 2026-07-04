@@ -1,0 +1,51 @@
+//I	Name			Zen	MinLvl	MaxLvl	MinRest	MaxRest	AccLvl	Gate
+48	"Event Square"	0	1		*		*		*		0		503
+2	"Valley Loren"	0	1		*		*		*		0		103
+3	"Lorencia"		0	1		*		*		*		0		17
+4	"Noria"			0	1		*		*		*		0		27
+5	"Elbeland"		0	1		*		*		*		0		267
+6	"Elbeland 2"	0	1		*		*		*		0		268
+7	"Elbeland 3"	0	1		*		*		*		0		269
+8	"Devias"		0	1		*		*		*		1		22
+9	"Devias 2"		0	1		*		*		*		1		72
+10	"Devias 3"		0	1		*		*		*		1		73
+11	"Devias 4"		0	1		*		*		*		1		74
+12	"Vulcanus"		0	1		*		*		*		0		294
+13	"Dungeon"		0	1		*		*		*		1		2
+14	"Dungeon 2"		0	1		*		*		*		1		6
+15	"Dungeon 3"		0	1		*		*		*		1		10
+16	"Arena"			0	1		*		*		*		0		50
+17	"LostTower"		0	1		*		*		*		0		42
+18	"LostTower 2"	0	1		*		*		*		0		31
+19	"LostTower 3"	0	1		*		*		*		0		33
+20	"LostTower 4"	0	1		*		*		*		0		35
+21	"LostTower 5"	0	1		*		*		*		0		37
+22	"LostTower 6"	0	1		*		*		*		0		39
+23	"LostTower 7"	0	1		*		*		*		0		41
+24	"Atlans"		0	1		*		*		*		0		49
+25	"Atlans 2"		0	1		*		*		*		0		75
+26	"Atlans 3"		0	1		*		*		*		0		76
+27	"Tarkan"		0	1		*		*		*		0		57
+28	"Tarkan 2"		0	1		*		*		*		0		77
+29	"Aida 1"		0	1		*		*		*		0		119
+30	"Aida 2"		0	1		*		*		*		0		140
+31	"KanturuRuins1"	0	1		*		*		*		0		138
+32	"KanturuRuins2"	0	1		*		*		*		0		141
+33	"KanturuRuins3"	0	1		*		*		*		0		334
+34	"KanturuRelics"	0	1		*		*		*		0		139
+35	"Icarus"		0	1		*		*		*		0		63
+36	"Karutan 1"		0	1		*		*		*		0		335
+37	"Karutan 2"		0	1		*		*		*		0		344
+38	"Raklion"		0	1		*		*		*		0		287
+39	"Acheron"		0	1		*		*		*		0		417
+40	"Crywolf"		0	1		*		*		*		0		118
+41	"Ferea"			0	1		*		*		*		0		509
+42	"Swamp of Calm"	0	1		*		*		*		0		273
+43	"Nixies Lake"	0	1		*		*		*		1		522
+44	"DeepDungeon 1"	0	1		*		*		*		1		561
+45	"DeepDungeon 2"	0	1		*		*		*		1		562
+46	"DeepDungeon 3"	0	1		*		*		*		1		563
+47	"DeepDungeon 4"	0	1		*		*		*		1		564
+1	"DeepDungeon 5"	0	1		*		*		*		1		565
+49	"SwampDarkness"	0	1		*		*		*		1		567
+end

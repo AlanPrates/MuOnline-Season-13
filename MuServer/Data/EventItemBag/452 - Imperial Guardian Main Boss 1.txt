@@ -1,0 +1,18 @@
+// DropZen = Quantidade do zen que irá cair no chão de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, será 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 até 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que serão dropados)
+// SetItemDropRate =   0 até 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleatórios)
+// Fireworks =         0 ou 1 (0 = Não vai soltar fogos quando dropar)
+
+0
+//EventName			DropZen	ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks	
+"IG Main Boss 1"	1000	100		 		1		 		0			    0               0
+end
+
+1
+//Section	Type	MinLevel	MaxLevel	Skill	Luck	Option	Excellent
+14			283		0			0			0		0		0		0			// Mastery Box (Standard)
+end

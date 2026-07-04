@@ -1,0 +1,66 @@
+0	6365	1	1	10000	"Elemental damage +d"	30	33	38	45	54	65	78	93	113	138	168	198	228	258	288	318
+10	6365	2	1	2000	"+d Attack Against Fire Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+11	6365	2	2	2000	"+d Attack Against Water Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+12	6365	2	3	2000	"+d Attack Against Earth Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+13	6365	2	4	2000	"+d Attack Against Wind Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+14	6365	2	5	2000	"+d Attack Against Dark Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+20	6365	3	1	5000	"Elemental Attack Dmg (in PvP) +d"	30	35	43	54	66	80	97	117	142	172	207	237	262	287	317	342
+21	6365	3	2	5000	"Elemental Attack Dmg (in Raids) +d"	30	35	43	54	66	80	97	117	142	172	207	237	262	287	317	342
+30	6365	4	1	5000	"Elemental Damage (in PVP) +d"	5	6	7	8	10	12	14	17	20	23	27	32	37	42	47	52
+31	6365	4	2	5000	"Elemental Damage (in Raids) +d"	5	6	7	8	10	12	14	17	20	23	27	32	37	42	47	52
+40	6365	5	1	10000	"Elemental Damage +d"	3	4	5	6	8	10	12	15	18	21	25	29	33	37	41	45
+50	6375	1	1	10000	"Additional Elemental Defense +d"	10	13	17	22	28	35	43	52	62	73	85	97	109	121	133	148
+60	6375	2	1	2000	"+d Defense Against Fire Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+61	6375	2	2	2000	"+d Defense Against Water Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+62	6375	2	3	2000	"+d Defense Against Earth Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+63	6375	2	4	2000	"+d Defense Against Wind Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+64	6375	2	5	2000	"+d Defense Against Dark Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+70	6375	3	1	5000	"Elemental Defense (in PvP) +d"	10	13	17	22	28	35	43	52	62	73	85	97	109	121	133	148
+71	6375	3	2	5000	"Elemental Defense (in Raids) +d"	10	13	17	22	28	35	43	52	62	73	85	97	109	121	133	148
+80	6375	4	1	5000	"Elemental Damage Absorb (in PVP) +d"	5	6	7	8	10	12	14	17	20	23	27	32	37	42	47	52
+81	6375	4	2	5000	"Elemental Damage Absorb (in Raids) +d"	5	6	7	8	10	12	14	17	20	23	27	32	37	42	47	52
+90	6375	5	1	10000	"Elemental Damage Absorb +d"	3	4	5	6	8	10	12	15	18	21	25	29	33	37	41	45
+100	6385	1	1	10000	"Elemental Attack Success Rate +d"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+110	6385	2	1	2000	"+d Attack Against Fire Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+111	6385	2	2	2000	"+d Attack Against Water Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+112	6385	2	3	2000	"+d Attack Against Earth Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+113	6385	2	4	2000	"+d Attack Against Wind Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+114	6385	2	5	2000	"+d Attack Against Dark Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+120	6385	3	1	5000	"Elemental Attack Dmg (in PvP) +d"	30	35	43	54	66	80	97	117	142	172	207	237	262	287	317	242
+121	6385	3	2	5000	"Elemental Attack Dmg (in Raids) +d"	30	35	43	54	66	80	97	117	142	172	207	237	262	287	317	242
+130	6385	4	1	5000	"Elemental Attack Success Rate (in PVP) +d"	270	300	330	360	410	460	510	570	630	690	800	900	1000	1100	1200	1500
+131	6385	4	2	5000	"Elemental Attack Success Rate (in Raids) +d"	270	300	330	360	410	460	510	570	630	690	800	900	1000	1100	1200	1500
+140	6385	5	1	10000	"Attack Success Rate +d"	150	170	190	210	240	270	300	340	380	420	500	580	660	740	820	900
+150	6395	1	1	10000	"Elemental Defense Success Rate +d"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+160	6395	2	1	2000	"+d Defense Against Fire Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+161	6395	2	2	2000	"+d Defense Against Water Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+162	6395	2	3	2000	"+d Defense Against Earth Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+163	6395	2	4	2000	"+d Defense Against Wind Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+164	6395	2	5	2000	"+d Defense Against Dark Element"	5	6	7	8	9	10	12	14	16	18	20	22	24	26	28	30
+170	6395	3	1	5000	"Elemental Defense (in PvP) +d"	10	13	17	22	28	35	43	52	62	73	85	97	109	121	133	148
+171	6395	3	2	5000	"Elemental Defense (in Raids) +d"	10	13	17	22	28	35	43	52	62	73	85	97	109	121	133	148
+180	6395	4	1	5000	"Elemental Defense Success Rate (in PVP) +d"	270	300	330	360	410	460	510	570	630	690	800	900	1000	1100	1200	1500
+181	6395	4	2	5000	"Elemental Defense Success Rate (in Raids) +d"	270	300	330	360	410	460	510	570	630	690	800	900	1000	1100	1200	1500
+190	6395	5	1	10000	"Elemental Defense Success Rate +d"	150	170	190	210	240	270	300	340	380	420	500	580	660	740	820	900
+200	6405	1	1	2495	"Elemental Damage (II) +d"	33	48	63	78	95	112	129	148	167	186	209	232	255	278	301	324
+201	6405	1	2	2495	"Elemental Defense (II) +d"	13	21	29	37	46	55	64	74	84	94	107	120	133	146	159	172
+202	6405	1	3	2495	"Elemental Attack Success Rate (II) +d"	150	173	196	219	252	285	318	361	404	447	605	763	921	1079	1237	1395
+203	6405	1	4	2495	"Elemental Defense Success Rate (II) +d"	150	173	196	219	252	285	318	361	404	447	605	763	921	1079	1237	1395
+204	6405	1	5	10	"Elemental Damage (III) +d"	33	52	71	90	120	141	162	191	213	235	261	287	313	339	365	391
+205	6405	1	6	10	"Elemental Defense (III) +d"	13	23	33	43	54	65	76	90	104	118	135	152	169	186	203	220
+210	6405	2	1	4995	"Absorb Shield - 30 chance to absorb d damage as SD"	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+211	6405	2	2	4995	"Absorb Life - 30 chance to absorb d damage as Life"	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+212	6405	2	3	10	"Bastion - Protection is activated for d sec. by 50 chance when SD is below 20"	3	4	5	6	8	10	12	15	18	21	25	29	33	37	41	45
+220	6405	3	1	100000	"Bleeding - A durable effect invoking d damages to the target with certain chance when attacking"	1000	1400	1800	2200	2600	3000	3400	3800	4200	4600	5000	5400	5800	6200	6600	7000
+221	6405	3	2	100000	"Paralyzing - Chance to decrease target¡¯s Moving Speed and every Healing ability by 90."	1	1	1	2	2	2	3	3	3	4	4	4	5	5	5	6
+222	6405	3	3	100000	"Binding - Immobilize the target by holding its leg with certain chance when attacking."	1	1	1	2	2	2	3	3	3	4	4	4	5	5	5	6
+223	6405	3	4	100000	"Punish- 30 chance to inflict damage (d of target's MAX Life) upon Critical Elemantal Damage."	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21
+224	6405	3	5	2000	"Blinding - Chance to greatly decrease target¡¯s Attack Success Rate by d when attacking."	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16
+230	6405	4	1	7000	"Can use Immune Skill I."	13	14	15	6	18	20	22	25	28	31	35	39	43	47	51	55
+231	6405	4	2	3000	"Can use Immune Skill II."	13	14	15	16	18	20	22	5	28	31	35	39	43	47	51	55
+240	6405	5	1	10000	"Can use Berserker Skill I."	13	14	15	16	18	20	22	25	28	31	35	39	43	47	51	55
+250	6366	1	14	10000	"Attribute Attack Increase +"	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+251	6376	1	14	10000	"Attribute Defense +"	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+252	6386	1	14	10000	"Attribute Attack Success Rate Increase +"	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+253	6396	1	14	10000	"Attribute Defense Success Rate Increase +"	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+end

@@ -1,0 +1,49 @@
+//Index = Referencia a tabela de cima
+//Section = Referencia aos grupos de drop criados
+//MoneyAmount = Quantidade de drop de zen
+//OptionValue: 0 = Nada
+//1 = Fogos de artifício
+//2 = Verificação de classe leva em consideração a party.
+//16 = Adicionar o item ao Gremory Case da conta.
+//32 = Adicionar o item ao Gremory Case do personagem.
+//OBS: Para cumular opções, basta somar os valores.
+//DW, DK, FE, MG, DL, SU, RF e GL:
+//0 = Não pode.
+//1 = Pode.
+//2 = Pode, se tiver primeira evolução.
+//3 = Pode, se tiver segunda evolução. 
+
+3
+//Index   DropRate
+0         10000
+1         5000
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF   GL
+0         *         2000          10000         0             1    1    1    1    1    1    1    1
+0         5         6000          0             0             1    1    1    1    1    1    1    1
+1         7         5000          0             0             1    1    1    1    1    1    1    1
+1         6         5000          0             0             1    1    1    1    1    1    1    1
+end
+
+5
+//Index   Level   Grade   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7431      0       0       *         *         *         *         *         *         *         0          // Bless of Light (Low Grade)
+7432      0       0       *         *         *         *         *         *         *         0          // Bless of Light (Middle Grade)
+7392      0       0       *         *         *         *         *         *         *         0          // Blessing of Light 200%
+7254      0       0       *         *         *         *         *         *         *         0          // Cherry Blossom Rice Cake
+7255      0       0       *         *         *         *         *         *         *         0          // Cherry Blossom Flower Petal
+end
+
+6
+//Index   Level   Grade   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+7386      0       0       *         *         *         *         *         *         *         0          //Tantalose's Punishment
+end
+
+7
+//Index   Level   Grade   Option0   Option1   Option2   Option3   Option4   Option5   Option6   Duration   Comment
+6348      0       0       28        *         *         *         *         *         20        *          //Hero Elixir +0~3 2~4 slots
+6350      0       0       28        *         *         *         *         *         20        *          //Gladiator's Dagger +0~3 2~4 slots
+6346      0       0       28        *         *         *         *         *         20        *          //Lorencia Knights' Iron Shield +0~3 2~4 slots
+end

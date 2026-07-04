@@ -1,0 +1,64 @@
+3
+//Index   DropRate
+0         5000
+1         5000
+end
+
+4
+//Index   Section   SectionRate   MoneyAmount   OptionValue   DW   DK   FE   MG   DL   SU   RF  GL
+0         5         10000         0             1             1    1    1    1    1    1    1	1
+1         20        10000         0             1             1    1    1    1    1    1    1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duratio	Comment
+
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7520	0	0	*	*	*	*	*	*	*	0	//Ruud box 1000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7504	0	0	*	*	*	*	*	*	*	0	//Ruud box 10000
+7457	0	0	*	*	*	*	*	*	*	0	//Ruud box 50000
+7457	0	0	*	*	*	*	*	*	*	0	//Ruud box 50000
+7457	0	0	*	*	*	*	*	*	*	0	//Ruud box 50000
+7456	0	0	*	*	*	*	*	*	*	0	//Ruud box 100000
+7456	0	0	*	*	*	*	*	*	*	0	//Ruud box 100000
+7455	0	0	*	*	*	*	*	*	*	0	//Ruud box 200000
+
+7513	0	0	*	*	*	*	*	*	*	0	//Mysterious Stone
+
+41		0	0	*	*	*	*	*	*	*	0	//Picareta
+
+7668	0	0	*	*	*	*	*	*	*	5	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	5	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	5	//Jewel of Level
+7673	0	0	*	*	*	*	*	*	*	5	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	5	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	5	//Jewel of Luck
+
+7668	0	0	*	*	*	*	*	*	*	10	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	10	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	10	//Jewel of Level
+7673	0	0	*	*	*	*	*	*	*	10	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	10	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	10	//Jewel of Luck
+
+//SEED 9
+6474	*	0	56	*	*	*	*	*	*	0	//Seed Water
+6476	*	0	58	*	*	*	*	*	*	0	//Seed Wind
+6478	*	0	60	*	*	*	*	*	*	0	//Seed Earth
+end
+
+20
+//EFFECT	DURATION
+44			7200
+45			7200
+46			7200
+196			7200
+197			7200
+198			7200
+200			7200
+201			7200
+210			1800
+end

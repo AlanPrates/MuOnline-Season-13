@@ -1,0 +1,22 @@
+
+// DropZen = Quantidade do zen que irá cair no chão de acordo com o drop do ItemDropRate
+// Exemplo: ItemDropRate = 70, será 70% de chance de cair o item e 30% de chance de cair o zen
+
+// ItemDropRate =      0 até 100 (Porcentagem para drop dos itens)
+// ItemDropCount =    (Quantidade de itens que serão dropados)
+// SetItemDropRate =   0 até 10000 (Porcentagem para drop de iten Ancient)
+// ItemDropType =      0 ou 1 (0 = Options fixos como esta na linha e 1 = Options aleatórios)
+// Fireworks =         0 ou 1 (0 = Não vai soltar fogos quando dropar) Mas agora eu buguei pq ali esta 2.. ?!
+
+0
+//EventName              DropZen   ItemDropRate   ItemDropCount   SetItemDropRate   ItemDropType   Fireworks	
+"Cherry Blossom Mix 1"	 1000	       100		        1		         0		          0		      2
+end
+
+1
+//Section   Type   MinLevel   MaxLevel   Skill   Luck   Option   Excellent
+13          1      0          0          0       0      0        0		//Imp
+13          2      0          0          0       0      0        0		//Horn of Uniria
+13          0      0          0          0       0      0        0		//Guardian Angel
+13          3      0          0          0       0      0        0		//Horn of Dinorant
+end

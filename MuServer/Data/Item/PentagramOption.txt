@@ -1,0 +1,54 @@
+0
+//===================================================================================	
+//Item	At1	At2	At3	At4	At5	At6	At7
+//===================================================================================
+6344	1	0	0	0	0	0	0	//	Mei	Lan's	Magic	Book
+6345	1	0	0	0	0	0	0	//	Etlam's	Scroll
+6346	1	0	0	0	0	0	0	//	Brave	Continental	Knights	Ironwall	Shield
+6347	1	3	0	0	0	0	0	//	Knight's	Ironwall	Shield	that	penetrates	magic
+6348	1	0	0	0	0	0	0	//	Holy	Water
+6349	1	4	0	0	0	0	0	//	Ferocious	Hero	Potion
+6350	1	0	0	0	0	0	0	//	Rune	Short	Sword	of	the	Black	Dragon	King	
+6351	1	2	0	0	0	0	0	//	Cold	Gladiator's	Shortsword
+6352	2	26	24	0	0	0	0	//	Quenton's	Falling	Blade
+6353	2	27	24	0	0	0	0	//	Quenton's	Elder	Scrolls
+6354	2	26	24	0	0	0	0	//	Barriers	of	the	Imperial	Guard
+6355	2	27	28	0	0	0	0	//	Ancient	book	in	the	city	of	the	sky
+6356	3	41	24	0	0	0	0	//	Alkana	Prophecy
+6357	3	41	42	0	0	0	0	//	Anthony's	sword
+6358	3	41	43	0	0	0	0	//	Quinton's	seal	book
+6359	1	1	0	0	0	0	0	//	Novice	element	attributes
+6361	1	5	0	0	0	0	0	//	Magic	Scroll	(bound)
+6450	2	34	21	29	0	0	0	//	Runedi's	Golden	Melody	Harp
+6451	2	34	22	30	0	0	0	//	Remalia	Orb
+6452	2	23	24	25	0	0	0	//	Norwin's	Blood	Guards	Lila
+end
+
+1
+//===================================================================================================================================================================================
+//Index	Name                                 		Value   Type0   Rank0   Level0   Type1   Rank1   Level1   Type2   Rank2   Level2   Type3   Rank3   Level3   Type4   Rank4   Level4
+//===================================================================================================================================================================================
+
+1		"Elemental Attack/Defense +5% increase"		5	0	1	0	1	1	0	2	1	0	3	1	0	*	*	0
+2		"Increase elemental attack power by +10%"	10	0	1	0	*	*	*	*	*	*	*	*	*	*	*	*
+3		"Increase Elemental Defense by +10%"		10	0	1	0	*	*	*	*	*	*	*	*	*	*	*	*
+4		"Attribute Critical Strike Rate +10%"		10	0	1	0	*	*	*	*	*	*	*	*	*	*	*	*
+5		"Sheltered Elt Level 1 Attrib Effect +35"	35	0	1	0	1	1	0	*	*	*	*	*	*	*	*	*
+21		"Elemental Attack Damage +10%"			10	0	2	0	2	2	0	*	*	*	*	*	*	*	*	*
+22		"Elemental Defense Increase +10%"		10	1	2	0	3	2	0	*	*	*	*	*	*	*	*	*
+23		"Attribute Critical Strike Rate	+5%"		5	1	1	7	*	*	*	*	*	*	*	*	*	*	*	*
+24		"Attribute Critical Strike Rate	+10%"		10	0	2	3	*	*	*	*	*	*	*	*	*	*	*	*
+25		"Attribute Critical Strike Rate	+25%"		25	0	3	0	1	3	0	*	*	*	*	*	*	*	*	*
+26		"Defense added to attribute defense +5%"	5	0	3	0	1	3	0	*	*	*	*	*	*	*	*	*
+27		"Damage added to attribute atck power +1%"	1	0	3	0	1	3	0	*	*	*	*	*	*	*	*	*
+28		"Attribute Attacks Miss Rate +5%"		5	1	2	0	2	1	7	*	*	*	*	*	*	*	*	*
+29		"Attribute Attack +30"				30	0	3	0	2	3	0	*	*	*	*	*	*	*	*	*
+30		"Attribute Defense Increase +30"		30	1	3	0	3	3	0	*	*	*	*	*	*	*	*	*
+31		"Noble Elt 1st order attribute effect +20"	20	2	1	0	*	*	*	*	*	*	*	*	*	*	*	*
+32		"Holy Elt 1st order attribute effect +20"	20	3	1	0	*	*	*	*	*	*	*	*	*	*	*	*
+33		"Ecstasy Elt 1st order attribut effect +20"	20	4	1	0	*	*	*	*	*	*	*	*	*	*	*	*
+34		"Increase Elemental Attack/Defense +5%"		5	0	1	7	1	1	7	4	1	7	*	*	*	*	*	*
+41		"Risk of evasion of attribute attacks +5%"	5	1	3	6	2	3	6	3	3	6	*	*	*	*	*	*
+42		"Defense added to attribute defense +5%"	5	0	3	5	1	3	5	*	*	*	*	*	*	*	*	*
+43		"Damage added to attribut attack power +1%"	1	0	3	5	1	3	5	*	*	*	*	*	*	*	*	*	
+end

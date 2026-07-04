@@ -1,0 +1,47 @@
+//Index = Referencia a tabela de cima
+//Section = Referencia aos grupos de drop criados
+//MoneyAmount = Quantidade de drop de zen
+//OptionValue: 0 = Nada
+//1 = Fogos de artifício
+//2 = Verificação de classe leva em consideração a party.
+//16 = Adicionar o item ao Gremory Case da conta.
+//32 = Adicionar o item ao Gremory Case do personagem.
+//OBS: Para cumular opções, basta somar os valores.
+//DW, DK, FE, MG, DL, SU, RF e GL:
+//0 = Não pode.
+//1 = Pode.
+//2 = Pode, se tiver primeira evolução.
+//3 = Pode, se tiver segunda evolução. 
+
+3
+//Index	DropRate
+0	10000
+end
+
+4
+//Index	Section	Rate	Money	Option	DW	DK	FE	MG	DL	SU	RF	GL
+0	5	10000	0	1	1	1	1	1	1	1	1	1
+end
+
+5
+//Index	Level	Grade	Option0	Option1	Option2	Option3	Option4	Option5	Option6	Duratio	Comment
+
+7513	0	0	*	*	*	*	*	*	*	0	//Mysterious Stone
+7524	0	0	*	*	*	*	*	*	*	0	//Ruud box 500000
+7299	0	0	*	*	*	*	*	*	*	0	//Pack buff
+
+7666	0	0	*	*	*	*	*	*	*	50	//Jewel of Sphere Upgrade
+7668	0	0	*	*	*	*	*	*	*	50	//Jewel of Skill
+7669	0	0	*	*	*	*	*	*	*	50	//Jewel of Ancient
+7670	0	0	*	*	*	*	*	*	*	50	//Jewel of Level
+7671	0	0	*	*	*	*	*	*	*	50	//Jewel of Elemental Slot
+7672	0	0	*	*	*	*	*	*	*	50	//Jewel of Errtel Rank
+7673	0	0	*	*	*	*	*	*	*	50	//Jewel of Overlife
+7674	0	0	*	*	*	*	*	*	*	50	//Jewel of Excellence
+7675	0	0	*	*	*	*	*	*	*	50	//Jewel of Luck
+7676	0	0	*	*	*	*	*	*	*	50	//Jewel of Errtel Level
+7677	0	0	*	*	*	*	*	*	*	50	//Jewel of 4th Wing Element
+7678	0	0	*	*	*	*	*	*	*	50	//Jewel of 4th Wing Option
+7679	0	0	*	*	*	*	*	*	*	5	//Jewel of Galaxies Cock
+
+end

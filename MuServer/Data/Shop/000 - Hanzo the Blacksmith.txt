@@ -1,0 +1,48 @@
+//Section	Type	Level	Dur		Skill	Luck	Option	Exc	Coment
+6			10		0		000		0		1		1		0	//Round Shield +0 +5 DEF Rate + Luck
+6			04		1		000		1		1		1		0	//Buckler Shield +1 +5 DEF Rate +Skill +Luck
+6			01		2		000		0		1		1		0	//Horn Shield +2 +5 DEF Rate +Luck
+07			9 		3 		0 		0 		1 		1		0	//Plate SET +3 +4 DEF + LUCK
+
+6			02		3		000		0		1		1		0	//Kite Shield +3 +5 DEF Rate +Luck
+6			06		3		000		1		1		1		0	//Skull Shield +3 +5 DEF Rate +Skill +Luck
+6			10		3		000		1		1		1		0	//Large round Shield +3 +5 DEF Rate +Skill +Luck
+08			9 		3 		0 		0 		1 		1		0	//Plate SET +3 +4 DEF + LUCK
+
+6			09		3		000		1		1		1		0	//Plate Shield +3 +5 DEF Rate +Skill +Luck
+6			07		3		000		1		1		1		0	//Spiked Shield +3 +5 DEF Rate +Skill +Luck
+6			05		3		000		1		1		1		0	//Dragon slayer Shield +3 +5 DEF Rate +Skill +Luck
+09			9 		3 		0 		0 		1 		1		0	//Plate SET +3 +4 DEF + LUCK
+
+6			08		3		000		1		1		1		0	//Tower Shield +3 +5 DEF Rate +Skill +Luck
+6			11		3		000		1		1		1		0	//Serpent Shield +3 +5 DEF Rate +Skill +Luck
+6			12		3		000		1		1		1		0	//Bronze Shield +3 +5 DEF Rate +Skill +Luck
+10			9 		3 		0 		0 		1 		1		0	//Plate SET +3 +4 DEF + LUCK
+
+0			01		0		000		0		1		1		0	//Short Sword +0 +4 DMG +luck
+1			01		1		000		0		1		1		0	//Hand Axe +1 +4 DMG +luck
+2			00		2		000		0		1		1		0	//Mace +2 +4 DMG +luck
+0			02		2		000		0		1		1		0	//Rapier +2 +4 DMG +luck
+1			02		2		000		1		1		1		0	//Double Axe +2 +4 DMG +luck +Skill
+0			04		3		000		1		1		1		0	//Sword of assassin +3 +4 DMG +luck +Skill
+11			9 		3 		0 		0 		1 		1		0	//Plate SET +3 +4 DEF + LUCK
+
+2			01		3		000		1		1		1		0	//Morning Star +3 +4 DMG +luck +Skill
+1			03		3		000		1		1		1		0	//Tomahawk +3 +4 DMG +luck +Skill
+0			06		3		000		1		1		1		0	//Gladius +3 +4 DMG +luck +Skill
+0			07		3		000		1		1		1		0	//Falchion +3 +4 DMG +luck +Skill
+0			08		3		000		1		1		1		0	//Serpent Sword +3 +4 DMG +luck +Skill
+0			05		3		000		1		1		1		0	//Serpent Sword +3 +4 DMG +luck +Skill
+0			00		2		000		0		1		0		0	//Kris +2 +luck
+12			12 		0 		0 		0 		0 		0		0	//Orb of Impale
+12			16 		0 		0 		0 		0 		0		0	//Orb of Impale
+12			19 		0 		0 		0 		0 		0		0	//Orb of Impale
+12			13 		0 		0 		0 		0 		0		0	//Orb of Impale
+12			7 		0 		0 		0 		0 		0		0	//Orb of Twisting Slash
+12			14		0		0		0		0		0		0	//Orb of Greater Fortitude
+12			49		0		0		0		0		0		0	//Orb of Greater Fortitude
+12			44		0		0		0		0		0		0	//Orb of Greater Fortitude
+end
+
+
+
