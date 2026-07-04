@@ -9,6 +9,9 @@
 *.VC.VC.opendb
 ipch/
 
+# Full game client package (kept outside this repository)
+client-files/
+
 # Build output folders and intermediates
 [Dd]ebug/
 [Rr]elease/
