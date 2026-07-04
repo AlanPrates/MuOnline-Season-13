@@ -3291,7 +3291,7 @@ void CCommandManager::CommandPin(LPOBJ lpObj, char* arg)
 		GCMessagePopupSend(lpObj, gMessage.GetMessage(39));
 	}
 
-	gLog.Output(LOG_COMMAND, "[CommandPin][%s][%s] - (Pin: %d)", lpObj->Account, lpObj->Name, pin);	
+	gLog.Output(LOG_COMMAND, "[CommandPin][%s][%s] - (Pin: %s)", lpObj->Account, lpObj->Name, pin);	
 }
 
 void CCommandManager::CommandRuud(LPOBJ lpObj, char* arg)

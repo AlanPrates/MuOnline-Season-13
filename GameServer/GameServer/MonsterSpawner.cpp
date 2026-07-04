@@ -111,10 +111,14 @@ void cMonsterSpawner::Load(char* path)
 					this->TimeEnd[this->TotalConfig]	= lpScript->GetAsNumber();
 					this->TimeEnd[this->TotalConfig]	*= 60;
 
-					strcpy(this->Name[this->TotalConfig],lpScript->GetAsString());
-					strcpy(this->StartMessage[this->TotalConfig],lpScript->GetAsString());
-					strcpy(this->DeathMessage[this->TotalConfig],lpScript->GetAsString());
-					strcpy(this->EvadeMessage[this->TotalConfig],lpScript->GetAsString());
+					strncpy(this->Name[this->TotalConfig],lpScript->GetAsString(),sizeof(this->Name[this->TotalConfig])-1);
+					this->Name[this->TotalConfig][sizeof(this->Name[this->TotalConfig])-1] = 0;
+					strncpy(this->StartMessage[this->TotalConfig],lpScript->GetAsString(),sizeof(this->StartMessage[this->TotalConfig])-1);
+					this->StartMessage[this->TotalConfig][sizeof(this->StartMessage[this->TotalConfig])-1] = 0;
+					strncpy(this->DeathMessage[this->TotalConfig],lpScript->GetAsString(),sizeof(this->DeathMessage[this->TotalConfig])-1);
+					this->DeathMessage[this->TotalConfig][sizeof(this->DeathMessage[this->TotalConfig])-1] = 0;
+					strncpy(this->EvadeMessage[this->TotalConfig],lpScript->GetAsString(),sizeof(this->EvadeMessage[this->TotalConfig])-1);
+					this->EvadeMessage[this->TotalConfig][sizeof(this->EvadeMessage[this->TotalConfig])-1] = 0;
 
 					/*LogAdd(LOG_DEBUG, "DEBUG MONSTER SPAWNER %d %d %d %d %d %d %d",
 						this->Group[this->TotalConfig],this->Enable[this->TotalConfig],this->Type[this->TotalConfig],this->Value[this->TotalConfig],
@@ -148,8 +152,10 @@ void cMonsterSpawner::Load(char* path)
 					this->Monster[this->TotalMob].value	= lpScript->GetAsNumber();
 					this->Monster[this->TotalMob].value	*= 60;
 
-					strcpy(this->Monster[this->TotalMob].StartMessage,lpScript->GetAsString());
-					strcpy(this->Monster[this->TotalMob].DeathMessage,lpScript->GetAsString());
+					strncpy(this->Monster[this->TotalMob].StartMessage,lpScript->GetAsString(),sizeof(this->Monster[this->TotalMob].StartMessage)-1);
+					this->Monster[this->TotalMob].StartMessage[sizeof(this->Monster[this->TotalMob].StartMessage)-1] = 0;
+					strncpy(this->Monster[this->TotalMob].DeathMessage,lpScript->GetAsString(),sizeof(this->Monster[this->TotalMob].DeathMessage)-1);
+					this->Monster[this->TotalMob].DeathMessage[sizeof(this->Monster[this->TotalMob].DeathMessage)-1] = 0;
 					
 
 					/*LogAdd(LOG_DEBUG, "DEBUG MONSTER SPAWNER %d %d %d %d %d",
@@ -518,7 +524,8 @@ void cMonsterSpawner::GetAndSendNextInvasions(int aIndex)
 			continue;
 		}
 
-		strcpy(MinutesTable[i].Name,this->Name[i]);
+		strncpy(MinutesTable[i].Name,this->Name[i],sizeof(MinutesTable[i].Name)-1);
+		MinutesTable[i].Name[sizeof(MinutesTable[i].Name)-1] = 0;
 
 		if(this->EventStart[i] == true)
 		{
@@ -593,7 +600,8 @@ void cMonsterSpawner::GetAndSendNextInvasions(int aIndex)
 
 		if(MinutesTable[i].Minutes < 65000)
 		{
-			strcpy(InvasionsList.Name, MinutesTable[i].Name);
+			strncpy(InvasionsList.Name, MinutesTable[i].Name,sizeof(InvasionsList.Name)-1);
+			InvasionsList.Name[sizeof(InvasionsList.Name)-1] = 0;
 			InvasionsList.Time = MinutesTable[i].Minutes;
 			
 			DataSend(aIndex, (LPBYTE)&InvasionsList, sizeof(InvasionsList));

@@ -1,0 +1,55 @@
+1@Diversos@200@201@1@1@1
+40@Especiais@200@201@1@1@0
+41@Acessorios@200@201@1@1@0
+42@Buffs@200@201@1@1@0
+43@Pets@200@201@1@1@0
+44@Scrolls@200@201@1@1@0
+45@Ingressos@200@201@1@1@0
+46@Joias@200@201@1@1@0
+47@Ruud@200@201@1@1@0
+48@Rings/Pendants@200@201@1@1@0
+49@Seed Sphere@200@201@1@1@0
+61@Aluguel@200@201@1@1@0
+4@Armaduras@200@201@10@10@1
+62@Personalizaveis@200@201@4@1@0
+14@Nivel 380@200@201@4@1@0
+11@Classicos I @200@201@4@1@0
+12@Classicos II @200@201@4@1@0
+13@Classicos III @200@201@4@1@0
+15@Socket@200@201@4@1@0
+16@Socket Mastery@200@201@4@1@0
+17@Ancient Tier I @200@201@4@1@0
+18@Ancient Tier II @200@201@4@1@0
+2@Armamento@200@201@2@1@1
+29@Personalizaveis@200@201@2@1@0
+20@Sword@200@201@2@1@0
+21@Axe/Mace/Spear@200@201@2@1@0
+22@Scepters@200@201@2@1@0
+23@Lance@200@201@2@1@0
+24@Bow/Quiver@200@201@2@1@0
+25@Gloves@200@201@2@1@0
+26@Staff@200@201@2@1@0
+27@Stick/Book@200@201@2@1@0
+28@Shield@200@201@2@1@0
+3@Asas/Elemental@200@201@3@1@1
+33@Asas IV @200@201@3@1@0
+32@Asas III @200@201@3@1@0
+31@Asas II @200@201@3@1@0
+30@Outras Asas@200@201@3@1@0
+34@Pentagramas@200@201@3@1@0
+35@Errtel Fogo@200@201@3@1@0
+36@Errtel Agua@200@201@3@1@0
+37@Errtel Terra@200@201@3@1@0
+38@Errtel Vento@200@201@3@1@0
+39@Errtel Sombra@200@201@3@1@0
+5@Bonu$@200@201@5@1@1
+50@Especiais@200@201@5@1@0
+51@Acessorios@200@201@5@1@0
+52@Buffs@200@201@5@1@0
+53@Pets@200@201@5@1@0
+54@Scrolls@200@201@5@1@0
+55@Ingressos@200@201@5@1@0
+59@Sets@200@201@5@7@0
+56@Armas@200@201@5@6@0
+60@Asas@200@201@5@6@0
+57@Aluguel@200@201@5@9@0
