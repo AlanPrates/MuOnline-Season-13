@@ -1,0 +1,48 @@
+# Visual Studio / MSBuild
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+ipch/
+
+# Build intermediates
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+*.obj
+*.pch
+*.ilk
+*.idb
+*.pdb
+*.ipdb
+*.iobj
+*.tlog
+*.lastbuildstate
+*.log
+*.map
+*.exp
+
+# Server runtime logs
+MuServer/**/LOG/
+MuServer/**/LOG_ACCOUNT/
+MuServer/**/Logs/
+MuServer/StartUp/Logs/
+
+# Temporary / local files
+*.tmp
+*.temp
+*.bak
+Thumbs.db
+Desktop.ini
+
+# Local SQL/database dumps, if created later
+*.mdf
+*.ldf
+*.bak.sql
+*.bak
+
