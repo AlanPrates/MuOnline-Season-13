@@ -9,12 +9,11 @@
 *.VC.VC.opendb
 ipch/
 
-# Build intermediates
+# Build output folders and intermediates
 [Dd]ebug/
 [Rr]elease/
 x64/
 Win32/
-*.obj
 *.pch
 *.ilk
 *.idb
@@ -24,7 +23,6 @@ Win32/
 *.tlog
 *.lastbuildstate
 *.log
-*.map
 *.exp
 
 # Server runtime logs
@@ -37,6 +35,7 @@ MuServer/StartUp/Logs/
 *.tmp
 *.temp
 *.bak
+!MuServer/Database/*.bak
 Thumbs.db
 Desktop.ini
 
@@ -44,5 +43,3 @@ Desktop.ini
 *.mdf
 *.ldf
 *.bak.sql
-*.bak
-
