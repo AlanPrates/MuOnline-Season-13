@@ -78,6 +78,7 @@
 #include "SummonScroll.h"
 #include "NewQuestWorld.h"
 #include "StatSpecialize.h"
+
 #include "MasterSkillTree_4th.h"
 #include "ForThTree.h"
 #include "HuntingGrounds.h"
@@ -102,6 +103,19 @@
 #include "GodOfDarkness.h"
 #include "GameMain.h"
 
+
+static int SafeServerInfoDivisor(int value, const char* name)
+{
+	if (value == 0)
+	{
+		LogAdd(LOG_RED, "[Config] %s is 0; using 1 to avoid divide by zero", name);
+		return 1;
+	}
+
+	return value;
+}
+
+#define SAFE_SERVERINFO_DIVISOR(value) SafeServerInfoDivisor((value), #value)
 
 CObjectManager gObjectManager;
 
@@ -4097,7 +4111,7 @@ void CObjectManager::CharacterCalcSD(LPOBJ lpObj) // OK
 		value += (lpObj->Leadership + lpObj->AddLeadership);
 	}
 
-	lpObj->MaxShield = (((value * gServerInfo.m_ShieldGaugeConstA) / 10) + (((lpObj->Level + lpObj->MasterLevel) * (lpObj->Level + lpObj->MasterLevel)) / gServerInfo.m_ShieldGaugeConstB)) + (lpObj->Defense / 2);
+	lpObj->MaxShield = (((value * gServerInfo.m_ShieldGaugeConstA) / 10) + (((lpObj->Level + lpObj->MasterLevel) * (lpObj->Level + lpObj->MasterLevel)) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_ShieldGaugeConstB))) + (lpObj->Defense / 2);
 }
 
 void CObjectManager::CharacterCalcPvPAccessoryOption(LPOBJ lpObj) // OK
@@ -4417,26 +4431,26 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 
 	if (lpObj->Class == CLASS_DW)
 	{
-		lpObj->PhysiDamageMinRight = Strength / gServerInfo.m_DWPhysiDamageMinConstA;
-		lpObj->PhysiDamageMaxRight = Strength / gServerInfo.m_DWPhysiDamageMaxConstA;
-		lpObj->PhysiDamageMinLeft = Strength / gServerInfo.m_DWPhysiDamageMinConstA;
-		lpObj->PhysiDamageMaxLeft = Strength / gServerInfo.m_DWPhysiDamageMaxConstA;
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_DWMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_DWMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_DWMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_DWMagicDamageMaxConstA;
+		lpObj->PhysiDamageMinRight = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWPhysiDamageMinConstA);
+		lpObj->PhysiDamageMaxRight = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWPhysiDamageMaxConstA);
+		lpObj->PhysiDamageMinLeft = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWPhysiDamageMinConstA);
+		lpObj->PhysiDamageMaxLeft = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWPhysiDamageMaxConstA);
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWMagicDamageMaxConstA);
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
-		lpObj->PhysiDamageMinRight = Strength / gServerInfo.m_DKPhysiDamageMinConstA;
-		lpObj->PhysiDamageMaxRight = Strength / gServerInfo.m_DKPhysiDamageMaxConstA;
-		lpObj->PhysiDamageMinLeft = Strength / gServerInfo.m_DKPhysiDamageMinConstA;
-		lpObj->PhysiDamageMaxLeft = Strength / gServerInfo.m_DKPhysiDamageMaxConstA;
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_DKMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_DKMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_DKMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_DKMagicDamageMaxConstA;
-		lpObj->DKDamageMultiplierRate = 200 + (Energy / gServerInfo.m_DKDamageMultiplierConstA);
+		lpObj->PhysiDamageMinRight = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKPhysiDamageMinConstA);
+		lpObj->PhysiDamageMaxRight = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKPhysiDamageMaxConstA);
+		lpObj->PhysiDamageMinLeft = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKPhysiDamageMinConstA);
+		lpObj->PhysiDamageMaxLeft = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKPhysiDamageMaxConstA);
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKMagicDamageMaxConstA);
+		lpObj->DKDamageMultiplierRate = 200 + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKDamageMultiplierConstA));
 		lpObj->DKDamageMultiplierRate = ((lpObj->DKDamageMultiplierRate > gServerInfo.m_DKDamageMultiplierMaxRate) ? gServerInfo.m_DKDamageMultiplierMaxRate : lpObj->DKDamageMultiplierRate);
 		//LogAdd(LOG_DEBUG, "DKDamageMultiplierRate: %d | Energy: %d", lpObj->DKDamageMultiplierRate, Energy);
 	}
@@ -4446,99 +4460,99 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 		{
 			if ((Right->IsItem() != 0 && Right->m_IsValidItem == 0) || (Left->IsItem() != 0 && Left->m_IsValidItem == 0))
 			{
-				lpObj->PhysiDamageMinRight = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMinConstA;
-				lpObj->PhysiDamageMaxRight = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMaxConstA;
-				lpObj->PhysiDamageMinLeft = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMinConstA;
-				lpObj->PhysiDamageMaxLeft = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMaxConstA;
+				lpObj->PhysiDamageMinRight = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinConstA);
+				lpObj->PhysiDamageMaxRight = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxConstA);
+				lpObj->PhysiDamageMinLeft = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinConstA);
+				lpObj->PhysiDamageMaxLeft = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxConstA);
 			}
 			else
 			{
-				lpObj->PhysiDamageMinRight = (Strength / gServerInfo.m_FEPhysiDamageMinBowConstA) + (Dexterity / gServerInfo.m_FEPhysiDamageMinBowConstB);
-				lpObj->PhysiDamageMaxRight = (Strength / gServerInfo.m_FEPhysiDamageMaxBowConstA) + (Dexterity / gServerInfo.m_FEPhysiDamageMaxBowConstB);
-				lpObj->PhysiDamageMinLeft = (Strength / gServerInfo.m_FEPhysiDamageMinBowConstA) + (Dexterity / gServerInfo.m_FEPhysiDamageMinBowConstB);
-				lpObj->PhysiDamageMaxLeft = (Strength / gServerInfo.m_FEPhysiDamageMaxBowConstA) + (Dexterity / gServerInfo.m_FEPhysiDamageMaxBowConstB);
+				lpObj->PhysiDamageMinRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinBowConstA)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinBowConstB));
+				lpObj->PhysiDamageMaxRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxBowConstA)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxBowConstB));
+				lpObj->PhysiDamageMinLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinBowConstA)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinBowConstB));
+				lpObj->PhysiDamageMaxLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxBowConstA)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxBowConstB));
 			}
 		}
 		else
 		{
-			lpObj->PhysiDamageMinRight = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMinConstA;
-			lpObj->PhysiDamageMaxRight = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMaxConstA;
-			lpObj->PhysiDamageMinLeft = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMinConstA;
-			lpObj->PhysiDamageMaxLeft = (Strength + Dexterity) / gServerInfo.m_FEPhysiDamageMaxConstA;
+			lpObj->PhysiDamageMinRight = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinConstA);
+			lpObj->PhysiDamageMaxRight = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxConstA);
+			lpObj->PhysiDamageMinLeft = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMinConstA);
+			lpObj->PhysiDamageMaxLeft = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiDamageMaxConstA);
 		}
 
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_FEMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_FEMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_FEMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_FEMagicDamageMaxConstA;
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEMagicDamageMaxConstA);
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
-		lpObj->PhysiDamageMinRight = (Strength / gServerInfo.m_MGPhysiDamageMinConstA);// + (Energy / gServerInfo.m_MGPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxRight = (Strength / gServerInfo.m_MGPhysiDamageMaxConstA);// + (Energy / gServerInfo.m_MGPhysiDamageMaxConstB);
-		lpObj->PhysiDamageMinLeft = (Strength / gServerInfo.m_MGPhysiDamageMinConstA);// + (Energy / gServerInfo.m_MGPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxLeft = (Strength / gServerInfo.m_MGPhysiDamageMaxConstA);// + (Energy / gServerInfo.m_MGPhysiDamageMaxConstB);
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_MGMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_MGMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_MGMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_MGMagicDamageMaxConstA;
-		lpObj->DKDamageMultiplierRate = 200 + (Energy / gServerInfo.m_DKDamageMultiplierConstA);
+		lpObj->PhysiDamageMinRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMinConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMaxConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMaxConstB));
+		lpObj->PhysiDamageMinLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMinConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMaxConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiDamageMaxConstB));
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGMagicDamageMaxConstA);
+		lpObj->DKDamageMultiplierRate = 200 + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKDamageMultiplierConstA));
 		lpObj->DKDamageMultiplierRate = ((lpObj->DKDamageMultiplierRate > gServerInfo.m_DKDamageMultiplierMaxRate) ? gServerInfo.m_DKDamageMultiplierMaxRate : lpObj->DKDamageMultiplierRate);
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
-		lpObj->PhysiDamageMinRight = (Strength / gServerInfo.m_DLPhysiDamageMinConstA);// +(Energy / gServerInfo.m_DLPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxRight = (Strength / gServerInfo.m_DLPhysiDamageMaxConstA);// + (Energy / gServerInfo.m_DLPhysiDamageMaxConstB);
-		lpObj->PhysiDamageMinLeft = (Strength / gServerInfo.m_DLPhysiDamageMinConstA);// + (Energy / gServerInfo.m_DLPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxLeft = (Strength / gServerInfo.m_DLPhysiDamageMaxConstA);// + (Energy / gServerInfo.m_DLPhysiDamageMaxConstB);
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_DLMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_DLMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_DLMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_DLMagicDamageMaxConstA;
-		lpObj->DLDamageMultiplierRate = 200 + (Energy / gServerInfo.m_DLDamageMultiplierConstA);
+		lpObj->PhysiDamageMinRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMinConstA));// +(Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMaxConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMaxConstB));
+		lpObj->PhysiDamageMinLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMinConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMaxConstA));// + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiDamageMaxConstB));
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLMagicDamageMaxConstA);
+		lpObj->DLDamageMultiplierRate = 200 + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLDamageMultiplierConstA));
 		lpObj->DLDamageMultiplierRate = ((lpObj->DLDamageMultiplierRate > gServerInfo.m_DLDamageMultiplierMaxRate) ? gServerInfo.m_DLDamageMultiplierMaxRate : lpObj->DLDamageMultiplierRate);
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
-		lpObj->PhysiDamageMinRight = (Strength + Dexterity) / gServerInfo.m_SUPhysiDamageMinConstA;
-		lpObj->PhysiDamageMaxRight = (Strength + Dexterity) / gServerInfo.m_SUPhysiDamageMaxConstA;
-		lpObj->PhysiDamageMinLeft = (Strength + Dexterity) / gServerInfo.m_SUPhysiDamageMinConstA;
-		lpObj->PhysiDamageMaxLeft = (Strength + Dexterity) / gServerInfo.m_SUPhysiDamageMaxConstA;
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_SUMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_SUMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_SUMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_SUMagicDamageMaxConstA;
+		lpObj->PhysiDamageMinRight = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUPhysiDamageMinConstA);
+		lpObj->PhysiDamageMaxRight = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUPhysiDamageMaxConstA);
+		lpObj->PhysiDamageMinLeft = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUPhysiDamageMinConstA);
+		lpObj->PhysiDamageMaxLeft = (Strength + Dexterity) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUPhysiDamageMaxConstA);
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUMagicDamageMaxConstA);
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
-		lpObj->PhysiDamageMinRight = (Strength / gServerInfo.m_RFPhysiDamageMinConstA);// +(Vitality / gServerInfo.m_RFPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxRight = (Strength / gServerInfo.m_RFPhysiDamageMaxConstA);// +(Vitality / gServerInfo.m_RFPhysiDamageMaxConstB);
-		lpObj->PhysiDamageMinLeft = (Strength / gServerInfo.m_RFPhysiDamageMinConstA);// +(Vitality / gServerInfo.m_RFPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxLeft = (Strength / gServerInfo.m_RFPhysiDamageMaxConstA);// +(Vitality / gServerInfo.m_RFPhysiDamageMaxConstB);
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_RFMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_RFMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_RFMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_RFMagicDamageMaxConstA;
-		lpObj->RFDamageMultiplierRate[0] = 50 + (Vitality / gServerInfo.m_RFDamageMultiplierConstB);
+		lpObj->PhysiDamageMinRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMinConstA));// +(Vitality / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMaxConstA));// +(Vitality / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMaxConstB));
+		lpObj->PhysiDamageMinLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMinConstA));// +(Vitality / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMaxConstA));// +(Vitality / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiDamageMaxConstB));
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFMagicDamageMaxConstA);
+		lpObj->RFDamageMultiplierRate[0] = 50 + (Vitality / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDamageMultiplierConstB));
 		lpObj->RFDamageMultiplierRate[0] = ((lpObj->RFDamageMultiplierRate[0] > gServerInfo.m_RFDamageMultiplierMaxRate) ? gServerInfo.m_RFDamageMultiplierMaxRate : lpObj->RFDamageMultiplierRate[0]);
-		lpObj->RFDamageMultiplierRate[1] = 50 + (Energy / gServerInfo.m_RFDamageMultiplierConstC);
+		lpObj->RFDamageMultiplierRate[1] = 50 + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDamageMultiplierConstC));
 		lpObj->RFDamageMultiplierRate[1] = ((lpObj->RFDamageMultiplierRate[1] > gServerInfo.m_RFDamageMultiplierMaxRate) ? gServerInfo.m_RFDamageMultiplierMaxRate : lpObj->RFDamageMultiplierRate[1]);
-		lpObj->RFDamageMultiplierRate[2] = 100 + (Dexterity / gServerInfo.m_RFDamageMultiplierConstA) + (Energy / gServerInfo.m_RFDamageMultiplierConstC);
+		lpObj->RFDamageMultiplierRate[2] = 100 + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDamageMultiplierConstA)) + (Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDamageMultiplierConstC));
 		lpObj->RFDamageMultiplierRate[2] = ((lpObj->RFDamageMultiplierRate[2] > gServerInfo.m_RFDamageMultiplierMaxRate) ? gServerInfo.m_RFDamageMultiplierMaxRate : lpObj->RFDamageMultiplierRate[2]);
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
-		lpObj->PhysiDamageMinRight = (Strength / gServerInfo.m_FKPhysiDamageMinConstA);// +(Dexterity / gServerInfo.m_FKPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxRight = (Strength / gServerInfo.m_FKPhysiDamageMaxConstA);// +(Dexterity / gServerInfo.m_FKPhysiDamageMaxConstB);
-		lpObj->PhysiDamageMinLeft = (Strength / gServerInfo.m_FKPhysiDamageMinConstA);// +(Dexterity / gServerInfo.m_FKPhysiDamageMinConstB);
-		lpObj->PhysiDamageMaxLeft = (Strength / gServerInfo.m_FKPhysiDamageMaxConstA);// +(Dexterity / gServerInfo.m_FKPhysiDamageMaxConstB);
-		lpObj->MagicDamageMin = Energy / gServerInfo.m_FKMagicDamageMinConstA;
-		lpObj->MagicDamageMax = Energy / gServerInfo.m_FKMagicDamageMaxConstA;
-		lpObj->CurseDamageMin = Energy / gServerInfo.m_FKMagicDamageMinConstA;
-		lpObj->CurseDamageMax = Energy / gServerInfo.m_FKMagicDamageMaxConstA;
-		lpObj->GLDamageMultiplierRate[0] = 97 + (Strength / gServerInfo.m_FKDamageMultiplierConstA);
+		lpObj->PhysiDamageMinRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMinConstA));// +(Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxRight = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMaxConstA));// +(Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMaxConstB));
+		lpObj->PhysiDamageMinLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMinConstA));// +(Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMinConstB));
+		lpObj->PhysiDamageMaxLeft = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMaxConstA));// +(Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiDamageMaxConstB));
+		lpObj->MagicDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKMagicDamageMinConstA);
+		lpObj->MagicDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKMagicDamageMaxConstA);
+		lpObj->CurseDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKMagicDamageMinConstA);
+		lpObj->CurseDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKMagicDamageMaxConstA);
+		lpObj->GLDamageMultiplierRate[0] = 97 + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKDamageMultiplierConstA));
 		lpObj->GLDamageMultiplierRate[0] = ((lpObj->GLDamageMultiplierRate[0] > gServerInfo.m_FKDamageMultiplierMaxRate) ? gServerInfo.m_FKDamageMultiplierMaxRate : lpObj->GLDamageMultiplierRate[0]);
-		lpObj->GLDamageMultiplierRate[1] = 97 + (Dexterity / gServerInfo.m_FKDamageMultiplierConstB);
+		lpObj->GLDamageMultiplierRate[1] = 97 + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKDamageMultiplierConstB));
 		lpObj->GLDamageMultiplierRate[1] = ((lpObj->GLDamageMultiplierRate[1] > gServerInfo.m_FKDamageMultiplierMaxRate) ? gServerInfo.m_FKDamageMultiplierMaxRate : lpObj->GLDamageMultiplierRate[1]);
 	}
 
@@ -4579,68 +4593,68 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 
 	if (lpObj->Class == CLASS_DW)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_DWAttackSuccessRateConstB) / gServerInfo.m_DWAttackSuccessRateConstC) + (Strength / gServerInfo.m_DWAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_DWAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWAttackSuccessRateConstD));
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_DKAttackSuccessRateConstB) / gServerInfo.m_DKAttackSuccessRateConstC) + (Strength / gServerInfo.m_DKAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_DKAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKAttackSuccessRateConstD));
 	}
 	else if (lpObj->Class == CLASS_FE)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_FEAttackSuccessRateConstB) / gServerInfo.m_FEAttackSuccessRateConstC) + (Strength / gServerInfo.m_FEAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_FEAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEAttackSuccessRateConstD));
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_MGAttackSuccessRateConstB) / gServerInfo.m_MGAttackSuccessRateConstC) + (Strength / gServerInfo.m_MGAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_MGAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGAttackSuccessRateConstD));
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_DLAttackSuccessRateConstB) / gServerInfo.m_DLAttackSuccessRateConstC) + (Strength / gServerInfo.m_DLAttackSuccessRateConstD) + (Leadership / gServerInfo.m_DLAttackSuccessRateConstE);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_DLAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLAttackSuccessRateConstD)) + (Leadership / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLAttackSuccessRateConstE));
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_SUAttackSuccessRateConstB) / gServerInfo.m_SUAttackSuccessRateConstC) + (Strength / gServerInfo.m_SUAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_SUAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUAttackSuccessRateConstD));
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_RFAttackSuccessRateConstB) / gServerInfo.m_RFAttackSuccessRateConstC) + (Strength / gServerInfo.m_RFAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_RFAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFAttackSuccessRateConstD));
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_FKAttackSuccessRateConstB) / gServerInfo.m_FKAttackSuccessRateConstC) + (Strength / gServerInfo.m_FKAttackSuccessRateConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKAttackSuccessRateConstA) + ((Dexterity * gServerInfo.m_FKAttackSuccessRateConstB) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKAttackSuccessRateConstC)) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKAttackSuccessRateConstD));
 	}
 
 	if (lpObj->Class == CLASS_DW)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWAttackSuccessRatePvPConstA) / gServerInfo.m_DWAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_DWAttackSuccessRatePvPConstC) / gServerInfo.m_DWAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_DWAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKAttackSuccessRatePvPConstA) / gServerInfo.m_FKAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_FKAttackSuccessRatePvPConstC) / gServerInfo.m_FKAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_FKAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKAttackSuccessRatePvPConstA) / gServerInfo.m_DKAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_DKAttackSuccessRatePvPConstC) / gServerInfo.m_DKAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_DKAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_FE)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEAttackSuccessRatePvPConstA) / gServerInfo.m_FEAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_FEAttackSuccessRatePvPConstC) / gServerInfo.m_FEAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_FEAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGAttackSuccessRatePvPConstA) / gServerInfo.m_MGAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_MGAttackSuccessRatePvPConstC) / gServerInfo.m_MGAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_MGAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLAttackSuccessRatePvPConstA) / gServerInfo.m_DLAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_DLAttackSuccessRatePvPConstC) / gServerInfo.m_DLAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_DLAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUAttackSuccessRatePvPConstA) / gServerInfo.m_SUAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_SUAttackSuccessRatePvPConstC) / gServerInfo.m_SUAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_SUAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUAttackSuccessRatePvPConstD));
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
-		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFAttackSuccessRatePvPConstA) / gServerInfo.m_RFAttackSuccessRatePvPConstB) + ((Dexterity * gServerInfo.m_RFAttackSuccessRatePvPConstC) / gServerInfo.m_RFAttackSuccessRatePvPConstD);
+		lpObj->m_MPSkillOpt.AttackSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFAttackSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFAttackSuccessRatePvPConstB)) + ((Dexterity * gServerInfo.m_RFAttackSuccessRatePvPConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFAttackSuccessRatePvPConstD));
 	}
 
 	g_StatSpec.CalcStatOption(lpObj, STAT_OPTION_INC_ATTACK_RATE);
@@ -4648,43 +4662,43 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 
 	if (lpObj->Class == CLASS_DW)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_DWPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_DWMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_FKPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_FKMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_DKPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_DKMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_FE)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_FEPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_FEMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_MGPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_MGMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_DLPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_DLMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_SUPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_SUMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUMagicSpeedConstA);
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
-		lpObj->PhysiSpeed = Dexterity / gServerInfo.m_RFPhysiSpeedConstA;
-		lpObj->MagicSpeed = Dexterity / gServerInfo.m_RFMagicSpeedConstA;
+		lpObj->PhysiSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFPhysiSpeedConstA);
+		lpObj->MagicSpeed = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFMagicSpeedConstA);
 	}
 
 	lpObj->PhysiSpeed += lpObj->DrinkSpeed;
@@ -4757,35 +4771,35 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 
 	if (lpObj->Class == CLASS_DW)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_DWDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_FKDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_DKDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_FE)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_FEDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_MGDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_DLDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_SUDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / gServerInfo.m_RFDefenseSuccessRateConstA;
+		lpObj->m_MPSkillOpt.DefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDefenseSuccessRateConstA);
 	}
 
 	lpObj->m_MPSkillOpt.DefenseSuccessRate += lpObj->Inventory[1].GetDefenseSuccessRate();
@@ -4798,35 +4812,35 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 
 	if (lpObj->Class == CLASS_DW)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWDefenseSuccessRatePvPConstA) / gServerInfo.m_DWDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_DWDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKDefenseSuccessRatePvPConstA) / gServerInfo.m_FKDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_FKDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKDefenseSuccessRatePvPConstA) / gServerInfo.m_DKDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_DKDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_FE)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEDefenseSuccessRatePvPConstA) / gServerInfo.m_FEDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_FEDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGDefenseSuccessRatePvPConstA) / gServerInfo.m_MGDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_MGDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLDefenseSuccessRatePvPConstA) / gServerInfo.m_DLDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_DLDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUDefenseSuccessRatePvPConstA) / gServerInfo.m_SUDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_SUDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUDefenseSuccessRatePvPConstC));
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
-		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFDefenseSuccessRatePvPConstA) / gServerInfo.m_RFDefenseSuccessRatePvPConstB) + (Dexterity / gServerInfo.m_RFDefenseSuccessRatePvPConstC);
+		lpObj->m_MPSkillOpt.DefenseSuccessRatePvP = (((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFDefenseSuccessRatePvPConstA) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDefenseSuccessRatePvPConstB)) + (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFDefenseSuccessRatePvPConstC));
 	}
 
 	int LastItemIndex = -1;
@@ -4915,14 +4929,14 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 	//Mapa da temporada, limite de agi -> defesa
 	if ((lpObj->Map == MAP_TEMPORADA) && Dexterity > maxDexterity[lpObj->Class]) 
 	{
-		lpObj->Defense = maxDexterity[lpObj->Class] / gServerInfo.m_ClassDefenseConst[lpObj->Class];
+		lpObj->Defense = maxDexterity[lpObj->Class] / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_ClassDefenseConst[lpObj->Class]);
 	}
 	else
 	{
-		lpObj->Defense = Dexterity / gServerInfo.m_ClassDefenseConst[lpObj->Class];
+		lpObj->Defense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_ClassDefenseConst[lpObj->Class]);
 	}
 
-	//lpObj->Defense = Dexterity / gServerInfo.m_ClassDefenseConst[lpObj->Class];
+	//lpObj->Defense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_ClassDefenseConst[lpObj->Class]);
 
 	lpObj->Defense += lpObj->Inventory[1].GetDefense();
 	lpObj->Defense += lpObj->Inventory[2].GetDefense();
@@ -4989,74 +5003,74 @@ void CObjectManager::CharacterCalcAttribute(int aIndex) // OK
 	if (lpObj->Class == CLASS_DW)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_DWElementalDefenseConstA;
-		lpObj->ElementalDamageMin = Energy / gServerInfo.m_DWElementalDamageMinConstA;
-		lpObj->ElementalDamageMax = Energy / gServerInfo.m_DWElementalDamageMaxConstA;
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_DWElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_DWElementalAttackSuccessRateConstC) / gServerInfo.m_DWElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_DWElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWElementalDefenseConstA);
+		lpObj->ElementalDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWElementalDamageMinConstA);
+		lpObj->ElementalDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWElementalDamageMaxConstA);
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DWElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_DWElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DWElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_DK)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_DKElementalDefenseConstA;
-		lpObj->ElementalDamageMin = Strength / gServerInfo.m_DKElementalDamageMinConstA;
-		lpObj->ElementalDamageMax = Strength / gServerInfo.m_DKElementalDamageMaxConstA;
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_DKElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_DKElementalAttackSuccessRateConstC) / gServerInfo.m_DKElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_DKElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalDefenseConstA);
+		lpObj->ElementalDamageMin = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalDamageMinConstA);
+		lpObj->ElementalDamageMax = Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalDamageMaxConstA);
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DKElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_DKElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_FE)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_FEElementalDefenseConstA;
-		lpObj->ElementalDamageMin = (Dexterity / gServerInfo.m_FEElementalDamageMinConstA);
-		lpObj->ElementalDamageMax = (Dexterity / gServerInfo.m_FEElementalDamageMaxConstA);
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_FEElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_FEElementalAttackSuccessRateConstC) / gServerInfo.m_FEElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_FEElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEElementalDefenseConstA);
+		lpObj->ElementalDamageMin = (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEElementalDamageMinConstA));
+		lpObj->ElementalDamageMax = (Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEElementalDamageMaxConstA));
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FEElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_FEElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FEElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_MG)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_MGElementalDefenseConstA;
-		lpObj->ElementalDamageMin = (Strength / gServerInfo.m_MGElementalDamageMinConstA);
-		lpObj->ElementalDamageMax = (Strength / gServerInfo.m_MGElementalDamageMaxConstA);
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_MGElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_MGElementalAttackSuccessRateConstC) / gServerInfo.m_MGElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_MGElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGElementalDefenseConstA);
+		lpObj->ElementalDamageMin = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGElementalDamageMinConstA));
+		lpObj->ElementalDamageMax = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGElementalDamageMaxConstA));
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_MGElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_MGElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_MGElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_DL)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_DLElementalDefenseConstA;
-		lpObj->ElementalDamageMin = (Strength / gServerInfo.m_DLElementalDamageMinConstA);
-		lpObj->ElementalDamageMax = (Strength / gServerInfo.m_DLElementalDamageMaxConstA);
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_DLElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_DLElementalAttackSuccessRateConstC) / gServerInfo.m_DLElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_DLElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLElementalDefenseConstA);
+		lpObj->ElementalDamageMin = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLElementalDamageMinConstA));
+		lpObj->ElementalDamageMax = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLElementalDamageMaxConstA));
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_DLElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_DLElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DLElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_SU)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_SUElementalDefenseConstA;
-		lpObj->ElementalDamageMin = Energy / gServerInfo.m_SUElementalDamageMinConstA;
-		lpObj->ElementalDamageMax = Energy / gServerInfo.m_SUElementalDamageMaxConstA;
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_SUElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_SUElementalAttackSuccessRateConstC) / gServerInfo.m_SUElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_SUElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUElementalDefenseConstA);
+		lpObj->ElementalDamageMin = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUElementalDamageMinConstA);
+		lpObj->ElementalDamageMax = Energy / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUElementalDamageMaxConstA);
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_SUElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_SUElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_SUElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_RF)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_RFElementalDefenseConstA;
-		lpObj->ElementalDamageMin = (Strength / gServerInfo.m_RFElementalDamageMinConstA);
-		lpObj->ElementalDamageMax = (Strength / gServerInfo.m_RFElementalDamageMaxConstA);
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_RFElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_RFElementalAttackSuccessRateConstC) / gServerInfo.m_RFElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_RFElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFElementalDefenseConstA);
+		lpObj->ElementalDamageMin = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFElementalDamageMinConstA));
+		lpObj->ElementalDamageMax = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFElementalDamageMaxConstA));
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_RFElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_RFElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_RFElementalDefenseSuccessRateConstA);
 	}
 	else if (lpObj->Class == CLASS_GL)
 	{
 		lpObj->ElementalAttribute = 0;
-		lpObj->ElementalDefense = Dexterity / gServerInfo.m_FKElementalDefenseConstA;
-		lpObj->ElementalDamageMin = (Strength / gServerInfo.m_FKElementalDamageMinConstA);
-		lpObj->ElementalDamageMax = (Strength / gServerInfo.m_FKElementalDamageMaxConstA);
-		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKElementalAttackSuccessRateConstA) + (Strength / gServerInfo.m_DKElementalAttackSuccessRateConstB) + ((Dexterity * gServerInfo.m_FKElementalAttackSuccessRateConstC) / gServerInfo.m_FKElementalAttackSuccessRateConstD);
-		lpObj->ElementalDefenseSuccessRate = Dexterity / gServerInfo.m_FKElementalDefenseSuccessRateConstA;
+		lpObj->ElementalDefense = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKElementalDefenseConstA);
+		lpObj->ElementalDamageMin = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKElementalDamageMinConstA));
+		lpObj->ElementalDamageMax = (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKElementalDamageMaxConstA));
+		lpObj->ElementalAttackSuccessRate = ((lpObj->Level + lpObj->MasterLevel) * gServerInfo.m_FKElementalAttackSuccessRateConstA) + (Strength / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_DKElementalAttackSuccessRateConstB)) + ((Dexterity * gServerInfo.m_FKElementalAttackSuccessRateConstC) / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKElementalAttackSuccessRateConstD));
+		lpObj->ElementalDefenseSuccessRate = Dexterity / SAFE_SERVERINFO_DIVISOR(gServerInfo.m_FKElementalDefenseSuccessRateConstA);
 	}
 
 	if (Pentagram->IsItem() != 0 && Pentagram->IsPentagramItem() != 0 && Pentagram->m_IsValidItem != 0)

@@ -19,8 +19,6 @@ CKalima::~CKalima() // OK
 
 int CKalima::GetKalimaGateLevel(LPOBJ lpObj) // OK
 {
-	return 6;
-
 	int level = -1;
 
 	if(lpObj->Class == CLASS_MG || lpObj->Class == CLASS_DL || lpObj->Class == CLASS_RF)

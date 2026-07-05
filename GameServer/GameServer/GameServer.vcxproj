@@ -69,16 +69,17 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\MuServer\GameServer\</OutDir>
+    <OutDir>..\..\MuServer\GameServer\</OutDir>
     <IntDir>Debug\GameServer\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_CS|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <OutDir>..\..\..\MuServer\GameServerCS\</OutDir>
+    <OutDir>..\..\MuServer\GameServerCS\</OutDir>
     <IntDir>Debug\GameServerCS\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_CS|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\..\MuServer\GameServerCS\</OutDir>
     <IntDir>Release\GameServerCS\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -133,6 +134,9 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;GAMESERVER_TYPE=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <SDLCheck>false</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>

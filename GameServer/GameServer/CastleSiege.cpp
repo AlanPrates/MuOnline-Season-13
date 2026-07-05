@@ -5923,7 +5923,7 @@ void CCastleSiege::SaveSiegeCharInfo(LPOBJ lpObj, int Type, int Value)
 	SAVE_CHAR_SIEGE_INFO pMsg;
 
 	pMsg.h.set(0x80, 0xA0, sizeof(pMsg));
-	strcpy(pMsg.Name, lpObj->Name);
+	strncpy(pMsg.Name, lpObj->Name, sizeof(pMsg.Name)-1);
 	pMsg.Name[10] = '\0';
 	pMsg.Type = Type;
 	pMsg.Value = Value;
@@ -5943,7 +5943,7 @@ void CCastleSiege::GetSiegeCharInfo(LPOBJ lpObj)
 
 	pMsg.h.set(0x80, 0xA1, sizeof(pMsg));
 	pMsg.aIndex = lpObj->Index;
-	strcpy(pMsg.Name, lpObj->Name);
+	strncpy(pMsg.Name, lpObj->Name, sizeof(pMsg.Name)-1);
 	pMsg.Name[10] = '\0';
 
 	gDataServerConnection.DataSend((BYTE*)&pMsg, sizeof(GET_CHAR_SIEGE_INFO));
