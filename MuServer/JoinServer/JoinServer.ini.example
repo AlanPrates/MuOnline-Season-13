@@ -1,0 +1,11 @@
+[JoinServerInfo]
+JoinServerODBC = MuOnline
+JoinServerUSER = sa
+JoinServerPASS = CHANGE_ME
+JoinServerPort = 55970
+ConnectServerAddress = 192.168.1.3
+ConnectServerPort = 55557
+CaseSensitive = 0
+MD5Encryption = 0
+AutoRegistration 		= 1
+AutoRegistrationMinLength	= 4
