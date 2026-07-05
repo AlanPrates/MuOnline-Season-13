@@ -38,11 +38,59 @@ MuServer/StartUp/Logs/
 *.tmp
 *.temp
 *.bak
-!MuServer/Database/*.bak
 Thumbs.db
 Desktop.ini
 
-# Local SQL/database dumps, if created later
+# Local SQL/database dumps
 *.mdf
 *.ldf
 *.bak.sql
+MuServer/Database/*.bak
+
+# Sensitive / machine-specific server configs (keep .ini.example / .xml.example)
+MuServer/JoinServer/JoinServer.ini
+MuServer/DataServer/DataServer.ini
+MuServer/StartUp/Configuration/Configuration.xml
+MuServer/StartUp/Configuration/Configuration.xml.bak
+
+# Build logs at repo root
+build-*.log
+
+# Build artifacts and binaries (generated)
+*.exe
+*.dll
+*.lib
+*.obj
+*.map
+*.bmd
+*.ilk
+*.pdb
+*.iobj
+*.tlog
+*.lastbuildstate
+*.exp
+*.res
+*.rc
+
+# Tool outputs
+Tools/md5hash/md5hash.exe
+*.bmd.obj
+*.obj
+out.txt
+
+# Database scripts (generated)
+muonline_*.sql
+
+# Scripts folder (keep in repo - these are source)
+# scripts/
+
+# MuServer runtime binaries (generated)
+MuServer/*/*.exe
+MuServer/*/*.dll
+MuServer/*/*.lib
+MuServer/*/*.map
+MuServer/*/*.exe/
+
+# Compiled client
+Client/main.dll
+Client/Data/Local/

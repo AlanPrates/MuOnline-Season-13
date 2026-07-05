@@ -1,6 +1,68 @@
 # Changelog - MuOnline Season 13
 
+## 2026-07-04 (Segurança e Organização)
+
+### Limpeza de duplicatas
+- Removidos do repositório 7 arquivos duplicados que não são compilados:
+  - `GameServer/GameServer/DSProtocol - doublepacket.cpp`
+  - `GameServer/GameServer/IllusionTemple - Copia.cpp` / `.h`
+  - `GameServer/GameServer/SetItemOption - Copia.cpp` / `.h`
+  - `MuServer/Data/Hack/SpeedFila - Copia.txt`
+  - `MuServer/Data/Item/ItemDrop - Copia.txt`
+- Todos confirmados como idênticos aos originais via SHA256 e git diff.
+
+### Remoção de credenciais e caminhos locais do versionamento
+- `MuServer/JoinServer/JoinServer.ini` removido do Git (continua no disco).
+  - Criado `JoinServer.ini.example` como template sem credenciais.
+- `MuServer/StartUp/Configuration/Configuration.xml` removido do Git.
+  - Criado `Configuration.xml.example` como template.
+  - Corrigido caminho do GameServerCS: apontava para `D:\Source S4K FULL\...` (Season 4 antigo).
+  - Alterado para `..\GameServerCS\GameServer.exe` com `Run="False"`.
+- `MuServer/Database/MuOnline.bak` (6 MB) removido do Git.
+- Removidos `build-*.log` da raiz do repositório.
+- `.gitignore` atualizado: ignora `JoinServer.ini`, `Configuration.xml`, `Configuration.xml.bak`, `MuServer/Database/*.bak` e `build-*.log`.
+
+### Scripts
+- Criado `scripts/health-check.ps1`: valida SQL Server, ODBC, portas, arquivos de config, coerência de IP e ServerCode.
+- Criado `scripts/build-all.ps1`: compila toda a suíte (ConnectServer, DataServer, JoinServer, cryptopp, GameServer, GameServerCS, Main) e copia para `MuServer/`.
+
 ## 2026-07-04
+
+## 2026-07-04 (Frente 1.3 - Auditoria de buffers)
+
+### Correcao de strcpy inseguros em todo o GameServer
+- Substituidas **16 ocorrencias** de `strcpy` por `strncpy` com `sizeof(dest)-1` em 7 arquivos:
+  - `DSProtocol.cpp`: 6 (accountOld, accountNew, killer, victim [x2], author)
+  - `CastleSiege.cpp`: 2 (SaveSiegeCharInfo, GetSiegeCharInfo)
+  - `CheatGuard.cpp`: 2 (Account, HardDiskId)
+  - `CustomMonster.cpp`: 2 (Rank, Name[i])
+  - `ItemManager.cpp`: 1 (item_name local buffer)
+  - `MUFC.cpp`: 1 (FighterName)
+  - `Oficina.cpp`: 2 (description, itemName)
+- Todas mantiveram as null-terminations explicitas ja existentes (`[...][N] = '\0'`).
+- Adicionado `#define _CRT_SECURE_NO_WARNINGS` em `stdafx.h` para suprimir warnings C4996 do `strncpy`.
+- **Zero `strcpy` restantes** em qualquer `.cpp` do GameServer.
+- Build Debug e Release_CS verificados com 0 erros.
+
+## 2026-07-04 (Frente 1.1 - Build GameServerCS)
+
+### Correcao do build do GameServerCS
+- **Problema original**: `mt.exe` codigo 31 no passo de manifesto (CHANGELOG.md:112).
+- **Causas identificadas**:
+  - `Release_CS` nao tinha `OutDir` definido, fazendo `mt.exe` resolver caminho errado.
+  - `Release_CS` nao tinha `WholeProgramOptimization`, `SDLCheck=false`, `RuntimeLibrary=MultiThreadedDLL` — presentes em `Release`.
+  - `cryptlib.lib` estava compilado com toolset antigo (`_MSC_VER=1600`, VS 2010), causando `LNK2038` no `Release_CS`.
+- **Correcoes aplicadas** (em `GameServer/GameServer/GameServer.vcxproj`):
+  - Adicionado `OutDir` = `..\..\MuServer\GameServerCS\` para `Release_CS`.
+  - Adicionados `WholeProgramOptimization`, `SDLCheck=false`, `RuntimeLibrary=MultiThreadedDLL` no `Release_CS`.
+  - Corrigido `OutDir` de `Debug` e `Debug_CS` — estavam com `..\..\..\` (3 niveis, resolvia para `D:\MuServer\`) em vez de `..\..\` (2 niveis, `D:\MuOnline Season 13\MuServer\`).
+- **Cryptopp recompilado** (`Util/cryptopp/Release/cryptlib.lib`) com toolset v145 para compatibilidade.
+- **Builds verificados**: `Debug_CS` e `Release_CS` compilam com 0 erros.
+- **GameServerCS.exe** atualizado em `MuServer/GameServerCS/`.
+- **Configuration.xml**: `GameServerCS` alterado de `Run="False"` para `Run="True"` e caminho corrigido para `..\GameServerCS\GameServer.exe`.
+
+### Atualizacao dos scripts
+- `scripts/build-all.ps1`: corrigido `OutDir` do GameServerCS de `D:\MuServer\GameServerCS` para `..\..\MuServer\GameServerCS` (consistente com o .vcxproj).
 
 ### Preparacao inicial do servidor e cliente
 - Compiladas as principais aplicacoes do servidor e cliente:
