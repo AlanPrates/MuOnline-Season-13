@@ -6,14 +6,14 @@
 5	"Elbeland"		0	1		*		*		*		0		267
 6	"Elbeland 2"	0	1		*		*		*		0		268
 7	"Elbeland 3"	0	1		*		*		*		0		269
-8	"Devias"		0	1		*		*		*		1		22
-9	"Devias 2"		0	1		*		*		*		1		72
-10	"Devias 3"		0	1		*		*		*		1		73
-11	"Devias 4"		0	1		*		*		*		1		74
+8	"Devias"		0	1		*		*		*		0		22
+9	"Devias 2"		0	1		*		*		*		0		72
+10	"Devias 3"		0	1		*		*		*		0		73
+11	"Devias 4"		0	1		*		*		*		0		74
 12	"Vulcanus"		0	1		*		*		*		0		294
-13	"Dungeon"		0	1		*		*		*		1		2
-14	"Dungeon 2"		0	1		*		*		*		1		6
-15	"Dungeon 3"		0	1		*		*		*		1		10
+13	"Dungeon"		0	1		*		*		*		0		2
+14	"Dungeon 2"		0	1		*		*		*		0		6
+15	"Dungeon 3"		0	1		*		*		*		0		10
 16	"Arena"			0	1		*		*		*		0		50
 17	"LostTower"		0	1		*		*		*		0		42
 18	"LostTower 2"	0	1		*		*		*		0		31

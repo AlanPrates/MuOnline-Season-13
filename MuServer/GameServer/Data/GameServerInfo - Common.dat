@@ -83,7 +83,7 @@ PKDownTime1 = 1
 ;Pk
 PKDownTime2 = 1
 
-PKRuud = 50000
+PKRuud = 0
 PKTax = 10000
 PKItem = 0
 ;==================================================
