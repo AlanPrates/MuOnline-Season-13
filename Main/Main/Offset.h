@@ -226,7 +226,7 @@ inline void WzMessageSend(BYTE type, const char* message, const char* name)
 	char memory_2[616];
 
 	((void(__thiscall*)(void*, void*))MAIN_OFFSET_MESSAGE_BUILD)(memory_1, (void*)message);
-	((void(__thiscall*)(void*, void*))MAIN_OFFSET_MESSAGE_BUILD)(memory_2, "");
+	((void(__thiscall*)(void*, void*))MAIN_OFFSET_MESSAGE_BUILD)(memory_2, (void*)"");
 
 	((void(__thiscall*)(void*, int, void*, void*))MAIN_OFFSET_MESSAGE_SEND)( (void*) (*(DWORD*)MAIN_OFFSET_MESSAGE_PREPARE_PTR), type, memory_2, memory_1);
 

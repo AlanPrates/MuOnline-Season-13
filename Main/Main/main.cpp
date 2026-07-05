@@ -38,6 +38,90 @@ BOOL AntiLagObjects = 0;
 BOOL AntiLagCharacters = 0;
 BOOL InterfaceSwitch = 0;
 
+typedef int(__thiscall* RenderTextProc)(LPVOID This, int PosX, int PosY, LPCTSTR Text, int nCount, int nTabPositions, LPINT lpnTabStopPositions, int nTabOrigin);
+typedef void(*DrawInterfaceTextProc)(char* Text, int PosX, int PosY, int Cor, int Arg5, int Align, float Width, int Style);
+
+RenderTextProc OriginalRenderText = (RenderTextProc)0x00472E39;
+DrawInterfaceTextProc OriginalDrawInterfaceText = (DrawInterfaceTextProc)0x0088E6E9;
+
+const char* ReplaceServerSelectText(const char* text)
+{
+	if (text == 0)
+	{
+		return text;
+	}
+
+	if (strcmp(text, "X-Team") == 0)
+	{
+		return "Servidores";
+	}
+
+	if (strcmp(text, "X-Team-1 (PvP) Conectar") == 0)
+	{
+		return "Servidor-Free-1 (PvP) Conectar";
+	}
+
+	if (strcmp(text, "X-Team-1(PvP) Conectar") == 0)
+	{
+		return "Servidor-Free-1 (PvP) Conectar";
+	}
+
+	if (strcmp(text, "X-Team-2 (PvP) Conectar") == 0)
+	{
+		return "Servidor-Vip-2 (PvP) Conectar";
+	}
+
+	if (strcmp(text, "X-Team-2(PvP) Conectar") == 0)
+	{
+		return "Servidor-Vip-2 (PvP) Conectar";
+	}
+
+	if (strcmp(text, "[X-Team-1 Server]") == 0)
+	{
+		return " ";
+	}
+
+	if (strcmp(text, "[X-Team-2 Server]") == 0)
+	{
+		return " ";
+	}
+
+	if (strcmp(text, "[X-Team Server]") == 0)
+	{
+		return " ";
+	}
+
+	if (strstr(text, "X-Team") != 0 && strstr(text, "Server") != 0)
+	{
+		return " ";
+	}
+
+	if (text[0] == '[' && strstr(text, "Server") != 0)
+	{
+		return " ";
+	}
+
+	return text;
+}
+int __fastcall RenderTextHook(LPVOID This, void* /*edx*/, int PosX, int PosY, LPCTSTR Text, int nCount, int nTabPositions, LPINT lpnTabStopPositions, int nTabOrigin)
+{
+	return OriginalRenderText(This, PosX, PosY, ReplaceServerSelectText(Text), nCount, nTabPositions, lpnTabStopPositions, nTabOrigin);
+}
+
+void DrawInterfaceTextHook(char* Text, int PosX, int PosY, int Cor, int Arg5, int Align, float Width, int Style)
+{
+	OriginalDrawInterfaceText((char*)ReplaceServerSelectText(Text), PosX, PosY, Cor, Arg5, Align, Width, Style);
+}
+
+void InstallServerSelectTextHooks()
+{
+	DetourTransactionBegin();
+	DetourUpdateThread(GetCurrentThread());
+	DetourAttach(&(PVOID&)OriginalRenderText, RenderTextHook);
+	DetourAttach(&(PVOID&)OriginalDrawInterfaceText, DrawInterfaceTextHook);
+	DetourTransactionCommit();
+}
+
 LRESULT Window(HWND Window, DWORD Message, WPARAM wParam, LPARAM lParam)
 {
 	switch (Message)
@@ -880,6 +964,8 @@ void __declspec(naked) GameShopValorFinalCompra2()
 void EntryProc()
 {
 	Sleep(500);
+
+	InstallServerSelectTextHooks();
 
 	MemoryCpy(0x00BE5341, LoginScreenStolen, sizeof(LoginScreenStolen));
 
