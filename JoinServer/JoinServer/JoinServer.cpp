@@ -10,6 +10,7 @@
 #include "SocketManagerUdp.h"
 #include "ThemidaSDK.h"
 #include "Util.h"
+#include "..\\..\\Util\\MD5.h"
 
 HINSTANCE hInst;
 TCHAR szTitle[MAX_LOADSTRING];
@@ -26,6 +27,87 @@ int APIENTRY WinMain(HINSTANCE hInstance,HINSTANCE hPrevInstance,LPSTR lpCmdLine
 	VM_START
 
 	CMiniDump::Start();
+
+	FILE* log = 0;
+	fopen_s(&log,"migrate_md5.log","w");
+	if (log) {
+		fprintf(log,"lpCmdLine=[%s]\n",lpCmdLine?lpCmdLine:"(null)");
+		fprintf(log,"strstr=%p\n",strstr(lpCmdLine,"--migrate-md5"));
+	}
+
+	if (log && strstr(lpCmdLine, "--migrate-md5") != 0)
+	{
+		char odbc[32] = {0}, user[32] = {0}, pass[32] = {0};
+		GetPrivateProfileString("JoinServerInfo","JoinServerODBC","",odbc,sizeof(odbc),".\\JoinServer.ini");
+		GetPrivateProfileString("JoinServerInfo","JoinServerUSER","",user,sizeof(user),".\\JoinServer.ini");
+		GetPrivateProfileString("JoinServerInfo","JoinServerPASS","",pass,sizeof(pass),".\\JoinServer.ini");
+
+		fprintf(log,"=== Migrando senhas para MD5 ===\n\n");
+
+		if (gQueryManager.Connect(odbc,user,pass) == 0) {
+			fprintf(log,"Falha ao conectar ao banco de dados (DSN=%s)\n",odbc);
+			fclose(log);
+			return 1;
+		}
+
+		// Ensure memb__pwd column is large enough for 32-char MD5 hex
+		gQueryManager.ExecQuery("ALTER TABLE MEMB_INFO ALTER COLUMN memb__pwd varchar(32) NOT NULL");
+		gQueryManager.Close();
+
+		// Step 1: fetch all accounts into memory
+		struct AccountEntry { char id[11]; char pwd[33]; };
+		AccountEntry entries[256];
+		int total = 0;
+
+		if (gQueryManager.ExecQuery("SELECT memb___id, memb__pwd FROM MEMB_INFO") == 0 || gQueryManager.Fetch() == SQL_NO_DATA) {
+			fprintf(log,"Nenhuma conta encontrada.\n");
+			gQueryManager.Close();
+			gQueryManager.Disconnect();
+			fclose(log);
+			return 0;
+		}
+
+		do {
+			gQueryManager.GetAsString("memb___id",entries[total].id,sizeof(entries[total].id));
+			gQueryManager.GetAsString("memb__pwd",entries[total].pwd,sizeof(entries[total].pwd));
+			total++;
+		} while (gQueryManager.Fetch() == SQL_SUCCESS && total < 256);
+		gQueryManager.Close();
+
+		// Step 2: migrate each account
+		MD5 md5;
+		int migrated = 0;
+		char query[256];
+
+		for (int i = 0; i < total; i++) {
+			int key = MakeAccountKey(entries[i].id);
+			char hash[16] = {0};
+
+			if (!md5.MD5_EncodeKeyVal(entries[i].pwd,hash,key)) {
+				fprintf(log,"  SKIP %s (key=%d)\n",entries[i].id,key);
+				continue;
+			}
+
+			char hex[33] = {0};
+			for (int j = 0; j < 16; j++)
+				sprintf_s(hex+j*2,3,"%02X",(unsigned char)hash[j]);
+
+			sprintf_s(query,sizeof(query),"UPDATE MEMB_INFO SET memb__pwd='%s' WHERE memb___id='%s'",hex,entries[i].id);
+			if (gQueryManager.ExecQuery(query) != 0) {
+				fprintf(log,"  OK  %s (key=%d) pwd=%s -> %s\n",entries[i].id,key,entries[i].pwd,hex);
+				migrated++;
+			} else {
+				fprintf(log,"  FAIL %s (key=%d, query=[%s])\n",entries[i].id,key,query);
+			}
+			gQueryManager.Close();
+		}
+
+		fprintf(log,"\n=== %d/%d contas migradas ===\n",migrated,total);
+		gQueryManager.Disconnect();
+		fclose(log);
+		return 0;
+	}
+	if (log) { fprintf(log,"Nao e modo migrate, continuando...\n"); fclose(log); }
 
 	LoadString(hInstance,IDS_APP_TITLE,szTitle,MAX_LOADSTRING);
 	LoadString(hInstance,IDC_JOINSERVER,szWindowClass,MAX_LOADSTRING);
