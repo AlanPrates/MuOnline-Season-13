@@ -206,7 +206,7 @@ void Oficina::NpcOpen(LPOBJ lpObj)
 		}
 		else
 		{
-			pMsg.type = 6; //Shield até Soul
+			pMsg.type = 6; //Shield atï¿½ Soul
 		}
 		
 		pMsg.options[0] = lpItem->m_SocketOption[0];
@@ -258,7 +258,7 @@ void Oficina::NpcOpen(LPOBJ lpObj)
 		}
 		else
 		{
-			pMsg.type = 4; //Arma até soul
+			pMsg.type = 4; //Arma atï¿½ soul
 		}
 		
 		pMsg.options[0] = lpItem->m_SocketOption[0];
@@ -290,7 +290,7 @@ void Oficina::NpcOpen(LPOBJ lpObj)
 		}
 		else
 		{
-			pMsg.type = 2; //Set até Soul
+			pMsg.type = 2; //Set atï¿½ Soul
 		}
 		
 		if (lpItem->IsSetItem())
@@ -336,8 +336,8 @@ void Oficina::NpcOpen(LPOBJ lpObj)
 		}
 	}
 
-	strcpy(pMsg.description, this->descriptions[pMsg.type/2]);
-	strcpy(pMsg.itemName, gItemManager.GetName(lpItem->m_Index));
+	strncpy(pMsg.description, this->descriptions[pMsg.type/2], sizeof(pMsg.description)-1);
+	strncpy(pMsg.itemName, gItemManager.GetName(lpItem->m_Index), sizeof(pMsg.itemName)-1);
 	pMsg.itemIndex = lpItem->m_Index;
 	pMsg.isPeriodic = lpItem->m_IsPeriodicItem;
 
@@ -458,7 +458,7 @@ void Oficina::BuyReceived(int aIndex, PMSG_OFICINA_CONFIRM_BUY_SEND* pMsg)
 		}
 		else
 		{
-			type = 2; //Sets até Soul
+			type = 2; //Sets atï¿½ Soul
 		}
 	}
 	else
@@ -508,7 +508,7 @@ void Oficina::BuyReceived(int aIndex, PMSG_OFICINA_CONFIRM_BUY_SEND* pMsg)
 			{
 				if (!CheckValidOption(type + 1, pMsg->options[i]))
 				{
-					gLog.Output(LOG_OFICINA, "[%s][%s] Opção inválida para o Type %d : %d", lpObj->Account, lpObj->Name, (type+1), pMsg->options[i]);
+					gLog.Output(LOG_OFICINA, "[%s][%s] Opï¿½ï¿½o invï¿½lida para o Type %d : %d", lpObj->Account, lpObj->Name, (type+1), pMsg->options[i]);
 					GCMessagePopupSend(lpObj, "Oops!\nAlgo de errado nao deu certo. :/\nErro: #007");
 					CloseWindow(lpObj);
 					return;
@@ -521,7 +521,7 @@ void Oficina::BuyReceived(int aIndex, PMSG_OFICINA_CONFIRM_BUY_SEND* pMsg)
 			{
 				if (!CheckValidOption(type, pMsg->options[i]))
 				{
-					gLog.Output(LOG_OFICINA, "[%s][%s] Opção inválida para o Type %d : %d", lpObj->Account, lpObj->Name, type, pMsg->options[i]);
+					gLog.Output(LOG_OFICINA, "[%s][%s] Opï¿½ï¿½o invï¿½lida para o Type %d : %d", lpObj->Account, lpObj->Name, type, pMsg->options[i]);
 					GCMessagePopupSend(lpObj, "Oops!\nAlgo de errado nao deu certo. :/\nErro: #008");
 					CloseWindow(lpObj);
 					return;
@@ -703,7 +703,7 @@ void Oficina::OnBuyCallbackRecv(LPOBJ lpObj, DWORD icoinCost, DWORD type, DWORD 
 
 	if (lpItem->m_Serial != lpObj->OficinaItem)
 	{
-		gLog.Output(LOG_OFICINA, "[%s][%s] Serial diferente pós iCoins %d %d", lpObj->Account, lpObj->Name, lpItem->m_Serial, lpObj->OficinaItem);
+		gLog.Output(LOG_OFICINA, "[%s][%s] Serial diferente pï¿½s iCoins %d %d", lpObj->Account, lpObj->Name, lpItem->m_Serial, lpObj->OficinaItem);
 		GCMessagePopupSend(lpObj, "Oops!\nAlgo de errado nao deu certo. :/\nErro: #006");
 		gOficina.CloseWindow(lpObj);
 		return;

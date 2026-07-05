@@ -294,7 +294,7 @@ void CCustomMonster::SendDamageRanking(LPOBJ lpObj)
 	pBossMsg.h.set(0xF3, 0xE3, sizeof(pBossMsg));
 
 	pBossMsg.Rank[0] = 0;
-	strcpy(pBossMsg.Rank, CustomMonsterInfo.Rank);
+	strncpy(pBossMsg.Rank, CustomMonsterInfo.Rank, sizeof(pBossMsg.Rank)-1);
 	pBossMsg.RankColor = CustomMonsterInfo.RankColor;	
 
 	pBossMsg.Level = lpObj->Level;	
@@ -354,7 +354,7 @@ void CCustomMonster::SendDamageRanking(LPOBJ lpObj)
 				for (int i = 0; i < sortedCount; i++)
 				{
 					pBossMsg.Damage[i] = lpObj->HitDamage[i].damage;
-					strcpy(pBossMsg.Name[i], gObj[lpObj->HitDamage[i].index].Name);
+					strncpy(pBossMsg.Name[i], gObj[lpObj->HitDamage[i].index].Name, sizeof(pBossMsg.Name[i])-1);
 				}
 
 				pBossMsg.Count = sortedCount;

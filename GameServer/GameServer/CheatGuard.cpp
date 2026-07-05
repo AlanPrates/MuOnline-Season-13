@@ -23,11 +23,11 @@ void CheatGuard::HardIdRecv(int aIndex, HARDWARE_ID_RECV * pResult)
 {
 	HARDWARE_ID_SEND_DB pMsg;
 	pMsg.header.set(0xD7, 10, sizeof(HARDWARE_ID_SEND_DB));
-	strcpy(pMsg.Account,gObj[aIndex].Account);
+	strncpy(pMsg.Account,gObj[aIndex].Account, sizeof(pMsg.Account)-1);
 	pMsg.Account[10] = '\0';
 	pResult->HardDiskId[15] = '\0';
 
-	strcpy(pMsg.HardDiskId,pResult->HardDiskId);
+	strncpy(pMsg.HardDiskId,pResult->HardDiskId, sizeof(pMsg.HardDiskId)-1);
 	pMsg.HardDiskId[15] = '\0';
 
 	memcpy(&gObj[aIndex].HardDiskId, &pMsg.HardDiskId, 16);
@@ -93,7 +93,7 @@ void CheatGuard::SpeedInformationRecv(PMSG_HACKLOG * lpMsg, int aIndex)
 	//ataques comparar com tabela de pvp
 	if (lpMsg->stucks >= 5/* || (lpMsg->durationSkillDelay > 0 && lpMsg->durationSkillDelay < 35) || (lpMsg->attackSkillDelay > 0 && lpMsg->attackSkillDelay < 35) || (lpMsg->attackDelay > 0 && lpMsg->attackDelay < 35)*/)
 	{
-		GCMessagePopupSend(&gObj[aIndex], "Estamos te desconectando do jogo por aceleração de movimentos.\nRegistros foram criados, e em caso de insistencia sua conta e/ou computador poderao sofrer bloqueio permanente.");
+		GCMessagePopupSend(&gObj[aIndex], "Estamos te desconectando do jogo por aceleraï¿½ï¿½o de movimentos.\nRegistros foram criados, e em caso de insistencia sua conta e/ou computador poderao sofrer bloqueio permanente.");
 		gLog.Output(LOG_HACK, "[HackCheck][%s][%s] Speed moving client side [%d]", lpObj->Account, lpObj->Name, lpMsg->stucks);
 		gLog.Output(LOG_HACK, "[HackCheck][%s][%s] Speed attack client side [%d][%d][%d]", lpObj->Account, lpObj->Name, lpMsg->durationSkillDelay, lpMsg->attackSkillDelay, lpMsg->attackDelay);
 		gObjUserKill(aIndex);

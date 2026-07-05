@@ -669,14 +669,14 @@ void CServerInfo::ReadChaosMixInfo(char* section, char* path) // OK
 	this->m_SocketItemUpRate = GetPrivateProfileInt(section, "SocketItemUpRate", 0, path);	//
 	this->m_SocketItemExtractSeedSphereRate = GetPrivateProfileInt(section, "SocketItemExtractSeedSphereRate", 0, path);	//
 
-	this->m_ChaosDarkAngelLuckRate = GetPrivateProfileInt(section, "ChaosDarkAngelLuckRate", 0, path);	//°µºÚÌìÊ¹Ì××°ºÏ³ÉÐÒÔË¸ÅÂÊ
-	this->m_ChaosDarkAngelSet = GetPrivateProfileInt(section, "ChaosDarkAngelSet", 0, path);			//°µºÚÌìÊ¹Ì××°ºÏ³É+15È«ÊôÐÔ¼¸ÂÊ
-	this->m_ChaosAngelEcxMaxRate = GetPrivateProfileInt(section, "ChaosAngelEcxMaxRate", 0, path);			//È«ÊôÐÔ¸ÅÂÊ
-	this->m_ChaosAngelLuckRate = GetPrivateProfileInt(section, "ChaosAngelLuckRate", 0, path);			//ÐÒÔË¸ÅÂÊ
+	this->m_ChaosDarkAngelLuckRate = GetPrivateProfileInt(section, "ChaosDarkAngelLuckRate", 0, path);	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½×°ï¿½Ï³ï¿½ï¿½ï¿½ï¿½Ë¸ï¿½ï¿½ï¿½
+	this->m_ChaosDarkAngelSet = GetPrivateProfileInt(section, "ChaosDarkAngelSet", 0, path);			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½×°ï¿½Ï³ï¿½+15È«ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½
+	this->m_ChaosAngelEcxMaxRate = GetPrivateProfileInt(section, "ChaosAngelEcxMaxRate", 0, path);			//È«ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½
+	this->m_ChaosAngelLuckRate = GetPrivateProfileInt(section, "ChaosAngelLuckRate", 0, path);			//ï¿½ï¿½ï¿½Ë¸ï¿½ï¿½ï¿½
 	this->m_ChaosDrakAngelInheritBloodAngelEcx = GetPrivateProfileInt(section, "ChaosDrakAngelInheritBloodAngelEcx", 0, path);
 
-	this->m_AngelEcxAddSwitch = GetPrivateProfileInt(section, "AngelEcxAddSwitch", 0, path);			//ÊÇ·ñ¿ªÆô×¿Ô½Éú³É[¹Ø]:0[¿ª]:1
-	this->m_AngelEcxMaxOption = GetPrivateProfileInt(section, "AngelEcxMaxOption", 0, path);			//Éú³É×î´ó×¿Ô½ÊôÐÔ
+	this->m_AngelEcxAddSwitch = GetPrivateProfileInt(section, "AngelEcxAddSwitch", 0, path);			//ï¿½Ç·ï¿½ï¿½ï¿½×¿Ô½ï¿½ï¿½ï¿½ï¿½[ï¿½ï¿½]:0[ï¿½ï¿½]:1
+	this->m_AngelEcxMaxOption = GetPrivateProfileInt(section, "AngelEcxMaxOption", 0, path);			//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¿Ô½ï¿½ï¿½ï¿½ï¿½
 	this->m_AngelSetOptionRate = GetPrivateProfileInt(section, "AngelSetOptionRate", 0, path);
 
 	this->m_ChaosItemMixRate[0] = GetPrivateProfileInt(section, "ChaosItemMixRate_AL0", 0, path);
@@ -1728,7 +1728,7 @@ void CServerInfo::ReadCharacterInfo(char* section, char* path) // OK
 	this->MASTERY_BONUS_REFLECT_INCREASE_3 = GetPrivateProfileInt(section, "MASTERY_BONUS_REFLECT_INCREASE_3", 60, path);
 	this->MASTERY_BONUS_BOSS_POWER_PROTECTION_3 = GetPrivateProfileInt(section, "MASTERY_BONUS_BOSS_POWER_PROTECTION_3", 40, path);
 
-	//armas até soul
+	//armas atï¿½ soul
 	this->MASTERY_OPTION_BOSS_DECREASE_DELAY = GetPrivateProfileInt(section, "MASTERY_OPTION_BOSS_DECREASE_DELAY", 25, path);
 	this->MASTERY_OPTION_30P_HP_ULTRAHIT = GetPrivateProfileInt(section, "MASTERY_OPTION_30P_HP_ULTRAHIT", 1, path);
 	this->MASTERY_OPTION_TRUE_DAMAGE_RATE = GetPrivateProfileInt(section, "MASTERY_OPTION_TRUE_DAMAGE_RATE", 2, path);
@@ -1794,7 +1794,7 @@ void CServerInfo::ReadCharacterInfo(char* section, char* path) // OK
 	this->MASTERY_BONUS_RING_FREEZING_DAMAGE_RESIST = GetPrivateProfileInt(section, "MASTERY_BONUS_RING_FREEZING_DAMAGE_RESIST", 50, path);
 	this->MASTERY_BONUS_RING_FIREING_DAMAGE_RESIST = GetPrivateProfileInt(section, "MASTERY_BONUS_RING_FIREING_DAMAGE_RESIST", 50, path);
 
-	//Armas até soul bonus
+	//Armas atï¿½ soul bonus
 	this->MASTERY_BONUS_ULTRAHIT_50_WEAPON = GetPrivateProfileInt(section, "MASTERY_BONUS_ULTRAHIT_50_WEAPON", 1, path);
 	this->MASTERY_BONUS_REFLECT_DECREASE = GetPrivateProfileInt(section, "MASTERY_BONUS_REFLECT_DECREASE", 40, path);
 	this->MASTERY_BONUS_DOUBLE_DAMAGE_BOSS_WEAPON = GetPrivateProfileInt(section, "MASTERY_BONUS_DOUBLE_DAMAGE_BOSS_WEAPON", 5, path);
@@ -2905,7 +2905,7 @@ void CServerInfo::ReadEventInfo(char* section, char* path) // OK
 	   
 	this->m_IllusionTempleEvent			= GetPrivateProfileInt(section, "IllusionTempleEvent", 0, path);
 	this->m_IllusionTempleMinUser		= GetPrivateProfileInt(section, "IllusionTempleMinUser", 0, path);
-	this->m_IllusionTempleRestrictPC	= GetPrivateProfileInt(section, "IllusionTempleMaxDailyEnter", 0, path);
+	this->m_IllusionTempleRestrictPC	= GetPrivateProfileInt(section, "IllusionTempleRestrictPC", 0, path);
 	this->m_IllusionTempleMaxDailyEnter	= GetPrivateProfileInt(section, "IllusionTempleMaxDailyEnter", 0, path);
 	this->m_IllusionTempleMaxDailyWins	= GetPrivateProfileInt(section, "IllusionTempleMaxDailyWins", 0, path);
 

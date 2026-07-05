@@ -193,7 +193,7 @@ void CMUFC::PrepareFighter(int number, LPOBJ lpTargetObj, LPOBJ lpObj)
 	lpTargetObj->PathStartEnd = 0;
 	gObjSetPosition(lpTargetObj->Index, x, y);
 
-	strcpy(gMUFC.FighterName[number-1],lpTargetObj->Name);
+	strncpy(gMUFC.FighterName[number-1],lpTargetObj->Name, sizeof(gMUFC.FighterName[number-1])-1);
 	gMUFC.FighterName[number-1][10] = '\0';
 
 	gMUFC.FighterID[number-1] = lpTargetObj->Index;

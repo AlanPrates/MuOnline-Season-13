@@ -1,5 +1,6 @@
 #pragma once
 #define _WINSOCK_DEPRECATED_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #define WIN32_LEAN_AND_MEAN
 
 #define _WIN32_WINNT _WIN32_WINNT_WIN7 
@@ -64,7 +65,6 @@
 #include <winsock2.h>
 #include <mswSock.h>
 #include <commctrl.h>
-#include <iostream>
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>

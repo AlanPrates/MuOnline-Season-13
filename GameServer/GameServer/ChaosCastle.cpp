@@ -550,7 +550,7 @@ void CChaosCastle::SetState_CLEAN(CHAOS_CASTLE_LEVEL* lpLevel) // OK
 
 void CChaosCastle::SetStage0(CHAOS_CASTLE_LEVEL* lpLevel) // OK
 {
-	if((this->GetUserCount(lpLevel)+this->GetMonsterCount(lpLevel)) > 40)
+	if((this->GetUserCount(lpLevel)+this->GetMonsterCount(lpLevel)) > MAX_CC_USER)
 	{
 		return;
 	}
@@ -564,7 +564,7 @@ void CChaosCastle::SetStage0(CHAOS_CASTLE_LEVEL* lpLevel) // OK
 
 void CChaosCastle::SetStage1(CHAOS_CASTLE_LEVEL* lpLevel) // OK
 {
-	if((this->GetUserCount(lpLevel)+this->GetMonsterCount(lpLevel)) > 30)
+	if((this->GetUserCount(lpLevel)+this->GetMonsterCount(lpLevel)) > MAX_CC_USER)
 	{
 		return;
 	}
@@ -578,7 +578,7 @@ void CChaosCastle::SetStage1(CHAOS_CASTLE_LEVEL* lpLevel) // OK
 
 void CChaosCastle::SetStage2(CHAOS_CASTLE_LEVEL* lpLevel) // OK
 {
-	if((this->GetUserCount(lpLevel)+this->GetMonsterCount(lpLevel)) > 20)
+	if((this->GetUserCount(lpLevel)+this->GetMonsterCount(lpLevel)) > MAX_CC_USER)
 	{
 		return;
 	}

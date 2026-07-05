@@ -4354,10 +4354,10 @@ void GDItemTrackingSaveSend(CItem itemOld, CItem itemNew, char* accountOld, char
 	SDHP_ITEMTRACKING_SAVE_SEND pMsg;
 	pMsg.header.set(0xD7, 1, sizeof(SDHP_ITEMTRACKING_SAVE_SEND));
 
-	strcpy(pMsg.accountOld, accountOld);
+	strncpy(pMsg.accountOld, accountOld, sizeof(pMsg.accountOld)-1);
 	pMsg.accountOld[10] = '\0';
 
-	strcpy(pMsg.accountNew, accountNew);
+	strncpy(pMsg.accountNew, accountNew, sizeof(pMsg.accountNew)-1);
 	pMsg.accountNew[10] = '\0';
 
 	pMsg.serial = itemNew.m_Serial;
@@ -4376,10 +4376,10 @@ void GDPKSave(LPOBJ lpObj, LPOBJ lpTarget)
 	SDHP_PK_SAVE_SEND pMsg;
 	pMsg.header.set(0xD7, 2, sizeof(SDHP_PK_SAVE_SEND));
 
-	strcpy(pMsg.killer, lpObj->Name);
+	strncpy(pMsg.killer, lpObj->Name, sizeof(pMsg.killer)-1);
 	pMsg.killer[10] = '\0';
 
-	strcpy(pMsg.victim, lpTarget->Name);
+	strncpy(pMsg.victim, lpTarget->Name, sizeof(pMsg.victim)-1);
 	pMsg.victim[10] = '\0';
 
 	pMsg.map = lpObj->Map;
@@ -4395,10 +4395,10 @@ void GDBackSpringSave(LPOBJ lpObj, LPOBJ lpTarget, BYTE situation)
 	SDHP_BACKSPRING_SAVE_SEND pMsg;
 	pMsg.header.set(0xD7, 3, sizeof(SDHP_BACKSPRING_SAVE_SEND));
 
-	strcpy(pMsg.author, lpObj->Name);
+	strncpy(pMsg.author, lpObj->Name, sizeof(pMsg.author)-1);
 	pMsg.author[10] = '\0';
 
-	strcpy(pMsg.victim, lpTarget->Name);
+	strncpy(pMsg.victim, lpTarget->Name, sizeof(pMsg.victim)-1);
 	pMsg.victim[10] = '\0';
 
 	pMsg.situation = situation;

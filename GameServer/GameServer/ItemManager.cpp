@@ -929,7 +929,7 @@ bool CItemManager::CheckItemMoveToBlock(LPOBJ lpObj, CItem* lpItem) // OK
 {
 	if (lpItem->m_IsLocked)
 	{
-		GCMessagePopupSend(lpObj, "Este item não pode ser movido de sua conta.");
+		GCMessagePopupSend(lpObj, "Este item nï¿½o pode ser movido de sua conta.");
 		return 0;
 	}	
 
@@ -2674,7 +2674,7 @@ BYTE CItemManager::MoveItemToTradeFromInventory(LPOBJ lpObj, BYTE SourceSlot, BY
 {
 	if (lpObj->PersonalCodeChecked == false)
 	{
-		GCMessagePopupSend(lpObj, "Você não pode transferir itens sem antes autenticar o PIN. Utilize o comando /pin seguido de seu PIN para faze-lo agora mesmo.");
+		GCMessagePopupSend(lpObj, "Vocï¿½ nï¿½o pode transferir itens sem antes autenticar o PIN. Utilize o comando /pin seguido de seu PIN para faze-lo agora mesmo.");
 		return 0xFF;
 	}
 
@@ -2701,7 +2701,7 @@ BYTE CItemManager::MoveItemToTradeFromInventory(LPOBJ lpObj, BYTE SourceSlot, BY
 		{
 			if (lpObj->Inventory[SourceSlot].IsPentagramJewel() == 0 && (lpObj->Inventory[SourceSlot].m_Index < GET_ITEM(14, 287) || lpObj->Inventory[SourceSlot].m_Index > GET_ITEM(14, 403))) //Ruud & Errtel
 			{
-				GCMessagePopupSend(lpObj, "Este item não pode ser movido de sua conta.");
+				GCMessagePopupSend(lpObj, "Este item nï¿½o pode ser movido de sua conta.");
 				return 0xFF;
 			}
 		}
@@ -3062,7 +3062,7 @@ BYTE CItemManager::MoveItemToChaosBoxFromInventory(LPOBJ lpObj, BYTE SourceSlot,
 		   )
 		{
 
-			GCMessagePopupSend(lpObj, "Este item possui serial inválido e não pode ser combinado.");
+			GCMessagePopupSend(lpObj, "Este item possui serial invï¿½lido e nï¿½o pode ser combinado.");
 			return 0xFF;
 		}
 	}
@@ -3141,7 +3141,7 @@ BYTE CItemManager::MoveItemToPersonalShopFromInventory(LPOBJ lpObj, BYTE SourceS
 	{
 		if (lpObj->Inventory[SourceSlot].IsPentagramJewel() == 0 && (lpObj->Inventory[SourceSlot].m_Index < GET_ITEM(14, 287) || lpObj->Inventory[SourceSlot].m_Index > GET_ITEM(14, 403)))
 		{
-			GCMessagePopupSend(lpObj, "Este item não pode ser movido de sua conta.");
+			GCMessagePopupSend(lpObj, "Este item nï¿½o pode ser movido de sua conta.");
 			return 0xFF;
 		}
 	}
@@ -3681,7 +3681,7 @@ void CItemManager::CGItemDropRecv(PMSG_ITEM_DROP_RECV* lpMsg, int aIndex) // OK
 	if (lpItem->m_IsLocked)
 	{
 		DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
-		GCMessagePopupSend(lpObj, "Este item não pode ser movido de sua conta.");
+		GCMessagePopupSend(lpObj, "Este item nï¿½o pode ser movido de sua conta.");
 		return;
 	}
 
@@ -3693,7 +3693,7 @@ void CItemManager::CGItemDropRecv(PMSG_ITEM_DROP_RECV* lpMsg, int aIndex) // OK
 		if (gItemManager.CheckItemInventorySpace(lpObj, 8, 7, true) == false)
 		{
 			DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
-			GCMessagePopupSend(lpObj, "Antes de utilizar essa box, deixe um bom espaço limpo (8x8) em seu inventário.");
+			GCMessagePopupSend(lpObj, "Antes de utilizar essa box, deixe um bom espaï¿½o limpo (8x8) em seu inventï¿½rio.");
 			return;
 		}
 	}
@@ -4585,7 +4585,7 @@ void CItemManager::CGItemSellRecv(PMSG_ITEM_SELL_RECV* lpMsg, int aIndex) // OK
 
 	if (lpItem->m_IsLocked)
 	{
-		GCMessagePopupSend(lpObj, "Este item não pode ser movido de sua conta.");
+		GCMessagePopupSend(lpObj, "Este item nï¿½o pode ser movido de sua conta.");
 		return;
 	}
 
@@ -4865,7 +4865,7 @@ void CItemManager::GCItemDisintegration(PMSG_ITEM_DISINTEGRATION_RECV* lpMsg, in
 	if (lpItem->m_Serial == 0)
 	{
 		DataSend(aIndex, (BYTE*)&pMsg, pMsg.header.size);
-		GCMessagePopupSend(lpObj, "Este item possui serial inválido e não pode ser desmontado.");
+		GCMessagePopupSend(lpObj, "Este item possui serial invï¿½lido e nï¿½o pode ser desmontado.");
 		return;
 	}
 
@@ -5089,7 +5089,7 @@ char* CItemManager::GetName(int index, bool ci)
 	{
 		char item_name[64];
 
-		strcpy(item_name, it->second.Name);
+		strncpy(item_name, it->second.Name, sizeof(item_name)-1);
 
 		if (ci == false)
 		{
