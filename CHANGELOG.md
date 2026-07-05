@@ -1,5 +1,43 @@
 # Changelog - MuOnline Season 13
 
+## 2026-07-05 (Account Management, Security Hardening, Build Tooling)
+
+### Account Manager GUI (scripts/account-creator-gui.ps1)
+- Pure PowerShell WPF (no XAML) with two modes: **Create Account** and **Edit Account**
+- Create: login, password, PIN (7 digits, auto-generates if empty), character class, stats presets
+- Edit: search account by login, load data, modify password/PIN/AccountLevel, view existing characters, add new character
+- Dark theme with custom ComboBox template (dark dropdown popup)
+- Fixed button click handler closure bug using `$this.Tag` pattern
+
+### MD5 Hash Generator (Tools/md5hash/md5hash.cpp)
+- Fixed double-processing of 64-byte blocks in MD5 transform
+- Output changed from lowercase (`%02x`) to uppercase (`%02X`) — server's `ConvertStringToBinary` only handles uppercase hex
+- Login verified working for account `alan00` / `1907201010`
+
+### GameServer Security Hardening
+- **Division by zero protection**: Added `SAFE_SERVERINFO_DIVISOR` macro across `CharacterCalcAttribute` (ObjectManager.cpp) — protects 100+ divisions for damage, speed, defense, elemental, attack/defense rates across all 8 classes
+- Fixes character freeze on map enter caused by `AutoDt0-4 = 0` and missing `MasterSkillTree` entry
+- **Buffer overflow fixes**: Replaced 16 `strcpy` with `strncpy` + `sizeof()-1` in 7 files:
+  - DSProtocol.cpp (6), CastleSiege.cpp (2), CheatGuard.cpp (2), CustomMonster.cpp (2), ItemManager.cpp (1), MUFC.cpp (1), Oficina.cpp (2)
+- Added `_CRT_SECURE_NO_WARNINGS` to stdafx.h
+
+### WZ_CreateCharacter Understanding
+- Return code `0x01` = SUCCESS (inverted in SP: `@Result=0x00` → output `0x01`)
+- Direct INSERT workaround no longer needed; use SP properly
+
+### ServerLock VIP Restriction
+- `GameServerVIP/Data/GameServerInfo - Common.dat`: `ServerLock = 1` (was 0)
+- Code at `JSProtocol.cpp:262`: `if(gServerInfo.m_ServerLock > lpMsg->AccountLevel)` blocks free accounts (AccountLevel=0) from VIP server
+- Verified working
+
+### Build & Config
+- Fixed `GameServer.vcxproj`: OutDir paths (`..\..\..\` → `..\..\`), added Release_CS config parity
+- Config templates: `JoinServer.ini.example`, `Common.ini.example`, `Configuration.xml.example`
+- Build scripts: `build-all.ps1`, `health-check.ps1`, `sync-ip.ps1`
+- BMD tools: encrypt/decrypt/patch serverlist
+- Database backup: `muonline_clean.bak` (34 MB)
+- Database schema: `muonline_complete.sql` (86 tables, 102 procs, 2 views, 2 functions)
+
 ## 2026-07-04 (Segurança e Organização)
 
 ### Limpeza de duplicatas
