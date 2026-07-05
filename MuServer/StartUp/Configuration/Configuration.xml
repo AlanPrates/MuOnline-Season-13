@@ -3,6 +3,7 @@
   <Process Run="True" Delay="1000" Path="..\DataServer\DataServer.exe" Parameters="" />
   <Process Run="True" Delay="1000" Path="..\ConnectServer\ConnectServer.exe" Parameters="" />
   <Process Run="True" Delay="1000" Path="..\JoinServer\JoinServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="..\GameServer\GameServer.exe" Parameters="" />
-  <Process Run="True" Delay="1000" Path="D:\Source S4K FULL\Projeto Mu Season 4\MuServer Season 4\GameServerCS\GameServer.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="D:\MuOnline Season 13\MuServer\GameServer\GameServerFree.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="D:\MuOnline Season 13\MuServer\GameServerVIP\GameServerVip.exe" Parameters="" />
+  <Process Run="True" Delay="1000" Path="D:\MuOnline Season 13\MuServer\GameServerCS\GameServerCS.exe" Parameters="" />
 </Processes>
