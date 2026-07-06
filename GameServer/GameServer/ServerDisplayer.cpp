@@ -20,8 +20,8 @@ CServerDisplayer::CServerDisplayer() // OK
 
 	this->m_font = CreateFont(50,0,0,0,FW_THIN,0,0,0,ANSI_CHARSET,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,DEFAULT_QUALITY,DEFAULT_PITCH | FF_DONTCARE,"Times");
 
-	this->m_brush[0] = CreateSolidBrush(RGB(105,105,105));
-	this->m_brush[1] = CreateSolidBrush(RGB(110,240,120));
+	this->m_brush[0] = CreateSolidBrush(RGB(45, 50, 60));    // Cinza escuro azulado
+	this->m_brush[1] = CreateSolidBrush(RGB(220, 50, 50));   // Vermelho vibrante
 
 	strcpy_s(this->m_DisplayerText[0],"STANDBY MODE");
 
